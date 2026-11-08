@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<meta name="theme-color" content="#f7f4ee">
+<meta name="description" content="Belajar materi, berlatih soal, dan mengukur kesiapan SKD CPNS dalam satu tempat.">
+<title>Simulasi SKD by binpoin</title>
+<link rel="stylesheet" href="/style.css">
+<link rel="icon" type="image/png" href="/binpoin-logo.png">
+</head>
+<body>
+<a class="skip-link" href="#main">Lewati ke konten</a>
+<header id="topbar" class="hidden">
+  <button class="brand" onclick="nav('home')" aria-label="Ke beranda">
+    <img class="brand-logo" src="/binpoin-logo.png" alt="">
+    <span class="brand-text"><b>Simulasi SKD</b><small>by binpoin</small></span>
+  </button>
+  <nav id="mainnav" aria-label="Navigasi utama">
+    <button data-nav="home" class="active">Beranda</button>
+    <button data-nav="materi">Materi</button>
+    <button data-nav="riwayat">Riwayat</button>
+  </nav>
+</header>
+
+<main id="main" tabindex="-1">
+<!-- ============ BERANDA ============ -->
+<section id="view-home">
+  <div class="hero">
+    <div class="hero-copy">
+    <p class="eyebrow">RUANG LATIHAN SKD</p>
+    <h1>Belajar terarah. Hadapi SKD dengan tenang.</h1>
+    <p class="hero-sub">TWK, TIU, dan TKP dalam satu jalur belajar: pelajari materi, kerjakan latihan per topik, lalu uji dirimu dengan simulasi CAT ber-timer sesuai ketentuan BKN.</p>
+    <div class="hero-cta">
+      <button class="btn btn-primary btn-big" onclick="mulaiUjian('SKD')">Mulai Simulasi SKD Penuh</button>
+      <button class="btn btn-outline btn-big" onclick="nav('materi')">Mulai dari Materi</button>
+    </div>
+    </div>
+    <div id="resume-box" class="hidden"></div>
+  </div>
+
+  <div class="roadmap">
+    <div class="roadmap-item" id="step-pelajari">
+      <span class="roadmap-num">1</span>
+      <div class="roadmap-body">
+        <b>Pelajari</b>
+        <span class="roadmap-desc">Pahami topik per kelompok TWK, TIU, dan TKP.</span>
+      </div>
+      <span class="roadmap-state" id="state-pelajari">0/0 modul</span>
+    </div>
+    <div class="roadmap-item" id="step-latihan">
+      <span class="roadmap-num">2</span>
+      <div class="roadmap-body">
+        <b>Kuis</b>
+        <span class="roadmap-desc">Latih konsep dengan soal per topik.</span>
+      </div>
+      <span class="roadmap-state" id="state-latihan">0 kuis</span>
+    </div>
+    <div class="roadmap-item" id="step-simulasi">
+      <span class="roadmap-num">3</span>
+      <div class="roadmap-body">
+        <b>Simulasi</b>
+        <span class="roadmap-desc">Ikuti ujian SKD penuh dengan timer.</span>
+      </div>
+      <span class="roadmap-state" id="state-simulasi">0 ujian</span>
+    </div>
+  </div>
+
+  <div class="home-stats" id="hero-stats">Memuat…</div>
+
+  <div class="home-cols">
+    <div class="card">
+      <h3>Ketentuan SKD CAT BKN</h3>
+      <p class="card-sub">Susunan resmi Seleksi Kompetensi Dasar.</p>
+      <table class="info-table">
+        <tr><th>Materi</th><th>Jumlah Soal</th><th>Ambang Batas</th></tr>
+        <tr><td>TWK</td><td>30</td><td>65</td></tr>
+        <tr><td>TIU</td><td>35</td><td>80</td></tr>
+        <tr><td>TKP</td><td>45</td><td>166</td></tr>
+        <tr><td><b>Total</b></td><td><b>110</b></td><td><b>100 menit</b></td></tr>
+      </table>
+    </div>
+    <div class="card">
+      <h3>Cara pakai</h3>
+      <p class="card-sub">Alur singkat dari belajar sampai ujian.</p>
+      <ol class="plain-list">
+        <li>Buka <b>Materi</b>, pilih kelompok dan topik yang ingin dipelajari.</li>
+        <li>Kerjakan kuis yang tersedia pada materi untuk memeriksa pemahaman.</li>
+        <li>Pilih <b>Simulasi SKD</b> untuk ujian 110 soal ber-timer 100 menit.</li>
+        <li>Gunakan <b>Ragu-ragu</b> untuk menandai soal yang belum yakin, lalu lihat skor dan pembahasan di akhir.</li>
+      </ol>
+    </div>
+  </div>
+</section>
+
+<!-- ============ UJIAN ============ -->
+<section id="view-ujian" class="hidden">
+  <div class="exam-top">
+    <div class="exam-meta">
+      <span id="ujian-mode-badge" class="badge">SKD</span>
+      <span id="ujian-progress">Soal 1 / 110</span>
+    </div>
+    <div class="exam-timer" id="ujian-timer">100:00</div>
+    <div class="exam-top-btns">
+      <button class="btn btn-outline btn-sm" onclick="toggleFullscreen()">Layar penuh</button>
+      <button class="btn btn-danger-outline btn-sm" onclick="batalkanUjian()">Batalkan</button>
+    </div>
+  </div>
+  <div class="exam-body">
+    <div class="exam-soal-wrap">
+      <div class="exam-soal">
+        <div class="soal-head">
+          <span class="soal-no" id="soal-no">1</span>
+          <span class="soal-kat" id="soal-kat">TWK</span>
+          <span class="soal-sub" id="soal-sub"></span>
+          <button class="soal-ragu-btn" id="btn-ragu" onclick="toggleRagu()" aria-pressed="false">Ragu-ragu</button>
+        </div>
+        <div class="soal-teks" id="soal-teks"></div>
+        <div class="soal-opsi" id="soal-opsi"></div>
+        <div class="exam-nav-btns">
+          <button class="btn btn-outline" id="btn-prev" onclick="gotoSoal(curIdx-1)">Sebelumnya</button>
+          <button class="btn btn-outline btn-sm" onclick="hapusJawaban()">Hapus pilihan</button>
+          <button class="btn btn-primary" id="btn-next" onclick="gotoSoal(curIdx+1)">Selanjutnya</button>
+        </div>
+      </div>
+    </div>
+    <aside class="exam-panel">
+      <div class="panel-card">
+        <div class="panel-title">Navigasi Soal</div>
+        <div class="panel-grid" id="panel-grid"></div>
+        <div class="panel-legend">
+          <span><i class="dot answered"></i> Dijawab</span>
+          <span><i class="dot marked"></i> Ragu</span>
+          <span><i class="dot empty"></i> Kosong</span>
+          <span><i class="dot current"></i> Aktif</span>
+        </div>
+      </div>
+      <div class="panel-card">
+        <div class="panel-stat" id="panel-stat"></div>
+        <button class="btn btn-success btn-big btn-block" onclick="konfirmasiKumpul()">Kumpulkan Jawaban</button>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<!-- ============ HASIL ============ -->
+<section id="view-hasil" class="hidden">
+  <div class="hasil-wrap" id="hasil-wrap"></div>
+</section>
+
+<!-- ============ MATERI ============ -->
+<section id="view-materi" class="hidden">
+  <div class="materi-head">
+    <div>
+      <h2>Materi Belajar</h2>
+      <p class="subtitle">Pilih kelompok ujian, lalu buka materi per topik. Semua pelajaran tersedia tanpa urutan terkunci.</p>
+    </div>
+  </div>
+
+  <div class="materi-tabs" role="tablist" aria-label="Jenis materi">
+    <button class="materi-tab active" data-mtab="ALL" onclick="pilihTabMateri('ALL')">Semua materi</button>
+    <button class="materi-tab" data-mtab="TWK" onclick="pilihTabMateri('TWK')">TWK</button>
+    <button class="materi-tab" data-mtab="TIU" onclick="pilihTabMateri('TIU')">TIU</button>
+    <button class="materi-tab" data-mtab="TKP" onclick="pilihTabMateri('TKP')">TKP</button>
+    <button class="materi-tab" data-mtab="VIDEO" onclick="pilihTabMateri('VIDEO')">Video</button>
+    <button class="materi-tab" data-mtab="SUMBER" onclick="pilihTabMateri('SUMBER')">Sumber resmi</button>
+  </div>
+
+  <div id="materi-progress"></div>
+  <div id="materi-list"></div>
+  <div id="materi-content" class="hidden"></div>
+</section>
+
+<!-- ============ RIWAYAT ============ -->
+<section id="view-riwayat" class="hidden">
+  <h2>Riwayat Ujian</h2>
+  <p class="subtitle">Hasil simulasi yang pernah kamu kerjakan.</p>
+  <div id="riwayat-list"></div>
+</section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-disclaimer"><b>Ruang SKD adalah alat latihan mandiri.</b><span>Bukan situs resmi BKN dan tidak berafiliasi dengan Badan Kepegawaian Negara. Untuk informasi dan pengumuman resmi, kunjungi situs BKN atau SSCASN.</span></div>
+  <span class="footer-links">
+    <a href="https://cat.bkn.go.id/" target="_blank" rel="noopener">CAT BKN</a>
+    <a href="https://sscasn.bkn.go.id/" target="_blank" rel="noopener">SSCASN</a>
+    <a href="https://www.bkn.go.id/" target="_blank" rel="noopener">BKN</a>
+  </span>
+</footer>
+
+<!-- ============ MODAL ============ -->
+<div id="modal" class="modal hidden">
+  <div class="modal-box" role="dialog" aria-modal="true">
+    <div class="modal-body" id="modal-body"></div>
+    <div class="modal-btns" id="modal-btns"></div>
+  </div>
+</div>
+
+<script src="/app.js"></script>
+</body>
+</html>

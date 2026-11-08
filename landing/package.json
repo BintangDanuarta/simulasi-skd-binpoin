@@ -1,0 +1,31 @@
+{
+  "name": "binpoin-beta-landing",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@ant-design/icons": "^6.3.4",
+    "next": "15.5.29",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4"
+  },
+  "overrides": {
+    "next": {
+      "postcss": "^8.5.23"
+    }
+  },
+  "devDependencies": {
+    "@tailwindcss/oxide-linux-x64-gnu": "^4.3.5",
+    "@tailwindcss/postcss": "^4.3.5",
+    "@types/node": "^22.19.15",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "tailwindcss": "^4.3.5",
+    "typescript": "^5.9.3"
+  }
+}

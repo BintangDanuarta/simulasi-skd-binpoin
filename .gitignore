@@ -1,0 +1,43 @@
+/target
+/.agents/
+/skills-lock.json
+/data/riwayat.json
+/extract/dumps/
+/extract/questions_raw.json
+__pycache__/
+*.pyc
+/node_modules/
+/landing/node_modules/
+/landing/.next/
+/landing/out/
+/landing/coverage/
+/landing/.vercel/
+/landing/*.tsbuildinfo
+
+# Private credentials and local configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Private source documents, extraction code, manifests and raw data
+/extract/
+
+# Build artifacts are distributed via GitHub Releases
+/release/
+*.log
+*.pid
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo/

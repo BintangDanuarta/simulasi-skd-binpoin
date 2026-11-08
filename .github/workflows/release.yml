@@ -1,0 +1,49 @@
+name: Build beta desktop packages
+
+on:
+  push:
+    tags:
+      - 'v*'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  package:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - os: macos-14
+            target: aarch64-apple-darwin
+          - os: macos-15-intel
+            target: x86_64-apple-darwin
+          - os: windows-latest
+            target: x86_64-pc-windows-msvc
+    runs-on: ${{ matrix.os }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: dtolnay/rust-toolchain@stable
+        with:
+          targets: ${{ matrix.target }}
+      - name: Package
+        shell: bash
+        run: ./build-release.sh "${{ matrix.target }}"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: Simulasi-SKD-Binpoin-${{ matrix.target }}
+          path: |
+            release/simulasi-skd-binpoin-0.1.0-beta.1-${{ matrix.target }}.*
+            release/Simulasi-SKD-Binpoin-0.1.0-beta.1-${{ matrix.target }}/
+      - name: Publish tagged beta
+        if: startsWith(github.ref, 'refs/tags/')
+        uses: softprops/action-gh-release@v2
+        with:
+          prerelease: true
+          files: |
+            release/simulasi-skd-binpoin-0.1.0-beta.1-${{ matrix.target }}.*
+            release/Simulasi-SKD-Binpoin-0.1.0-beta.1-${{ matrix.target }}/*
+            release/simulasi-skd-binpoin-0.1.0-beta.1-x86_64-pc-windows-msvc.zip
+          fail_on_unmatched_files: false
+          generate_release_notes: true

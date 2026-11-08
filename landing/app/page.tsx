@@ -84,9 +84,6 @@ export default function Home() {
                 by binpoin
               </span>
             </div>
-            <span className="ml-1.5 px-2 py-0.5 rounded-full text-[10px] font-semibold tracking-wider bg-[#0154d0]/10 text-[#0154d0] border border-[#0154d0]/20">
-              BETA 0.1
-            </span>
           </a>
 
           <nav className="hidden md:flex items-center gap-7 text-xs font-semibold text-[#625c52]">
@@ -97,7 +94,7 @@ export default function Home() {
               Tampilan Aplikasi
             </a>
             <a href="#unduh" className="hover:text-[#0154d0] transition-colors min-h-[44px] inline-flex items-center">
-              Unduh (Win · Mac · Linux)
+              Unduh
             </a>
             <a href="#faq" className="hover:text-[#0154d0] transition-colors min-h-[44px] inline-flex items-center">
               FAQ
@@ -119,10 +116,6 @@ export default function Home() {
       {/* ================= HERO SECTION ================= */}
       <section id="top" className="relative pt-12 pb-14 md:pt-16 md:pb-20 hero-pattern overflow-hidden">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 text-center">
-          <div className="inline-flex items-center gap-2 px-3.5 py-1 rounded-full bg-[#0154d0]/10 border border-[#0154d0]/25 text-[#0154d0] text-xs font-semibold tracking-wide mb-6">
-            <span className="w-2 h-2 rounded-full bg-[#0154d0] animate-pulse" />
-            <span>APLIKASI DESKTOP LATIHAN CPNS · 100% OFFLINE</span>
-          </div>
 
           <h1 className="text-3xl sm:text-5xl md:text-6xl font-black tracking-tight text-[#181512] leading-[1.08] mb-5 text-balance">
             Belajar terarah.{' '}
@@ -198,9 +191,6 @@ export default function Home() {
       <section id="preview" className="py-14 md:py-20 bg-white border-y border-[#e6e0d4]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-2xl mx-auto text-center mb-8">
-            <span className="text-xs font-bold tracking-widest text-[#0154d0] uppercase">
-              TAMPILAN NYATA
-            </span>
             <h2 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-[#181512] mt-2 mb-3">
               Antarmuka Bersih. Fokus Pada Latihan.
             </h2>
@@ -287,9 +277,6 @@ export default function Home() {
       <section id="fitur" className="py-14 md:py-20">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-2xl mx-auto text-center mb-12">
-            <span className="text-xs font-bold tracking-widest text-[#0154d0] uppercase">
-              FITUR UTAMA
-            </span>
             <h2 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-[#181512] mt-2 mb-3">
               Semua Kebutuhan SKD dalam Satu Paket
             </h2>
@@ -385,9 +372,6 @@ export default function Home() {
       <section id="unduh" className="py-14 md:py-20 bg-white border-t border-[#e6e0d4]">
         <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-2xl mx-auto text-center mb-10">
-            <span className="text-xs font-bold tracking-widest text-[#0154d0] uppercase">
-              UNDUH PAKET APLIKASI
-            </span>
             <h2 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-[#181512] mt-2 mb-3">
               Pilih Paket Sesuai Perangkatmu
             </h2>

@@ -12,7 +12,7 @@ Alasan: produk adalah alat latihan; nuansa bootcamp memberi rasa maju selangkah 
 - `--ink: #29241C` tinta cokelat tua — kontras baca yang hangat.
 - `--muted: #6F675A`
 - `--line: #E7DFD1`
-- `--accent: #C2571B` terakota — aksen hangat "energi belajar".
+- `--accent: #0154d0` biru binpoin — aksen utama tombol, badge, dan fokus belajar.
 - State: `success #2F7D4F`, `danger #B33A34`, `warn #A9701D`.
 Alasan: palet hangat membedakan produk dari default biru-ungu AI dan mendukung suasana belajar yang serius tapi manusiawi.
 

@@ -4,16 +4,16 @@
   --ink: #29241C;
   --muted: #655E53;
   --line: #E4DCCF;
-  --accent: #B94F24;
-  --accent-soft: #F5E8DE;
-  --primary: #B94F24;
-  --primary-dark: #8F3717;
+  --accent: #0154d0;
+  --accent-soft: #E8F0FA;
+  --primary: #0154d0;
+  --primary-dark: #013b94;
   --success: #28744C;
   --danger: #B33A34;
   --warn: #94610F;
   --warn-bg: #FBF0DC;
   --blue-soft: #F2EDE4;
-  --focus: #194B78;
+  --focus: #0154d0;
   --space-xs: 8px;
   --space-sm: 12px;
   --space-md: 18px;
@@ -497,7 +497,7 @@ body.ujian-aktif main { padding-top: 12px; }
   }
 }
 
-/* Editorial study room: warm paper, one terracotta action color, quiet motion. */
+/* Editorial study room: warm paper, #0154d0 action color, quiet motion. */
 html { scroll-behavior: smooth; scroll-padding-top: 88px; }
 body { min-width: 320px; background: var(--bg); }
 button, a { touch-action: manipulation; }
@@ -521,7 +521,7 @@ main { max-width: 1280px; padding: clamp(20px, 4vw, 48px) clamp(16px, 4vw, 48px)
 main > section:not(.hidden) { animation: page-enter 220ms var(--ease-out) both; }
 @keyframes page-enter { from { opacity: .72; transform: translateY(5px); } to { opacity: 1; transform: translateY(0); } }
 .hero { position: relative; overflow: hidden; min-height: 286px; display: flex; align-items: center; border: 0; border-radius: var(--radius-feature); background: #EEE5D7; padding: clamp(28px, 5vw, 64px); }
-.hero::after { content: ""; position: absolute; right: -40px; bottom: -130px; width: clamp(220px, 34vw, 440px); aspect-ratio: 1; border: 1px solid rgba(185,79,36,.25); border-radius: 50%; box-shadow: 0 0 0 34px rgba(185,79,36,.035), 0 0 0 68px rgba(185,79,36,.03); pointer-events: none; }
+.hero::after { content: ""; position: absolute; right: -40px; bottom: -130px; width: clamp(220px, 34vw, 440px); aspect-ratio: 1; border: 1px solid rgba(1,84,208,.25); border-radius: 50%; box-shadow: 0 0 0 34px rgba(1,84,208,.035), 0 0 0 68px rgba(1,84,208,.03); pointer-events: none; }
 .hero-copy { position: relative; z-index: 1; max-width: 740px; }
 .eyebrow { color: var(--primary-dark); font-size: 12px; font-weight: 800; letter-spacing: .12em; margin-bottom: 14px; }
 .hero h1 { max-width: 13ch; font-size: clamp(36px, 5vw, 62px); letter-spacing: -.045em; line-height: 1.02; text-wrap: balance; margin-bottom: 16px; }
@@ -557,7 +557,7 @@ main > section:not(.hidden) { animation: page-enter 220ms var(--ease-out) both; 
 .exam-soal { padding: clamp(20px, 3vw, 36px); }
 .soal-teks { font-size: 17px; line-height: 1.65; max-width: 72ch; }
 .opsi { min-height: 50px; align-items: center; padding: 12px 16px; transition: border-color var(--dur-fast), background var(--dur-fast), transform var(--dur-fast); }
-.opsi:hover { border-color: var(--accent); background: #FBF3EC; }
+.opsi:hover { border-color: var(--accent); background: #F0F5FD; }
 .opsi.selected { border-color: var(--accent); background: var(--accent-soft); box-shadow: inset 3px 0 var(--accent); }
 .panel-grid button { min-width: 40px; min-height: 40px; font-variant-numeric: tabular-nums; }
 .panel-grid button:focus-visible { outline-offset: 1px; }

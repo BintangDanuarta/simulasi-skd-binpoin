@@ -15,7 +15,7 @@ mkdir -p "$STAGE/data" "$STAGE/static"
 install -m 755 "$BIN" "$STAGE/"
 install -m 644 data/questions.json data/materi.json "$STAGE/data/"
 [ ! -f data/video.json ] || install -m 644 data/video.json "$STAGE/data/"
-install -m 644 static/app.js static/index.html static/style.css static/binpoin-logo.png "$STAGE/static/"
+install -m 644 static/app.js static/index.html static/style.css static/binpoin-logo.png static/favicon.ico "$STAGE/static/"
 printf 'Simulasi SKD by Binpoin — Beta %s\n\n' "$VERSION" > "$STAGE/README.txt"
 cat >> "$STAGE/README.txt" <<'TXT'
 Jalankan file aplikasi di folder ini. Browser akan terbuka otomatis.

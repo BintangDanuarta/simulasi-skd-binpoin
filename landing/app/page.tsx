@@ -16,8 +16,9 @@ import {
 
 const DOWNLOAD_LINKS = {
   windows: '/downloads/simulasi-skd-binpoin-0.1.0-beta.1-x86_64-pc-windows-gnu.zip',
+  macArm: '/downloads/simulasi-skd-binpoin-0.1.0-beta.1-aarch64-apple-darwin.tar.gz',
+  macIntel: '/downloads/simulasi-skd-binpoin-0.1.0-beta.1-x86_64-apple-darwin.tar.gz',
   linux: '/downloads/simulasi-skd-binpoin-0.1.0-beta.1-x86_64-unknown-linux-gnu.tar.gz',
-  mac: '/downloads/Simulasi-SKD-Binpoin-beta1-source-mac.zip',
 };
 
 const SCREENSHOT_TABS = [
@@ -89,16 +90,16 @@ export default function Home() {
           </a>
 
           <nav className="hidden md:flex items-center gap-7 text-xs font-semibold text-[#625c52]">
-            <a href="#fitur" className="hover:text-[#0154d0] transition-colors">
+            <a href="#fitur" className="hover:text-[#0154d0] transition-colors min-h-[44px] inline-flex items-center">
               Fitur Utama
             </a>
-            <a href="#preview" className="hover:text-[#0154d0] transition-colors">
+            <a href="#preview" className="hover:text-[#0154d0] transition-colors min-h-[44px] inline-flex items-center">
               Tampilan Aplikasi
             </a>
-            <a href="#unduh" className="hover:text-[#0154d0] transition-colors">
-              Unduh
+            <a href="#unduh" className="hover:text-[#0154d0] transition-colors min-h-[44px] inline-flex items-center">
+              Unduh (Win · Mac · Linux)
             </a>
-            <a href="#faq" className="hover:text-[#0154d0] transition-colors">
+            <a href="#faq" className="hover:text-[#0154d0] transition-colors min-h-[44px] inline-flex items-center">
               FAQ
             </a>
           </nav>
@@ -106,7 +107,7 @@ export default function Home() {
           <div className="flex items-center gap-3">
             <a
               href="#unduh"
-              className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-[#0154d0] text-white hover:bg-[#013b94] transition-all shadow-sm shadow-[#0154d0]/25 active:translate-y-0.5"
+              className="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs font-semibold bg-[#0154d0] text-white hover:bg-[#013b94] transition-all shadow-sm shadow-[#0154d0]/25 active:translate-y-0.5 min-h-[36px]"
             >
               <ArrowDownOutlined className="text-[11px]" />
               <span>Unduh Gratis</span>
@@ -131,22 +132,43 @@ export default function Home() {
           <p className="text-base sm:text-lg text-[#625c52] max-w-2xl mx-auto leading-relaxed mb-8 text-pretty">
             TWK, TIU, dan TKP dalam satu aplikasi desktop yang cepat, ringan (2 MB),
             dan berjalan langsung di komputermu tanpa login atau koneksi internet.
+            Tersedia untuk <b>Windows</b>, <b>Mac (Apple Silicon & Intel)</b>, dan <b>Linux</b>.
           </p>
 
-          <div className="flex flex-col sm:flex-row items-center justify-center gap-3.5 mb-10">
+          {/* DUAL CTA: WINDOWS & MAC SIDE-BY-SIDE */}
+          <div className="flex flex-col sm:flex-row items-center justify-center gap-3.5 mb-5">
             <a
-              href="#unduh"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-[#0154d0] text-white text-sm font-bold shadow-md shadow-[#0154d0]/25 hover:bg-[#013b94] transition-all active:translate-y-0.5"
+              href={DOWNLOAD_LINKS.windows}
+              download
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-[#0154d0] text-white text-sm font-bold shadow-md shadow-[#0154d0]/25 hover:bg-[#013b94] transition-all active:translate-y-0.5 min-h-[48px]"
             >
               <WindowsFilled className="text-base" />
-              <span>Unduh untuk Windows (.zip · ~2 MB)</span>
+              <span>Unduh untuk Windows (.zip · 2.1 MB)</span>
             </a>
+
             <a
-              href="#preview"
-              className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-5 py-3.5 rounded-xl bg-white border border-[#e6e0d4] text-[#181512] text-sm font-semibold hover:border-[#0154d0] hover:text-[#0154d0] transition-all shadow-sm"
+              href={DOWNLOAD_LINKS.macArm}
+              download
+              className="w-full sm:w-auto inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-white border-2 border-[#0154d0] text-[#0154d0] hover:bg-[#0154d0]/5 text-sm font-bold transition-all shadow-sm active:translate-y-0.5 min-h-[48px]"
             >
-              <span>Lihat Tampilan Aplikasi</span>
-              <span className="text-xs">↓</span>
+              <AppleFilled className="text-base text-[#181512]" />
+              <span>Unduh untuk Mac (.tar.gz · 1.4 MB)</span>
+            </a>
+          </div>
+
+          {/* Secondary platform options & preview link */}
+          <div className="flex flex-wrap items-center justify-center gap-x-4 gap-y-2 text-xs text-[#625c52] mb-10">
+            <span>Pilihan lain:</span>
+            <a href={DOWNLOAD_LINKS.macIntel} download className="hover:text-[#0154d0] underline underline-offset-2">
+              Mac Intel (.tar.gz)
+            </a>
+            <span>·</span>
+            <a href={DOWNLOAD_LINKS.linux} download className="hover:text-[#0154d0] underline underline-offset-2">
+              Linux x86_64 (.tar.gz)
+            </a>
+            <span>·</span>
+            <a href="#preview" className="font-semibold text-[#0154d0] hover:underline underline-offset-2">
+              Lihat Tampilan Aplikasi ↓
             </a>
           </div>
 
@@ -196,7 +218,7 @@ export default function Home() {
                   key={tab.id}
                   onClick={() => setActiveTab(tab.id)}
                   className={cn(
-                    'relative px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition-all whitespace-nowrap cursor-pointer',
+                    'relative px-4 py-2.5 rounded-xl text-xs sm:text-sm font-semibold transition-all whitespace-nowrap cursor-pointer min-h-[44px] inline-flex items-center justify-center',
                     active
                       ? 'bg-[#0154d0] text-white shadow-sm shadow-[#0154d0]/25'
                       : 'bg-[#fbf9f5] text-[#625c52] hover:text-[#181512] border border-[#e6e0d4]'
@@ -252,7 +274,7 @@ export default function Home() {
               </div>
               <a
                 href="#unduh"
-                className="text-xs font-bold text-[#0154d0] hover:text-[#013b94] transition-colors whitespace-nowrap"
+                className="text-xs font-bold text-[#0154d0] hover:text-[#013b94] transition-colors whitespace-nowrap min-h-[32px] inline-flex items-center"
               >
                 Coba Sekarang →
               </a>
@@ -361,10 +383,10 @@ export default function Home() {
 
       {/* ================= DOWNLOAD SECTION ================= */}
       <section id="unduh" className="py-14 md:py-20 bg-white border-t border-[#e6e0d4]">
-        <div className="max-w-5xl mx-auto px-4 sm:px-6">
+        <div className="max-w-6xl mx-auto px-4 sm:px-6">
           <div className="max-w-2xl mx-auto text-center mb-10">
             <span className="text-xs font-bold tracking-widest text-[#0154d0] uppercase">
-              UNDUH PAKET
+              UNDUH PAKET APLIKASI
             </span>
             <h2 className="text-2xl sm:text-4xl font-extrabold tracking-tight text-[#181512] mt-2 mb-3">
               Pilih Paket Sesuai Perangkatmu
@@ -375,40 +397,81 @@ export default function Home() {
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-5">
-            {/* Windows */}
+            {/* WINDOWS CARD */}
             <div className="p-6 rounded-2xl bg-[#fbf9f5] border-2 border-[#0154d0] relative flex flex-col justify-between shadow-md shadow-[#0154d0]/10">
               <div className="absolute -top-3 left-6 px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider bg-[#0154d0] text-white">
-                Direkomendasikan
+                Windows
               </div>
               <div>
                 <div className="flex items-center justify-between mb-4 mt-2">
                   <div className="flex items-center gap-2.5">
                     <WindowsFilled className="text-2xl text-[#0154d0]" />
-                    <span className="font-extrabold text-base text-[#181512]">Windows</span>
+                    <span className="font-extrabold text-base text-[#181512]">Windows 10/11</span>
                   </div>
                   <span className="text-xs font-semibold px-2 py-0.5 rounded bg-white border border-[#e6e0d4] text-[#625c52]">
                     ~2.1 MB
                   </span>
                 </div>
                 <p className="text-xs text-[#625c52] leading-relaxed mb-6">
-                  Untuk Windows 10/11 64-bit. Sudah termasuk binary executable (.exe) berikon Binpoin dan skrip peluncur otomatis.
+                  Untuk Windows 64-bit. Berisi binary executable (<code>.exe</code>) berikon Binpoin dan peluncur otomatis <code>Simulasi SKD by Binpoin.bat</code>.
                 </p>
               </div>
 
               <a
                 href={DOWNLOAD_LINKS.windows}
                 download
-                className="w-full inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-[#0154d0] hover:bg-[#013b94] text-white text-xs font-bold transition-all shadow-sm active:translate-y-0.5"
+                className="w-full inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-[#0154d0] hover:bg-[#013b94] text-white text-xs font-bold transition-all shadow-sm active:translate-y-0.5 min-h-[44px]"
               >
                 <ArrowDownOutlined />
                 <span>Unduh Windows (.ZIP)</span>
               </a>
             </div>
 
-            {/* Linux */}
+            {/* MACINTOSH CARD (APPLE SILICON & INTEL) */}
+            <div className="p-6 rounded-2xl bg-[#fbf9f5] border-2 border-[#0154d0] relative flex flex-col justify-between shadow-md shadow-[#0154d0]/10">
+              <div className="absolute -top-3 left-6 px-2.5 py-0.5 rounded-full text-[10px] font-extrabold uppercase tracking-wider bg-[#0154d0] text-white">
+                macOS
+              </div>
+              <div>
+                <div className="flex items-center justify-between mb-4 mt-2">
+                  <div className="flex items-center gap-2.5">
+                    <AppleFilled className="text-2xl text-[#0154d0]" />
+                    <span className="font-extrabold text-base text-[#181512]">Mac (macOS 11+)</span>
+                  </div>
+                  <span className="text-xs font-semibold px-2 py-0.5 rounded bg-white border border-[#e6e0d4] text-[#625c52]">
+                    ~1.4 MB
+                  </span>
+                </div>
+                <p className="text-xs text-[#625c52] leading-relaxed mb-4">
+                  Binary native portabel untuk macOS. Cukup ekstrak dan jalankan binary aplikasi.
+                </p>
+              </div>
+
+              <div className="flex flex-col gap-2">
+                <a
+                  href={DOWNLOAD_LINKS.macArm}
+                  download
+                  className="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-[#0154d0] hover:bg-[#013b94] text-white text-xs font-bold transition-all shadow-sm active:translate-y-0.5 min-h-[40px]"
+                >
+                  <ArrowDownOutlined />
+                  <span>Apple Silicon (M1/M2/M3/M4)</span>
+                </a>
+
+                <a
+                  href={DOWNLOAD_LINKS.macIntel}
+                  download
+                  className="w-full inline-flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-white border border-[#e6e0d4] hover:border-[#0154d0] hover:text-[#0154d0] text-[#181512] text-xs font-semibold transition-all active:translate-y-0.5 min-h-[40px]"
+                >
+                  <ArrowDownOutlined />
+                  <span>Mac Intel (.TAR.GZ)</span>
+                </a>
+              </div>
+            </div>
+
+            {/* LINUX CARD */}
             <div className="p-6 rounded-2xl bg-white border border-[#e6e0d4] flex flex-col justify-between hover:border-[#0154d0]/40 transition-all shadow-sm">
               <div>
-                <div className="flex items-center justify-between mb-4">
+                <div className="flex items-center justify-between mb-4 mt-2">
                   <div className="flex items-center gap-2.5">
                     <span className="text-xl">🐧</span>
                     <span className="font-extrabold text-base text-[#181512]">Linux x86_64</span>
@@ -425,52 +488,39 @@ export default function Home() {
               <a
                 href={DOWNLOAD_LINKS.linux}
                 download
-                className="w-full inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-white border border-[#e6e0d4] hover:border-[#0154d0] hover:text-[#0154d0] text-[#181512] text-xs font-bold transition-all active:translate-y-0.5"
+                className="w-full inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-white border border-[#e6e0d4] hover:border-[#0154d0] hover:text-[#0154d0] text-[#181512] text-xs font-bold transition-all active:translate-y-0.5 min-h-[44px]"
               >
                 <ArrowDownOutlined />
                 <span>Unduh Linux (.TAR.GZ)</span>
               </a>
             </div>
-
-            {/* Mac */}
-            <div className="p-6 rounded-2xl bg-white border border-[#e6e0d4] flex flex-col justify-between hover:border-[#0154d0]/40 transition-all shadow-sm">
-              <div>
-                <div className="flex items-center justify-between mb-4">
-                  <div className="flex items-center gap-2.5">
-                    <AppleFilled className="text-xl text-[#181512]" />
-                    <span className="font-extrabold text-base text-[#181512]">Mac Apple Silicon</span>
-                  </div>
-                  <span className="text-xs font-semibold px-2 py-0.5 rounded bg-[#fbf9f5] border border-[#e6e0d4] text-[#625c52]">
-                    Source ZIP
-                  </span>
-                </div>
-                <p className="text-xs text-[#625c52] leading-relaxed mb-6">
-                  Paket source code untuk Mac seri M1/M2/M3/M4. Ikuti instruksi build singkat di <code>README-Mac.txt</code>.
-                </p>
-              </div>
-
-              <a
-                href={DOWNLOAD_LINKS.mac}
-                download
-                className="w-full inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-white border border-[#e6e0d4] hover:border-[#0154d0] hover:text-[#0154d0] text-[#181512] text-xs font-bold transition-all active:translate-y-0.5"
-              >
-                <ArrowDownOutlined />
-                <span>Unduh Mac (.ZIP)</span>
-              </a>
-            </div>
           </div>
 
-          {/* Quick instructions */}
-          <div className="mt-8 p-5 rounded-xl bg-[#fbf9f5] border border-[#e6e0d4] text-xs text-[#625c52]">
-            <b className="text-[#181512] block mb-2 font-semibold">
-              Cara Menjalankan di Komputer:
-            </b>
-            <ol className="list-decimal pl-4 space-y-1">
-              <li>Unduh file paket (.zip) untuk sistem operasi Anda.</li>
-              <li>Ekstrak folder hasil unduhan ke komputer Anda.</li>
-              <li>Jalankan file <code>Simulasi SKD by Binpoin.bat</code> (di Windows) atau binary executable.</li>
-              <li>Aplikasi akan langsung membuka browser di <code>http://localhost:8787</code> secara otomatis.</li>
-            </ol>
+          {/* Quick instructions for Windows & Mac */}
+          <div className="mt-8 p-5 rounded-xl bg-[#fbf9f5] border border-[#e6e0d4] text-xs text-[#625c52] grid grid-cols-1 md:grid-cols-2 gap-5">
+            <div>
+              <b className="text-[#181512] block mb-2 font-semibold">
+                ⊞ Cara Menjalankan di Windows:
+              </b>
+              <ol className="list-decimal pl-4 space-y-1">
+                <li>Unduh file paket Windows (.ZIP).</li>
+                <li>Ekstrak folder hasil unduhan ke komputer Anda.</li>
+                <li>Jalankan file <code>Simulasi SKD by Binpoin.bat</code> atau <code>.exe</code>.</li>
+                <li>Browser akan otomatis membuka <code>http://localhost:8787</code>.</li>
+              </ol>
+            </div>
+
+            <div>
+              <b className="text-[#181512] block mb-2 font-semibold">
+                 Cara Menjalankan di Mac / Linux:
+              </b>
+              <ol className="list-decimal pl-4 space-y-1">
+                <li>Unduh paket (.TAR.GZ) sesuai arsitektur (Apple Silicon / Intel).</li>
+                <li>Ekstrak file tar.gz (cukup dobel klik di Finder).</li>
+                <li>Buka terminal di folder tersebut lalu jalankan <code>./simulasi-skd-binpoin</code>.</li>
+                <li>Buka <code>http://localhost:8787</code> di Safari atau Chrome.</li>
+              </ol>
+            </div>
           </div>
         </div>
       </section>
@@ -536,11 +586,11 @@ export default function Home() {
               href="https://binpoin.my.id"
               target="_blank"
               rel="noreferrer"
-              className="hover:text-[#0154d0] transition-colors"
+              className="hover:text-[#0154d0] transition-colors min-h-[44px] inline-flex items-center"
             >
               Situs Utama binpoin.my.id ↗
             </a>
-            <a href="#unduh" className="hover:text-[#0154d0] transition-colors">
+            <a href="#unduh" className="hover:text-[#0154d0] transition-colors min-h-[44px] inline-flex items-center">
               Unduh Aplikasi
             </a>
           </div>

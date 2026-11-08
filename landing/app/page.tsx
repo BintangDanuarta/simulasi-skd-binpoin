@@ -3,8 +3,8 @@
 import { AppleFilled, ArrowDownOutlined, WindowsFilled } from '@ant-design/icons';
 
 const downloads = {
-  windows: 'https://github.com/BintangDanuarta/simulasi-skd-binpoin/releases/latest/download/simulasi-skd-binpoin-0.1.0-beta.1-x86_64-pc-windows-msvc.zip',
-  mac: 'https://github.com/BintangDanuarta/simulasi-skd-binpoin/releases/latest/download/simulasi-skd-binpoin-0.1.0-beta.1-aarch64-apple-darwin.tar.gz',
+  windows: 'https://github.com/BintangDanuarta/simulasi-skd-binpoin/releases/download/v0.1.0-beta.1/simulasi-skd-binpoin-0.1.0-beta.1-x86_64-pc-windows-msvc.zip',
+  mac: 'https://github.com/BintangDanuarta/simulasi-skd-binpoin/releases/download/v0.1.0-beta.1/simulasi-skd-binpoin-0.1.0-beta.1-aarch64-apple-darwin.tar.gz',
 };
 
 // Beta Mac build is compiled natively by GitHub Actions on Apple Silicon runners.

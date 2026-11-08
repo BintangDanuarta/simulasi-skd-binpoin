@@ -15,7 +15,7 @@ jobs:
       fail-fast: false
       matrix:
         include:
-          - os: macos-15-arm64
+          - os: macos-latest
             target: aarch64-apple-darwin
           - os: macos-15-intel
             target: x86_64-apple-darwin
@@ -27,9 +27,26 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
         with:
           targets: ${{ matrix.target }}
-      - name: Package
+      - name: Package (Unix)
+        if: runner.os != 'Windows'
         shell: bash
         run: ./build-release.sh "${{ matrix.target }}"
+      - name: Package Windows
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          cargo build --release --locked --target "${{ matrix.target }}"
+          $version = '0.1.0-beta.1'
+          $app = "simulasi-skd-binpoin-$version-${{ matrix.target }}"
+          $stage = "release/$app"
+          New-Item -ItemType Directory -Force "$stage/data", "$stage/static" | Out-Null
+          Copy-Item "target/${{ matrix.target }}/release/simulasi-skd-binpoin.exe" "$stage/"
+          Copy-Item data/questions.json, data/materi.json, data/video.json "$stage/data/"
+          Copy-Item static/app.js, static/index.html, static/style.css, static/binpoin-logo.png "$stage/static/"
+          Copy-Item README.md "$stage/README.txt"
+          "Simulasi SKD by Binpoin — Beta $version`n`nJalankan executable di folder ini. Riwayat disimpan lokal di profil pengguna." | Set-Content "$stage/README.txt"
+          "@echo off`ncd /d `"%~dp0`"`nstart `"`" `"%~dp0simulasi-skd-binpoin.exe`"" | Set-Content "$stage/Simulasi SKD by Binpoin.bat"
+          Compress-Archive -Path "$stage" -DestinationPath "release/simulasi-skd-binpoin-$version-${{ matrix.target }}.zip" -Force
       - uses: actions/upload-artifact@v4
         with:
           name: Simulasi-SKD-Binpoin-${{ matrix.target }}

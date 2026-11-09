@@ -20,6 +20,7 @@
   </button>
   <nav id="mainnav" aria-label="Navigasi utama">
     <button data-nav="home" class="active">Beranda</button>
+    <button data-nav="latihan">Latihan Soal</button>
     <button data-nav="materi">Materi</button>
     <button data-nav="riwayat">Riwayat</button>
   </nav>
@@ -34,6 +35,7 @@
     <h1>Belajar terarah. Hadapi SKD dengan tenang.</h1>
     <p class="hero-sub">TWK, TIU, dan TKP dalam satu jalur belajar: pelajari materi, kerjakan latihan per topik, lalu uji dirimu dengan simulasi CAT ber-timer sesuai ketentuan BKN.</p>
     <div class="hero-cta">
+      <button class="btn btn-outline btn-big" onclick="nav('latihan')">Latihan per Materi</button>
       <button class="btn btn-primary btn-big" onclick="mulaiUjian('SKD')">Mulai Simulasi SKD Penuh</button>
       <button class="btn btn-outline btn-big" onclick="nav('materi')">Mulai dari Materi</button>
     </div>
@@ -93,6 +95,49 @@
       </ol>
     </div>
   </div>
+</section>
+
+<!-- ============ LATIHAN SOAL ============ -->
+<section id="view-latihan" class="hidden">
+  <div class="materi-head">
+    <div>
+      <p class="eyebrow">LATIHAN MANDIRI</p>
+      <h2>Latihan Soal</h2>
+      <p class="subtitle">Pilih kelompok, fokus materi, dan jumlah soal. Jawaban serta pembahasan muncul saat kamu mengerjakan.</p>
+    </div>
+  </div>
+
+  <div id="latihan-setup" class="latihan-setup card">
+    <button id="latihan-kembali-menu" type="button" class="btn btn-outline btn-sm latihan-menu-back" onclick="nav('home')">← Kembali ke menu</button>
+    <label class="field-label" for="latihan-kategori">Kelompok soal</label>
+    <select id="latihan-kategori" class="form-control">
+      <option value="TWK">TWK</option>
+      <option value="TIU">TIU</option>
+      <option value="TKP">TKP</option>
+    </select>
+
+    <div class="latihan-subhead">
+      <div>
+        <h3>Fokus materi</h3>
+        <p class="card-sub">Pilih satu atau beberapa submateri, atau pilih semua.</p>
+      </div>
+      <button id="latihan-toggle-all" type="button" class="btn btn-outline btn-sm" onclick="toggleSemuaSubmateri()">Pilih semua</button>
+    </div>
+    <div id="latihan-submateri" class="latihan-submateri" aria-live="polite"></div>
+
+    <div class="latihan-count-row">
+      <div>
+        <label class="field-label" for="latihan-jumlah">Jumlah soal</label>
+        <p class="card-sub" id="latihan-count-hint">Pilih materi untuk melihat jumlah soal yang tersedia.</p>
+      </div>
+      <input id="latihan-jumlah" class="form-control latihan-count-input" type="number" min="1" value="10" inputmode="numeric">
+    </div>
+    <div id="latihan-setup-error" class="latihan-error hidden" role="alert"></div>
+    <button id="latihan-mulai" type="button" class="btn btn-primary btn-big" onclick="mulaiLatihan()" disabled>Mulai latihan</button>
+  </div>
+
+  <div id="latihan-sesi" class="hidden"></div>
+  <div id="latihan-hasil" class="hidden"></div>
 </section>
 
 <!-- ============ UJIAN ============ -->

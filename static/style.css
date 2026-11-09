@@ -178,14 +178,15 @@ body.ujian-aktif main { padding-top: 12px; }
 .soal-teks { font-size: 16px; margin-bottom: 18px; white-space: pre-wrap; }
 .soal-opsi { display: flex; flex-direction: column; gap: 9px; }
 .opsi {
-  display: flex; width: 100%; gap: 12px; align-items: flex-start; text-align: left;
+  display: flex; width: 100%; min-width: 0; gap: 12px; align-items: flex-start; text-align: left;
   border: 1.5px solid var(--line); border-radius: 8px; padding: 10px 14px;
   cursor: pointer; transition: border-color .1s, background .1s; font-size: 15px;
 }
+.opsi > span:last-child { min-width: 0; overflow-wrap: anywhere; white-space: pre-wrap; }
 .opsi:hover { border-color: #C9BBA6; background: #FBF7F0; }
 .opsi.selected { border-color: var(--accent); background: var(--accent-soft); }
 .opsi .letter {
-  font-weight: 700; color: var(--primary-dark); min-width: 22px;
+  flex: 0 0 22px; font-weight: 700; color: var(--primary-dark); min-width: 22px;
 }
 .opsi.benar { border-color: var(--success); background: #E9F5EE; }
 .opsi.salah { border-color: var(--danger); background: #FBEDEC; }
@@ -269,6 +270,55 @@ body.ujian-aktif main { padding-top: 12px; }
 .lat-feedback.benar { color: var(--success); font-weight: 600; }
 .lat-feedback.salah { color: var(--danger); font-weight: 600; }
 #latihan-pager { display: flex; gap: 10px; align-items: center; justify-content: center; margin-top: 18px; }
+
+/* ---------- latihan soal mandiri ---------- */
+.field-label { display: block; font-size: 13px; font-weight: 750; margin-bottom: 7px; }
+.form-control { min-height: 44px; border: 1px solid var(--line); border-radius: 9px; padding: 9px 12px; color: var(--ink); background: #fff; font: inherit; }
+.latihan-setup { display: grid; gap: 12px; padding: clamp(18px, 3vw, 28px); }
+.latihan-setup > select { width: min(100%, 340px); }
+.latihan-subhead, .latihan-count-row, .latihan-session-head { display: flex; align-items: center; justify-content: space-between; gap: 16px; }
+.latihan-subhead { margin-top: 12px; }
+.latihan-subhead h3, .latihan-session-head h3, .latihan-result-head h3 { margin: 0; }
+.latihan-subhead .card-sub, .latihan-count-row .card-sub { margin: 3px 0 0; }
+.latihan-submateri { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 240px), 1fr)); gap: 9px; }
+.latihan-subchip { display: flex; min-width: 0; align-items: center; gap: 9px; text-align: left; border: 1px solid var(--line); border-radius: 10px; padding: 11px 12px; color: var(--ink); background: #fff; cursor: pointer; font: inherit; }
+.latihan-subchip > span:nth-child(2) { flex: 1; }
+.latihan-subchip small { color: var(--muted); font-size: 12px; white-space: nowrap; }
+.latihan-subchip.selected { border-color: var(--accent); background: var(--accent-soft); }
+.latihan-check { display: grid; width: 22px; height: 22px; place-items: center; border: 1px solid var(--line); border-radius: 6px; color: var(--accent); font-size: 13px; font-weight: 800; }
+.latihan-count-row { border-top: 1px solid var(--line); padding-top: 16px; }
+.latihan-count-input { width: 110px; }
+.latihan-error { border: 1px solid #efc1bd; border-radius: 8px; padding: 10px 12px; color: var(--danger); background: #fff7f6; }
+.latihan-setup > #latihan-mulai { justify-self: start; min-width: 190px; }
+.latihan-session-head { margin-bottom: 10px; }
+.latihan-toolbar { display: flex; justify-content: space-between; align-items: center; gap: 12px; margin: 6px 0 18px; }
+.latihan-menu-back { justify-self: start; margin-bottom: 4px; }
+.latihan-exit-link { border: 0; padding: 7px 2px; color: var(--muted); background: transparent; cursor: pointer; font: inherit; font-size: 13px; text-decoration: underline; text-underline-offset: 3px; }
+.latihan-exit-link:hover { color: var(--danger); }
+.latihan-cancel-confirm { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin: 0 0 18px; padding: 14px 16px; border: 1px solid #e7c98f; border-radius: 10px; background: #fff7e6; }
+.latihan-cancel-confirm p { margin: 2px 0 0; color: var(--muted); font-size: 13px; }
+.latihan-confirm-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.latihan-result-back { margin-bottom: 10px; }
+.latihan-session-head h3 { font-size: 22px; }
+.muted { color: var(--muted); font-weight: 500; }
+.latihan-progress { height: 7px; overflow: hidden; margin-bottom: 16px; border-radius: 99px; background: var(--line); }
+.latihan-progress .progress-fill { height: 100%; border-radius: inherit; background: var(--accent); transition: width .2s ease; }
+.latihan-question { padding: clamp(18px, 3vw, 28px); }
+.latihan-question-text { margin: 0 0 18px; font-size: 17px; font-weight: 650; line-height: 1.6; white-space: pre-wrap; overflow-wrap: anywhere; }
+.latihan-session-actions { display: flex; justify-content: space-between; gap: 12px; margin: 16px 0 32px; }
+.latihan-review-title { margin: 28px 0 12px; }
+.latihan-review-list { display: grid; gap: 12px; }
+.latihan-review { padding: 17px 20px; }
+.latihan-review .qhead { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 12px; }
+.badge.review-correct { color: var(--success); background: #e8f5ec; }
+.badge.review-wrong { color: var(--danger); background: #fbeeed; }
+.latihan-review-options { display: grid; gap: 5px; padding-left: 28px; }
+.latihan-review-options li { padding: 5px 8px; border-radius: 6px; overflow-wrap: anywhere; }
+.latihan-review-options li.review-key { color: #17613c; background: #e8f5ec; }
+.latihan-review-options li.review-selected-wrong { color: #9a332a; background: #fbeeed; }
+.latihan-result-head { padding: clamp(20px, 4vw, 34px); margin-bottom: 24px; }
+.latihan-result-head h3 { margin: 8px 0; font-size: clamp(28px, 5vw, 42px); }
+@media (max-width: 600px) { .latihan-subhead, .latihan-count-row, .latihan-cancel-confirm { align-items: stretch; flex-direction: column; } .latihan-count-input { width: 100%; } .latihan-session-actions .btn { flex: 1; } .latihan-toolbar { align-items: flex-start; } }
 
 /* ---------- materi ---------- */
 .materi-tabs { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 16px; border-bottom: 1px solid var(--line); padding-bottom: 2px; }

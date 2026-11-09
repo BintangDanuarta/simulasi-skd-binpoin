@@ -9,6 +9,7 @@ let ujian = null;      // {id, mode, mulai, deadline, soal[], jawaban{}, ragu[]}
 let curIdx = 0;
 let timerInt = null;
 let latihanFilter = { kat: 'TWK', sub: null, offset: 0 };
+let latihanState = { kat: 'TWK', subs: [], jumlah: 10, soal: [], jawaban: {}, idx: 0, finished: false };
 let warningTab = false;
 
 // ---------- helpers ----------
@@ -64,8 +65,298 @@ function nav(view) {
   });
   if (view !== 'ujian') window.scrollTo({ top: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth' });
   if (view === 'home') loadHome().catch((e) => showLoadError('hero-stats', 'Beranda belum dapat dimuat.', e));
+  if (view === 'latihan') loadLatihanSetup().catch((e) => showLoadError('latihan-setup', 'Latihan soal belum dapat dimuat.', e));
   if (view === 'materi') loadMateri().catch((e) => showLoadError('materi-list', 'Materi belum dapat dimuat.', e));
   if (view === 'riwayat') loadRiwayat().catch((e) => showLoadError('riwayat-list', 'Riwayat belum dapat dimuat.', e));
+}
+
+// ---------- latihan soal mandiri ----------
+const LATIHAN_KATEGORI = ['TWK', 'TIU', 'TKP'];
+
+function subsLatihan(kat = latihanState.kat) {
+  return (META?.subs?.[kat] || []).map(([sub, jumlah]) => ({ sub, jumlah }));
+}
+
+async function loadLatihanSetup() {
+  if (!META) META = await api('/api/meta');
+  const kategori = $('#latihan-kategori');
+  kategori.value = latihanState.kat;
+  kategori.onchange = () => {
+    latihanState.kat = kategori.value;
+    latihanState.subs = subsLatihan().map((item) => item.sub);
+    renderLatihanSetup();
+  };
+  if (!latihanState.subs.length) latihanState.subs = subsLatihan().map((item) => item.sub);
+  renderLatihanSetup();
+}
+
+function renderLatihanSetup() {
+  const availableSubs = subsLatihan();
+  latihanState.subs = latihanState.subs.filter((sub) => availableSubs.some((item) => item.sub === sub));
+  if (!latihanState.subs.length && availableSubs.length) latihanState.subs = availableSubs.map((item) => item.sub);
+
+  const selectedCount = availableSubs
+    .filter((item) => latihanState.subs.includes(item.sub))
+    .reduce((sum, item) => sum + item.jumlah, 0);
+  const chips = $('#latihan-submateri');
+  const hint = $('#latihan-count-hint');
+  const amount = $('#latihan-jumlah');
+  const start = $('#latihan-mulai');
+  const allSelected = availableSubs.length > 0 && latihanState.subs.length === availableSubs.length;
+
+  $('#latihan-toggle-all').textContent = allSelected ? 'Hapus pilihan' : 'Pilih semua';
+  chips.innerHTML = availableSubs.length
+    ? availableSubs.map((item, index) => {
+      const selected = latihanState.subs.includes(item.sub);
+      return `<button type="button" class="latihan-subchip ${selected ? 'selected' : ''}" data-sub-index="${index}" aria-pressed="${selected}">
+        <span class="latihan-check" aria-hidden="true">${selected ? '✓' : '+'}</span>
+        <span>${esc(item.sub)}</span><small>${item.jumlah} soal</small>
+      </button>`;
+    }).join('')
+    : '<div class="kuis-empty">Belum ada submateri untuk kategori ini.</div>';
+  chips.querySelectorAll('[data-sub-index]').forEach((button) => {
+    button.addEventListener('click', () => {
+      const sub = availableSubs[Number(button.dataset.subIndex)]?.sub;
+      if (!sub) return;
+      latihanState.subs = latihanState.subs.includes(sub)
+        ? latihanState.subs.filter((selected) => selected !== sub)
+        : [...latihanState.subs, sub];
+      renderLatihanSetup();
+    });
+  });
+
+  hint.textContent = `${selectedCount} soal tersedia dari materi yang dipilih.`;
+  amount.max = String(Math.max(1, Math.min(selectedCount, 100)));
+  amount.value = String(Math.max(1, Math.min(Number(latihanState.jumlah) || 10, selectedCount || 1, 100)));
+  latihanState.jumlah = Number(amount.value);
+  amount.oninput = () => {
+    latihanState.jumlah = Number(amount.value);
+    clearLatihanError();
+  };
+  start.disabled = selectedCount === 0 || latihanState.subs.length === 0;
+}
+
+function toggleSemuaSubmateri() {
+  const availableSubs = subsLatihan();
+  const allSelected = availableSubs.length > 0 && latihanState.subs.length === availableSubs.length;
+  latihanState.subs = allSelected ? [] : availableSubs.map((item) => item.sub);
+  renderLatihanSetup();
+}
+
+function showLatihanError(message) {
+  const error = $('#latihan-setup-error');
+  error.textContent = message;
+  error.classList.remove('hidden');
+}
+
+function clearLatihanError() {
+  const error = $('#latihan-setup-error');
+  error.textContent = '';
+  error.classList.add('hidden');
+}
+
+async function mulaiLatihan() {
+  clearLatihanError();
+  const jumlah = Number($('#latihan-jumlah').value);
+  if (!latihanState.subs.length) return showLatihanError('Pilih setidaknya satu materi.');
+  if (!Number.isInteger(jumlah) || jumlah < 1) return showLatihanError('Masukkan jumlah soal minimal 1.');
+
+  const button = $('#latihan-mulai');
+  button.disabled = true;
+  button.textContent = 'Menyiapkan soal…';
+  try {
+    const result = await post('/api/latihan/start', {
+      kat: latihanState.kat,
+      sub: latihanState.subs,
+      jumlah,
+    });
+    latihanState = {
+      kat: result.kat,
+      subs: [...latihanState.subs],
+      jumlah: result.jumlah,
+      soal: result.soal || [],
+      jawaban: {},
+      idx: 0,
+      finished: false,
+      started: false,
+    };
+    $('#latihan-setup').classList.add('hidden');
+    $('#latihan-hasil').classList.add('hidden');
+    $('#latihan-sesi').classList.remove('hidden');
+    renderLatihanQuestion();
+  } catch (error) {
+    showLatihanError(error.message || 'Soal latihan gagal dimuat.');
+  } finally {
+    button.disabled = false;
+    button.textContent = 'Mulai latihan';
+  }
+}
+
+function renderLatihanQuestion() {
+  const state = latihanState;
+  if (state.finished || !state.soal.length) return renderLatihanResults();
+  const question = state.soal[state.idx];
+  const shouldFocusMenu = !state.started;
+  state.started = true;
+  const selected = state.jawaban[state.idx];
+  const answered = Object.keys(state.jawaban).length;
+  const feedback = selected == null ? '' : `
+    <div class="lat-feedback ${selected === question.kunci ? 'benar' : 'salah'}" role="status">
+      ${selected === question.kunci ? '✓ Jawaban benar' : `✗ Jawaban benar: ${String.fromCharCode(65 + question.kunci)}`}
+      ${question.pembahasan ? `<div class="pembahasan">${esc(question.pembahasan)}</div>` : ''}
+    </div>`;
+  $('#latihan-sesi').innerHTML = `
+    <div class="latihan-toolbar">
+      <button type="button" class="btn btn-outline btn-sm" data-action="menu">← Kembali ke pengaturan</button>
+      <button type="button" class="latihan-exit-link" data-action="cancel">Keluar dari latihan</button>
+    </div>
+    <div id="latihan-cancel-confirm" class="latihan-cancel-confirm hidden" role="region" aria-label="Konfirmasi keluar latihan"></div>
+    <div class="latihan-session-head">
+      <div><span class="eyebrow">${esc(state.kat)} · ${esc(question.sub)}</span>
+        <h3>Soal ${state.idx + 1} <span class="muted">/ ${state.soal.length}</span></h3></div>
+      <span class="progress-text">${answered}/${state.soal.length} dijawab</span>
+    </div>
+    <div class="progress-bar latihan-progress" role="progressbar" aria-label="Progres latihan" aria-valuenow="${answered}" aria-valuemin="0" aria-valuemax="${state.soal.length}"><div class="progress-fill" style="width:${Math.round(answered / state.soal.length * 100)}%"></div></div>
+    <article class="latihan-question card">
+      <p class="latihan-question-text">${esc(question.teks)}</p>
+      <div class="kuis-opsi">${question.pilihan.map((option, index) => {
+        const revealed = selected != null;
+        const cls = revealed && index === question.kunci ? 'benar' : (revealed && index === selected ? 'salah' : '');
+        return `<button type="button" class="opsi ${selected === index ? 'selected' : ''} ${cls}" data-answer="${index}" ${revealed ? 'disabled' : ''}>
+          <span class="letter">${String.fromCharCode(65 + index)}.</span><span>${esc(option)}</span>
+        </button>`;
+      }).join('')}</div>
+      ${feedback}
+    </article>
+    <div class="latihan-session-actions">
+      <button type="button" class="btn btn-outline" data-action="previous" ${state.idx === 0 ? 'disabled' : ''}>Sebelumnya</button>
+      <button type="button" class="btn btn-primary" data-action="next" ${selected == null ? 'disabled' : ''}>${state.idx === state.soal.length - 1 ? 'Lihat hasil' : 'Soal berikutnya'}</button>
+    </div>`;
+
+  $('#latihan-sesi').querySelector('[data-action="menu"]').addEventListener('click', () => {
+    showEditLatihanConfirmation();
+  });
+  $('#latihan-sesi').querySelector('[data-action="cancel"]').addEventListener('click', showCancelLatihanConfirmation);
+  $('#latihan-sesi').querySelector('[data-action="previous"]').addEventListener('click', () => {
+    if (state.idx > 0) {
+      state.idx -= 1;
+      renderLatihanQuestion();
+    }
+  });
+  $('#latihan-sesi').querySelectorAll('[data-answer]').forEach((button) => {
+    button.addEventListener('click', () => {
+      state.jawaban[state.idx] = Number(button.dataset.answer);
+      renderLatihanQuestion();
+    });
+  });
+  $('#latihan-sesi').querySelector('[data-action="next"]').addEventListener('click', () => {
+    if (state.jawaban[state.idx] == null) return;
+    if (state.idx + 1 < state.soal.length) {
+      state.idx += 1;
+      renderLatihanQuestion();
+    } else {
+      state.finished = true;
+      renderLatihanResults();
+    }
+  });
+  if (shouldFocusMenu) $('#latihan-sesi').querySelector('[data-action="menu"]').focus();
+}
+
+function showEditLatihanConfirmation() {
+  const confirmation = $('#latihan-cancel-confirm');
+  confirmation.classList.remove('hidden');
+  confirmation.innerHTML = `
+    <div><b>Kembali ke pengaturan?</b><p>Jawaban sesi ini tidak disimpan jika pengaturan latihan diubah.</p></div>
+    <div class="latihan-confirm-actions">
+      <button type="button" class="btn btn-outline btn-sm" data-edit-stay>Lanjut mengerjakan</button>
+      <button type="button" class="btn btn-primary btn-sm" data-edit-confirm>Ubah pengaturan</button>
+    </div>`;
+  confirmation.querySelector('[data-edit-stay]').addEventListener('click', () => confirmation.classList.add('hidden'));
+  confirmation.querySelector('[data-edit-confirm]').addEventListener('click', () => {
+    latihanState = { kat: latihanState.kat, subs: [...latihanState.subs], jumlah: latihanState.jumlah, soal: [], jawaban: {}, idx: 0, finished: false, started: false };
+    confirmation.classList.add('hidden');
+    $('#latihan-sesi').classList.add('hidden');
+    $('#latihan-hasil').classList.add('hidden');
+    $('#latihan-setup').classList.remove('hidden');
+    renderLatihanSetup();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    $('#latihan-kategori').focus();
+  });
+  confirmation.querySelector('[data-edit-stay]').focus();
+}
+
+function showCancelLatihanConfirmation() {
+  const confirmation = $('#latihan-cancel-confirm');
+  confirmation.classList.remove('hidden');
+  confirmation.innerHTML = `
+    <div><b>Akhiri latihan?</b><p>Progres sesi ini tidak disimpan.</p></div>
+    <div class="latihan-confirm-actions">
+      <button type="button" class="btn btn-outline btn-sm" data-cancel-stay>Lanjut mengerjakan</button>
+      <button type="button" class="btn btn-danger-outline btn-sm" data-cancel-confirm>Keluar</button>
+    </div>`;
+  confirmation.querySelector('[data-cancel-stay]').addEventListener('click', () => confirmation.classList.add('hidden'));
+  confirmation.querySelector('[data-cancel-confirm]').addEventListener('click', () => {
+    latihanState = { kat: latihanState.kat, subs: [...latihanState.subs], jumlah: latihanState.jumlah, soal: [], jawaban: {}, idx: 0, finished: false, started: false };
+    $('#latihan-cancel-confirm').classList.add('hidden');
+    $('#latihan-sesi').classList.add('hidden');
+    $('#latihan-hasil').classList.add('hidden');
+    $('#latihan-setup').classList.remove('hidden');
+    renderLatihanSetup();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  });
+  confirmation.querySelector('[data-cancel-stay]').focus();
+}
+
+function scoreLatihanQuestion(question, answer) {
+  if (answer == null) return 0;
+  if (Array.isArray(question.skor_pilihan) && question.skor_pilihan[answer] != null) {
+    return Number(question.skor_pilihan[answer]);
+  }
+  if (answer === question.kunci) return 5;
+  return question.kat === 'TKP' ? 1 : 0;
+}
+
+function renderLatihanResults() {
+  const state = latihanState;
+  const correct = state.soal.filter((question, index) => state.jawaban[index] === question.kunci).length;
+  const score = state.soal.reduce((sum, question, index) => sum + scoreLatihanQuestion(question, state.jawaban[index]), 0);
+  $('#latihan-sesi').classList.add('hidden');
+  const result = $('#latihan-hasil');
+  result.classList.remove('hidden');
+  result.innerHTML = `
+    <div class="latihan-result-head card">
+      <button type="button" class="latihan-exit-link latihan-result-back" data-action="menu">← Kembali ke pengaturan</button>
+      <p class="eyebrow">LATIHAN SELESAI · ${esc(state.kat)}</p>
+      <h3>${correct} <span class="muted">/ ${state.soal.length} benar</span></h3>
+      <p class="card-sub">Skor latihan: ${score} dari ${state.soal.length * 5}</p>
+      <button type="button" class="btn btn-primary" data-action="again">Atur latihan baru</button>
+    </div>
+    <h3 class="latihan-review-title">Kunci dan pembahasan</h3>
+    <div class="latihan-review-list">${state.soal.map((question, index) => {
+      const answer = state.jawaban[index];
+      const right = answer === question.kunci;
+      return `<article class="latihan-review card">
+        <div class="qhead"><span class="badge">${esc(question.kat)} · ${esc(question.sub)}</span><span class="badge ${right ? 'review-correct' : 'review-wrong'}">${right ? 'Benar' : 'Perlu ditinjau'}</span></div>
+        <p class="latihan-question-text">${index + 1}. ${esc(question.teks)}</p>
+        <ol class="latihan-review-options" type="A">${question.pilihan.map((option, optionIndex) => {
+          const cls = optionIndex === question.kunci ? 'review-key' : (optionIndex === answer ? 'review-selected-wrong' : '');
+          return `<li class="${cls}">${esc(option)}${optionIndex === question.kunci ? ' <b>· kunci</b>' : (optionIndex === answer ? ' <b>· jawabanmu</b>' : '')}</li>`;
+        }).join('')}</ol>
+        ${question.pembahasan ? `<div class="pembahasan">${esc(question.pembahasan)}</div>` : ''}
+      </article>`;
+    }).join('')}</div>`;
+  result.querySelector('[data-action="again"]').addEventListener('click', () => {
+    result.classList.add('hidden');
+    $('#latihan-setup').classList.remove('hidden');
+    renderLatihanSetup();
+  });
+  result.querySelector('[data-action="menu"]').addEventListener('click', () => {
+    result.classList.add('hidden');
+    $('#latihan-setup').classList.remove('hidden');
+    renderLatihanSetup();
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    $('#latihan-kategori').focus();
+  });
 }
 
 // ---------- beranda ----------

@@ -291,24 +291,6 @@
   "sumber": "E-BOOK CPNS 1/Salinan Ebook mini Materi CPNS TWK TIU TKP lengkap.pdf"
  },
  {
-  "id": 405,
-  "kat": "TIU",
-  "sub": "Antonim",
-  "teks": "Pembahasan TOP",
-  "pilihan": [
-   "TES ANALOGI KATA",
-   "Buku : Lemari",
-   "Buku : Rak",
-   "Buku : Kotak",
-   "Buku : Kardus",
-   "Buku : Meja"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
   "id": 484,
   "kat": "TIU",
   "sub": "Analogi",
@@ -379,60 +361,6 @@
   "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
  },
  {
-  "id": 548,
-  "kat": "TWK",
-  "sub": "Bahasa Indonesia",
-  "teks": "Pembahasan TOP",
-  "pilihan": [
-   "MPR",
-   "DPR",
-   "Rapat Kabinet Paripurna",
-   "Rapat Kabinet Terbatas",
-   "DPD",
-   "Tiga"
-  ],
-  "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
-  "id": 549,
-  "kat": "TWK",
-  "sub": "Tata Negara",
-  "teks": "Pembahasan TOP",
-  "pilihan": [
-   "9",
-   "10",
-   "11",
-   "12",
-   "13",
-   "I"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
-  "id": 550,
-  "kat": "CAMPUR",
-  "sub": "Tata Negara",
-  "teks": "Pembahasan TOP",
-  "pilihan": [
-   "Ideologi",
-   "Liberalisme",
-   "Sosialisme",
-   "Fundamentalisme",
-   "Marxisme (Komunisme)",
-   "Nasionalisme"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
   "id": 597,
   "kat": "CAMPUR",
   "sub": "Umum",
@@ -473,24 +401,6 @@
   "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
  },
  {
-  "id": 638,
-  "kat": "TIU",
-  "sub": "Deret Angka",
-  "teks": "Deret Huruf",
-  "pilihan": [
-   "Logika Gambar",
-   "Pemecahan Masalah Bersayarat",
-   "Pekerja pasti mengerjakan tahap G",
-   "Pekerja juga mengerjakan tahap J",
-   "Pekerja mengerjakan tahap H",
-   "Pekerja juga mengerjakan tahap K"
-  ],
-  "kunci": 3,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
   "id": 639,
   "kat": "TIU",
   "sub": "Deret Angka",
@@ -508,45 +418,6 @@
    4,
    1
   ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
-  "id": 640,
-  "kat": "TIU",
-  "sub": "Deret Angka",
-  "teks": "Diurutkan dari yang termiskin hingga yang",
-  "pilihan": [
-   "Tari, Riri, Usri, Putri,Qori dan Usri",
-   "Usri, Riri,,Putri,Tari, Qori dan Sari",
-   "Usri,Riri,Tari Qori, Putrid dan Sari",
-   "Usri Riri, Tari, Qori Putri dan Sari."
-  ],
-  "kunci": 3,
-  "skor_pilihan": [
-   1,
-   2,
-   3,
-   5
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
-  "id": 641,
-  "kat": "TIU",
-  "sub": "Deret Angka",
-  "teks": "Kunci : A",
-  "pilihan": [
-   "Ulet",
-   "Berani",
-   "Jujur",
-   "Rajin",
-   "Disiplin",
-   "Sedih dan tidak mau berusaha mendapatkan reward tahunan lagi"
-  ],
-  "kunci": 2,
-  "skor_pilihan": null,
   "pembahasan": null,
   "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
  },
@@ -735,52 +606,6 @@
   "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
  },
  {
-  "id": 650,
-  "kat": "TIU",
-  "sub": "Deret Angka",
-  "teks": "Anda mempunyai pimpinan baru di",
-  "pilihan": [
-   "Bersikap sopan kepadanya",
-   "Memperkenalkan diri Anda",
-   "Bersikap ramah dan hormat",
-   "Memberitahunya rekan -rekan Anda",
-   "Biarkan waktu saja yang"
-  ],
-  "kunci": 3,
-  "skor_pilihan": [
-   4,
-   2,
-   3,
-   5,
-   1
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
-  "id": 651,
-  "kat": "TIU",
-  "sub": "Deret Angka",
-  "teks": "Sepulang dari kantor, Anda akan...",
-  "pilihan": [
-   "Pulang ke rumah",
-   "Membelikan makanan untuk",
-   "Membawa cerita baru dari kantor",
-   "Tidak mempersiapkan apa pun",
-   "Segera beristirahat saja"
-  ],
-  "kunci": 1,
-  "skor_pilihan": [
-   1,
-   5,
-   3,
-   2,
-   4
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
   "id": 652,
   "kat": "TIU",
   "sub": "Deret Angka",
@@ -799,29 +624,6 @@
    1,
    5,
    2
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
-  "id": 653,
-  "kat": "TIU",
-  "sub": "Deret Angka",
-  "teks": "Ketika muncul suatu masalah dalam",
-  "pilihan": [
-   "Akan bertanggung jawab",
-   "Membiarkan masalah tetap",
-   "Melihat dulu adakah orang lain yang",
-   "Mungkin ada pihak lain yang",
-   "Mempertimbangkan kemungkinan"
-  ],
-  "kunci": 0,
-  "skor_pilihan": [
-   5,
-   4,
-   1,
-   2,
-   3
   ],
   "pembahasan": null,
   "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
@@ -868,75 +670,6 @@
    3,
    4,
    5
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
-  "id": 656,
-  "kat": "TIU",
-  "sub": "Deret Angka",
-  "teks": "Ketika berkunjung ke kantor klien yang",
-  "pilihan": [
-   "Menerimanya sepanjang tidak",
-   "Mengembalikan dengan halus",
-   "Marah karena klien telah berusaha",
-   "Menolak bila disuruh atasan",
-   "Menolak karena Anda tahu itu"
-  ],
-  "kunci": 4,
-  "skor_pilihan": [
-   4,
-   3,
-   2,
-   1,
-   5
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
-  "id": 657,
-  "kat": "TIU",
-  "sub": "Deret Angka",
-  "teks": "Sehubungan dengan pekerjaan Anda,",
-  "pilihan": [
-   "Tetap makan dengan jumlah tersebut",
-   "Makan dengan jumlah yang",
-   "Makan secukupnya tapi memalsukan",
-   "Makan secukupnya dengan kwitansi",
-   "Ikut bagaimana rekan saya yang lain"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   3,
-   4,
-   5,
-   2,
-   1
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
-  "id": 658,
-  "kat": "TIU",
-  "sub": "Deret Angka",
-  "teks": "Tugas Anda harus diselesaikan dalam",
-  "pilihan": [
-   "Menyelesaikan tugas yang lainnya",
-   "Menumpuk tugas tersebut pada",
-   "Membiarkan tugas tersebut hingga",
-   "Menyelesaikan tugas tersebut",
-   "Menyelesaikan tugas jika ada yang"
-  ],
-  "kunci": 3,
-  "skor_pilihan": [
-   1,
-   3,
-   4,
-   5,
-   2
   ],
   "pembahasan": null,
   "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
@@ -1011,29 +744,6 @@
   "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
  },
  {
-  "id": 662,
-  "kat": "TIU",
-  "sub": "Deret Angka",
-  "teks": "Jika mengalalami kegagalan dalam",
-  "pilihan": [
-   "Mencari bantuan untuk jalan keluar",
-   "Menganggap kegagalan sebagai",
-   "Akan berusaha terus untuk mencoba",
-   "Kecewa tetapi masih ada semangat",
-   "Merasa kehilangan semangat untuk"
-  ],
-  "kunci": 4,
-  "skor_pilihan": [
-   4,
-   2,
-   3,
-   1,
-   5
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
   "id": 663,
   "kat": "TIU",
   "sub": "Deret Angka",
@@ -1098,29 +808,6 @@
    2,
    1,
    5
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
-  "id": 666,
-  "kat": "TIU",
-  "sub": "Deret Angka",
-  "teks": "Ketika Anda membawa anak Anda ke",
-  "pilihan": [
-   "Menolaknya karena harganya mahal",
-   "Menolaknya karena Anda mau ia",
-   "Segera membelikannya karena ia",
-   "Menolaknya karena hal tersebut tak",
-   "Mengabulkannya karena Anda takut"
-  ],
-  "kunci": 1,
-  "skor_pilihan": [
-   2,
-   5,
-   1,
-   4,
-   3
   ],
   "pembahasan": null,
   "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
@@ -1218,29 +905,6 @@
   "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
  },
  {
-  "id": 671,
-  "kat": "TIU",
-  "sub": "Deret Angka",
-  "teks": "Menurut Anda, PNS yang baik itu adalah",
-  "pilihan": [
-   "Bekerja untuk memenuhi kebutuhan",
-   "Melayani masyarakat dengan",
-   "Bekerja jika ada bayarannya saja",
-   "Profesional dan jujur dalam bekerja",
-   "Senang membantu mereka yang"
-  ],
-  "kunci": 3,
-  "skor_pilihan": [
-   4,
-   1,
-   2,
-   5,
-   3
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
   "id": 672,
   "kat": "TIU",
   "sub": "Deret Angka",
@@ -1260,24 +924,6 @@
    4,
    5
   ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
-  "id": 678,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "Tiga tuntutan ke pada pemerintah yang 143. Ternyata pengantri nomor 23, 51, dan",
-  "pilihan": [
-   "Meningkatkan daya saing ASEAN sebagi",
-   "Menarik investasi asing langsung ke",
-   "Tahap pertama adalah P emilu untuk",
-   "Tahap kedua adalah Pemilu untuk",
-   "Ketuhanan Yang Maha Esa",
-   "Kemanusiaan yang adil dan beradab"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
   "pembahasan": null,
   "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
  },
@@ -1466,29 +1112,6 @@
   "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
  },
  {
-  "id": 741,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "Menurut Anda, PNS yang baik itu adalah",
-  "pilihan": [
-   "Bekerja untuk memenuhi kebutuhan",
-   "Melayani masyarakat dengan sepenuh",
-   "Bekerja jika ada bayarannya saja",
-   "Profesional dan jujur dalam bekerja",
-   "Senang membantu mereka yang sedang"
-  ],
-  "kunci": 1,
-  "skor_pilihan": [
-   2,
-   5,
-   1,
-   4,
-   3
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
   "id": 742,
   "kat": "CAMPUR",
   "sub": "Umum",
@@ -1581,29 +1204,6 @@
   "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
  },
  {
-  "id": 746,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "Saya baru saja dimutasikan ke unit lain yang",
-  "pilihan": [
-   "Berusaha memahami mekanisme kerja",
-   "Jarang masuk karena belum jelas apa",
-   "Duduk-duduk saja sambil menunggu",
-   "Berusaha mempelajari dan memahami",
-   "Memahami proses pekerjaan yang"
-  ],
-  "kunci": 3,
-  "skor_pilihan": [
-   3,
-   1,
-   2,
-   5,
-   4
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
   "id": 747,
   "kat": "CAMPUR",
   "sub": "Umum",
@@ -1650,29 +1250,6 @@
   "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
  },
  {
-  "id": 749,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "Anak saya sedang sakit dan harus dirawat di",
-  "pilihan": [
-   "Meminta pengertian kepada atasan Anda",
-   "Meminta pengertian kepada keluarga",
-   "Tetap membawa anak Anda ke rumah",
-   "Lembur di kantor dan meminta keluarga",
-   "Meminta rekan kerja Anda yang lain"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   2,
-   3,
-   5,
-   4,
-   1
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
   "id": 750,
   "kat": "CAMPUR",
   "sub": "Umum",
@@ -1714,29 +1291,6 @@
    3,
    2,
    1
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
-  "id": 752,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "Saya ditawarkan oleh pimpinan untuk",
-  "pilihan": [
-   "Menolak tawaran tersebut",
-   "Menerima tawaran tersebut dengan",
-   "Menerima tawaran tersebut dengan",
-   "Menolak tawaran tersebut namun mohon",
-   "Menerima tawaran tersebut dan"
-  ],
-  "kunci": 4,
-  "skor_pilihan": [
-   1,
-   3,
-   4,
-   2,
-   5
   ],
   "pembahasan": null,
   "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
@@ -2317,29 +1871,6 @@
   "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
  },
  {
-  "id": 836,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "Keuntungan utama yang dapat diperoleh dari pelayanan dan",
-  "pilihan": [
-   "Mempercepat proses integrasi bangsa Indonesia.",
-   "Budaya salah satu daerah musnah",
-   "Saling mengenal suku-suku bangsa.",
-   "Menimbulkan persaudaraan antar pulau dan antar daerah",
-   "Perkawinan antar suku dan antar daerah"
-  ],
-  "kunci": 1,
-  "skor_pilihan": [
-   3,
-   5,
-   4,
-   1,
-   2
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
   "id": 837,
   "kat": "CAMPUR",
   "sub": "Umum",
@@ -2427,29 +1958,6 @@
    2,
    4,
    5
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
-  "id": 841,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "Perjuangan bangsa Indonesia melawan penjajah terjadi karena",
-  "pilihan": [
-   "Peranan bahasa Melayu sebagai bahasa persatuan",
-   "Kesadaran bangsa Indonesia akan harga dirinya sebagai",
-   "Sebagian besar bangsa Indonesia beragama Islam",
-   "Timbul kaum cerdik pandai akibat politik etis",
-   "Pengaruh pergerakan kebangsaan Filipina"
-  ],
-  "kunci": 3,
-  "skor_pilihan": [
-   1,
-   3,
-   2,
-   5,
-   4
   ],
   "pembahasan": null,
   "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
@@ -2593,29 +2101,6 @@
   "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
  },
  {
-  "id": 848,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "Pada tanggal 14 April 1949 atas inisiatif Komisi PBB untuk",
-  "pilihan": [
-   "Van Royen",
-   "Van Der Velde",
-   "Merle Cochran",
-   "Sir Achibald Clark Keer",
-   "Walter Foote"
-  ],
-  "kunci": 4,
-  "skor_pilihan": [
-   1,
-   2,
-   3,
-   4,
-   5
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
   "id": 849,
   "kat": "CAMPUR",
   "sub": "Umum",
@@ -2754,52 +2239,6 @@
   "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
  },
  {
-  "id": 855,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "Dalam KTT VI yang diselenggarakan di Havana, Kuba dari",
-  "pilihan": [
-   "Democracy",
-   "Dehidration",
-   "Development",
-   "Detente",
-   "Decolonization"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   2,
-   4,
-   5,
-   3,
-   1
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
-  "id": 856,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "Pada tanggal 3 Agustus 1995 Vietnam dinyatakan sebagai",
-  "pilihan": [
-   "Industri",
-   "Pasar",
-   "Kapitalis",
-   "Liberalis",
-   "Terpimpin"
-  ],
-  "kunci": 1,
-  "skor_pilihan": [
-   3,
-   5,
-   2,
-   4,
-   1
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
   "id": 857,
   "kat": "CAMPUR",
   "sub": "Umum",
@@ -2870,23 +2309,6 @@
    "penetapan UUD 1945."
   ],
   "kunci": 4,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
- },
- {
-  "id": 1115,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Alat perlengkapan Perserikatan Bangsa-Bangsa (P BB) yang bertugas mengatur organisasi dan",
-  "pilihan": [
-   "Dewan Ekonomi dan Sosial.",
-   "Majelis Umum.",
-   "Sekretariat Jendral.",
-   "Tata Usaha Negara /Bangsa-Bangsa.",
-   "Dewan Perwakilan Negara."
-  ],
-  "kunci": 2,
   "skor_pilihan": null,
   "pembahasan": null,
   "sumber": "E-BOOK CPNS 1/Salinan Superbank kisi² masuk cpns dan bumn.pdf"
@@ -3319,40 +2741,6 @@
   "sumber": "LATIHAN SOAL CPNS 2/Salinan 5.3 TWK Bahasa Indonesia.pdf"
  },
  {
-  "id": 1689,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Masa pendudukan Jepang di Indonesia sangat mendoron g penggunaan dan",
-  "pilihan": [
-   "pemerintah Jepang mengganti bahasa Belanda di s ekolah-sekolah dengan",
-   "pemerintah Jepang melarang segala bentuk penggu naan bahasa Belanda dan",
-   "pemerintah Jepang mengalami kesukaran mengemban gkan bahasa daerah",
-   "pemerintah Jepang menganggap bahasa Indonesia m emiliki potensi yang",
-   "penggunaan bahasa Jepang di Indonesia lebih mud ah ditingkatkan melalui"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 2/Salinan 5.3 TWK Bahasa Indonesia.pdf"
- },
- {
-  "id": 1691,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Kalimat utama paragraf pertama bacaan di atas terdapat pada ...",
-  "pilihan": [
-   "kalimat awal",
-   "kalimat tengah",
-   "kalimat akhir",
-   "kalimat awal dan akhir",
-   "tidak ada kalimat utamanya"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 2/Salinan 5.3 TWK Bahasa Indonesia.pdf"
- },
- {
   "id": 1692,
   "kat": "TWK",
   "sub": "Umum",
@@ -3365,40 +2753,6 @@
    "suruhan"
   ],
   "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 2/Salinan 5.3 TWK Bahasa Indonesia.pdf"
- },
- {
-  "id": 1693,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Pernyataan di bawah ini yang sesuai dengan bacaan di atas adalah ...",
-  "pilihan": [
-   "kemajuan desa tergantung pada kemajuan kota",
-   "kemajuan kota tergantung pada perhatian orang desa",
-   "kemajuan pembangunan kota mengangkat derajat or ang desa",
-   "kota-kota kecil pasti akan menjadi kota besar",
-   "kota baru sebagai prospek bagi masyarakat pedes aan"
-  ],
-  "kunci": 4,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 2/Salinan 5.3 TWK Bahasa Indonesia.pdf"
- },
- {
-  "id": 1694,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Ayah berseru kepada Amin, \"Amin, kirimkan surat itu kepada pamanmu,",
-  "pilihan": [
-   "Ayah berseru kepada Amin agar dikirimi surat Fr edy",
-   "Ayah berseru agar Fredy mengirimkan surat kepad a Amin",
-   "Seruan ayahnya mengisyaratkan bahwa Amin mengir imkan surat kepada",
-   "Ayah berseru agarAmin mengirimkan surat kepada Fredy",
-   "Amin disuruh ayahnya agar mengirimkan surat kep ada Fredy"
-  ],
-  "kunci": 3,
   "skor_pilihan": null,
   "pembahasan": null,
   "sumber": "LATIHAN SOAL CPNS 2/Salinan 5.3 TWK Bahasa Indonesia.pdf"
@@ -3791,24 +3145,6 @@
    "Piala : nobel"
   ],
   "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 2/Salinan 6.3 Tes Intelegensi Umum - TIU 03.pdf"
- },
- {
-  "id": 1723,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "SANGKURIANG: SUNDA = 30. TEMPERAMEN : WATAK = 31. TELEPON : BELL = mesin jahit : 32. PERANGKAT ALAT MUSIK : PIANO = perangkat gamelan : 33. DIRGAHAYU : ULANG TAHUN = Selamat Berbahagia : 34. BUMI : MATAHARI = bulan :",
-  "pilihan": [
-   "Oedipus : yunani",
-   "Rangawarsita : jawa",
-   "Himalaya : nepal",
-   "Gangga : India",
-   "Tensing : tibet",
-   "Sebab : akibat"
-  ],
-  "kunci": 0,
   "skor_pilihan": null,
   "pembahasan": null,
   "sumber": "LATIHAN SOAL CPNS 2/Salinan 6.3 Tes Intelegensi Umum - TIU 03.pdf"
@@ -4237,22 +3573,6 @@
   "sumber": "LATIHAN SOAL CPNS 2/Salinan 6.3 Tes Intelegensi Umum - TIU 03.pdf"
  },
  {
-  "id": 1752,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Jika x= luar bujur sangkar yang panjang sisinya = 10cm dan y=luas lingkaran yang",
-  "pilihan": [
-   "x>y",
-   "x<y",
-   "x=y",
-   "Hubungan anta x dan y tak dapat ditentukan"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 2/Salinan 6.3 Tes Intelegensi Umum - TIU 03.pdf"
- },
- {
   "id": 1753,
   "kat": "TIU",
   "sub": "Umum",
@@ -4320,56 +3640,6 @@
   "sumber": "LATIHAN SOAL CPNS 2/Salinan 6.3 Tes Intelegensi Umum - TIU 03.pdf"
  },
  {
-  "id": 1757,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Jika tabung P tingginya dua kali tabung Q dan panjang jari-jarinya setengah dari",
-  "pilihan": [
-   "1:4",
-   "1:2",
-   "1:1",
-   "2:1",
-   "4:1"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 2/Salinan 6.3 Tes Intelegensi Umum - TIU 03.pdf"
- },
- {
-  "id": 1758,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Seorang berjalan dari titik A ke timur sejauh 4 m lalu ke selatan sejauh 3 m,",
-  "pilihan": [
-   "17, 87 m",
-   "18:49m",
-   "18,85 m",
-   "17,00 m",
-   "19,40 m"
-  ],
-  "kunci": 3,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 2/Salinan 6.3 Tes Intelegensi Umum - TIU 03.pdf"
- },
- {
-  "id": 1759,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Jika x adalah bilangan positif terkecil yang habis dibagi 14 dan 21 dan y adalah",
-  "pilihan": [
-   "x>y",
-   "x<y",
-   "x=y",
-   "Hubungan anta x dan y tak dapat ditentukan"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 2/Salinan 6.3 Tes Intelegensi Umum - TIU 03.pdf"
- },
- {
   "id": 1760,
   "kat": "TIU",
   "sub": "Umum",
@@ -4381,22 +3651,6 @@
    "Hubungan anta x dan y tak dapat ditentukan"
   ],
   "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 2/Salinan 6.3 Tes Intelegensi Umum - TIU 03.pdf"
- },
- {
-  "id": 1761,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Jika x=V72 – V78 dan y=1/74 – 1/76, maka",
-  "pilihan": [
-   "x>y",
-   "x<y",
-   "x=y",
-   "Hubungan anta x dan y tak dapat ditentukan"
-  ],
-  "kunci": 1,
   "skor_pilihan": null,
   "pembahasan": null,
   "sumber": "LATIHAN SOAL CPNS 2/Salinan 6.3 Tes Intelegensi Umum - TIU 03.pdf"
@@ -4429,22 +3683,6 @@
    "Hubungan anta x dan y tak dapat ditentukan"
   ],
   "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 2/Salinan 6.3 Tes Intelegensi Umum - TIU 03.pdf"
- },
- {
-  "id": 1764,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Jika x adalah bilangan positif terkecil y ang habis dibagi 14 dan 21 dan y adalah",
-  "pilihan": [
-   "x>y",
-   "x<y",
-   "x=y",
-   "Hubungan anta x dan y tak dapat ditentukan"
-  ],
-  "kunci": 0,
   "skor_pilihan": null,
   "pembahasan": null,
   "sumber": "LATIHAN SOAL CPNS 2/Salinan 6.3 Tes Intelegensi Umum - TIU 03.pdf"
@@ -4588,52 +3826,6 @@
   "sumber": "LATIHAN SOAL CPNS 2/Salinan 7.1 TES KARAKTERISTIK PRIBADI -TKP 01.pdf"
  },
  {
-  "id": 1771,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Seorang oknum staf HRD Perusahaan menawarkan bantua n kepada saya, untuk",
-  "pilihan": [
-   "Menerima tawaran tersebut, sebab persaingan memang sangat ketat",
-   "Mempertimbangkan terlebih dahulu segala sesuatunya",
-   "Mencoba terlebih dahulu dengan cara resmi sebelum m elalui cara seperti",
-   "Menolaknya. Karena saya ingin diterima dengan cara yang sah, bukan",
-   "Meminta pertimbangan orangtua dan pihak-pih ak yang lebih"
-  ],
-  "kunci": 3,
-  "skor_pilihan": [
-   1,
-   1,
-   1,
-   5,
-   1
-  ],
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 2/Salinan 7.1 TES KARAKTERISTIK PRIBADI -TKP 01.pdf"
- },
- {
-  "id": 1772,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Sebagian rekan kerja pulang 20 menit lebih awal dar i jadwal yang",
-  "pilihan": [
-   "Karena banyak yang melakukannya, mungkin hal itu tidaklah mengapa",
-   "Banyak yang melakukannya sehingga saya pun juga melakukannya",
-   "Demi toleransi, saya ikut melakukannya",
-   "Saya tidak melakukannya agar dinilai sebagai staf yang rajin oleh atasan",
-   "Saya tetap mengikuti aturan yang berlaku sehingga t etap pulang sesuai"
-  ],
-  "kunci": 4,
-  "skor_pilihan": [
-   1,
-   1,
-   1,
-   1,
-   5
-  ],
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 2/Salinan 7.1 TES KARAKTERISTIK PRIBADI -TKP 01.pdf"
- },
- {
   "id": 1773,
   "kat": "TKP",
   "sub": "Umum",
@@ -4746,22 +3938,6 @@
   "sumber": "LATIHAN SOAL CPNS 2/Salinan Pembahasan SOAL KOMPETISI KE-1.pdf"
  },
  {
-  "id": 1859,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "Berikut ini merupakan pernyataan yang berkaitan den gan proses pembentukan BPUPKI,",
-  "pilihan": [
-   "Pada tanggal 20 Mei 1942, Pemerintah Militer Jepang di Jawa mengeluarkan Undang-",
-   "BPUPKI beranggotakan 62 orang pemimpin bangsa Indon esia dan 6 orang anggota",
-   "Pada tanggal 29 April 1945, bertepatan dengan ulang tahun Kaisar Tenno Heika,",
-   "Janji kemerdekaan dan pembentukan BPUPKI merupakan taktik untuk menarik simpati"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 2/Salinan Pembahasan SOAL KOMPETISI KE-1.pdf"
- },
- {
   "id": 1870,
   "kat": "CAMPUR",
   "sub": "Umum",
@@ -4791,24 +3967,6 @@
   "kunci": 0,
   "skor_pilihan": null,
   "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 2/Salinan Pembahasan SOAL KOMPETISI KE-1.pdf"
- },
- {
-  "id": 1922,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "25 /g1876/g2870 + 20x + 4 = 16 maka x adalah ….",
-  "pilihan": [
-   "38%",
-   "39%",
-   "40%",
-   "41%",
-   "42%",
-   "40%"
-  ],
-  "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": "25 /g1876/g2870 + 20x + 4 = 16 (5x + 2 )/g2870 = 16 5x + 2 = 4 5x = 2 X = 2/5 Karena di option dalam bentuk porsentasi, maka harus diolah lagi. menjadi (2/5) * 100 = 40% 93) JAWABAN: C Pembahasan: Pola urutan gambar pada kelompok pertam a adalah Iingkaran hitam pindah tempat pada sudut berikut dan selalu disertai penam bahan satu buah Iingkaran putih atau hitam, sehingga urutan gambar selaujutnya menunjukk an lingkaran awal (hitam) berpindah ke sudut keempat dan banyak lingkaran menjadi lima. 94) KOMPETISI CPNSONLINE KE-1 WWW.CPNSONLINE.COM CPNSONLINE INDONESIA TWK - 44 WWW.CPNSONLINE.COM JAWA",
   "sumber": "LATIHAN SOAL CPNS 2/Salinan Pembahasan SOAL KOMPETISI KE-1.pdf"
  },
  {
@@ -5412,23 +4570,6 @@
   "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (1) Tes Intelegensia Umum.pdf"
  },
  {
-  "id": 2058,
-  "kat": "TWK",
-  "sub": "Bahasa Indonesia",
-  "teks": "Kalimat berikut yang menyatakan fakta adalah",
-  "pilihan": [
-   "Statistik tahunan bandara memperlihatkan bahwa pengguna jasa angkutan udara pada musim libur",
-   "Petugas bandara Soekarno-Hatta memperkirakan 75% pengguna jasa penerbangan adalah pelajar dan",
-   "Harga tiket ditaksir akan mengalami kenaikan drastis di akhir tahun",
-   "Pengguna armada biasanya menggunakan jasa penerbangan domestik tujuan Denpasar",
-   "Kepala Humas Bandara berasumsi bahwa kenaikan penumpang disebabkan oleh banya knya promo"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (1) Tes Intelegensia Umum.pdf"
- },
- {
   "id": 2059,
   "kat": "TWK",
   "sub": "Bahasa Indonesia",
@@ -5735,23 +4876,6 @@
   "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (1) Tes Intelegensia Umum.pdf"
  },
  {
-  "id": 2077,
-  "kat": "TWK",
-  "sub": "Bahasa Indonesia",
-  "teks": "Simpulan dari paragraf tersebut adalah....",
-  "pilihan": [
-   "Sultan Hamengku Buwono X mengharapkan terbitnya buku Kraton Jogja dapat mendorong",
-   "Sultan Hamengku Buwono X mengatakan bahwa melalui buku dan dialog, masyarakat etnik",
-   "Sultan Hamengku Buwono X menilai bahwa pada saat ini ada kecenderungan masyarakat",
-   "Sultan Hamengku Buwono X mengatakan buku Kraton Jogja dapat mengangkat simbol dan",
-   "Sultan Hamengku Buwono X mengharapkan dengan peluncuran buku Kraton Jogja terjadi"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (1) Tes Intelegensia Umum.pdf"
- },
- {
   "id": 2078,
   "kat": "TWK",
   "sub": "Bahasa Indonesia",
@@ -5779,57 +4903,6 @@
    "Seorang raja telah meninggal dan tidak memiliki anak.",
    "Para menteri dan orang besar melakukan musyawarah pemilihan raja.",
    "Hak orang berpendapat untuk memecahkan masalah dalam suatu musyawarah."
-  ],
-  "kunci": 3,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (1) Tes Intelegensia Umum.pdf"
- },
- {
-  "id": 2080,
-  "kat": "TWK",
-  "sub": "Bahasa Indonesia",
-  "teks": "Nilai sosial yang terdapat pada kutipan tersebut adalah....",
-  "pilihan": [
-   "Setiap negara memiliki seorang pemimpin yang dipilih rakyat.",
-   "Memberi kesempatan berbicara kepada semua yang hadir dalam musyawarah.",
-   "Kepemimpinan yang dialihkan kepada perdana menteri oleh raja yang berkuasa.",
-   "Orang tua lebih berpengalaman daripada orang muda dalam berbagai hal.",
-   "Bermusyawarah untuk memberi kesempatan berbicara kepada yang berwenang."
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (1) Tes Intelegensia Umum.pdf"
- },
- {
-  "id": 2081,
-  "kat": "TWK",
-  "sub": "Bahasa Indonesia",
-  "teks": "Amanat cerita dalam kutipan tersebut adalah...",
-  "pilihan": [
-   "Setiap manusia pasti akan meninggal dunia, sekalipun seorang raja.",
-   "Sebaiknya seorang raja memiliki keturunan agar ada yang meneruskan kekuasaannya.",
-   "Segala sesuatu harus diputuskan secara musyawarah mufakat.",
-   "Dalam sebuah musyawarah hendaknya meminta pendapat semua anggota yang hadir.",
-   "Orang yang muda diberi kesempatan menyampaikan gagasannya."
-  ],
-  "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (1) Tes Intelegensia Umum.pdf"
- },
- {
-  "id": 2082,
-  "kat": "TWK",
-  "sub": "Bahasa Indonesia",
-  "teks": "Jasa-jasa ekologi yang terdapat di Kawasan Ekosistem Leuser mencakup penyediaan air bersih,",
-  "pilihan": [
-   "atau, tetapi, sebab",
-   "yaitu, bahkan, bahwa",
-   "serta, yakni, dan",
-   "dan, serta, jika",
-   "karena, misalnya, apabila"
   ],
   "kunci": 3,
   "skor_pilihan": null,
@@ -6087,91 +5160,6 @@
    "Tidak ada a yang bukan B"
   ],
   "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (1) Tes Intelegensia Umum.pdf"
- },
- {
-  "id": 2098,
-  "kat": "TIU",
-  "sub": "Numerik",
-  "teks": "Semua delegasi dalam suatu pertemuan internasional memiliki kemampuan komunikasi yang",
-  "pilihan": [
-   "Semua delegasi dalam suatu pertemuan internasional memiliki rasa percaya diri yang tinggi",
-   "Sebagian delegasi dalam suatu pertemuan internasional yang memiliki rasa percaya diri yang",
-   "Semua delegasi dalam suatu pertemuan internasional yang memiliki rasa percaya di ri yang",
-   "Sebagian delegasi dalam suatu pertemuan internasional yang memiliki rasa percaya diri yang",
-   "Sebagian delegasi dalam suatu pertemuan internasio nal yang memiliki kemampuan"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (1) Tes Intelegensia Umum.pdf"
- },
- {
-  "id": 2099,
-  "kat": "TIU",
-  "sub": "Numerik",
-  "teks": "Pernyataan di bawah ini yang benar adalah ...",
-  "pilihan": [
-   "Didi duduk di antara Gael dan Togi",
-   "Rani duduk dipisahkan 2 kursi dengan Togi",
-   "Rani dan Didi duduk tepat berseberangan",
-   "Togi duduk diseberang Rani",
-   "Michael duduk berhadapan dengan Didi"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (1) Tes Intelegensia Umum.pdf"
- },
- {
-  "id": 2100,
-  "kat": "TIU",
-  "sub": "Numerik",
-  "teks": "Bila Michael dipisahkan oleh 2 kursi dengan Didi, pernyataan dibawah ini yang benar adalah ..",
-  "pilihan": [
-   "Michael dan Rani dipisahkan oleh 2 kursi",
-   "Michael dan Aga duduk berseberangan",
-   "Didi dan Togi duduk berhadapan",
-   "Lala duduk di sebelah Gael",
-   "Rani duduk dekat Togi"
-  ],
-  "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (1) Tes Intelegensia Umum.pdf"
- },
- {
-  "id": 2101,
-  "kat": "TIU",
-  "sub": "Numerik",
-  "teks": "Bila Michael dan Rani duduk berseberangan, pernyataan dibawah ini yang benar adalah ...",
-  "pilihan": [
-   "Gael duduk berhadapan dengan Didi",
-   "Gael duduk disebelah Michael",
-   "Lala duduk di sebelah Didi",
-   "Rani duduk diantara Laura dan Didi",
-   "Didi duduk diantara Aga dan Lala"
-  ],
-  "kunci": 3,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (1) Tes Intelegensia Umum.pdf"
- },
- {
-  "id": 2102,
-  "kat": "TIU",
-  "sub": "Numerik",
-  "teks": "Beberapa kemungkinan dibawah ini yang tidak benar adalah ..",
-  "pilihan": [
-   "Laura duduk diantara Rani dan Gael",
-   "Lala dan Didi dipisahkan oleh Aga",
-   "Michael duduk diantara Togi dan Lala",
-   "Laura dipisahkan 2 kursi dengan Aga",
-   "Didi duduk diantara Gael dan Togi"
-  ],
-  "kunci": 4,
   "skor_pilihan": null,
   "pembahasan": null,
   "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (1) Tes Intelegensia Umum.pdf"
@@ -6483,23 +5471,6 @@
   "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (2) Tes Wawasan Kebangsaan.pdf"
  },
  {
-  "id": 2121,
-  "kat": "TWK",
-  "sub": "Sejarah Nasional",
-  "teks": "Para pemuda ibu kota yang tergabung dengan Komite van Aksi menyambut Proklamasi dengan",
-  "pilihan": [
-   "Lapangan Ikada",
-   "Monumen Nasional",
-   "Jl Pegangsaan Timur 56 Jakarta",
-   "Jl Imam Bonjol Jakarta",
-   "Lapangan Banteng"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (2) Tes Wawasan Kebangsaan.pdf"
- },
- {
   "id": 2122,
   "kat": "TWK",
   "sub": "Sejarah Nasional",
@@ -6628,23 +5599,6 @@
    "Tawan Kapal",
    "Tawan Lebam",
    "Tawan Benda"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (2) Tes Wawasan Kebangsaan.pdf"
- },
- {
-  "id": 2130,
-  "kat": "TWK",
-  "sub": "Sejarah Nasional",
-  "teks": "Usaha pemerintah kolonial mempersatukan nusantara di bawah kekuasaannya, disebut dengan …",
-  "pilihan": [
-   "Lex Nederlainder",
-   "Pax Netherlica",
-   "Ing Wandervoch",
-   "Agregaith Wer",
-   "Trias Politica"
   ],
   "kunci": 1,
   "skor_pilihan": null,
@@ -7451,23 +6405,6 @@
   "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (2) Tes Wawasan Kebangsaan.pdf"
  },
  {
-  "id": 2202,
-  "kat": "TWK",
-  "sub": "Pancasila",
-  "teks": "Berikut ini adalah pengertian negara sebagai organisasi kekuasaan yaitu …..",
-  "pilihan": [
-   "organisasi yang menyatukan kelompok manusia yang kemudian disebut bangsa.",
-   "organisasi kesusilaan yang timbul karena sintesa antara kemerdekaan individu dan",
-   "masyarakat hukum yang dibentuk karena perjanjian masyarakat yang bertujuan untuk",
-   "organisasi yang melaksanakan kehendak anggotanya yang mana kehendak itu dituangkan",
-   "organisasi yang memiliki wewenang berkuasa yang diciptakan oleh sekelompok manusia atau"
-  ],
-  "kunci": 4,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (2) Tes Wawasan Kebangsaan.pdf"
- },
- {
   "id": 2203,
   "kat": "TWK",
   "sub": "Pancasila",
@@ -7597,23 +6534,6 @@
    "Menjamin hak-hak asasi warga negara",
    "Semua jawaban a, b dan c di atas benar",
    "Jawaban a dan c benar"
-  ],
-  "kunci": 3,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (2) Tes Wawasan Kebangsaan.pdf"
- },
- {
-  "id": 2211,
-  "kat": "TWK",
-  "sub": "Pancasila",
-  "teks": "Semua peraturan prundang-undangan dalam suatu negara harus tidak bertentangan dengan",
-  "pilihan": [
-   "Paling bagus",
-   "Paling mengikat",
-   "Paling mendasar",
-   "Paling tinggi",
-   "Paling lengkap"
   ],
   "kunci": 3,
   "skor_pilihan": null,
@@ -7837,23 +6757,6 @@
    "menempatkan kepentingan masyarakat dan golongan daripada kepentingan negara"
   ],
   "kunci": 3,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (2) Tes Wawasan Kebangsaan.pdf"
- },
- {
-  "id": 2225,
-  "kat": "TWK",
-  "sub": "Pancasila",
-  "teks": "Awal kelahiran Pancasila sebagai dasar negara dimulai pada akhir pendudukan Jepang di",
-  "pilihan": [
-   "1940",
-   "1942",
-   "1944",
-   "1945",
-   "1946"
-  ],
-  "kunci": 1,
   "skor_pilihan": null,
   "pembahasan": null,
   "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (2) Tes Wawasan Kebangsaan.pdf"
@@ -8097,23 +7000,6 @@
   "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (2) Tes Wawasan Kebangsaan.pdf"
  },
  {
-  "id": 2240,
-  "kat": "TWK",
-  "sub": "UUD 1945",
-  "teks": "Referendum adalah …",
-  "pilihan": [
-   "Kegiatan meminta pendapat rakyat secara langsung yang menyatakan setuju atau tidak terhadap",
-   "Kegiatan meminta pendapat rakyat secara langsung yang menyatakan setuju atau tidak terhadap",
-   "Kegiatan meminta pendapat rakyat secara langsung yang menyataka n setuju atau tidak terhadap",
-   "Kegiatan meminta pendapat rakyat secara langsung yang menyatakan setuju atau tidak terhadap",
-   "Kegiatan meminta pendapat rakyat secara langsun g yang menyatakan setuju atau tidak terhadap"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (2) Tes Wawasan Kebangsaan.pdf"
- },
- {
   "id": 2241,
   "kat": "TWK",
   "sub": "UUD 1945",
@@ -8352,57 +7238,6 @@
   "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (2) Tes Wawasan Kebangsaan.pdf"
  },
  {
-  "id": 2255,
-  "kat": "TWK",
-  "sub": "UUD 1945",
-  "teks": "Pokok Pikiran Pertama UUD 1945 adalah …",
-  "pilihan": [
-   "Negara yang berkedaulatan rakyat, berdasarkan atas kerakyatan dan permusyawaratan/perwakilan",
-   "Negara berdasarkan atas Ketuhanan Yang Maha Esa menurut dasar kemanuasiaan yang adil dan",
-   "Negara melindungi segenap bangsa Indonesia dan s eluruh tumpah darah Indonesia berdasar asas",
-   "Negara hendak mewujudkan keadilan sosial bagi seluruh rakyat Indonesia",
-   "Negara berlandaskan tujuan memakmurkan rakyat"
-  ],
-  "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (2) Tes Wawasan Kebangsaan.pdf"
- },
- {
-  "id": 2256,
-  "kat": "TWK",
-  "sub": "UUD 1945",
-  "teks": "Pokok Pikiran Kedua UUD 1945 adalah …",
-  "pilihan": [
-   "Negara yang berkedaulatan rakyat, berdasarkan atas kerakyatan dan permusyawaratan/perwakilan",
-   "Negara berdasarkan atas Ketuhanan Yang Maha Esa menurut dasar kemanuasiaan yang adil dan",
-   "Negara melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia berdasar asas",
-   "Negara hendak mewujudkan keadilan sosial bagi seluruh rakyat Indonesia",
-   "Negara berlandaskan tujuan memakmurkan rakyat"
-  ],
-  "kunci": 3,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (2) Tes Wawasan Kebangsaan.pdf"
- },
- {
-  "id": 2257,
-  "kat": "TWK",
-  "sub": "UUD 1945",
-  "teks": "Pokok Pikiran Ketiga UUD 1945 adalah …",
-  "pilihan": [
-   "Negara yang berkedaulatan rakyat, berdasarkan atas kerakyatan dan permusyawaratan/perwakilan",
-   "Negara berdasarkan atas Ketuhanan Yang Maha Esa menurut dasar kemanuasiaan yang adil dan",
-   "Negara melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia berdasar asas",
-   "Negara hendak mewujudkan keadilan sosial bagi seluruh rakyat Indonesia",
-   "Negara berlandaskan tujuan memakmurkan rakyat"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (2) Tes Wawasan Kebangsaan.pdf"
- },
- {
   "id": 2258,
   "kat": "TWK",
   "sub": "UUD 1945",
@@ -8539,23 +7374,6 @@
   "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (2) Tes Wawasan Kebangsaan.pdf"
  },
  {
-  "id": 2266,
-  "kat": "TWK",
-  "sub": "Tata Negara",
-  "teks": "Bentuk pemerintahan ideal yang dipimpin oleh sejumlah orang cendekia dan sesuai dengan",
-  "pilihan": [
-   "Monarki",
-   "Oligarki",
-   "Demokrasi",
-   "Aristokrasi",
-   "Tirani"
-  ],
-  "kunci": 3,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (2) Tes Wawasan Kebangsaan.pdf"
- },
- {
   "id": 2267,
   "kat": "TWK",
   "sub": "Tata Negara",
@@ -8653,23 +7471,6 @@
    "Referendum adalah kegiatan meminta pend apat rakyat secara langsung yang menyatakan"
   ],
   "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (2) Tes Wawasan Kebangsaan.pdf"
- },
- {
-  "id": 2273,
-  "kat": "TWK",
-  "sub": "Tata Negara",
-  "teks": "Zona Ekonomi Ekslusif (ZEE) menurut Hukum Laut Internasional adalah…",
-  "pilihan": [
-   "Wilayah sebelah darat atau sebelah dalam dari garis pangkal",
-   "Suatu wilayah laut yang lebarnya tidak boleh melebihi 24 mil laut diukur dari garis pangkal",
-   "Batas penggalian sumber daya alam yang ada di laut tidak boleh melebihi 200 mil laut dari",
-   "Wilayah laut yang lebarnya tidak melebihi 12 mil laut diukur dari garis pangkal",
-   "Wilayah laut yang kedalamnya masih 200m"
-  ],
-  "kunci": 2,
   "skor_pilihan": null,
   "pembahasan": null,
   "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (2) Tes Wawasan Kebangsaan.pdf"
@@ -8889,23 +7690,6 @@
    "Administrator dan pimpinan tinggi",
    "PNS dan honorer",
    "Penata dan Pembina"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (2) Tes Wawasan Kebangsaan.pdf"
- },
- {
-  "id": 2287,
-  "kat": "TWK",
-  "sub": "Tata Negara",
-  "teks": "Letter of credence dalam hubungan internasional adalah…",
-  "pilihan": [
-   "Surat pemanggilan kembali dari tugas",
-   "Surat keputusan kepala negara mengangkat seseorang sebagai duta dan ditujukan kepada",
-   "Surat keputusan kepala negara yang menyatakan persetujuan terhadap perjanjian bilateral",
-   "Surat keputusan kepala negara yang menyatakan menolak kebijakan suatu negara",
-   "Surat keputusan kepala negara yang menyatakan keikutsertaan dalam suatu forum"
   ],
   "kunci": 1,
   "skor_pilihan": null,
@@ -9585,29 +8369,6 @@
   "sumber": "LATIHAN SOAL CPNS 1/Salinan File 1 - e-book cpns 21.pdf"
  },
  {
-  "id": 2662,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "Anda adalah pegawai pusat yang mendapatkan kanaikan jabatan dan ditempatkan di",
-  "pilihan": [
-   "Melakukan negosiasi agar ditempatkan di kota besar",
-   "Menolak kenaikan pangkat tersebut dengan alasan belum mampu menjalankan amanat",
-   "Mengusulkan teman lain untuk diajukan",
-   "Menerima dan menjalankan tugas tersebut dengan penuh btanggung jawab",
-   "Meminta dimutasi ke divisi lain"
-  ],
-  "kunci": 0,
-  "skor_pilihan": [
-   5,
-   2,
-   3,
-   1,
-   4
-  ],
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 1/Salinan File 1 - e-book cpns 21.pdf"
- },
- {
   "id": 2663,
   "kat": "CAMPUR",
   "sub": "Umum",
@@ -9718,29 +8479,6 @@
    1,
    4,
    3
-  ],
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 1/Salinan File 1 - e-book cpns 21.pdf"
- },
- {
-  "id": 2668,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "Sebagai seorang artis papan atas, anda sedang menyelesaikan sinetron stripping dan",
-  "pilihan": [
-   "Memohon izin cuti beberapa hari",
-   "Tetap melanjutkan shooting karena harus profesional",
-   "Mengkonsumsi suplemen dan vitamin agar bisa tetap fit untuk menyelesaikan shooting",
-   "Pura-pura sakit",
-   "Bekerja asal-asalan"
-  ],
-  "kunci": 4,
-  "skor_pilihan": [
-   3,
-   2,
-   1,
-   4,
-   5
   ],
   "pembahasan": null,
   "sumber": "LATIHAN SOAL CPNS 1/Salinan File 1 - e-book cpns 21.pdf"
@@ -9948,29 +8686,6 @@
    4,
    2,
    5
-  ],
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 1/Salinan File 1 - e-book cpns 21.pdf"
- },
- {
-  "id": 2685,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "Sebelum Piagam Jakarta disahkan menjadi pancasila ada beberapa hal yang diubah oleh",
-  "pilihan": [
-   "Pasal 1 ayat",
-   "Pasal 1 ayat",
-   "Pasal 2 ayat",
-   "Pasal 6 ayat",
-   "Pasal 6 ayat"
-  ],
-  "kunci": 1,
-  "skor_pilihan": [
-   1,
-   2,
-   2,
-   2,
-   1
   ],
   "pembahasan": null,
   "sumber": "LATIHAN SOAL CPNS 1/Salinan File 1 - e-book cpns 21.pdf"
@@ -10201,29 +8916,6 @@
    5,
    1,
    4
-  ],
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 1/Salinan File 1 - e-book cpns 21.pdf"
- },
- {
-  "id": 2829,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "Jika Anda sedang memiliki banyak pekerjaan dan atasan Anda memberi pekerjaan yang",
-  "pilihan": [
-   "Menerimanya dan mengatakan bahwa pekerjaan sebelumnya belum selesai",
-   "Menerimanya dan meminta rekan kerja Anda untuk menyelesaikannya",
-   "Memintanya untuk memberikan pekerjaan tersebut kepada rekan Anda yang lain",
-   "Menolaknya karena Anda sudah memiliki banyak pekerjaan",
-   "Menolaknya karena Anda ingin memberikan pekerjaan juga kepada rekan Anda yang lain"
-  ],
-  "kunci": 0,
-  "skor_pilihan": [
-   5,
-   4,
-   3,
-   2,
-   1
   ],
   "pembahasan": null,
   "sumber": "LATIHAN SOAL CPNS 1/Salinan File 1 - e-book cpns 21.pdf"
@@ -11390,23 +10082,6 @@
   "sumber": "E-BOOK CPNS 2/Salinan [LITBANG GAZA MEDIA] PANDUAN SUKSES TES CPNS 2020-2021.pdf"
  },
  {
-  "id": 4368,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "Ketika ketua RT Anda membutuhkan warganya untuk melakukan kerja bakti di",
-  "pilihan": [
-   "Tetap ikut dalam kerja bakti walau Anda sedang punya tugas mendadak",
-   "Menemui Pak RT dan warga dengan membawa maaf dan makanan",
-   "Meminta salah seorang pekerja Anda untuk ikut serta dalam kerja bakti",
-   "Tidak ambil peduli dengan semua yang terjadi",
-   "Meminta orang lain untuk mewakili Anda dalam kerja bakti tersebut"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 2/Salinan [LITBANG GAZA MEDIA] PANDUAN SUKSES TES CPNS 2020-2021.pdf"
- },
- {
   "id": 4394,
   "kat": "CAMPUR",
   "sub": "Umum",
@@ -11506,23 +10181,6 @@
    "konsultatif"
   ],
   "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL SKD CPNS/Salinan 100 SOAL TWK-1.pdf"
- },
- {
-  "id": 4604,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Berikut ini adalah pengertian negara sebagai organisasi kekuasaan yaitu …..",
-  "pilihan": [
-   "organisasi yang menyatukan kelompok manusia yang kemudian disebut",
-   "organisasi kesusilaan yang timbul karena sintesa antara kemerdekaan individu",
-   "masyarakat hukum yang dibentuk karena perjanjian masyarakat yang",
-   "organisasi yang melaksanakan kehendak anggotanya yang mana kehendak itu",
-   "organisasi yang memiliki wewenang berkuasa yang dicipt akan oleh"
-  ],
-  "kunci": 4,
   "skor_pilihan": null,
   "pembahasan": null,
   "sumber": "LATIHAN SOAL SKD CPNS/Salinan 100 SOAL TWK-1.pdf"
@@ -11647,23 +10305,6 @@
   "sumber": "LATIHAN SOAL SKD CPNS/Salinan 100 SOAL TWK-1.pdf"
  },
  {
-  "id": 4612,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Perhatikan beberapa kegiatan di bawah ini:",
-  "pilihan": [
-   "1, 2, 3",
-   "1, 3, 4",
-   "2, 3, 4",
-   "2, 4, 5",
-   "3, 4, 5"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL SKD CPNS/Salinan 100 SOAL TWK-1.pdf"
- },
- {
   "id": 4613,
   "kat": "TWK",
   "sub": "Umum",
@@ -11693,23 +10334,6 @@
    "pertimbangan"
   ],
   "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL SKD CPNS/Salinan 100 SOAL TWK-1.pdf"
- },
- {
-  "id": 4615,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Perhatikan pilihan di bawah ini:",
-  "pilihan": [
-   "1, 2",
-   "2, 3",
-   "3, 4",
-   "4, 5",
-   "5, 6"
-  ],
-  "kunci": 0,
   "skor_pilihan": null,
   "pembahasan": null,
   "sumber": "LATIHAN SOAL SKD CPNS/Salinan 100 SOAL TWK-1.pdf"
@@ -11812,23 +10436,6 @@
    "bertanggung jawab kepada rakyat."
   ],
   "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL SKD CPNS/Salinan 100 SOAL TWK-1.pdf"
- },
- {
-  "id": 4622,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Berikut ini merupakan kelemahan sistem pemerintahan presidensiil yang",
-  "pilihan": [
-   "badan eksekutif lebih stabil kedudukannya karena tidak tergantung pada",
-   "masa jabatan badan eksekutif lebih jelas dengan jangka waktu lima tahun.",
-   "penyusun program kerja kabinet mudah disesuaikan dengan jangka waktu",
-   "kekuasaan eksekutif diluar pengawasan langsung legislatif sehingga dapat",
-   "legislatif bukan tempat kade risasi untuk jabatan -jabatan eksekutif karena"
-  ],
-  "kunci": 3,
   "skor_pilihan": null,
   "pembahasan": null,
   "sumber": "LATIHAN SOAL SKD CPNS/Salinan 100 SOAL TWK-1.pdf"
@@ -11987,23 +10594,6 @@
   "sumber": "LATIHAN SOAL SKD CPNS/Salinan 100 SOAL TWK-1.pdf"
  },
  {
-  "id": 4632,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Perhatikan pernyataan berikut:",
-  "pilihan": [
-   "1, 2",
-   "2, 3",
-   "3, 4",
-   "4, 5",
-   "5, 6"
-  ],
-  "kunci": 4,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL SKD CPNS/Salinan 100 SOAL TWK-1.pdf"
- },
- {
   "id": 4633,
   "kat": "TWK",
   "sub": "Umum",
@@ -12033,23 +10623,6 @@
    "masyarakat menjadi malas bekerja."
   ],
   "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL SKD CPNS/Salinan 100 SOAL TWK-1.pdf"
- },
- {
-  "id": 4635,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Pembaharuan yang sangat mendasar bagi pers nasional dengan",
-  "pilihan": [
-   "pers diberi kebebasan seluas -luasnya untuk memberikan informasi kepada",
-   "Pers tidak lagi diperlukan kode etik dalam kegiatan jurnalistik.",
-   "Urusan ijin terbit dipermudah dan lancar, serta surat ijin tidak lagi diperlukan.",
-   "Pers dibebaskan dari segala tuntutan hukum jika terjadi pemberitaan yang",
-   "Pers dib eri kesempatan seluas -luasnya untuk menggali informasi di"
-  ],
-  "kunci": 2,
   "skor_pilihan": null,
   "pembahasan": null,
   "sumber": "LATIHAN SOAL SKD CPNS/Salinan 100 SOAL TWK-1.pdf"
@@ -12719,23 +11292,6 @@
   "sumber": "LATIHAN SOAL SKD CPNS/Salinan CAT-TWK-Tes-Wawasan-Kebangsaan.pdf"
  },
  {
-  "id": 5062,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Dalam rangka pembangunan nasional yang langsung bertugas sebagai",
-  "pilihan": [
-   "Presider",
-   "TNI",
-   "Ahli-ahli ekonomi",
-   "Masyarakat umum",
-   "Pegawai Negeri"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL SKD CPNS/Salinan CAT-TWK-Tes-Wawasan-Kebangsaan.pdf"
- },
- {
   "id": 5063,
   "kat": "TWK",
   "sub": "Umum",
@@ -12843,24 +11399,6 @@
   "sumber": "LATIHAN SOAL SKD CPNS/Salinan Rangkuman TWK.pdf"
  },
  {
-  "id": 5246,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Tiga tuntutan ke pada pemerintah yang 143. Ternyata pengantri nomor 23, 51, dan",
-  "pilihan": [
-   "Meningkatkan daya saing ASEAN sebagi",
-   "Menarik investasi asing langsung ke",
-   "Tahap pertama adalah P emilu untuk",
-   "Tahap kedua adalah Pemilu untuk",
-   "Ketuhanan Yang Maha Esa",
-   "Kemanusiaan yang adil dan beradab"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL SKD CPNS/Salinan Rangkuman TWK.pdf"
- },
- {
   "id": 5300,
   "kat": "TWK",
   "sub": "Umum",
@@ -12925,29 +11463,6 @@
    4,
    1,
    2
-  ],
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL SKD CPNS/Salinan Rangkuman TWK.pdf"
- },
- {
-  "id": 5303,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Pada saat saya mengingkari janji, maka",
-  "pilihan": [
-   "Merasa malu pada diri sendiri",
-   "Merasa takut disalahkan oleh orang yang",
-   "Tidak terpikir saya telah ingkar janji",
-   "Merasa bersalah pada orang lain yang",
-   "Merasa tenang saja, ingkar sudah suatu"
-  ],
-  "kunci": 3,
-  "skor_pilihan": [
-   4,
-   3,
-   2,
-   5,
-   1
   ],
   "pembahasan": null,
   "sumber": "LATIHAN SOAL SKD CPNS/Salinan Rangkuman TWK.pdf"
@@ -13160,29 +11675,6 @@
   "sumber": "LATIHAN SOAL SKD CPNS/Salinan Rangkuman TWK.pdf"
  },
  {
-  "id": 5313,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Saya baru saja dimutasikan ke unit lain yang",
-  "pilihan": [
-   "Berusaha memahami mekanisme kerja",
-   "Jarang masuk karena belum jelas apa",
-   "Duduk-duduk saja sambil menunggu",
-   "Berusaha mempelajari dan memahami",
-   "Memahami proses pekerjaan yang"
-  ],
-  "kunci": 3,
-  "skor_pilihan": [
-   3,
-   1,
-   2,
-   5,
-   4
-  ],
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL SKD CPNS/Salinan Rangkuman TWK.pdf"
- },
- {
   "id": 5314,
   "kat": "TWK",
   "sub": "Umum",
@@ -13229,29 +11721,6 @@
   "sumber": "LATIHAN SOAL SKD CPNS/Salinan Rangkuman TWK.pdf"
  },
  {
-  "id": 5316,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Anak saya sedang sakit dan harus dirawat di",
-  "pilihan": [
-   "Meminta pengertian kepada atasan Anda",
-   "Meminta pengertian kepada keluarga",
-   "Tetap membawa anak Anda ke rumah",
-   "Lembur di kantor dan meminta keluarga",
-   "Meminta rekan kerja Anda yang lain"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   2,
-   3,
-   5,
-   4,
-   1
-  ],
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL SKD CPNS/Salinan Rangkuman TWK.pdf"
- },
- {
   "id": 5317,
   "kat": "TWK",
   "sub": "Umum",
@@ -13293,29 +11762,6 @@
    3,
    2,
    1
-  ],
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL SKD CPNS/Salinan Rangkuman TWK.pdf"
- },
- {
-  "id": 5319,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Saya ditawarkan oleh pimpinan untuk",
-  "pilihan": [
-   "Menolak tawaran tersebut",
-   "Menerima tawaran tersebut dengan",
-   "Menerima tawaran tersebut dengan",
-   "Menolak tawaran tersebut namun mohon",
-   "Menerima tawaran tersebut dan"
-  ],
-  "kunci": 4,
-  "skor_pilihan": [
-   1,
-   3,
-   4,
-   2,
-   5
   ],
   "pembahasan": null,
   "sumber": "LATIHAN SOAL SKD CPNS/Salinan Rangkuman TWK.pdf"
@@ -13781,52 +12227,6 @@
   "sumber": "LATIHAN SOAL SKD CPNS/Salinan Rangkuman TWK.pdf"
  },
  {
-  "id": 5396,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Pada saat menghadapi tugas yang berat dan",
-  "pilihan": [
-   "Meninggalkan tugas begitu saja",
-   "Berusaha mencari penyelesaian yang",
-   "Berusaha sedikit demi sedikit untuk",
-   "Meminta bantuan teman untuk",
-   "Menyuruh teman menggantikan saya"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   1,
-   4,
-   5,
-   3,
-   2
-  ],
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL SKD CPNS/Salinan Rangkuman TWK.pdf"
- },
- {
-  "id": 5397,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Kinerja organisasi berjalan cukup efisien,",
-  "pilihan": [
-   "Tidak bertindak apapun, cukup dengan",
-   "Mengusahakan keterlibatan pegawai",
-   "Mengabaikan saja",
-   "Melakukan pekerjaan sesuai bidang",
-   "Mengingatkan batas waktu dan tugas"
-  ],
-  "kunci": 3,
-  "skor_pilihan": [
-   2,
-   4,
-   1,
-   5,
-   3
-  ],
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL SKD CPNS/Salinan Rangkuman TWK.pdf"
- },
- {
   "id": 5398,
   "kat": "TWK",
   "sub": "Umum",
@@ -14103,29 +12503,6 @@
   "sumber": "LATIHAN SOAL SKD CPNS/Salinan Rangkuman TWK.pdf"
  },
  {
-  "id": 5410,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Jika Anda sedang dalam keadaan yang lelah,",
-  "pilihan": [
-   "Segera istirahat",
-   "Tetap menyelesaikan pekerjaan yang",
-   "Memakai balsem atau sejenisnya",
-   "Ngobrol dengan seseorang yang lain",
-   "Istirahat dan tidak bisa diganggu oleh"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   3,
-   4,
-   5,
-   2,
-   1
-  ],
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL SKD CPNS/Salinan Rangkuman TWK.pdf"
- },
- {
   "id": 5411,
   "kat": "TWK",
   "sub": "Umum",
@@ -14350,29 +12727,6 @@
    5,
    2,
    4,
-   1
-  ],
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL SKD CPNS/Salinan Rangkuman TWK.pdf"
- },
- {
-  "id": 5421,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Suatu hari, ada banyak sekali kertas bekas di",
-  "pilihan": [
-   "Membuangnya ke tempat sampah",
-   "Membakarnya",
-   "Menjualnya kepada tukang kertas",
-   "Memberikannya kepada tukang",
-   "Membuat kertas karton dari kertas"
-  ],
-  "kunci": 1,
-  "skor_pilihan": [
-   3,
-   5,
-   4,
-   2,
    1
   ],
   "pembahasan": null,
@@ -15043,29 +13397,6 @@
   "sumber": "LATIHAN SOAL SKD CPNS/Salinan Soal dan Jawab TKD 9.pdf"
  },
  {
-  "id": 6047,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "Pimpinan rapat meminta ide dari semua peserta rapat yang s ebagian besar adalah",
-  "pilihan": [
-   "Diam saja karena hanya pimpinan yang berhak menyuarakan pendapat",
-   "Memberikan ide ke pimpinan kita agar disuarakan pendapat kita",
-   "Memberikan ide apabila kita mempunyai ide yang kemungkinan dapat membantu",
-   "Saya mengundurkan diri dari rapat karena tidak percaya diri",
-   "Menulis ide kita kemudian memberikan ke pimpinan rapat"
-  ],
-  "kunci": 3,
-  "skor_pilihan": [
-   4,
-   2,
-   1,
-   5,
-   3
-  ],
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL SKD CPNS/Salinan Soal dan Jawab TKD 9.pdf"
- },
- {
   "id": 6048,
   "kat": "CAMPUR",
   "sub": "Umum",
@@ -15457,29 +13788,6 @@
   "sumber": "LATIHAN SOAL SKD CPNS/Salinan Soal dan Jawab TKD 9.pdf"
  },
  {
-  "id": 6065,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "Anda adalah seorang supir pribadi atasan, suatu ketika anda mengantar atasan ke",
-  "pilihan": [
-   "Mengantarkan atasan dulu kemudian meminta izin untuk mengantar anak",
-   "Meminta izin atasan untuk mengantar anak",
-   "Panik",
-   "Segera berbalik arah untuk mengurus anak",
-   "Meminta tetangga mengurus anak"
-  ],
-  "kunci": 3,
-  "skor_pilihan": [
-   1,
-   2,
-   4,
-   5,
-   3
-  ],
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL SKD CPNS/Salinan Soal dan Jawab TKD 9.pdf"
- },
- {
   "id": 6066,
   "kat": "CAMPUR",
   "sub": "Umum",
@@ -15687,29 +13995,6 @@
   "sumber": "LATIHAN SOAL SKD CPNS/Salinan Soal dan Jawab TKD 9.pdf"
  },
  {
-  "id": 6075,
-  "kat": "CAMPUR",
-  "sub": "Umum",
-  "teks": "Di kator saya akan diadakan pengajian pekanan selama waktu istirahat siang,",
-  "pilihan": [
-   "Makan di kantin saja",
-   "Mengajak rekan-rekan sekantor untuk berpartisipasi dalam acara tersebut",
-   "Pulang ke rumah",
-   "Tidur siang karena saya sangat lelah",
-   "Izin tidak ikut pengajian dulu karena masih ada pekerjaan ya ng harus anda"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   4,
-   1,
-   5,
-   3,
-   2
-  ],
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL SKD CPNS/Salinan Soal dan Jawab TKD 9.pdf"
- },
- {
   "id": 6246,
   "kat": "TKP",
   "sub": "Umum",
@@ -15723,29 +14008,6 @@
   "skor_pilihan": [
    1,
    5,
-   1
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/TIU HOTS dari TG.pdf"
- },
- {
-  "id": 6247,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "… berhubungan dengan KAPAL, sebagaimana PESAWAT UDARA berhubungan dengan",
-  "pilihan": [
-   "Semua pengemudi memakai sarung tangan dan tidak mengenakan sabuk pengaman",
-   "Semua pengemudi memakai sarung tangan dan mengenakan sabuk pengaman",
-   "Sebagian pengemudi mengenakan sabuk pengaman dan tidak memakai sarung tangan",
-   "Sebagian pengemudi tidak mengenakan sabuk pengaman dan memakai sarung tangan",
-   "Sebagian pengemudi tidak mengenakan sabuk pengaman dan tidak memakai sarung tangan"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   1,
-   1,
-   5,
-   1,
    1
   ],
   "pembahasan": null,
@@ -15807,24 +14069,6 @@
    4,
    2
   ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TWK/materi_dan_soal_lengkap_cpns_pdf.pdf"
- },
- {
-  "id": 6338,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Tiga tuntutan kepada pemerintah yang 143. Ternyata pengantri nomor 23, 51, dan",
-  "pilihan": [
-   "Meningkatkan daya saing ASEAN sebagi",
-   "Menarik investasi asing langsung ke",
-   "Tahap pertama adalah Pemilu untuk",
-   "Tahap kedua adalah Pemilu untuk",
-   "Ketuhanan Yang Maha Esa",
-   "Kemanusiaan yang adil dan beradab"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
   "pembahasan": null,
   "sumber": "E-BOOK CPNS 3/MATERI TWK/materi_dan_soal_lengkap_cpns_pdf.pdf"
  },
@@ -15966,23 +14210,6 @@
   "sumber": "E-BOOK CPNS 3/MATERI TWK/KHUSUS SOAL TWK/SOAL PENGAMALAN PANCASILA.pdf"
  },
  {
-  "id": 6361,
-  "kat": "TWK",
-  "sub": "Pancasila",
-  "teks": "Terjadinya demonstrasi besar-besaran di wilayah Provinsi Papua dan Papua Barat yang",
-  "pilihan": [
-   "1",
-   "2",
-   "3",
-   "4",
-   "5"
-  ],
-  "kunci": 3,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TWK/KHUSUS SOAL TWK/SOAL PENGAMALAN PANCASILA.pdf"
- },
- {
   "id": 6362,
   "kat": "TWK",
   "sub": "Pancasila",
@@ -15995,23 +14222,6 @@
    "Pohon beringin"
   ],
   "kunci": 3,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TWK/KHUSUS SOAL TWK/SOAL PENGAMALAN PANCASILA.pdf"
- },
- {
-  "id": 6363,
-  "kat": "TWK",
-  "sub": "Pancasila",
-  "teks": "Pengamalan Pancasila sila kelima sebagai paradigma pembangunan adalah…",
-  "pilihan": [
-   "Menumbuhkembangkan system politik demokrasi Pancasila yang mampu memelihara",
-   "Pengembangan ekonomi dan pemerataan pembangunan serta mengembangkan",
-   "Upaya mengembangkan pertumbuhan ekonomi dan pemerataan pembangunan dan",
-   "Peningkatan harkat dan martabat serta kewajiban asasi warga negara dan penghapusan",
-   "Pembangunan untuk meningkatkan harkat martabat manusia berdasarkan nilai kodrat"
-  ],
-  "kunci": 2,
   "skor_pilihan": null,
   "pembahasan": null,
   "sumber": "E-BOOK CPNS 3/MATERI TWK/KHUSUS SOAL TWK/SOAL PENGAMALAN PANCASILA.pdf"
@@ -16343,23 +14553,6 @@
   "sumber": "E-BOOK CPNS 3/MATERI TWK/KHUSUS SOAL TWK/SOAL PENGAMALAN PANCASILA.pdf"
  },
  {
-  "id": 6384,
-  "kat": "TWK",
-  "sub": "Pancasila",
-  "teks": "Pemerintah sudah menerbitkan Peraturan Presiden Nomor 14 Tahun 2021 yang",
-  "pilihan": [
-   "2 dan 4",
-   "4 dan 5",
-   "2 dan 5",
-   "3 dan 5",
-   "2 dan 3"
-  ],
-  "kunci": 4,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TWK/KHUSUS SOAL TWK/SOAL PENGAMALAN PANCASILA.pdf"
- },
- {
   "id": 6385,
   "kat": "TWK",
   "sub": "Pancasila",
@@ -16561,40 +14754,6 @@
    "Selalu melakukan investigasi setiap ada pejabat yang mencurigakan"
   ],
   "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TWK/KHUSUS SOAL TWK/SOAL TWK 2.pdf"
- },
- {
-  "id": 6397,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Korupsi dapat ditemukan dimana saja dan dapat terjadi kapan saja. Korupsi selalu berawal dari",
-  "pilihan": [
-   "Menghambat pembangunan yang ada karena uangnya disuap",
-   "Terdapat kejanggalan pada keuangan negara karena data uang tidak sesuai",
-   "Tersedianya fasilitas yang memadai bagi masyarakat luas",
-   "Mempersulit ekonomi negara apalagi di zaman pandemi ini",
-   "Mengurangi kualitas ASN dan PNS yang memiliki kejujuran tinggi"
-  ],
-  "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TWK/KHUSUS SOAL TWK/SOAL TWK 2.pdf"
- },
- {
-  "id": 6398,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Terorisme beberapa kali terjadi akhir-akhir ini dan tidak sedikit merugikan negara dan",
-  "pilihan": [
-   "Masyarakat harus lebih waspada terhadap kerumunan yang tidak dikenal",
-   "Pemerikasaan dan penyitaan senjata api illegal kepada seluruh penduduk",
-   "Masyarakat harus menjauhi kerumunan yang dirasa aneh dan sebisa mungkin di rumah",
-   "Menghindari teroris dengan belajar agama agar tidak ikut-ikutan menjadi teroris",
-   "Belajar PKN agar memiliki moral dan pendirian yang sangat kuat"
-  ],
-  "kunci": 1,
   "skor_pilihan": null,
   "pembahasan": null,
   "sumber": "E-BOOK CPNS 3/MATERI TWK/KHUSUS SOAL TWK/SOAL TWK 2.pdf"
@@ -17201,23 +15360,6 @@
   "sumber": "E-BOOK CPNS 3/MATERI TWK/KHUSUS SOAL TWK/SOAL TWK 4.pdf"
  },
  {
-  "id": 6462,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Indonesia memiliki sumber daya alam dan sumber daya laut yang sangat melimpah baik itu di",
-  "pilihan": [
-   "Tersedianya fasilitas umum yang mudah dijangkau oleh siapapun",
-   "Mempermudah aktivitas karena berkembangnya pembangunan",
-   "Menjaga gengsi negara dihadapan negara lain",
-   "Mempersulit kehidupan bermasyarakat karena banyaknya gedung-gedung",
-   "Banyaknya lapangan pekerjaan yang terbuka untuk berbagai usia"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TWK/KHUSUS SOAL TWK/SOAL TWK 4.pdf"
- },
- {
   "id": 6463,
   "kat": "TWK",
   "sub": "Umum",
@@ -17456,23 +15598,6 @@
   "sumber": "E-BOOK CPNS 3/MATERI TWK/KHUSUS SOAL TWK/SOAL TWK 6.pdf"
  },
  {
-  "id": 6477,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Memberikan sosialisasi kepada pelajar yang berisi pancasila dan pendidikan pancasila di",
-  "pilihan": [
-   "Membangun sikap semangat kompetitif bagi kaum pelajar dan mahasiswa",
-   "Mewujudkan masyarkat khususnya pelajar dan mahasiswa agar mereka sadar hukum",
-   "Agar pelajar dan mahasiswa memiliki sikap demokrasi yang tertib dan beradab",
-   "Menjadikan warga negara yang berkarakter dalam menjunjung nilai kemanusiaan",
-   "Menumbuhkan jiwa dan semangat nasionalisme dan rasa cinta tanah air"
-  ],
-  "kunci": 4,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TWK/KHUSUS SOAL TWK/SOAL TWK 6.pdf"
- },
- {
   "id": 6478,
   "kat": "TWK",
   "sub": "Umum",
@@ -17704,23 +15829,6 @@
    "Segera melaporkan ke pihak yang berwajib untuk ditindaklanjuti",
    "Bersikap tidak peduli terhadap kegiatan-kegiatan kelompok tersebut",
    "Memata-matainya dengan cara masuk ke kelompok tersebut"
-  ],
-  "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TWK/KHUSUS SOAL TWK/SOAL TWK 6.pdf"
- },
- {
-  "id": 6492,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Banyak sekali pelanggaran bela negara baik itu dari kaum pelajar, pegawai, pejabat, dan",
-  "pilihan": [
-   "Rendahnya pemahaman dan rasa kecintaan terhadap tanah air Indonesia",
-   "Kesadaran dan pemahaman terhadap keberagaman yang semakin rendah",
-   "Memudarnya nilai norma, adab, dan perilaku dalam pergaulan",
-   "Lemahnya pemahaman rata-rata pelajar mengenai bela negara",
-   "Tingginya sikap individualisme antara pelajar dengan pelajar lainnya"
   ],
   "kunci": 2,
   "skor_pilihan": null,
@@ -18630,23 +16738,6 @@
   "sumber": "E-BOOK CPNS 3/MATERI TWK/KHUSUS SOAL TWK/SOAL TWK 9.pdf"
  },
  {
-  "id": 6553,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Bacalah tulisan berikut, kemudian jawablah soal-soal yang tersedia dengan",
-  "pilihan": [
-   "TIDAK PERLU DIPERBAIKI",
-   "Minimum",
-   "Meminimalisasi",
-   "Meminimalkan",
-   "Meminimal"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": "Kata yang baku sesuai KBBI adalah meminimalkan. Meminimalisir tidak baku, berdasarkan KBBI.",
-  "sumber": "E-BOOK CPNS 3/MATERI TWK/KHUSUS SOAL TWK/SOAL TWK 9.pdf"
- },
- {
   "id": 6554,
   "kat": "TWK",
   "sub": "Umum",
@@ -18804,29 +16895,6 @@
   ],
   "pembahasan": null,
   "sumber": "E-BOOK CPNS 3/MATERI TKP/TKP TIK.pdf"
- },
- {
-  "id": 6564,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Katon bekerja sebagai petugas input data masyarakat yang akan memeriksakan kesehatan di",
-  "pilihan": [
-   "Meminta maaf dan segera menyelesaikan input data",
-   "Berusaha untuk mengendalikan diri untuk terus bersabar dan berjanji untuk meningkatkan",
-   "Mengabaikan kemaharan Ibu tersebut karena kesalahan hanya menambah waktu input sedikit",
-   "Menjelaskan bahwa proses input data butuh waktu supaya tidak ada kesalahan",
-   "Menjelaskan bahwa keluhan dapat disampaikan di kota saran dan keluhan dekat pintu keluar"
-  ],
-  "kunci": 0,
-  "skor_pilihan": [
-   5,
-   4,
-   1,
-   3,
-   2
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TKP/KHUSUS SOAL TKP/SOAL TKP 1.pdf"
  },
  {
   "id": 6565,
@@ -19128,29 +17196,6 @@
   "sumber": "E-BOOK CPNS 3/MATERI TKP/KHUSUS SOAL TKP/SOAL TKP 1.pdf"
  },
  {
-  "id": 6578,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Anda suka sekali menonton sinetron Indonesia yang sangat berkualitas karena jalur dan",
-  "pilihan": [
-   "Tetap menonton Drama luar negeri tetapi melarang anak-anak dibawah umur untuk menonton",
-   "Update status di sosial media tentang penolakan penyiaran Drama luar negeri yang ti dak sesuai",
-   "Membuat aduan masyarakat di Pojok Aduan KPI untuk memberi peringatan dan pengawasan",
-   "Tidak menonton drama luar negeri karena tidak ingin ikut terpengaruh budaya asing",
-   "Membuat petisi untuk tontonan layak anak dan mendidik"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   1,
-   2,
-   5,
-   4,
-   3
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TKP/KHUSUS SOAL TKP/SOAL TKP 1.pdf"
- },
- {
   "id": 6579,
   "kat": "TKP",
   "sub": "Umum",
@@ -19330,29 +17375,6 @@
    5,
    2,
    1
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TKP/KHUSUS SOAL TKP/SOAL TKP 1.pdf"
- },
- {
-  "id": 6587,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Saat ini sudah memasuki era digitalisasi yang membuat semua hal dapat dilakukan secara online,",
-  "pilihan": [
-   "Mencari iklan lowongan pekerjaan di Koran local dan nasional",
-   "Meminta informasi lowongan pekerjaan dari orang -orang terdekat yang bekerja di Instansi dan",
-   "Memilih lowongan pekerjaan dari perus ahaan-perusahaan besar saja karena Anda yakin pada",
-   "Mulai mencari lowongan pekerjaan secara online di website dan media social yang memberi",
-   "Mengikuti pelatihan kerja online sambil melamar pekerjaan melalui online system di websi te"
-  ],
-  "kunci": 4,
-  "skor_pilihan": [
-   1,
-   2,
-   3,
-   4,
-   5
   ],
   "pembahasan": null,
   "sumber": "E-BOOK CPNS 3/MATERI TKP/KHUSUS SOAL TKP/SOAL TKP 1.pdf"
@@ -19559,52 +17581,6 @@
    5,
    3,
    4,
-   1
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TKP/KHUSUS SOAL TKP/SOAL TKP 1.pdf"
- },
- {
-  "id": 6597,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Anda adalah seorang ketua RW di lingkungan tempat Anda tinggal. Suatu hari ada dua warga yang",
-  "pilihan": [
-   "Menunggu kedua belah pihak tenang dan mencari solusi bersama-sama",
-   "Membela pihak yang paling akrab dengan Anda",
-   "Meminta keterangan dari kedua belah pihak dan bersikap seadil-adilnya",
-   "Mengadakan rapat RW untuk membahas penyelesaian masalah warga",
-   "Tidak ingin ikut dalam penyelesaian masalah karena masalah pribadi bukan masalah terkait orang"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   4,
-   1,
-   5,
-   3,
-   2
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TKP/KHUSUS SOAL TKP/SOAL TKP 1.pdf"
- },
- {
-  "id": 6598,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Ketika kita kuliah dahulu Anda bersama teman -teman Anda sering melanjutkan liburan ketika",
-  "pilihan": [
-   "Bertanya kepada atasan untuk ijin mengambil cuti, semua tergantung atasan Anda",
-   "Mempelajari konsekuensi dan aturan yang berlaku terkait cuti dan absen ketika hari kerja",
-   "Masuk setengah hari saja dan jika kantor sepi langsung pulang",
-   "Anda berprinsip untuk menggunakan cuti untuk keperluan penting saja dan tidak akan bolos kerja",
-   "Mengikuti kebiasaan yang ada di kantor, jika banyak yang absen kerja maka Anda akan ikut"
-  ],
-  "kunci": 3,
-  "skor_pilihan": [
-   4,
-   3,
-   2,
-   5,
    1
   ],
   "pembahasan": null,
@@ -20186,29 +18162,6 @@
   "sumber": "E-BOOK CPNS 3/MATERI TKP/KHUSUS SOAL TKP/SOAL TKP 2.pdf"
  },
  {
-  "id": 6624,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Suatu hari A nda terjebak kemacetan yang parah di jalan sehingga anda hampir terlambat tiba di",
-  "pilihan": [
-   "Menanyakan ruangan yang hendak dituju oleh nenek tersebut kemudian pergi meninggalkannya",
-   "Mengantarkan nenek tersebut keruangan yang dituju dan melakukan absensi setelahnya",
-   "Menunjukan arah ke ruang yang dituju oleh nenek tersebut dan segera melakukan absensi",
-   "Menyuruh nenek tersebut menunggu dan bertanya pada satpam saat satpam tiba",
-   "Tidak menghiraukan nenek tersebut"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   3,
-   2,
-   5,
-   4,
-   1
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TKP/KHUSUS SOAL TKP/SOAL TKP 2.pdf"
- },
- {
   "id": 6625,
   "kat": "TKP",
   "sub": "Umum",
@@ -20524,29 +18477,6 @@
    4,
    5,
    1,
-   2,
-   3
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TKP/KHUSUS SOAL TKP/SOAL TKP 2.pdf"
- },
- {
-  "id": 6639,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Usai ujian nasional, seluruh siswa mengikuti rapat perpisahan kelas. Dalam rapat disetujui bahwa",
-  "pilihan": [
-   "Menerima keberana Roni dan menghimbau teman lai yang ingin berkontribusi lebih banyak",
-   "Menetapkan jumlah iuran berlaku sama untuk seluruh siswa",
-   "Mengajak Siska menghitung ulang dengan memperhitungkan keberatan Roni",
-   "Mendukung keberatan Roni karena boaya ditanggung seluruh siswa",
-   "Mempertimbangkan keberatan Roni asalkan biaya perpisahan tetap terpenuhi"
-  ],
-  "kunci": 0,
-  "skor_pilihan": [
-   5,
-   1,
-   4,
    2,
    3
   ],
@@ -23454,29 +21384,6 @@
   "sumber": "E-BOOK CPNS 3/MATERI TKP/KHUSUS SOAL TKP/SOAL TKP 7.pdf"
  },
  {
-  "id": 6770,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Anda seorang aparatur sipil negara (ASN) pada suatu kementerian. Anda ditugaskan oleh",
-  "pilihan": [
-   "Meninggalkan program tersebut karena saya seorang pribadi yang hanya mau",
-   "Mengungkapkan ketidaksetujuan saya disertai dengan alasan kepada atasan",
-   "Tetap menjalankan program tersebut meskipun ada rasa ragu -ragu, namun tetap",
-   "Mengungkapkan ketidaksetujuan say a kepada rekan kerja lain. Berharap ada",
-   "Tidak berkomentar apapun terkait program tersebut. Berusaha menjalankan sepenuh"
-  ],
-  "kunci": 4,
-  "skor_pilihan": [
-   1,
-   1,
-   1,
-   1,
-   5
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TKP/KHUSUS SOAL TKP/SOAL TKP 7.pdf"
- },
- {
   "id": 6771,
   "kat": "TKP",
   "sub": "Umum",
@@ -23891,29 +21798,6 @@
   "sumber": "E-BOOK CPNS 3/MATERI TKP/KHUSUS SOAL TKP/SOAL TKP 7.pdf"
  },
  {
-  "id": 6789,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Ada tamu mencari atasan Anda di kantor yang merupakan kawasan bebas asap rokok. Di",
-  "pilihan": [
-   "Diam saja, karena bukan urusan saya - Nilai (3)",
-   "Ikut mengingatkan bahwa dilarang merokok - Nilai (5)",
-   "Memberikan permen sebagai ganti - Nilai (4)",
-   "Mengajaknya mengobrol dan menemani tamu merokok - Nilai (2)",
-   "Meminta maaf bila satpam terkesan kurang sopan kemudian menawarkan minuman -"
-  ],
-  "kunci": 1,
-  "skor_pilihan": [
-   1,
-   5,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TKP/KHUSUS SOAL TKP/SOAL TKP 7.pdf"
- },
- {
   "id": 6790,
   "kat": "TKP",
   "sub": "Umum",
@@ -23999,29 +21883,6 @@
    1,
    5,
    1,
-   1,
-   1
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TKP/KHUSUS SOAL TKP/SOAL TKP 7.pdf"
- },
- {
-  "id": 6794,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Rekan team kerja anda dimarahi oleh atasan pada saat mengumpulkan tugas team karena",
-  "pilihan": [
-   "Mendengarkan saja rekan anda dimarahi setelah itu memberikan semangat untuk",
-   "Minta maaf kepada teman karena keterlambatan juga disebabkan oleh anggota team",
-   "Mengakui kesalahan kepada atasan jika anda juga turut berkontribusi pada masalah",
-   "Mengakui kesalahan kepada teman dan berjanji tidak akan mengulanginya lagi - Nilai",
-   "Mengajak rekan anda untuk membicarakannya dan menghiburnya rekan yang"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   1,
-   1,
-   5,
    1,
    1
   ],
@@ -24351,29 +22212,6 @@
   "sumber": "E-BOOK CPNS 3/MATERI TKP/KHUSUS SOAL TKP/SOAL TKP 7.pdf"
  },
  {
-  "id": 6809,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Ketika Ketua RT Anda membutuhkan warganya untuk melakukan kerja bakti di",
-  "pilihan": [
-   "Anda sedang punya tugas mendadak - Nilai (2)",
-   "Menemui Pak RT dan warga dengan membawa maaf dan makanan - Nilai (5)",
-   "Meminta salah seorang pekerja Anda untuk ikut serta dalam kerja bakti - Nilai (4)",
-   "Tidak ambil peduli dengan semua yang terjadi - Nilai (1)",
-   "Meminta orang lain untuk mewakili Anda dalam kerja bakti tersebut - Nilai (3)"
-  ],
-  "kunci": 1,
-  "skor_pilihan": [
-   1,
-   5,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TKP/KHUSUS SOAL TKP/SOAL TKP 7.pdf"
- },
- {
   "id": 6862,
   "kat": "TIU",
   "sub": "Umum",
@@ -24542,23 +22380,6 @@
    "160, 150, 138"
   ],
   "kunci": 4,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TIU/KHUSUS SOAL TIU/SOAL DAN PEMBAHASAN TIU.pdf"
- },
- {
-  "id": 6897,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Perbandingan permen Aurel, Rani dan Dhea adalah 5 : 3 : 2. Sementara jumlah permen Aurel dan",
-  "pilihan": [
-   "112",
-   "108",
-   "88",
-   "80",
-   "72"
-  ],
-  "kunci": 3,
   "skor_pilihan": null,
   "pembahasan": null,
   "sumber": "E-BOOK CPNS 3/MATERI TIU/KHUSUS SOAL TIU/SOAL DAN PEMBAHASAN TIU.pdf"
@@ -24785,24 +22606,6 @@
   "sumber": "E-BOOK CPNS 3/MATERI TIU/KHUSUS SOAL TIU/SOAL TIU 5.pdf"
  },
  {
-  "id": 6997,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Naila seorang online marketing yang mendapatkan gaji mingguan Rp.250.000,00 dan",
-  "pilihan": [
-   "Rp. 8.000.000,00",
-   "Rp. 7.000.000,00",
-   "Rp. 6.000.000,00",
-   "Rp. 5.000.000,00",
-   "Rp. 4.000.000,00",
-   "N karena N memiliki 3 garis"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": "Pertama cari dulu berapa kurangnya dari gaji yang diinginkan naila dari gaji mingguannya 𝐾𝑒𝑘𝑢𝑟𝑎𝑛𝑔𝑎𝑛 = 850.000 – 250.000 𝐾𝑒𝑘𝑢𝑟𝑎𝑛𝑔𝑎𝑛 = 600.000 Kemudian cari berapa komisi dari 15% penjualan 15% 𝑃𝑒𝑛𝑗𝑢𝑎𝑙𝑎𝑛 = 600.000 𝑃𝑒𝑛𝑗𝑢𝑎𝑙𝑎𝑛 = 600.000 × 100 = 4.000.000 15 Jadi jawaban yang tepat adalah E. Rp 4.000.000,00 27. Pembahasan : Pola pertama adalah 4 lingkaran dengan huruf E hubungannya adalah jumlah dari lingkaran dan garis huruf E disitu memiliki 4 garis, jadi jawaban untuk pola kedua adalah 28. Pembahasan : Pola pertama : huruf D ditarik kearah kanan dan tinggi nya masih sama Ketika ditarik Jadi untuk",
-  "sumber": "E-BOOK CPNS 3/MATERI TIU/KHUSUS SOAL TIU/SOAL TIU 5.pdf"
- },
- {
   "id": 7026,
   "kat": "TIU",
   "sub": "Umum",
@@ -24954,23 +22757,6 @@
   "sumber": "E-BOOK CPNS 3/MATERI TIU/KHUSUS SOAL TIU/SOAL TIU 7.pdf"
  },
  {
-  "id": 7042,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Jika 𝑥 =",
-  "pilihan": [
-   "x > y",
-   "x < y",
-   "x = y",
-   "x dan y tidak dapat ditentukan",
-   "2x ≤ 2xy"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TIU/KHUSUS SOAL TIU/SOAL TIU 7.pdf"
- },
- {
   "id": 7043,
   "kat": "TIU",
   "sub": "Umum",
@@ -25003,24 +22789,6 @@
   "skor_pilihan": null,
   "pembahasan": null,
   "sumber": "E-BOOK CPNS 3/MATERI TIU/KHUSUS SOAL TIU/SOAL TIU 7.pdf"
- },
- {
-  "id": 7071,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Jika kota Z hujan 30 menit setelah kota 21. Jika pesanan Umi, Fani, dan Ninan 22. Seseorang membeli soto ayam dan 23. Siapa saja yang mengikuti lomba 24. Siapa saja yang mengikuti lomba 25. Siapa saja yang boleh mengikuti 26. Siapa saja yang memenuhi persyaratan 27. Urutkan anak yang memiliki postur 28. Jika pemilihan Putri Indonesia hanya 29. Siapakah siswa yang tidak mengikuti 30. Siapakah yang pertama kali me masuki 31. Jika waktu yang dibutuhkan setiap 32. Pada hari apa kejadian itu terjadi? 33. Jika kualitas film ditentukan dari 34. Jika Desinta ingin menghabiskan 35. Jika Mita tidak lebih cantik daripada 36. Bagaimanakah urutan anak Pak 37. Jika Bambang berada di baris kedua 38. Jika Hadi berada tepat pada baris 39. Bagaimanakah urutan keenam 40. Jika Danang bertukar posisi dengan",
-  "pilihan": [
-   "Satu setengah jam sebelum kota",
-   "Setengah jam setelah kota Y",
-   "Satu jam sebelum kota X",
-   "Setengah jam sebelum kota Z",
-   "Seperempat jam sebelum kota Y",
-   "Rp50.000,00"
-  ],
-  "kunci": 3,
-  "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TIU/KHUSUS SOAL TIU/SOAL TIU ANALITIS.pdf"
  },
  {
   "id": 7081,
@@ -25313,57 +23081,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TIU 2023.pdf"
  },
  {
-  "id": 7116,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Proyek pembangunan sekolah diperkirakan akan selesai dalam waktu 42 hari jika",
-  "pilihan": [
-   "2",
-   "3",
-   "4",
-   "5",
-   "6"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": "42 hari → 60 pekerja 20 hari → 60 pekerja 2 hari → 40 pekerja (42-20-2) hari → a pekerja Hari × Pekerja • 42 . 60 = 2520 • 20 . 60 = 1200 • 2 . 40 = 80 • 20a = 2520-1200-80 20a = 1240 a = 1240/20 = 62 Sehingga pekerja yang harus ditambah adalah: 62 pekerja – 60 pekerja = 2 pekerja.",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TIU 2023.pdf"
- },
- {
-  "id": 7117,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Seorang peternak domba mempunyai persediaan pakan untuk 24 domba yang",
-  "pilihan": [
-   "12",
-   "11",
-   "15",
-   "12",
-   "10"
-  ],
-  "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": "Domba Waktu (hari) 24 20 24 + 8 = 32 𝑥 24 32 = 𝑥20 3 4 = 𝑥20 𝑥 = 15 Jadi persediaan pakan akan habis dalam 15 hari",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TIU 2023.pdf"
- },
- {
-  "id": 7118,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Dalam sebuah perlombaan, skor Nino adalah",
-  "pilihan": [
-   "48",
-   "20",
-   "37",
-   "29",
-   "52"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": "N = 3 5 Y ................. (1) Y = 4 3 G .................. (2) Jika skor Giska 90 maka: - Masukkan skor Giska pada persamaan (2) Y = 4 3 × 90 Y = 120 - Masukkan skor Yurma pada persamaan (1) N = 3 5 × Y N = 3 5 × 120 N = 72 - Maka selisih skor Yurma dengan Nino adalah 120 – 72 = 48.",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TIU 2023.pdf"
- },
- {
   "id": 7119,
   "kat": "TIU",
   "sub": "Umum",
@@ -25398,65 +23115,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TIU 2023.pdf"
  },
  {
-  "id": 7121,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Keluarga Jimy akan pergi berlibur menggunakan mobil dari Bogor ke Bandung yang",
-  "pilihan": [
-   "10:35",
-   "11:00",
-   "10:55",
-   "11:45",
-   "12:30"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": "karak (s) = 185 km kecepatan (v) = 60km/jam Pembahasan TO 1 TIU 2023 Halaman 14 | 26 t berangkat = 07:15 t istirahat = 20 menit t sampai? Ingat rumus: JoKoWi Jarak = Kecepatan × Waktu Waktu = jarak : kecepatan t = 185 𝑘𝑚 60 𝑘𝑚/𝑗𝑎𝑚 = 3,08 𝑗𝑎𝑚 t sampai = t berangkat + t + t istirahat t sampai = 07:15 + 3 jam + 20 menit t sampai = 07:15 + 03:00 + 00:20 t sampai = 10:35",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TIU 2023.pdf"
- },
- {
-  "id": 7122,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Delwis ingin membeli perhiasan seharga Rp.5.000.000, dikarenakan uangnya tidak cukup,",
-  "pilihan": [
-   "1.200.000",
-   "780.000",
-   "2.910.000",
-   "710.000",
-   "1.400.000"
-  ],
-  "kunci": 3,
-  "skor_pilihan": null,
-  "pembahasan": "Harga perhiasan : Rp.5.000.000 Uang pinjaman : Rp. 2.800.000 (berarti uang Delwis ada Rp. 2.200.000) Bunga dari pinjaman : 5% dari 2.800.000 = 5 100 × 2.800.000 = 140.000 Penjualan = 5.850.000 Penjualan dipotong pinjaman = 5.850.000 – (2.800.000 + 140.000) = 2.910.000 Keuntungan = penjualan - modal = 2.910.000 – 2.200.000 = 710.000 Pembahasan TO 1 TIU 2023 Halaman 15 | 26",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TIU 2023.pdf"
- },
- {
-  "id": 7123,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Pak Samuel merupakan seorang satpam yang telah mengabdi lama di salah satu bank yang",
-  "pilihan": [
-   "Memberikan himbauan kepada para nasabah untuk bersabar menunggu proses",
-   "Segera menghubungi teknisi layar pemanggil antrean agar bisa berfungsi dengan baik",
-   "Bersikap tegas terhadap para nasabah yang bersikap anarkis.",
-   "Menghampiri teller bank dan meminta solusi atas permasalahan yang sedang",
-   "Melaporkan kepada atasan terkait permasalahan yang ada di kantor dan meminta",
-   "Memberikan himbauan kepada para nasabah untuk bersabar menunggu proses"
-  ],
-  "kunci": 1,
-  "skor_pilihan": [
-   1,
-   5,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal ini adalah pelayanan publik. Seorang satpam yang bekerja di Bank, selalu dituntut untuk memberikan pengamanan atau pelayanan kepada nasabah dengan harus selalu mampu mengendalikan diri dalam situasi tidak terduga atau tekanan dengan tetap sabar. Selain itu, bergerak dengan cepat menemukan solusi ketika menemukan kendala di lapangan. Sehingga jawaban yang paling mendekati adalah B. perbaikan layar monitor terlebih dahulu.(skor 4) B. Segera menghubungi teknisi layar pemanggil antrean agar bisa berfungsi dengan baik lagi dan untuk sementara waktu pelayanan dilakukan d",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TKP 2023.pdf"
- },
- {
   "id": 7124,
   "kat": "TKP",
   "sub": "Umum",
@@ -25479,31 +23137,6 @@
    1
   ],
   "pembahasan": "Aspek yang dinilai pada soal di atas adalah pelayanan publik. Aspek pelayanan publik mengedepankan pemberian layanan kepada customer/ client dengan sopan dan sabar, berusaha untuk menghilangkan ego dan menemukan solusi dari permasalahan yang dihadapi oleh client. Sehingga jawaban yang paling mendekati adalah E. B. Memanggil senior yang harus bertanggung jawab atas complaint yang diberikan.(skor 2) C. Mengarahkan client untuk menemui customer service yang seharusnya bertanggung jawab. (skor 3) D. Bersikap tidak peduli karena hal tersebut bukanlah tanggung jawab Anda. (skor 1) E. Menunjukkan sik",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7125,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Anita merupakan owner dari sebuah produk kecantikan, Anita aktif di sosial media dalam",
-  "pilihan": [
-   "Memberikan penjelasan yang detail sesuai dengan informasi yang dibutuhkan oleh",
-   "Meminta kejelasan terkait keputusan pembeli terkait produk yang akan dibeli.",
-   "Tidak merespons pelanggan tersebut karena merasa kesal.",
-   "Berusaha membujuk pelanggan tersebut agar segera membeli",
-   "Memblokir pembeli tersebut karena cukup mengganggu konsentrasi ketika sedang",
-   "Memberikan penjelasan yang detail sesuai dengan informasi yang dibutuhkan oleh"
-  ],
-  "kunci": 0,
-  "skor_pilihan": [
-   5,
-   1,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah pelayanan publik. Sebagai seorang pengusaha yang berusaha menjual produk kepada konsumen sangat penting untuk memberikan penjelasan lebih detail sesuai informasi yang dibutuhkan oleh konsumen, sehingga sikap sabar dan tidak mudah emosi harus selalu ditunjukkan kepada konsumen. Sehingga jawaban yang paling mendekati adalah A. pembeli. (skor 5) B. Meminta kejelasan terkait keputusan pembeli terkait produk yang akan dibeli. (skor 4) C. Tidak merespons pelanggan tersebut karena merasa kesal.(skor 2) D. Berusaha membujuk pelanggan tersebut agar segera mem",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TKP 2023.pdf"
  },
  {
@@ -25552,31 +23185,6 @@
    1
   ],
   "pembahasan": "Aspek yang dinilai pada soal di atas adalah pelayanan publik. Sebagai seorang asisten dosen yang memiliki tanggung jawab dalam memberikan pelayanan kepada mahasiswa, sudah sepatutnya untuk memberikan pelayanan yang profesional seperti yang dibutuhkan. Namun, apabila waktu pelayanan tidak tep at maka bisa memberikan solusi kepada mahasiswa agar tetap bisa mendapatkan pelayanan akademik sesuai kebutuhannya seperti mengarahkan mereka kepada asisten dosen lain. B. Meminta agar mahasiswa tersebut kembali setelah jam istirahat. (skor 3) C. Mengabaikan mahasiswa tersebut karena di luar jam kerja Anda",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7128,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Diana merupakan salah satu pramugari di maskapai penerbangan Jakarta. Suatu hari,",
-  "pilihan": [
-   "Menghampiri penumpang tersebut dan berusaha membantu mencari KTP yang",
-   "Berpura-pura tidak melihat dan fokus membantu penumpang yang lain.",
-   "Memanggil pramugari yang lain untuk membantu penumpang tersebut.",
-   "Memberikan pengumuman kepada penumpang pesawat lainnya untuk melapor",
-   "Menenangkan penumpang tersebut dan memberikan semangat untuk mencari KTP",
-   "Menghampiri penumpang tersebut dan berusaha membantu mencari KTP yang"
-  ],
-  "kunci": 0,
-  "skor_pilihan": [
-   5,
-   1,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal ini adalah pelayanan publik. Sebagai seorang pramugari yang bertugas untuk memberikan pelayanan selama masa penerbangan maka dituntut untuk selalu siap sedia untuk membantu para penumpang apabi la terdapat kendala atau masalah dengan langsung membantu atau menawarkan bantuan terlebih dahulu. Sehingga jawaban yang paling mendekati adalah A. hilang.(skor 5) B. Berpura-pura tidak melihat dan fokus membantu penumpang yang lain.(skor 1) C. Memanggil pramugari yang lain untuk membantu penumpang tersebut.(skor 2) D. Memberikan pengumuman kepada penumpang pesawat lainnya u",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TKP 2023.pdf"
  },
  {
@@ -25705,31 +23313,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TKP 2023.pdf"
  },
  {
-  "id": 7134,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Saya merupakan fresh graduate yang diterima di salah satu perusahaan ternama di",
-  "pilihan": [
-   "Membagikan informasi tersebut kepada alumni di kampus saya.",
-   "Menyembunyikan informasi tersebut agar tidak ada alumni yang satu kantor dengan",
-   "Membagikan informasi tersebut kepada kerabat terdekat saya terlebih dahulu.",
-   "Merekomendasikan keluarga saya kepada atasan agar dit erima di perusahaan",
-   "Membagikan informasi secara menyeluruh kepada para pencari kerja agar",
-   "Membagikan informasi tersebut kepada alumni di kampus saya. (skor 4)"
-  ],
-  "kunci": 4,
-  "skor_pilihan": [
-   1,
-   1,
-   1,
-   1,
-   5,
-   1
-  ],
-  "pembahasan": "Pembahasan TO 1 TKP 2023 Halaman 8 | 26 Aspek yang dinilai pada soal di atas adalah jejaring kerja. Salah satu bagian dari aspek ini yaitu berbagi informasi sehingga ketika terdapat informasi yang menyangkut perusahaan dan perlu disebarkan, maka sudah sepatutnya Anda menyebarkan informasi tersebut kepada seluruh orang yang membutuhkan informasi tersebut sehingga mereka memiliki kesempatan yang sama untuk memperoleh pekerjaan. S ehingga jawaban yang paling sesuai adalah E. B. Menyembunyikan informasi tersebut agar tidak ada alumni yang satu kantor dengan saya.(skor 1) C. Membagikan informasi te",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TKP 2023.pdf"
- },
- {
   "id": 7135,
   "kat": "TKP",
   "sub": "Umum",
@@ -25852,31 +23435,6 @@
    1
   ],
   "pembahasan": "Aspek yang dinilai pada soal di atas adalah sosial budaya. Perbedaan budaya kerja merupakan hal yang umum terjadi di perusahaan -perusahaan. Anda dituntut untuk bisa beradaptasi secepat mungkin dan bisa bek erja secara efektif sehingga jawaban yang paling relevan adalah A. Pembahasan TO 1 TKP 2023 Halaman 11 | 26 tersebut.(skor 5) B. Belajar dari pengalaman para senior terdahulu dan aktif bertanya. (skor 2) C. Tidak bertindak apa pun dan hanya fokus dengan kerjanya saja.(skor 1) D. Berusaha membangun relasi dengan baik bersama rekan sejawat. (skor 4) E. Saling tolong menolong apabila dibutuhka",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7140,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Suatu hari saya ditempatkan oleh guru di dalam kelomp ok diskusi dengan anggota yang",
-  "pilihan": [
-   "Hanya memperhatikan teman saya yang ambisius tersebut ketika berdiskusi.",
-   "Mengambil peran sebagai notulen sehingga tidak terlalu banyak berbicara.",
-   "Berusaha untuk proaktif dengan memberikan kontribusi sanggahan atau solusi selama",
-   "Meminta kepada guru agar dipindahkan ke kelompok yang juga biasa-biasa saja.",
-   "Berfokus dengan rasa insecure karena membandingkan kompet ensi yang dimiliki",
-   "Hanya memperhatikan teman saya yang ambisius tersebut ketika berdiskusi.( skor 4)"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   1,
-   1,
-   5,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah Sosial budaya. Ketika berada di sebuah kelompok dengan anggota yang ambisius, maka Anda harus menempatkan diri untuk tidak terintimidasi melainkan menjadi motivasi untuk bisa ikut berkontribusi secara efektif. Sehingga jawaban yang paling efektif adalah C B. Mengambil peran sebagai notulen sehingga tidak terlalu banyak berbicara.(skor 3) C. Berusaha untuk proaktif dengan memberikan kontribusi sanggahan atau solusi selama sesi diskusi.(skor 5) D. Meminta kepada guru agar dipindahkan ke kelompok yang juga biasa-biasa saja.(skor 1) E. Berfokus dengan ra",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TKP 2023.pdf"
  },
  {
@@ -26130,31 +23688,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TKP 2023.pdf"
  },
  {
-  "id": 7151,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Saya merupakan seorang karyawan yang beragama Islam. Suatu ketika teman saya yang",
-  "pilihan": [
-   "Mempercayai perkataan teman saya dan setuju untuk berpindah",
-   "Berpura-pura untuk percaya kepada teman saya agar tidak melukai perasaannya.",
-   "Tidak menghiraukan teman saya tersebut karena mungkin hanya bercanda.",
-   "Berpegang teguh pada agama saya dan memberikan nasihat kepada teman saya untuk",
-   "Menolak ajakan teman saya tersebut dan langsung kembali bekerja.",
-   "Mempercayai perkataan teman saya dan setuju untuk berpindah. (skor 1)"
-  ],
-  "kunci": 3,
-  "skor_pilihan": [
-   1,
-   1,
-   1,
-   5,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah Anti radikalisme. Aspek ini berpacu pada paham kemampuan kita untuk tidak terpapar sikap radikalisme yang diperoleh dari lingkungan sekitar. Ketika menghadapi ajakan teman untuk berpindah agama maka hal yang bisa dilakukan adalah tetap memperteguh keimanan dan memberikan nasihat untuk menghargai ke percayaan yang dianut oleh setiap umat. Sehingga jawaban yang paling relevan adalah D. B. Berpura-pura untuk percaya kepada teman saya agar tidak melukai perasaannya.(skor 2) C. Tidak menghiraukan teman saya tersebut karena mungkin hanya bercanda.(skor 3) ",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TKP 2023.pdf"
- },
- {
   "id": 7152,
   "kat": "TKP",
   "sub": "Umum",
@@ -26280,31 +23813,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TKP 2023.pdf"
  },
  {
-  "id": 7157,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Suatu ketika diadakan rapat direksi bersama pimpinan perusahaan. Tema diskusi yang",
-  "pilihan": [
-   "Menentang pendapat tersebut karena tidak masuk akal.",
-   "Menyampaikan pendapat bahwa pemberian upah tidak bisa didasarkan pada asal",
-   "Memberikan tanggapan bahwa sebaiknya standar penetapan gaji tetap berpegang",
-   "Saya akan diam saja karena malas untuk berdebat.",
-   "Menunggu rekan saya yang lainnya untuk menentang pendapat tersebut.",
-   "Menentang pendapat tersebut karena tidak masuk akal.(skor 3)"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   1,
-   1,
-   5,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah Anti radikalisme. Salah satu contoh budaya radikalisme adalah mempertimbangkan seseorang dari segi suku dan ethnis, karena beberapa suku menganggap dirinya yang terbaik dari suku yang lain. Hal ini harus dihindari karena membatasi seseorang untuk bisa mengembangkan potensinya. Sehingga jawaban yang paling relevan adalah C. B. Menyampaikan pendapat bahwa pemberian upah tidak bisa didasarkan pada asal suku karyawan.(skor 4) C. Memberikan tanggapan bahwa sebaiknya standar penetapan gaji tetap berpegang teguh pada posisi dan skill yang dimiliki oleh kary",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TKP 2023.pdf"
- },
- {
   "id": 7158,
   "kat": "TKP",
   "sub": "Umum",
@@ -26377,31 +23885,6 @@
    1
   ],
   "pembahasan": "Pembahasan TO 1 TKP 2023 Halaman 23 | 26 Aspek yang dinilai pada soal di atas adalah teknologi informasi dan komunikasi. Ketika Anda belum mengetahui cara mengoperasikan sebuah s istem informasi maka sebaiknya di komunikasikan dengan senior, meminta pendampingan selama beberapa hari sebelum benar-benar bisa menjalankan s istem informasi dengan sendirinya atau dengan tanpa bantuan orang lain. Sehingga jawaban yang benar adalah A. B. Melaksanakan instruksi meskipun belum paham.(skor 4) C. Meminta untuk dialihkan kepada perawat lainnya.(skor 3) D. Tidak memasukkan data pasien karena takut keliru.",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7161,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Untuk pertama kalinya akan diadakan sebuah rapat menggunakan aplikasi zoom pada",
-  "pilihan": [
-   "Mulai melakukan simulasi penggunaan aplikasi zoom pada malam hari.",
-   "Melakukan simulasi penggunaan aplikasi zoom 15 menit sebelum dimulai.",
-   "Menyampaikan dengan jujur bahwa saya tidak memahami cara penggunaan aplikasi",
-   "Meminta tutorial kepada pimpinan untuk cara penggunaan aplikasi zoom.",
-   "Berinisiatif untuk belajar otodidak dengan melihat tutorial di youtube.",
-   "Mulai melakukan simulasi penggunaan aplikasi zoom pada malam hari.(skor 3)"
-  ],
-  "kunci": 4,
-  "skor_pilihan": [
-   1,
-   1,
-   1,
-   1,
-   5,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah teknologi informasi dan komunikasi. Ketika berada pada situasi di atas Anda di tuntut untuk menjadi karyawan yang lebih kreatif artinya adalah mencari sebuah solusi ketika dibutuhkan baik itu pertanyaan ataupun tindakan. Sehingga jawaban yang paling relevan adalah E. B. Melakukan simulasi penggunaan aplikasi zoom 15 menit sebelum dimulai.(skor 2) C. Menyampaikan dengan jujur bahwa saya tidak memahami cara penggunaan aplikasi zoom dan tidak bisa ikut rapat.(skor 1) D. Meminta tutorial kepada pimpinan untuk cara penggunaan aplikasi zoom.(skor 4) E. Ber",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TKP 2023.pdf"
  },
  {
@@ -26530,31 +24013,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TKP 2023.pdf"
  },
  {
-  "id": 7167,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Saya tergabung di sebuah kelompok diskusi yang mayoritas anggotanya terkenal akan",
-  "pilihan": [
-   "Keluar dari diskusi kelompok tersebut karena saya tidak dihargai.",
-   "Melakukan protes mengapa saran saya diabaikan begitu saja.",
-   "Mengklarifikasi terkait saran yang saya berikan dan mencoba menjelaskan maksud dan",
-   "Merasa kecewa dan tersinggung atas perlakuan teman saya.",
-   "Membuat saya trauma dan tidak ingin berkontribusi.",
-   "Keluar dari diskusi kelompok tersebut karena saya tidak dihargai. (skor 1)"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   1,
-   1,
-   5,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah jejaring kerja. Penolakan di dalam sebuah diskusi merupakan hal yang biasa atau bahkan sering terjadi sehingga tindakan yang bisa dilakukan adalah memberikan klarifikasi terkait maksud dan tujuan Anda agar bisa diterima dengan mudah oleh teman-teman lainnya. B. Melakukan protes mengapa saran saya diabaikan begitu saja.(skor 4) C. Mengklarifikasi terkait saran yang saya berikan dan mencoba menjelaskan maksud dan tujuan dari saran tersebut.(skor 5) D. Merasa kecewa dan tersinggung atas perlakuan teman saya.(skor 3) E. Membuat saya trauma dan tidak ingi",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TKP 2023.pdf"
- },
- {
   "id": 7168,
   "kat": "TWK",
   "sub": "Umum",
@@ -26640,23 +24098,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TWK 2023.pdf"
  },
  {
-  "id": 7173,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Andi merupakan seorang pengajar di sekolah yang mayoritas menganut agama Kristen,",
-  "pilihan": [
-   "1",
-   "2",
-   "3",
-   "4",
-   "5"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": "Kata kunci pada soal di atas adalah menghormati adanya perbedaan agama. Sila yang membahas dasar kehidupan spiritual masyarakat Indonesia adalah sila pertama, yaitu Ketuhanan Yang Maha Esa. Terdapat 7 butir pengamalan sila pertama yaitu : - Bangsa Indonesia menyatakan kepercayaan d an ketakwaannya terhadap Tuhan Yang Maha Esa - Manusia Indonesia percaya dan takwa terhadap Tuhan Yang Maha Esa sesuai dengan agama dan kepercayaan masing-masing menurut dasar kemanusiaan yang adil dan beradap - Mengembangkan sikap hormat -menghormati dan beker ja sama antara pemeluk agama dengan penganut kepercayaa",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TWK 2023.pdf"
- },
- {
   "id": 7174,
   "kat": "TWK",
   "sub": "Umum",
@@ -26722,23 +24163,6 @@
   "kunci": 2,
   "skor_pilihan": null,
   "pembahasan": "kata kunci dari soal di atas adalah “pergerakan ini adalah bentuk keinginan untuk memisahkan Papua Barat dari wilayah NKRI”. Kasus ini sangat bertentangan dengan sila ke tiga y aitu persatuan Indonesia. Pada sila ketiga ini mengandung nilai menjaga persatuan dan kesatuan NKRI, rela berkorban demi bangsa dan negara, cinta tanah air, bangga menjadi bagian negara Indonesia, dan memajukan pergaulan demi persatuan dan kesatuan bangsa yang ber-bhineka tunggal ika",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TWK 2023.pdf"
- },
- {
-  "id": 7178,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Bupati Kabupaten Kepulauan Meranti, Muhammad Adil telah ditetapkan sebagai",
-  "pilihan": [
-   "1",
-   "2",
-   "3",
-   "4",
-   "5"
-  ],
-  "kunci": 4,
-  "skor_pilihan": null,
-  "pembahasan": "Korupsi merupakan perilaku yang melanggar sila ke -5 Pancasila yang berbunyi “ Keadilan sosial bagi seluruh rakyat Indonesia”. Hal tersebut disebabkan karena sila ke -5 Pancasila bermakna adil terhadap sesama dan menghormati setiap hak-hak yang dimiliki oleh masyarakat Indonesia.",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TWK 2023.pdf"
  },
  {
@@ -26861,23 +24285,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TWK 2023.pdf"
  },
  {
-  "id": 7186,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Perhatikan unsur-unsur berikut :",
-  "pilihan": [
-   "1, 2, 4",
-   "1, 3, 5",
-   "1, 2, 3",
-   "3, 4, 5",
-   "1, 3, 5"
-  ],
-  "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": "Bela negara dalam bidang politik dapat diwujudkan dengan aktifnya warga negara berpartisipasi dalam politik. Partisipasi warga negara dalam politik ini berperan penting dalam menentukan segala keputusan yang menyangkut kehidupan politik di Indonesia. Bentuk perwujudannya dapat dilakukan dengan cara mengikuti pemilu dan tidak golput, menjabat sebagai wakil pemerintahan, dan lain sebagainya. Pada soal di atas dapat dilihat bahwa unsur 1, 2 dan 3 merupakan bentuk perwujudan bela negara dalam bidang politik. Unsur 4 merupakan bentuk perwujudan bela negara dalam bidang ekonomi. Unsur 5 m erupakan b",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TWK 2023.pdf"
- },
- {
   "id": 7187,
   "kat": "TWK",
   "sub": "Umum",
@@ -26912,40 +24319,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TWK 2023.pdf"
  },
  {
-  "id": 7189,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Ide pokok pada teks di atas adalah ....",
-  "pilihan": [
-   "Banyaknya krisis percaya diri",
-   "Menumbuhkan rasa percaya diri",
-   "Kunci utama percaya diri",
-   "Pikiran negatif seseorang terhadap rasa percaya diri",
-   "Pendapat ahli tentang percaya diri"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": "ide pokok merupakan inti atau dasar permasalahan dari suatu teks. Ide pokok berisi gagasan dasar penulis. Pada teks di atas membahas tentang faktor penyebab krisis percaya diri dan latihan yang dapat dilakukan untuk menumbuhkan rasa percaya diri.",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TWK 2023.pdf"
- },
- {
-  "id": 7190,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Makna dari kata “tersedot” pada teks di atas adalah ....",
-  "pilihan": [
-   "Berkurang",
-   "Bertambah",
-   "Tidak bisa digunakan",
-   "Berakhir",
-   "Selesai"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": "Pada teks menerangkan bahwa “Apabila seseorang selalu berpikiran negatif, maka seluruh potensi untuk maju dalam diri orang tersebut akan tersedot habis” tersedot habis pada kalimat tersebut dapat memiliki m akna hilang, berkurang atau menyusut. Sehingga jawaban yang tepat adalah opsi A, yaitu berkurang.",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TWK 2023.pdf"
- },
- {
   "id": 7191,
   "kat": "TWK",
   "sub": "Umum",
@@ -26960,23 +24333,6 @@
   "kunci": 2,
   "skor_pilihan": null,
   "pembahasan": "gagasan utama merupakan ide pokok yang dibahas dalam suatu teks bacaan. Inti dari penjelasan paragraf di atas adalah bahwasanya tidak semua hewan karnivora itu buas dan berbahaya bagi kehidupan m anusia, contohnya seperti anjing dan kucing.",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TWK 2023.pdf"
- },
- {
-  "id": 7192,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Perhatikan data buku berikut :",
-  "pilihan": [
-   "Nilam Sari, 2016. 4 Langkah menjadi Wanita Berkarakter dan Berkepribadian Positif.",
-   "Sari, Nilam, 2016. Langkah menjadi Wanita Berkarakter dan Berkepribadian Positif.",
-   "Sari, Nilam. 2016. Langkah menjadi Wanita Berkarakter dan Berkepribadian Positif .",
-   "Nilam, Sari. 2016. Langkah menjadi Wanita Berkarakter dan Berkepribadian Positif.",
-   "Sari, Nilam. 2016 : Langkah menjadi Wanita Berkarakter dan Berkepribadian Positif."
-  ],
-  "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": "Penulisan daftar pustaka yang benar adalah : Pembahasan TO 1 TWK 2023 Halaman 13 | 15 - Nama penulis (ditulis lebih awal. Jika nama terdiri dari dua kata maka penulisannya terbalik, kemudian diikuti dengan tanda koma(,). Jika nama penulis terdiri dari dua orang atau lebih, maka yang ditulis terbalik hanya nama orang pertama saja. Jika nama penulis lebih dari tiga orang, maka nama pertama ditulis terbalik dan yang lainnya tidak perlu dicantumkan dan diberi keterangan dkk. - Tahun terbit, ditulis setelah nama penulis - Judul buku, ditulis secara lengkap dengan menggunakan tulisan miring - Tempat",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 1 CPNS TWK 2023.pdf"
  },
  {
@@ -27185,24 +24541,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 2 CPNS TIU 2023.pdf"
  },
  {
-  "id": 7205,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Dikarenakan Rina ingin berbicara dengan Lulu, maka ia meminta berganti kursi dengan",
-  "pilihan": [
-   "Fuji duduk di antara Nimra dan Adiba",
-   "Gio duduk bersebelahan dengan Lulu",
-   "Rina duduk dua kursi terpisah dari Dika",
-   "Yuni duduk tiga kursi terpisah dari Gio",
-   "Lulu duduk bersebelahan dengan Rina dan Nimra",
-   "Fuji duduk di antara Nimra dan Adiba (benar)"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": "B. Gio duduk bersebelahan dengan Lulu (salah) Pernyataan yang benar adalah Gio duduk bersebelahan dengan Nimra dan Yuni C. Rina duduk dua kursi terpisah dari Dika (salah) Pernyataan yang benar adalah Rina duduk dua kursi terpisah dari Nimra dan Adiba D. Yuni duduk tiga kursi terpisah dari Gio (salah) Pernyataan yang benar adalah Yuni duduk tiga kursi terpisah dari Adiba E. Lulu duduk bersebelahan dengan Rina dan Nimra (salah) Pernyataan yang benar adalah Lulu duduk bersebelahan dengan Rina dan Dika",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 2 CPNS TIU 2023.pdf"
- },
- {
   "id": 7206,
   "kat": "TIU",
   "sub": "Umum",
@@ -27268,23 +24606,6 @@
   "kunci": 3,
   "skor_pilihan": null,
   "pembahasan": "Pembahasan TO 2 TIU 2023 Halaman 7 | 25 :5 :5 :5 :5 630 1000 210 200 70 40 23.3 8 7,77 1,6 :3 :3 :3 :3",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 2 CPNS TIU 2023.pdf"
- },
- {
-  "id": 7210,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Jika a =",
-  "pilihan": [
-   "a = b",
-   "a > b",
-   "a < b",
-   "a = 2b",
-   "b = 2a"
-  ],
-  "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": "Trik cepat : - lakukan teknik penyederhanaan, seperti: x = 𝑎 𝑏 y = 𝑐 𝑑 - syarat pembagiannya adalah bilangan pembilang dibagi sama pembilang dan penyebut dengan penyebut, berarti a/c dan b/d a = 15 12 × 10 18 × 3 7 dan b= 15 12 × 7 18 × 5 7 - maka, a = 10 x 3 = 30 dan b= 7 x 5 = 35 +5 +5 −3 +5 −3 +5 −3 −3 +5 +5 Pembahasan TO 2 TIU 2023 Halaman 8 | 25 - sehingga b>a atau a<b",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 2 CPNS TIU 2023.pdf"
  },
  {
@@ -27356,40 +24677,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 2 CPNS TIU 2023.pdf"
  },
  {
-  "id": 7215,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Pembangunan sekolah X di kota A direncanakan selesai dalam waktu 24 hari bila",
-  "pilihan": [
-   "20 orang",
-   "23 orang",
-   "36 orang",
-   "21 orang",
-   "35 orang"
-  ],
-  "kunci": 3,
-  "skor_pilihan": null,
-  "pembahasan": "Pembahasan TO 2 TIU 2023 Halaman 10 | 25 Pekerja Waktu (hari) 15 24 − 12 = 12 𝑥 12 − 7 = 5 15 𝑥 = 512 𝑥 = 15 × 125 = 36 Jadi jumlah tambahan pekerja adalah = 36 – 15 = 21 orang.",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 2 CPNS TIU 2023.pdf"
- },
- {
-  "id": 7218,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Usia adik adalah",
-  "pilihan": [
-   "15 tahun",
-   "19 tahun",
-   "17 tahun",
-   "16 tahun",
-   "12 tahun"
-  ],
-  "kunci": 3,
-  "skor_pilihan": null,
-  "pembahasan": "A = 4 5 K ................. (1) I = 9 4 K .................. (2) Jika usia ibu 45 tahun, maka: - Masukkan usia ibu ke persamaan (2) 45 = 9 4 × K 45 × 4 9 = K K = 20 tahun Pembahasan TO 2 TIU 2023 Halaman 12 | 25 - Masukkan usia kakak ke persamaan (1) A = 4 5 ×K A = 4 5 × 20 A = 16 tahun",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 2 CPNS TIU 2023.pdf"
- },
- {
   "id": 7219,
   "kat": "TIU",
   "sub": "Umum",
@@ -27456,31 +24743,6 @@
   "skor_pilihan": null,
   "pembahasan": "- Total gaji Fatimah pada bulan 1 adalah: = 2.500.000 + (12% × 3.200.000) =2.500.000 + 384.000 =2.884.000 - Total gaji Fatimah pada bulan 2 adalah: = gaji bulan pertama + (2.500.000×5%) = 2.884.000 + 125.000 = 3.009.000 - Total gaji Fatimah pada bulan 3 adalah: = gaji bulan pertama + (2.500.000×7%) =2.884.000 + 175.000 =3.059.000 - Total uang Fatimah pada bulan ke-3: = 2.884.000 + 3.009.000 + 3.059.000 = 8.952.000 Pembahasan TO 2 TIU 2023 Halaman 15 | 25",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 2 CPNS TIU 2023.pdf"
- },
- {
-  "id": 7223,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Wina merupakan seorang freelancer yang bekerja dengan menyelesaikan proyek dari",
-  "pilihan": [
-   "Bersikap cuek karena sudah jenuh dengan proyek yang tidak kunjung diterima.",
-   "Segera memperbaiki revisi yang diberikan dengan berat hati.",
-   "Berusaha menganalisis terkait kesalahan desain dan segera memperbaiki bagian yang",
-   "Berhenti dari proyek tersebut dan mencari proyek yang sudah jelas dan pasti.",
-   "Menunda revisi dan mencoba mencari proyek lainnya yang lebih menguntungkan.",
-   "Bersikap cuek karena sudah jenuh dengan proyek yang tidak kunjung di terima .(skor"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   1,
-   1,
-   5,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atasan adalah pelayanan publik. Ketika mengha dapi complaint dari pengguna jasa kita, maka sudah semestinya berinisiatif untuk segera melakukan revisi. Karena pelayanan publik yang bagus adalah pelayanan yang selalu siap menerima saran dan k ritikan dan segera memperbaiki. Sehingga jawaban yang sangat relevan adalah C. 1) B. Segera memperbaiki revisi yang diberikan dengan berat hati.(skor 4) C. Berusaha Menganalisis terkait kesalahan desain dan segera memperbaiki bagian yang perlu diperbaiki.(skor 5) D. Berhenti dari proyek tersebut dan mencari proyek yang sudah",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 2 CPNS TKP 2023.pdf"
  },
  {
   "id": 7224,
@@ -28083,56 +25345,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 2 CPNS TKP 2023.pdf"
  },
  {
-  "id": 7248,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Saya merupakan seorang fresh graduated lulusan terbaik yang memiliki kakak yang",
-  "pilihan": [
-   "Menghubungi kakak saya untuk memasukkan saya di p uskesmas tersebut agar bisa",
-   "Mencari tahu informasi lowongan kerja dari kakak saya dan menanyakan proses",
-   "Membujuk kakak untuk merekomendasikan saya.",
-   "Meminta kakak saya untuk memasukkan saya tanpa proses seleksi.",
-   "Meminta saran kakak saya terkait tempat bekerja yang bagus untuk saya.",
-   "Menghubungi kakak saya untuk memasukkan saya di puskesmas tersebut agar bisa"
-  ],
-  "kunci": 1,
-  "skor_pilihan": [
-   1,
-   5,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal yang ada di atas adalah profesionalisme. Seseorang yang profesional tidak akan memanfaatkan posisi atau kedudukannya untuk mendahulukan kerabatnya dalam hal memperoleh pekerjaan, namun seseorang yang profesional akan membiarkan kerabatnya untuk berupaya dengan sendirinya. Sehingga jawaban yang paling tepat adalah B. bekerja.(skor 2) B. Mencari tahu informasi lowongan kerja dari kakak saya dan menanyakan proses seleksinya seperti apa.(skor 5) C. Membujuk kakak untuk merekomendasikan saya.(skor 3) D. Meminta kakak saya untuk memasukkan saya tanpa proses seleksi.(skor",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 2 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7249,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Saya merupakan orang yang tidak bisa bangun pagi. Suatu ketika saya diterima bekerja di",
-  "pilihan": [
-   "Menerima peraturan tersebut dan akan berusaha mengubah kebiasaan saya agar bisa",
-   "Menolak pekerjaan tersebut karena saya sangat sulit untuk bangun pagi.",
-   "Menerima pekerjaan tersebut dan akan memulai membuat rencana kebiasaan yang",
-   "Melakukan lobby agar saya bisa masuk siang.",
-   "Meminta waktu beberapa hari untuk memikirkan jawabannya.",
-   "Menerima peraturan tersebut dan akan berusaha mengubah kebiasaan saya agar bisa"
-  ],
-  "kunci": 0,
-  "skor_pilihan": [
-   5,
-   1,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah profesionalisme. Orang yang profesional adalah orang yang bisa bekerja sesuai dengan tuntutan pekerjaannya serta bisa mengikuti aturan yang ditetapkan oleh perusahaan. Sehingga jawaban yang paling tepat adalah A. bangun pagi dan datang ke kantor tepat waktu.(skor 5) B. Menolak pekerjaan tersebut karena saya sangat sulit untuk bangun pagi.(skor 1) C. Menerima pekerjaan tersebut dan akan memulai membuat rencana kebiasaan yang bagus dan dapat membantu saya agar bisa bangun pagi.(skor 4) D. Melakukan lobby agar saya bisa masuk siang.(skor 3) E. Meminta w",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 2 CPNS TKP 2023.pdf"
- },
- {
   "id": 7250,
   "kat": "TKP",
   "sub": "Umum",
@@ -28255,56 +25467,6 @@
    1
   ],
   "pembahasan": "Aspek yang diukur Pada soal di atas adalah anti radikalisme. Adanya pemahaman mengenai senioritas hingga tindakan yang bertentangan dengan nilai -nilai keagamaan harus segera di hentikan. Salah satu langkah yang paling tepat yang bisa Anda lakukan adalah seperti yang ada pada jawaban B. B. Segera Keluar dari program kaderisasi karena sudah keterlaluan. (skor 5) C. Mengikuti arahan para senior untuk membentuk saya menjadi anggota PMR y ang loyal.(skor 1) Pembahasan TO 2 TKP 2023 Halaman 19 | 25 D. Membuat berita viral terkait proses kaderisasi yang ekstrem.(skor 2) E. Menyadarkan teman saya yan",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 2 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7255,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Suatu ketika pimpinan saya menyuruh untuk melakukan aksi yang menyimpang yang",
-  "pilihan": [
-   "Melaporkan aksi tersebut kepada pimpinan teratas terkait adanya tindakan yang tidak",
-   "Menolak untuk menerima perintah atasan tersebut dan menerima konsekuensinya.",
-   "Mengikuti perintah pimpinan saya karena saat ini, mencari pekerjaan sangat sulit.",
-   "Mengingatkan pimpinan saya untuk mempertimbangkan perintahnya tersebut.",
-   "Melaksanakan perintah pimp inan saya dengan permintaan adanya jaminan atas",
-   "Melaporkan aksi tersebut kepada pimpinan teratas terkait adanya tindakan yang tidak"
-  ],
-  "kunci": 0,
-  "skor_pilihan": [
-   5,
-   1,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal yang ada di atas adalah anti radikalisme. Adanya pemahaman mengenai perintah atasan yang harus selalu di ikuti membuat beberapa orang kadang melupakan nilai-nilai etika dan norma yang sebenarnya tidak bisa dilanggar maka sikap yang seharusnya di tunjukkan adalah segera melaporkan aksi tersebut kepada pimpinan teratas. Maka jawaban yang paling tepat adalah A bermoral.(skor 5) B. Menolak untuk menerima perintah atasan tersebut dan menerima konsekuensinya.(skor 4) C. Mengikuti perintah pimpinan saya karena saat ini, mencari pekerjaan s angat sulit.(skor 2) D. Menginga",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 2 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7256,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Ibu Anda selalu mengingatkan untuk berhati hati akan terpaparnya sikap radikalisme dari",
-  "pilihan": [
-   "Membentengi diri Anda dengan agama yang kuat.",
-   "Bersikap cuek saja karena sekarang merupakan era modern.",
-   "Mengelilingi diri Anda dengan orang-orang yang baik.",
-   "Mengikuti tren yang ada di masyarakat.",
-   "Ikut serta ke dalam kegiatan yang lebih positif.",
-   "Membentengi diri Anda dengan agama yang kuat.(skor 5)"
-  ],
-  "kunci": 0,
-  "skor_pilihan": [
-   5,
-   1,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah anti radikalisme. Ketika Anda diberikan nasihat oleh orang tua mengenai kewaspadaan terhadap paham radikal maka sikap yang harus ditunjukkan adalah seperti yang ada pada option A. Pembahasan TO 2 TKP 2023 Halaman 20 | 25 B. Bersikap cuek saja karena sekarang merupakan era modern.(skor 1) C. Mengelilingi diri Anda dengan orang-orang yang baik.(skor 4) D. Mengikuti tren yang ada di masyarakat.(skor 2) E. Ikut serta ke dalam kegiatan yang lebih positif.(skor 3)",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 2 CPNS TKP 2023.pdf"
  },
  {
@@ -28784,23 +25946,6 @@
   "kunci": 2,
   "skor_pilihan": null,
   "pembahasan": "- opsi A dan B merupakan bentuk pengamalan UUD 1945 dalam nilai kemanusiaan - opsi C merupakan bentuk pengamalan UUD 1945 dalam nilai produktivitas - opsi D dan E merupakan bentuk pengamalan UUD 1945 dalam nilai keseimbangan.",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 2 CPNS TWK 2023.pdf"
- },
- {
-  "id": 7281,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Pada a wal tahun 2023 masyarakat Indonesia kembali dihebohkan dengan konfil yang",
-  "pilihan": [
-   "1",
-   "2",
-   "3",
-   "4",
-   "5"
-  ],
-  "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": "konflik tersebut dapat merusak persatuan dan kesatuan bangsa sehingga merupakan penyimpangan dari sila ke-3 Pancasila yang berbunyi “Persatuan Indonesia”. Adapun butir-butir pengamalan dari sila ke -3 Pancasila adalah mampu menempatkan persatuan, kesatuan serta kepentingan dan keselamatan Bangsa dan Negara sebagai kepentingan bersama di atas kepentingan pribadi dan golongan, sanggup dan rela berkorban untuk kepentingan Bangsa dan Negara, mengembangkan rasa cinta tanah air, memelih ara ketertiban dunia yang berdasarkan kemerdekaan, perdamaian abadi dan keadilan sosial, mengembangkan persatuan I",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 2 CPNS TWK 2023.pdf"
  },
  {
@@ -29315,23 +26460,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TIU 2023.pdf"
  },
  {
-  "id": 7312,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Nilai dari",
-  "pilihan": [
-   "0",
-   "½",
-   "1",
-   "2",
-   "3"
-  ],
-  "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": "Ingat rumus: (a+b) 2 = a2 + 2ab +b2 562+2×56×65+652 (56+65)2 = 562+2×56×65+652 562+2×56×65+652 = 1",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TIU 2023.pdf"
- },
- {
   "id": 7313,
   "kat": "TIU",
   "sub": "Umum",
@@ -29366,40 +26494,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TIU 2023.pdf"
  },
  {
-  "id": 7315,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Rudi membeli pakan ayam sebanyak 24 kg dan akan habis selama 20 hari. Jika pada",
-  "pilihan": [
-   "29",
-   "27",
-   "30",
-   "31",
-   "32"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": "Pakan Waktu (hari) 24 20 32 𝑎 24 32 = 20𝑎 24𝑎 = 32×20 𝑎 = 640 : 24 𝑎 = 26,6 dibulatkan menjadi 27",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TIU 2023.pdf"
- },
- {
-  "id": 7316,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Sebuah proyek pembangunan tempat ibadah akan dikerjakan oleh 50 pekerja dan dapat",
-  "pilihan": [
-   "38",
-   "37",
-   "35",
-   "40",
-   "41"
-  ],
-  "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": "Pekerja Waktu (hari) 50 120 − 30 = 90 50 − 14 = 36 𝑎 50 36 = 𝑎90 50 × 90 = 36𝑎 4500 = 36𝑎 𝑎 = 4500:36 = 125 hari Tambahan waktu yang diperlukan adalah 125 hari – 90 hari = 35 hari.",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TIU 2023.pdf"
- },
- {
   "id": 7317,
   "kat": "TIU",
   "sub": "Umum",
@@ -29414,23 +26508,6 @@
   "kunci": 3,
   "skor_pilihan": null,
   "pembahasan": "misalkan usia Giska saat ini = a dan usia Kia saat ini = b a–6 : b-6 = 9 : 11 a+4 : b+4 = 7 : 8 maka Pembahasan TO 3 TIU 2023 Halaman 10 | 23 𝑎 − 6 𝑏 − 6 = 911 11a – 66 = 9b – 54 11a – 9b = 12 ............... (1) 𝑎 + 4 𝑏 + 4 = 78 8a + 32 = 7b + 28 8a – 7b = -4 .....................(2) Penyelesaian persamaan 11a – 9b = 12 ×7 77a - 63b = 84 8a – 7b = -4 ×9 72a - 63b = -36 5a = 120 a = 24 untuk mencari b maka masukkan kesalah satu persamaan, misalkan persamaan (2) 8a – 7b = -4 8(24) – 7b = -4 192 - 7b = -4 7b = 196 b = 28 Maka selisih b dengan a adalah 28-24 = 4 tahun.",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TIU 2023.pdf"
- },
- {
-  "id": 7318,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Atta mengendarai mobil dari rumahnya menuju rumah Aurel dengan jarak 20 km. Dari",
-  "pilihan": [
-   "09:00",
-   "09:05",
-   "09:10",
-   "09:15",
-   "09:20"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": "Waktu berpapasan = jarak total (s) Kecepatan (v)1+kecepatan (v)2 = 20 km 36km/jam+24km/jam = 1 3 jam Pembahasan TO 3 TIU 2023 Halaman 11 | 23 = 1 3 × 60 = 20 menit Jadi mereka berpapasan pada pukul : 08:45 + 00:20 = 09:05",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TIU 2023.pdf"
  },
  {
@@ -29465,23 +26542,6 @@
   "kunci": 3,
   "skor_pilihan": null,
   "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TIU 2023.pdf"
- },
- {
-  "id": 7321,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Dani memasukkan kardus berisi headphone yang berukuran 5 cm x 6 cm x 7 cm ke",
-  "pilihan": [
-   "480",
-   "420",
-   "400",
-   "300",
-   "280"
-  ],
-  "kunci": 3,
-  "skor_pilihan": null,
-  "pembahasan": "pada gambar 1 pola 2 terjadi perubahan warna pada segitiga, sehingga gambar 2 pola 2 juga demikian (eliminasi opsi A dan D), selanjutnya perhatikan perpindahan lingkaran pada gambar 1. Lingkaran berpindah dari satu sisi ke sisi berikutnya searah jarum jam, sehi ngga pada gambar 2 tanda silang juga berpindah dengan pola demikian. Jawaban yang paling tepat adalah C. ? Pembahasan TO 3 TIU 2023 Halaman 14 | 23",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TIU 2023.pdf"
  },
  {
@@ -29549,31 +26609,6 @@
    1
   ],
   "pembahasan": "Pembahasan TO 3 TKP 2023 Halaman 2 | 24 Aspek yang dinilai pada soal di atas adalah pelayanan publik. Sebagai staff kelurahan maka harus memberikan pelayanan profesional sesuai yang dibutuhkan oleh masyarakat. Sehingga jawaban yang benar adalah C. B. Ani meminta kepada warga tersebut agar datang pada sore hari lagi.(skor 3) C. Ani tetap berusaha memberikan pelayanan yang profesional dan segera pulang ketika tanggung jawabnya selesai.(skor 5) D. Ani Mengabaikan warga tersebut dan segera pulang ke rumah.(skor 1) E. Ani meminta kepada temannya yang lain untuk membantu warga tersebut.(skor 4)",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7325,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Ryan terpilih menjadi seorang kepala desa karena dinilai memiliki integritas yang baik,",
-  "pilihan": [
-   "Mendengarkan keluh kesah warga tersebut tanpa berbuat apa-apa.",
-   "Memberikan saran kepada warga tersebut untuk tetap bersabar.",
-   "Segera bertindak dan mencari solusi untuk segera memperbaiki jalanan tersebut",
-   "Melakukan penggalangan dana dengan warga setempat untuk perbaikan jalanan.",
-   "Segera membuat pertemuan dengan para pegawai kantor desa untuk penanganan",
-   "Mendengarkan keluh kesah warga tersebut tanpa berbuat apa-apa. (skor 1)"
-  ],
-  "kunci": 4,
-  "skor_pilihan": [
-   1,
-   1,
-   1,
-   1,
-   5,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah pelayanan publik. Sebagai seorang kepala desa maka sudah seharusnya untuk berusaha menampung aspirasi dari masyarakat dan mencari solusi dari permasalahan yang dihadapi masyarakat bersama staf kelurahan setempat. Sehingga jawaban yang paling benar adalah E. B. Memberikan saran kepada warga tersebut untuk tetap bersabar.(skor 3) C. Segera bertindak dan mencari solusi untuk segera memperbaiki jalanan tersebut dengan menggunakan dana pribadi.(skor 4) D. Melakukan penggalang an dana dengan warga setempat untuk perbaikan jalanan.(skor 2) E. Segera membuat",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TKP 2023.pdf"
  },
  {
@@ -29974,56 +27009,6 @@
    1
   ],
   "pembahasan": "Aspek yang dinilai pada soal di atas adalah sosial budaya. Sebagai makhluk sosial maka sudah sepantasnya kita harus selalu tolong menolong di mana pun dan kapan pun sehingga jawaban yang paling tepat adalah E. B. Segera menuju ke arah nenek tersebut dan membantunya menyeberangi jalan .(skor 4) C. Tidak berbuat apa-apa karena fokus menuju ke kantor dan takut akan terlambat.(skor 1) D. Berharap akan ada pejalan kaki yang lewat dan membantu nenek tersebut.(skor 3) E. Segera berlari ke arah nenek tersebut dan menawarkan diri untuk membantunya menyeberang. (skor 5)",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7342,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Suatu hari tetangga saya saling bertengkar karena sebuah kesalahpahaman. Sebagai",
-  "pilihan": [
-   "Berusaha untuk mendamaikan keduanya dengan mencari solusi yang relevan dengan",
-   "Bersikap cuek karena hal tersebut bukanlah urusan saya.",
-   "Segera memanggil ketua RT setempat agar mendamaikan keduanya.",
-   "Menyebarkan informasi yang saya lihat kepada tetangga saya sebagai bahan obrolan.",
-   "Memanggil tetangga saya yang lain untuk membantu saya mendamaikan mereka.",
-   "Berusaha untuk mendamaikan keduanya dengan mencari solusi yang relevan dengan"
-  ],
-  "kunci": 0,
-  "skor_pilihan": [
-   5,
-   1,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah sosial budaya. Sebagai makhluk sosial maka sudah sepantasnya kita berusaha untuk mendamaikan tetangga yang sedang bertengkar. Sehingga jawaban yang paling tepat adalah A. Pembahasan TO 3 TKP 2023 Halaman 12 | 24 permasalahan yang di hadapi oleh keduanya.(skor 5) B. Bersikap cuek karena hal tersebut bukanlah urusan saya.(skor 1) C. Segera memanggil ketua RT setempat agar mendamaikan keduanya.(skor 4) D. Menyebarkan informasi yang saya lihat kepada tetangga saya sebagai bahan obrolan.(skor 2) E. Memanggil tetangga saya yang lain untuk membantu saya men",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7343,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Elina merupakan sahabat saya, suatu ketika dia bercerita bahwa dia akan menikah dengan",
-  "pilihan": [
-   "Menerima keputusan sahabat saya tersebut karena itu adalah hidupnya.",
-   "Berusaha menasihati sahabat say a bahwa hal tersebut bertentangan dengan agama",
-   "Bertemu dengan orang tua sahabat saya dan memberikan saran kepada orang tuanya",
-   "Ikut merasa senang karena sebentar lagi sahabat saya akan menikah.",
-   "Tidak ikut campur mengenai aspek agama sahabat saya karena takut menyinggung",
-   "Menerima keputusan sahabat saya tersebut karena itu adalah hidupnya.( skor 5)"
-  ],
-  "kunci": 1,
-  "skor_pilihan": [
-   1,
-   5,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah sosial budaya. Sebagai seorang sahabat yang akan mengambil keputusan yang berbeda dari nilai -nilai keagamaan, maka sudah sepatutnya kita memberikan nasihat kepada sahabat kita untuk mempertimbangkan ulang keputusannya. Sehingga jawaban yang paling tepat adalah B B. Berusaha menasihati sahabat saya bahwa hal tersebut bertentangan dengan agama dia.(skor 2) C. Bertemu dengan orang tua sahabat saya dan memberikan saran kepada orang tuanya untuk menasihati sahabat saya tersebut.(skor 4) D. Ikut merasa senang karena sebentar lagi sahabat saya akan menikah",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TKP 2023.pdf"
  },
  {
@@ -30658,23 +27643,6 @@
   "kunci": 2,
   "skor_pilihan": null,
   "pembahasan": "integritas menunjukkan sikap bahwa seseorang memiliki kesesuaian atau konsistensi antara apa yang diucapkan dengan tindakan yang dilakukan. Integritas dapat terbentuk karena kesadaran dari dalam diri seseorang . Namun, integritas juga dapat didorong dengan beberap a faktor yang berasal dari luar (eksternal) seperti adanya sanksi bagi seseorang yang terbukti melanggar aturan dan kebijakan yang berlaku yang bertujuan untuk memberi efek jera bagi pelaku sehingga mereka tidak lagi melakukan hal -hal yang tidak sesuai den gan aturan, nilai moral, prinsip dan kebijakan yang berlaku",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TWK 2023.pdf"
- },
- {
-  "id": 7370,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Integritas dapat diartikan sebagai keterpaduan, kebulatan, keutuhan, dan kejujuran serta",
-  "pilihan": [
-   "Sekolah meluluskan siswa 100% padahal proses belajar mengajar tidak berjalan",
-   "Sekolah X merupakan sekolah bertaraf internasional, ternyata sebagian guru dan",
-   "Siswa yang memiliki kemampuan lemah ma sih dapat naik kelas apabila wali murid",
-   "Sebagian siswa yang memiliki nilai rapor tinggi ternyata tidak berkompeten karena",
-   "Siswa yang mengikuti olimpiade nasional ternyata juga memiliki prestasi yang baik"
-  ],
-  "kunci": 4,
-  "skor_pilihan": null,
-  "pembahasan": "perilaku integritas harus sesuai antara ucapan dengan tindakan, dan tindakan dengan kenyataan. Pada opsi jawaban soal di atas adalah bentuk -bentuk integritas yang rendah di lingkungan se kolah kecuali opsi E. Opsi E menunjukkan kesesuaian dan kenyataan bahwa siswa yang berprestasi di sekolah ternyata juga mampu berprestasi di perguruan tinggi.",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TWK 2023.pdf"
  },
  {
@@ -31461,23 +28429,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 4 CPNS TIU 2023.pdf"
  },
  {
-  "id": 7418,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Bibi dan paman pergi ke kampung mengendarai sepeda motor. Mereka berangkat pada",
-  "pilihan": [
-   "145 km",
-   "130 km",
-   "135 km",
-   "155 km",
-   "201 km"
-  ],
-  "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": "Jarak (s) = Kecepatan (v) × waktu (t) Waktu berangkat sampai tiba di kampung = 09:30– 07:15 = 2 jam 15 menit 2 jam 15 menit = 2,25 jam Jarak = 60 km/jam × 2,25 jam Jarak = 135 km",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 4 CPNS TIU 2023.pdf"
- },
- {
   "id": 7419,
   "kat": "TIU",
   "sub": "Umum",
@@ -31492,23 +28443,6 @@
   "kunci": 3,
   "skor_pilihan": null,
   "pembahasan": "Pembahasan TO 4 TIU 2023 Halaman 11 | 20 a = banyak mobil b = banyak motor a + b = 60 jumlah roda mobil = 180 xa + yb = 180 (x merupakan koefisien a dan y merupakan koefisien b) Jumlah roda 1 mobil = 4 dan motor=2, maka 4a + 2b = 180 Sehingga persamaan linear nya adalah a + b = 60 dan 4a + 2b= 180",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 4 CPNS TIU 2023.pdf"
- },
- {
-  "id": 7420,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Genta mendapat nilai 79, 90, 89 dan 87 untuk empat mata pelajaran. Berapa nilai yang",
-  "pilihan": [
-   "85",
-   "89",
-   "90",
-   "93",
-   "95"
-  ],
-  "kunci": 4,
-  "skor_pilihan": null,
-  "pembahasan": "79 + 90 + 89 + 87 + a 4 + 1 = 88 345+a = 88 × 5 345+a = 440 a = 440-345 a = 95",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 4 CPNS TIU 2023.pdf"
  },
  {
@@ -31904,56 +28838,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 4 CPNS TKP 2023.pdf"
  },
  {
-  "id": 7437,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Anda merupakan seorang atasan yang tidak menyukai lingkungan yang kotor. Ketika",
-  "pilihan": [
-   "Meminta kepada para karyawan untuk segera membuang sampah yang ada di",
-   "Berlalu melewati ruangan karena tidak ingin mengganggu konsentrasi karyawan.",
-   "Segera membuat kebijakan terkait larangan membuang sampah sembarangan.",
-   "Memberikan sanksi kepada seluruh karyawan yang membuang sampah",
-   "Marah-marah kepada seluruh karyawan karena tidak menjaga kebersihan.",
-   "Meminta kepada para karyawan untuk segera membuang sampah yang ada di"
-  ],
-  "kunci": 0,
-  "skor_pilihan": [
-   5,
-   1,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah sosial budaya. Sebagai seorang atasan tentunya harus ada kesadaran tentang betapa pentingnya menjaga kebersihan dan harus dipahamkan kepada karyawan lainnya agar bisa bekerja secara nyaman dan efektif. ruangan tersebut dan kembali fokus bekerja setelah selesai. (skor 5) B. Berlalu melewati ruangan karena tidak ingin mengganggu konsentrasi karyawan.(skor 2) C. Segera membuat kebijakan terkait larangan membuang sampah sembarangan.(skor 4) D. Memberikan sanksi kepada seluruh karyawan yang membuang sampah sembarangan.(skor 3) E. Marah-marah kepada seluru",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 4 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7438,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Suatu hari, anak saya memberikan rapor kenaikan kelasnya dan ternyata dia berada di",
-  "pilihan": [
-   "Membandingkan peringkat anak saya dengan peringkat anak tetangga yang jauh",
-   "Bersikap marah-marah untuk memperlihatkan rasa kekecewaan saya sebagai",
-   "Tersenyum dan mengucapkan terima kasih atas segala usaha yang dia berikan serta",
-   "Memberikan hadiah kepada anak saya sebagai wujud apresiasi kerja kerasnya.",
-   "Membelikan banyak buku dan membatasi pertemanannya agar bisa fokus belajar",
-   "Membandingkan peringkat anak saya dengan peringkat anak tetangga yang jauh"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   1,
-   1,
-   5,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah sosial budaya. Pada situasi di atas sudah saatnya menghentikan budaya bahwa pintar harus berada pada peringkat pertama. Karena kecerdasan setiap anak berbeda-beda tidak bisa disamaratakan sehingga jawaban yang paling tepat adalah C. lebih bagus agar memotivasi anak saya agar pintar.(skor 2) B. Bersikap marah-marah untuk memperlihatkan rasa kekecewaan saya sebagai seorang ibu.(skor 1) Pembahasan TO 4 TKP 2023 Halaman 10 | 23 C. Tersenyum dan mengucapkan terima kasih atas segala usaha yang dia berikan serta memberikan motivasi lebih untuk belajar giat ",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 4 CPNS TKP 2023.pdf"
- },
- {
   "id": 7439,
   "kat": "TKP",
   "sub": "Umum",
@@ -32026,31 +28910,6 @@
    1
   ],
   "pembahasan": "Aspek yang dinilai pada soal di atas adalah sosial budaya. Aspek ini menuntut seseorang untuk bisa memberikan empati dan kepekaan terhadap orang yang sedang sakit, berusaha memikirkan kondisi seseorang akan tindakan yang di lakukan. B. Mengurungkan niat untuk tidak bermain petasan dan akan bermain petasan ketika tetangga sudah sembuh.(skor 3) C. Tetap berpetasan namun tidak banyak.(skor 2) D. Mencari tempat yang jauh dari rumah tetangga dan tetap bermain petasan.(skor 4) E. Memilih untuk bermain petasan di lain hari dan pergi menjenguk tetangga yang sedang sakit.(skor 5)",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 4 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7442,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Suatu hari, saya sedang mengantre untuk melakukan pemeriksaan kesehatan di klinik,",
-  "pilihan": [
-   "Bersikap tidak peduli karena sama-sama ingin berobat.",
-   "Tersenyum kepada kakek tersebut dan memberikan semangat.",
-   "Menawarkan diri untuk berganti posisi agar kakek tersebut dapat berobat terlebih",
-   "Meminta kepada beberapa orang di depan untuk mendahulukan kakek tersebut",
-   "Berpura-pura tidak melihat agar bisa mendapatkan pengobatan terlebih dahulu",
-   "Bersikap tidak peduli karena sama-sama ingin berobat.(skor 1)"
-  ],
-  "kunci": 3,
-  "skor_pilihan": [
-   1,
-   1,
-   1,
-   5,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah sosial budaya. Aspek ini menuntut seseorang untuk bisa berperilaku sopan utamanya pada orang yang sudah berumur. B. Tersenyum kepada kakek tersebut dan memberikan semangat.(skor 3) C. Menawarkan diri untuk berganti posisi agar kakek tersebut dapat berobat terlebih dahulu.(skor 4) D. Meminta kepada beberapa orang di depan untuk mendahulukan kakek tersebut terlebih dahulu.(skor 5) E. Berpura-pura tidak melihat agar bisa mendapatkan pengobatan terlebih dahulu dibandingkan kakek tersebut.(skor 2)",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 4 CPNS TKP 2023.pdf"
  },
  {
@@ -32201,31 +29060,6 @@
    1
   ],
   "pembahasan": "Aspek yang dinilai pada soal di atas adalah profesionalisme. Aspek ini menuntut seseorang untuk bisa berkomunikasi dengan baik kepada siapa pun terkait tugas atau proyek yang sudah di amanahkan. Untuk menghasilkan tugas yang maksimal maka harus ada komunikasi dua arah yang jelas terkait pengarahan. penjelasan.(skor 5) B. Meminta bantuan rekan kerja untuk menafsirkan proyek yang diamanahkan kepada saya.(skor 4) C. Bersikap sok tahu saja, karena takut jika bertanya kepada pimpinan.(skor 1) D. Mengambil proyek tersebut dan mempelajarinya seorang diri.(skor 3) E. Mengerjakan proyek tersebut semamp",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 4 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7449,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Wani memiliki teman akrab yang bernama Dani mereka menjadi akrab karena",
-  "pilihan": [
-   "Menyarankan guru untuk mencari partner team yang lain untuk Dani.",
-   "Menerima ajakan guru untuk ikut satu team dengan Dani untuk kepentingan",
-   "Meminta maaf karena tidak bisa bergabung.",
-   "Menolak ajakan tersebut dan menjelaskan alasannya.",
-   "Meminta solusi dari permasalahan yang dihadapi oleh Wani dan Dani.",
-   "Menyarankan guru untuk mencari partner team yang lain untuk Dani.(skor 3)"
-  ],
-  "kunci": 1,
-  "skor_pilihan": [
-   1,
-   5,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah profesionalisme. Sebagai sebuah team yang ditunjuk oleh kampus untuk mengikuti perlombaan maka sudah semestinya harus bertindak profesional meskipun ada masalah pribadi di antara keduanya. B. Menerima ajakan guru untuk ikut satu team dengan Dani untuk kepentingan sekolah.(skor 5) C. Meminta maaf karena tidak bisa bergabung.(skor 2) D. Menolak ajakan tersebut dan menjelaskan alasannya.(skor 1) E. Meminta solusi dari permasalahan yang dihadapi oleh Wani dan Dani.(skor 4) Pembahasan TO 4 TKP 2023 Halaman 16 | 23",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 4 CPNS TKP 2023.pdf"
  },
  {
@@ -32702,23 +29536,6 @@
   "kunci": 0,
   "skor_pilihan": null,
   "pembahasan": "seseorang yang menanamkan perilaku integritas akan menerapkan sembilan nilai yang dapat diwujudkan dalam kehidupan yaitu jujur, tanggung jawab, disiplin, berani, adil, peduli, kerja keras, sederhana dan mandiri. Opsi A merupakan jawaban yang paling tepat karena mengandung nilai kejujuran.",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 4 CPNS TWK 2023.pdf"
- },
- {
-  "id": 7470,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Perhatikan unsur-unsur berikut:",
-  "pilihan": [
-   "1,2 dan 3",
-   "4,5 dan 6",
-   "1,5 dan 6",
-   "2,4 dan 5",
-   "2,3 dan 6"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": "integritas merupakan salah satu nilai-nilai dasar pribadi yang harus dimiliki masyarakat. Nilai ini dapat berasal dari nilai kode etik tempat bekerja, nilai masyarakat atau nilai moral pribadi. Nilai -nilai tersebut terdiri dari juj ur, peduli, mandiri, disiplin, tanggung jawab, kerja keras, sederhana, berani dan adil.",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 4 CPNS TWK 2023.pdf"
  },
  {
@@ -33555,31 +30372,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 5 CPNS TIU 2023.pdf"
  },
  {
-  "id": 7520,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Anda merupakan seorang asisten dosen yang membantu dosen Anda dalam",
-  "pilihan": [
-   "Segera mengangkat telepon untuk menjaga -jaga apabila ada ha l penting yang ingin",
-   "Menutup telepon dengan segera karena tidak ingin diganggu di hari libur.",
-   "Mengirimi dosen Anda sebuah pesan bahwa Anda sedang sakit.",
-   "Mengirim pesan singkat bahwa telepon Anda bermasalah dan tidak bisa mengangkat",
-   "Mengangkat handphone dan menyampaikan bahwa Anda tidak bisa bekerja di hari",
-   "Segera mengangkat telepon untuk menjaga -jaga apabila ada hal penting yang ingin"
-  ],
-  "kunci": 0,
-  "skor_pilihan": [
-   5,
-   1,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah pelayanan publik. Sebagai seorang asisten dosen yang telah terikat kontrak harusnya Anda menunjukkan sikap pelayanan yang ramah dan siap kapan pun untuk melakukan tugas kecuali jika ada hal -hal urgent yang Anda alami dan tidak bisa Anda atasi. disampaikan.(soal 5) B. Menutup telepon dengan segera karena tidak ingin diganggu di hari libur.(soal 3) C. Mengirimi dosen Anda sebuah pesan bahwa Anda sedang sakit. (soal 4) D. Mengirim pesan singkat bahwa telepon Anda bermasalah dan tidak bisa mengangkat telepon.(soal 2) E. Mengangkat handphone dan menyampa",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 5 CPNS TKP 2023.pdf"
- },
- {
   "id": 7521,
   "kat": "TKP",
   "sub": "Umum",
@@ -33727,31 +30519,6 @@
    1
   ],
   "pembahasan": "Aspek yang dinilai pada soal di atas adalah pelayanan publik. Sebagai seorang penyedia layanan tidak semestinya memberikan aksi atau tindakan ya ng tidak ramah kepada customer. Seorang penyedia layanan di tuntut untuk bisa memberikan pelayanan yang baik. Pembahasan TO 5 TKP 2023 Halaman 5 | 23 menghadapi pasien.(skor 4) B. Memarahi temannya karena tidak memberikan pelayanan sesuai SOP.(skor 3) C. Melaporkan perilaku tersebut kepada sesama staf.(skor 2) D. Menemui atasan kantor dan menyampaikan perilaku tidak menyenangkan yang dilakukan oleh temannya.(skor 1) E. Mengambil alih posisi temannya d",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 5 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7527,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Yusril merupakan karyawan yang memiliki kompetensi yang baik dan handal dalam",
-  "pilihan": [
-   "Menolak komplain dari atasannya karena sudah melakukan pekerjaan dengan benar.",
-   "Mengingatkan kembali instruksi atasan dan mengecek kesesuaian hasil kerja.",
-   "Segera memperbaiki hasil pekerjaan yang salah.",
-   "Melakukan perlawanan komplain bahwa instruksi yang diberikan oleh atasan yang",
-   "Menyalahkan tim yang tidak berusaha semaksimal mungkin.",
-   "Menolak komplain dari atasannya karena sudah melakukan pekerjaa n dengan"
-  ],
-  "kunci": 1,
-  "skor_pilihan": [
-   1,
-   5,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah jejaring kerja. Pada aspek ini, Anda selalu di tuntut untuk bisa bekerja sama dan berdiskusi untuk menemukan sebuah solusi. Ketika atasan Anda keliru dalam memberikan instruksi maka dapat diingatkan kembali tetapi dengan cara yang sopan. benar.(skor 2) B. Mengingatkan kembali instruksi atasan yang telah diberikan dan mengecek kesesuaian hasil kerja. (skor 5) C. Segera memperbaiki hasil pekerjaan yang salah.(skor 4) D. Melakukan perlawanan komplain bahwa instruksi yang diberikan oleh atasan yang keliru.(skor 3) E. Menyalahkan tim yang tidak berusaha s",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 5 CPNS TKP 2023.pdf"
  },
  {
@@ -34030,31 +30797,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 5 CPNS TKP 2023.pdf"
  },
  {
-  "id": 7539,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Ketika akan pulang dari Indomaret tiba-tiba seorang juru parkir datang menemui saya dan",
-  "pilihan": [
-   "Merelakan uang kembalian tersebut kepada tukang park ir dan menganggap hal",
-   "Meminta tukang parkir tersebut untuk menukarkan uang tersebut sehingga",
-   "Menunggu hingga tukang parkir memperoleh kembalian.",
-   "Segera kabur dan tidak membayar uang parkir.",
-   "Menampakkan sikap yang tidak ramah ketika tidak ada kembalian.",
-   "Merelakan uang kembalian tersebut kepada tukang parkir dan menganggap hal"
-  ],
-  "kunci": 0,
-  "skor_pilihan": [
-   5,
-   1,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah sosial budaya. Pada situasi di atas hendaknya kita selalu berusaha peka terhadap orang sekitar, menepatkan diri kita sebagai orang yang berhati nurani. Jawaban yang paling relevan adalah. tersebut merupakan rezekinya.(skor 5) B. Meminta tukan g parkir tersebut untuk menukarkan uang tersebut sehingga memperoleh kembalian.(skor 4) C. Menunggu hingga tukang parkir memperoleh kembalian.(skor 3) Pembahasan TO 5 TKP 2023 Halaman 12 | 23 D. Segera kabur dan tidak membayar uang parkir.(skor 1) E. Menampakkan sikap yang tidak ramah ketika tidak ada kembalian.",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 5 CPNS TKP 2023.pdf"
- },
- {
   "id": 7540,
   "kat": "TKP",
   "sub": "Umum",
@@ -34277,31 +31019,6 @@
    1
   ],
   "pembahasan": "Aspek yang dinilai pada soal di atas adalah profesionalisme. Sebagai seorang peserta lomba yang ternyata Anda ketahui dipasangkan oleh teman yang egois maka sikap Anda seharusnya hanya fokus di lomba saja tanpa memikirkan urusan pribadi A nda bersama rekan Anda tersebut. komunikasi.(skor 4) B. Menceritakan masalah saya dan meminta solusi kepada dosen. (skor 5) C. Memaksakan diri dan selalu mengalah pada teman saya tersebut. (skor 1) D. Berkomunikasi seperlunya saja.(skor 2) E. Menyarankan dosen untuk mencari kandidat lain yang bisa dipasangkan dengan teman saya yang egois.(skor 3)",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 5 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7549,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Suatu ketika senior saya melimpahkan tanggung jawabnya kepada saya. Padahal di dalam",
-  "pilihan": [
-   "Meminta maaf dan melakukan revisi.",
-   "Memberikan pembenaran kepada tugas saya dan instruksinya yang salah.",
-   "Tetap memberikan hasil pekerjaan saya dan tidak ingin revisi.",
-   "Menolak melakukan revisi dan menjelaskan tanggung jawab saya sendiri.",
-   "Melaporkan senior saya kepada pimpinan.",
-   "Meminta maaf dan melakukan revisi.(skor 1)"
-  ],
-  "kunci": 3,
-  "skor_pilihan": [
-   1,
-   1,
-   1,
-   5,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah sosial budaya. Pada aspek ini Anda diminta untuk bisa beradaptasi dengan lingkungan kerja Anda. Namun apabila terdapat penyalahgunaan SOP perusahaan maka Anda tidak harus mengikutinya. B. Memberikan pembenaran kepada tugas saya dan instruksinya yang salah.(skor 4) C. Tetap memberikan hasil pekerjaan saya dan tidak ingin revisi.(skor 2) D. Menolak melakukan revisi dan mengingatkan SOP perusahaan. (skor 5) E. Melaporkan senior saya kepada pimpinan.(skor 3)",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 5 CPNS TKP 2023.pdf"
  },
  {
@@ -35454,23 +32171,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 6 CPNS TIU 2023.pdf"
  },
  {
-  "id": 7615,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Nilai rata-rata 25 siswa adalah 8 7. Dari pemeriksaan ulang terdapat 2 data yang",
-  "pilihan": [
-   "87,50",
-   "88,36",
-   "88,78",
-   "89,15",
-   "90,00"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": "Pembahasan TO 6 TIU 2023 Halaman 11 | 21 rata-rata = rata-rata baru = = = 88,36",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 6 CPNS TIU 2023.pdf"
- },
- {
   "id": 7616,
   "kat": "TIU",
   "sub": "Umum",
@@ -35538,31 +32238,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 6 CPNS TKP 2023.pdf"
  },
  {
-  "id": 7620,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Saya merupakan seseorang yang bekerja di disdukcapil. Ketika melakukan pelayanan,",
-  "pilihan": [
-   "Saya akan menindaklanjuti permintaan ibu tersebut dengan segera.",
-   "Saya akan menjelaskan terkait prosedur pembuatan KTP dan memintanya mengikuti",
-   "Saya akan berdiskusi dengan rekan kerja, dan menanyakan siapa ibu tersebut.",
-   "Saya akan memviralkan ibu tersebut.",
-   "Saya akan meminta maaf karena tidak bisa dan memintanya untuk kembali ke tempat",
-   "Saya akan menindaklanjuti permintaan ibu tersebut dengan segera. (Skor 1)"
-  ],
-  "kunci": 1,
-  "skor_pilihan": [
-   1,
-   5,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang di nilai pada soal di atas adalah pelayanan publik. Sebagai seorang penyedia layanan terhadap orang banyak maka sudah semestinya melaksanakan tugas sesuai dengan SOP dari perusahaan, dengan tidak memberikan pelayanan khusus pada orang lain tetapi dilakukan secara adil. B. Saya akan menjelaskan terkait prosedur pembuatan KTP dan memintanya mengikuti prosedur tersebut. (Skor 5) C. Saya akan berdiskusi dengan rekan kerja, dan menanyakan siapa ib u tersebut. (Skor 3) D. Saya akan memviralkan ibu tersebut. (Skor 2) E. Saya akan meminta maaf karena tidak bisa dan memintanya untuk kembali ",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 6 CPNS TKP 2023.pdf"
- },
- {
   "id": 7621,
   "kat": "TKP",
   "sub": "Umum",
@@ -35613,31 +32288,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 6 CPNS TKP 2023.pdf"
  },
  {
-  "id": 7623,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Media elektronik merupakan salah satu sumber informasi kepada masyarakat. Sayangnya,",
-  "pilihan": [
-   "Media televisi di Indonesia sangat mengecewakan saat ini, karena tontonan yang",
-   "Menurut saya, saat ini media TV di Indonesia hanya berfokus pa da engagement",
-   "Berdasarkan apa yang saya lihat, saat ini media sudah banyak berkembang karena",
-   "Saya sangat menikmati setiap informasi yang disajikan sangat menarik dan atraktif.",
-   "Saya setuju saja dengan apa pun yang terjadi.",
-   "Media televisi di Indonesia sangat mengecewakan saat ini, karena tontonan yang"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   1,
-   1,
-   5,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah pelayanan publik. Sebagai pengamat dari pelayanan yang diberikan oleh media TV di Indonesia maka Anda di tuntut untuk bisa memberikan pendapat yang bijak dan sesuai dengan realitas yang ada sehingga opsi yang paling benar adalah C. diberikan tidak mendidik. (Skor 1) B. Menurut saya, saat ini media TV di Indonesia hanya berfokus pada engagement penonton atau viewer. (Skor 3) C. Berdasarkan apa yang saya lihat, saat ini media sudah banyak berkembang karena menampilkan tayangan yang tidak terlalu kaku. (Skor 5) D. Saya sangat menikmati setiap informasi ",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 6 CPNS TKP 2023.pdf"
- },
- {
   "id": 7624,
   "kat": "TKP",
   "sub": "Umum",
@@ -35660,31 +32310,6 @@
    1
   ],
   "pembahasan": "Aspek yang dinilai pada soal di atas adalah pelayanan publik, seorang polisi merupakan aparat keamanan yang sudah seharusnya memberikan pelayanan yang jujur. Beberapa opsi jawaban di atas sudah benar tetapi, yang paling tepat adalah opsi D. B. Saya akan memberitahu pengendara tersebut bahwa polisi tersebut sedang pungli.(skor 3) C. Saya akan memviralkan polisi tersebut.(Skor 2) D. Melapor kepada kantor polisi setempat karena adanya dugaan pungli.(skor 5) E. Saya berlalu begitu saja karena saya sudah taat peraturan.(Skor 1) Pembahasan TO 6 TKP 2023 Halaman 5 | 24",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 6 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7625,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Rafi merupakan salah satu karyawan teladan yang terkenal memiliki integritas kerja yang",
-  "pilihan": [
-   "Agar tidak mempengaruhi kinerja rafi, sebaiknya bekerja sama dengan karyawan yang",
-   "Rafi sebaiknya mencoba bekerja secara profesional dengan tidak membeda -bedakan",
-   "Berdiskusi dengan pimpinan terkait pemilihan rekan kerja.",
-   "Rafi meminta kepada pimpinan untuk diadakan seleksi pemilihan rekan kerja terlebih",
-   "Meminta kepada atasan untuk mengerjakan tugas proyek tersebut seorang diri.",
-   "Agar tidak mempengaruhi kinerja rafi, sebaiknya bekerja sama dengan karyawan yang"
-  ],
-  "kunci": 1,
-  "skor_pilihan": [
-   1,
-   5,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah jejaring kerja. Salah satu poin dari aspek jejaring kerja adalah kemampuan dalam membangun kerja sama dengan un it rekan kerja yang lainnya untuk mencapai tujuan perusahaan. Sehingga jawaban yang paling tepat adalah B memiliki integritas kerja yang baik juga.(Skor 3) B. Rafi sebaiknya mencoba bekerja secara profesional dengan tidak membeda -bedakan karyawan.(Skor 5) C. Berdiskusi dengan pimpinan terkait pemilihan rekan kerja.(Skor 2) D. Rafi meminta kepada pimpinan untuk diadakan seleksi pemilihan rekan kerja terlebih dahulu untuk kebutuhan proyek.(S",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 6 CPNS TKP 2023.pdf"
  },
  {
@@ -35760,31 +32385,6 @@
    1
   ],
   "pembahasan": "Aspek yang dinilai pada soal di atas adalah jejaring kerja. Bagian dari jejaring kerja yang relevan dari soal di atas adalah mengutamakan kerja sa ma dengan unit kerja lainnya secara kooperatif. Sehingga jawaban yang paling tepat adalah A. Pembahasan TO 6 TKP 2023 Halaman 7 | 24 orang yang tidak saya sukai. (Skor 5) B. Berusaha mencari bantuan dari unit kerja lainnya. (Skor 4) C. Saya akan menyelesaikan tugas tersebut bagaimanapun caranya meskipun seorang diri. (Skor 2) D. Saya lebih memilih tidak menyelesaikan tugas dibandingkan meminta bantuan dari unit kerja B. (Skor 1) E. Saya akan mencari",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 6 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7629,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Saya memiliki acara keluarga yang bertepatan dengan kegiatan organisasi yang",
-  "pilihan": [
-   "Meminta izin kepada ketua umum untuk mengikuti acara keluarga.",
-   "Saya mengutamakan penyelenggaraan kegiatan organisasi bersama teman lainnya.",
-   "Saya tidak mengikuti kegiatan di organisasi tanpa konfirmasi sedikit pun.",
-   "Saya meminta kepada teman lainnya agar menyampaikan kepada ketua bahwa saya",
-   "Saya akan mengikuti acara keluarga terlebih dahulu lalu ikut serta dalam kegiatan",
-   "Meminta izin kepada ketua umum untuk mengikuti acara keluarga. (Skor 4)"
-  ],
-  "kunci": 1,
-  "skor_pilihan": [
-   1,
-   5,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah jejaring kerja. Salah satu bagian dari poin jejaring kerja adalah berorientasi pada kepentingan organisasi. Poin tersebut akan mengukur bagaimana sikap loyalitas Anda terhadap organisasi ketika dihadapkan dengan kepentingan pribadi secara bersamaan. B. Saya mengutamakan penyelenggaraan kegiatan organisasi bersama teman lainnya. (Skor 5) C. Saya tidak mengikuti kegiatan di organisasi tanpa konfirmasi sedikit pun. (Skor 1) D. Saya meminta kepada teman lainnya agar menyampa ikan kepada ketua bahwa saya tidak bisa berpartisipasi.(Skor 3) E. Saya akan men",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 6 CPNS TKP 2023.pdf"
  },
  {
@@ -36188,31 +32788,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 6 CPNS TKP 2023.pdf"
  },
  {
-  "id": 7646,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Saya dituntut untuk bisa bekerja dalam team sedangkan saya merupakan tipe orang yang",
-  "pilihan": [
-   "Tetap berpegang teguh pada sikap individualis saya.",
-   "Berusaha untuk membuka diri untuk bisa tergabung di dalam team.",
-   "Bergabung di dalam team dan meminta kepada rekan kerja lainnya untuk mengikuti",
-   "Belajar untuk bersosialisasi agar bisa saling memahami antar rekan kerja.",
-   "Meminta kepada atasan untuk tetap memberikan tanggung jawab yang sesuai dengan",
-   "Tetap berpegang teguh pada sikap individualis saya. (Skor 1)"
-  ],
-  "kunci": 1,
-  "skor_pilihan": [
-   1,
-   5,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah profesionalisme. di dalam bekerja kita dituntut untuk bisa bergabung di dalam team yang mana kita harus bisa menyesuaikan diri dengan beragam karakter, pikiran dari orang yang berbeda. Opsi B adalah paling tepat. B. Berusaha untuk membuka diri dan bisa tergabung di dalam team. (Skor 5) C. Bergabung di dalam team dan meminta kepada rekan kerja lainnya untuk mengikuti alur kerja saya. (Skor 3) D. Belajar untuk bersosialisasi agar bisa saling memahami antar rekan kerja. (Skor 4) Pembahasan TO 6 TKP 2023 Halaman 16 | 24 E. Meminta kepada atasan untuk tet",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 6 CPNS TKP 2023.pdf"
- },
- {
   "id": 7647,
   "kat": "TKP",
   "sub": "Umum",
@@ -36360,31 +32935,6 @@
    1
   ],
   "pembahasan": "Aspek yang dinilai pada soal di atas adalah profesionalisme. Salah satu prinsip da ri profesionalisme adalah bekerja secara totalitas, selalu berusaha untuk memberikan kontribusi terbaik bagi perusahaan. Opsi A adalah yang paling benar. B. Bekerja dengan santai sebagaimana yang diberitahukan oleh senior. (skor 1) C. Belajar bersama senior terkait budaya kerja di rumah sakit. (skor 3) D. Mencari tahu mengenai aturan rumah sakit yang harus dipatuhi. (skor 4) E. Mengabaikan cerita para senior dan fokus pada tanggung jawab. (skor 2)",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 6 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7653,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Saya merupakan seorang mahasiswa baru , suatu ketika diadakan masa orientasi. Pada",
-  "pilihan": [
-   "Saya melaporkan kepada pihak kemahasiswaan akan tindakan kekerasan yang",
-   "Diam dan tidak berbuat apa-apa karena takut mendapatkan masalah dari senior.",
-   "Membela teman saya dan melakukan perlawanan kepada senior yang sudah bertindak",
-   "Merekam aksi tersebut dan membuatnya viral.",
-   "Saya memperingatkan senior untuk tidak bertindak berlebihan.",
-   "Saya melaporkan kepada pihak kemahasiswaan akan tindakan kekerasan yang"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   1,
-   1,
-   5,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah anti radikalisme. Salah satu bentuk pemahaman radikalisme adalah tidak akan segan-segan bertindak kasar untuk mencapai tujuannya. Anda yang berada pada situasi di atas di tuntut untuk bisa bertindak untuk melakukan pencegahan tindakan radikalisme. Opsi C adalah jawaban yang paling tepat. dilakukan senior tersebut segera di usut tuntas. (Skor 4) B. Diam dan tidak berbuat apa-apa karena takut mendapatkan masalah dari senior. (Skor 1) C. Membela teman saya dan melakukan perlawanan kepada senior yang sudah bertindak di luar batas. (Skor 5) D. Merekam aks",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 6 CPNS TKP 2023.pdf"
  },
  {
@@ -37531,23 +34081,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 7 CPNS TIU 2023.pdf"
  },
  {
-  "id": 7717,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Lengkapilah gambar berikut ini:",
-  "pilihan": [
-   "q dan p",
-   "r dan q",
-   "r dan p",
-   "p dan q",
-   "q dan r"
-  ],
-  "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": "- Perhatikan gambar yang terdapat di dalam bangun ruang. gambar yang ada di tengah-tengah pada setiap pola berbeda. Sehingga untuk gambar berikutnya juga berbeda. - Opsi A, B, D dan E sama dengan gambar yang ada di soal. Sehingga jawaban yang paling tepat adalah opsi C. 33. A B C D E Jawaban : B Pembahasan: p q p q ? p q Pembahasan TO 7 TIU 2023 Halaman 16 | 17 34. A. B. C. D. E. ? ? ? Pembahasan TO 7 TIU 2023 Halaman 17 | 17 Jawaban : D Pembahasan: - Perhatikan gambar yang diketahui dan di tanya. Gambar yang ditanya sesuai dengan pola gambar nomor 2. Sehingga jawaban yang tepat adalah opsi D ",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 7 CPNS TIU 2023.pdf"
- },
- {
   "id": 7718,
   "kat": "TKP",
   "sub": "Umum",
@@ -37623,31 +34156,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 7 CPNS TKP 2023.pdf"
  },
  {
-  "id": 7721,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Saya merupakan tenaga kesehatan bagian farmasi. Suatu ketika terdapat Pasien yang",
-  "pilihan": [
-   "Saya akan mencoba untuk menjawab semampunya saja.",
-   "Saya akan menjawab tidak tahu.",
-   "Berpura pura untuk tidak mendengar",
-   "Saya akan membaca di google dan menginformasikan.",
-   "Saya akan mencoba untuk menjawab semampunya saja.(skor 5)",
-   "Saya akan menunjukkan jalan kepada pasien menuju ke ruang lab. (Skor 3)"
-  ],
-  "kunci": 0,
-  "skor_pilihan": [
-   5,
-   1,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah pelayanan publik. Salah satu prinsip dari aspek ini adalah adanya keterbukaan informasi kepada pasien. Sehingga yang paling tepat adalah A Pembahasan TO 7 TKP 2023 Halaman 3 | 22 C. Saya akan menjawab tidak tahu.(Skor 2) D. Berpura pura untuk tidak mendengar. (Skor 1) E. Saya akan membaca di google dan menginformasikan.(Skor 4)",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 7 CPNS TKP 2023.pdf"
- },
- {
   "id": 7722,
   "kat": "TKP",
   "sub": "Umum",
@@ -37695,56 +34203,6 @@
    1
   ],
   "pembahasan": "Aspek yang dinilai pada soal di atas adalah pelayanan publik. Salah satu bagian dari pelayanan publik adalah adanya sikap partisipasi terhadap kegiatan pemerintahan. Pada soal di atas sebagai kakak hendak nya memberikan pengarahan kepada adik Anda yang memiliki prinsip atau pandangan yang buruk terhadap pemerintah. Pembahasan TO 7 TKP 2023 Halaman 4 | 22 B. Saya menghargai keputusannya untuk golput.(Skor 2) C. Saya akan memberikan pemahaman seberapa penting nya suara kita yang akan diberikan dan apa dampaknya jika golput.(Skor 5) D. Menyerahkan segalanya kepada adik saya.(Skor 1) E. Meminta ke",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 7 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7724,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Andini merupakan seorang perawat. Suatu ketika tiba -tiba banyak pasien UGD yang",
-  "pilihan": [
-   "Mengeluh",
-   "Merasa capek.",
-   "Menangani dengan tidak ikhlas",
-   "memberikan pelayanan secara profesional.",
-   "Mencoba untuk memotivasi diri kembali.",
-   "Mengeluh. (Skor 2)"
-  ],
-  "kunci": 3,
-  "skor_pilihan": [
-   1,
-   1,
-   1,
-   5,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah pelayanan publik. Sebagai seorang tenaga medis sudah semestinya selalu memberikan pelayanan yang baik dan bermanfaat. Serta bersikap profesional dan tindakannya bisa di pertanggung jawabkan. B. Merasa capek.(Skor 3) C. Menangani dengan tidak ikhlas. (Skor 1) D. memberikan pelayanan secara profesional.(Skor 5) E. Mencoba untuk memotivasi diri kembali.(Skor 4)",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 7 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7725,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Suatu ketika saya melihat teman yang sedang mendahulukan kerabat nya ketika akan",
-  "pilihan": [
-   "Mengingat kan teman saya agar kembali mengikuti SOP.",
-   "Bersikap cuek Karena saya juga melakukan hal yang serupa.",
-   "Melaporkan tindakan teman saya kepada atasan/pimpinan.",
-   "Bergosip bersama teman saya.",
-   "Hanya memantau saja.",
-   "Mengingat kan teman saya agar kembali mengikuti SOP.(Skor 5)"
-  ],
-  "kunci": 0,
-  "skor_pilihan": [
-   5,
-   1,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah pelayanan publik. Salah satu aspek dari pelayanan publik adalah kepentingan umum. Di mana dalam memberikan pelayanan sebaiknya mendahulukan kepentingan orang banyak dibandingkan kepentingan individu B. Bersikap cuek karena saya juga melakukan hal yang serupa. (Skor 1) C. Melaporkan tindakan teman saya kepada atasan/pimpinan.(Skor 4) D. Bergosip bersama teman saya.(Skor 2) E. Hanya memantau saja.(Skor 3) Pembahasan TO 7 TKP 2023 Halaman 5 | 22",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 7 CPNS TKP 2023.pdf"
  },
  {
@@ -38423,56 +34881,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 7 CPNS TKP 2023.pdf"
  },
  {
-  "id": 7753,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Saya merupakan seorang atasan. Suatu ketika saya mendapatkan laporan bahwa",
-  "pilihan": [
-   "Saya langsung memanggil karyawan tersebut.",
-   "Saya akan mencari tahu kebenarannya seorang diri dan memberikan keputusan",
-   "Saya memarahi karyawan tersebut di depan orang banyak agar memotivasi untuk",
-   "Saya langsung memberikan sanksi kepada karyawan tersebut.",
-   "Saya akan memanggil karyawan tersebut, mendengarkan penjelasannya dan",
-   "Saya langsung memanggil karyawan tersebut ke kantor. (Skor 3)"
-  ],
-  "kunci": 4,
-  "skor_pilihan": [
-   1,
-   1,
-   1,
-   1,
-   5,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah profesionalisme. Soal di atas akan menilai bagaimana Anda bersikap profesional sebagai seorang atasan, bersikap bijak dalam mengevaluasi suatu tindakan. Opsi E adalah yang paling tepat. B. Saya akan mencari tahu kebenarannya seorang diri dan memberikan keputusan yang bijak. (Skor 4) C. Saya memarahi karyawan tersebut di depan orang banyak agar memotivasi untuk berhati-hati lagi. (Skor 2) D. Saya langsung memberikan sanksi kepada karyawan tersebut. (Skor 1) E. Saya akan memanggil karyawan tersebut, mendengarkan penjelasann ya dan mencari tahu kebenara",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 7 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7754,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Saya merupakan seorang dosen, suatu ketika saya memberikan kuliah terhadap",
-  "pilihan": [
-   "Meminta kepada mahasiswa untuk mengikuti kelas saya hingga selesai.",
-   "Mempersilahkan mahasiswa yang ingin pergi ke masjid saja untuk bisa keluar kelas.",
-   "Memberikan waktu istirahat kepada mahasiswa untuk s alat terlebih dahulu lalu,",
-   "Marah, karena memotong pembicaraan saya ketika menjelaskan.",
-   "Mengeluarkan mahasiswa tersebut dari kelas saya.",
-   "Meminta kepada mahasiswa untuk mengikuti kelas saya hingga selesai. (Skor 1)"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   1,
-   1,
-   5,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah anti radikalisme. Salah satu bentuk radikalisme adalah intoleran atau tidak menghargai keyakinan orang lain, Opsi C adalah jawaban yang paling tepat karena berlawanan dengan paham radikalisme. B. Mempersilahkan mahasiswa yang ingin pergi ke masjid saja untuk bisa keluar kelas. (Skor 4) Pembahasan TO 7 TKP 2023 Halaman 19 | 22 C. Memberikan waktu istirahat kepada mahasiswa untuk s alat terlebih dahulu lalu, melanjutkan kuliah. (Skor 5) D. Marah, karena memotong pembicaraan saya ketika menjelaskan. (Skor 3) E. Mengeluarkan mahasiswa tersebut dari kelas",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 7 CPNS TKP 2023.pdf"
- },
- {
   "id": 7755,
   "kat": "TKP",
   "sub": "Umum",
@@ -38495,31 +34903,6 @@
    1
   ],
   "pembahasan": "Aspek yang dinilai pada soal di atas adalah anti radikalisme. Soal di atas akan menguji bagaimana cara Anda dalam mencegah aksi radikalisme. Salah satunya adalah pada Opsi D. B. Saya ikut bergabung untuk menghargai. (Skor 1) C. Saya memperjelas maksud dari aktivitas yang diadakan oleh kelompok tersebut. (Skor 3) D. Saya berusaha memperteguh keimanan di dalam hati lalu segera pulang ke rumah. (Skor 5) E. Saya segera memblokir kontak teman saya tersebut. (Skor 2)",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 7 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7756,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Suatu ketika rekan kerja saya menyebarkan berita bahwa CPNS tidak akan dibuka pada",
-  "pilihan": [
-   "Meminta kepada rekan kerja saya untuk tidak menyebarkan berita Hoax.",
-   "Mempercayai rekan saya tersebut karena dia merupakan orang yang aktif di media",
-   "Mengecek kebenaran dari berita tersebut di google.",
-   "Menenangkan rekan kerja saya yang mendengar berita tersebut.",
-   "Bersama sama rekan kerja saya mencari kebenaran berita dari website resmi CPNS.",
-   "Meminta kepada rekan kerja saya untuk tidak menyebarkan berita Hoax. (Skor 3)"
-  ],
-  "kunci": 4,
-  "skor_pilihan": [
-   1,
-   1,
-   1,
-   1,
-   5,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah anti radikalisme. Anda diminta untuk bisa memberikan solusi terhadap penyebaran berita yang tidak benar (Hoax), Opsi E adalah jawaban yang paling tepat. Pembahasan TO 7 TKP 2023 Halaman 20 | 22 B. Mempercayai rekan saya tersebut karena dia merupakan orang yang aktif di media sosial. (Skor 1) C. Mengecek kebenaran dari berita tersebut di google. (Skor 4) D. Menenangkan rekan kerja saya yang mendengar berita tersebut. (Skor 2) E. Bersama sama rekan kerja saya mencari kebenaran berita dari website resmi CPNS. (Skor 5)",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 7 CPNS TKP 2023.pdf"
  },
  {
@@ -38755,23 +35138,6 @@
   "kunci": 4,
   "skor_pilihan": null,
   "pembahasan": "stres dan tekanan akan membuat orang-orang merasa serba salah dan mengambil jalan pintas dengan merusak integritas diri yang dimiliki. Seseorang yang berintegritas akan mengontrol dan mengelola stres dengan baik agar tidak merusak integritas pekerjaannya.",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 7 CPNS TWK 2023.pdf"
- },
- {
-  "id": 7768,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Perhatikan unsur berikut:",
-  "pilihan": [
-   "1,2 dan 5",
-   "1,3 dan 4",
-   "2,4 dan 5",
-   "1,4 dan 6",
-   "3,5 dan 6"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": "KPK merilis sembilan nilai integritas yang dapat mencegah terjadinya tindak pidana korupsi yang terdiri dari jujur, adil, berani, mandiri, bekerja keras, tanggung jawab, sederhana, disiplin, dan peduli.",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 7 CPNS TWK 2023.pdf"
  },
  {
@@ -39064,23 +35430,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 7 CPNS TWK 2023.pdf"
  },
  {
-  "id": 7787,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Transaksi jual-beli petani jagung thailand di Kabupaten Agam dengan pihak pembeli dapat",
-  "pilihan": [
-   "1",
-   "2",
-   "3",
-   "4",
-   "5"
-  ],
-  "kunci": 4,
-  "skor_pilihan": null,
-  "pembahasan": "transaksi jual-beli petani jagung thailand di Kab upaten Agam dengan pihak pembeli dapat ditemukan pada kalimat nomor 5 yaitu: Pedagang dari berbagai daerah langsung ke lahan milik petani. Jadi, kami tidak kesulitan untuk menjual jagung,” kata dia. Ia menyatakan jagung yang ia jual dijamin berkualitas baik. Biasanya, petani memetik jagung saat matang. Jangan sampai terkecoh dengan kalimat nomor transaksi jual-beli. Bacalah paragraf berikut dengan cermat! Pengrajin furnitur di DIY memiliki potensi yang tinggi untuk menghasilkan produk kerajinan tangan berkualitas tinggi. Disisi lain, produk ini",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 7 CPNS TWK 2023.pdf"
- },
- {
   "id": 7788,
   "kat": "TWK",
   "sub": "Umum",
@@ -39354,23 +35703,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 8 CPNS TIU 2023.pdf"
  },
  {
-  "id": 7804,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Kia dapat menyelesaikan pekerjaan selama 6 hari. Sedangkan Dhuha dapat",
-  "pilihan": [
-   "a = b",
-   "a < b",
-   "b < a",
-   "a+b = 10",
-   "2a = b-1"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": "a = waktu yang dibutuhkan jika Kia dan Dhuha bekerja sama adalah 1 6 + 1 3 = 1+2 6 = 3 6 jadi waktu yang dibutuhkan Kia dan Dhuha adalah 6 3 = 2 hari Sehingga, hubungan dari a dan b adalah a < b Pembahasan TO 8 TIU 2023 Halaman 7 | 19",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 8 CPNS TIU 2023.pdf"
- },
- {
   "id": 7805,
   "kat": "TIU",
   "sub": "Umum",
@@ -39453,23 +35785,6 @@
   "kunci": 0,
   "skor_pilihan": null,
   "pembahasan": "x = 𝑡 𝑏𝑒𝑟𝑝𝑎𝑠𝑝𝑎𝑠𝑎𝑛 = jarak (s) kecepatan 1 (v1)+kecepatan 2 (v2) t = 120 km 60km/jam +65km/jam = 120 km 125km/jam = 0,96 jam t = 0,96 × 60 = 57,6 menit = 58 menit jadi ayah dan paman akan berpaspasan pada pukul 08:15 + 00:58 = 09:13 ..... (x) Maka hubungan x dengan y adalah x = y Pembahasan TO 8 TIU 2023 Halaman 10 | 19",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 8 CPNS TIU 2023.pdf"
- },
- {
-  "id": 7810,
-  "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Kia mengendarai sepeda motor dari rumahnya menuju rumah Adiba dengan",
-  "pilihan": [
-   "98 km",
-   "100 km",
-   "110 km",
-   "112 km",
-   "115 km"
-  ],
-  "kunci": 1,
-  "skor_pilihan": null,
-  "pembahasan": "Jarak (s) = Kecepatan (v) . Waktu (t) Jarak (s) = 50km/jam . (10:30 – 08:15 - 00:15) Jarak (s) = 50km/jam . 2 jam Jarak (s) = 100km",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 8 CPNS TIU 2023.pdf"
  },
  {
@@ -39763,31 +36078,6 @@
    1
   ],
   "pembahasan": "Pembahasan TO 8 TKP 2023 Halaman 5 | 20 Aspek yang dinilai pada soal di atas adalah jejaring kerja. Pada aspek tersebut seorang pimpinan atau ketua diminta agar memiliki kemampuan dalam mudah bergaul dan bisa beradaptasi dengan orang lain tanpa mengesampingkan sikap berwibawa terhadap karyawan. B. Mencoba untuk bisa bergaul dengan rekan kerja lainnya. (Skor 5) C. Saya akan bersikap dingin dan berwibawa. (Skor 3) D. Saya mengalihkan pandangan dengan lurus ketika bertemu dengan rekan kerja. (Skor 1) E. Berpura-pura tidak melihat. (Skor 2)",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 8 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7825,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Suatu ketika saya bergabung dengan tim divisi perusahaan yang baru, ada beberapa hal yang",
-  "pilihan": [
-   "Berdiam diri dengan tidak berbuat apa-apa.",
-   "Meminta tolong kepada semua orang untuk membantu.",
-   "Berkomunikasi kepada rekan kerja agar dipahamkan dengan mudah.",
-   "Saya akan belajar seorang diri meskipun sulit.",
-   "Meminta kepada pimpinan untuk tidak memindahkan saya.",
-   "Berdiam diri dengan tidak berbuat apa-apa. (Skor 2)"
-  ],
-  "kunci": 2,
-  "skor_pilihan": [
-   1,
-   1,
-   5,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah jejaring kerja. Sebagai anggota team yang baru Anda dituntut untuk bisa berkomunikasi secara efektif dengan orang lain utamanya da lam hal urusan pekerjaan. Opsi C adalah yang paling tepat. B. Meminta tolong kepada semua orang untuk membantu. (Skor 4) C. Berkomunikasi kepada rekan kerja agar dipahamkan dengan mudah. (Skor 5) D. Saya akan belajar seorang diri meskipun sulit. (Skor 3) E. Meminta kepada pimpinan untuk tidak memindahkan saya. (Skor 1)",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 8 CPNS TKP 2023.pdf"
  },
  {
@@ -40316,31 +36606,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 8 CPNS TKP 2023.pdf"
  },
  {
-  "id": 7847,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Saya merupakan seorang rektor di universitas A. Suatu ketika kerabat lama menelepon dan",
-  "pilihan": [
-   "Saya memberitahu kerabat saya untuk mematuhi SOP penerimaan mahasiswa.",
-   "Saya menolak keinginan dari kerabat saya tersebut dengan tegas dan mengarahkan",
-   "Menerima permintaan kerabat saya untuk menjaga hubungan kami.",
-   "Meminta sejumlah imbalan untuk memudahkan transaksi.",
-   "Saya langsung mematikan telepon karena mengancam integritas saya.",
-   "Saya memberitahu kerabat saya untuk mematuhi SOP penerimaan mahasiswa. (Skor 4)"
-  ],
-  "kunci": 1,
-  "skor_pilihan": [
-   1,
-   5,
-   1,
-   1,
-   1,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah profesionalisme. Soal di atas akan menilai bagaimana Anda bersikap profesional sebagai seorang rektor yang bekerja dengan integritas yang dimiliki. Seorang pemimpin yang berintegritas dibuktikan dengan ucapan dan tindakan yang sejalan. B. Saya menolak keinginan dari kerabat saya tersebut dengan tegas dan mengarahkan untuk mengikuti seleksi penerimaan saja. (Skor 5) C. Menerima permintaan kerabat saya untuk menjaga hubungan kami. (Skor 2) D. Meminta sejumlah imbalan untuk memudahkan transaksi. (Skor 1) E. Saya langsung mematikan telepon karena menganc",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 8 CPNS TKP 2023.pdf"
- },
- {
   "id": 7848,
   "kat": "TKP",
   "sub": "Umum",
@@ -40563,31 +36828,6 @@
    1
   ],
   "pembahasan": "Aspek yang dinilai pada soal di atas adalah anti radikalisme. Aspek di atas akan mengukur bagaimana sikap Anda sebagai pemimpin dalam menempatkan diri dan tidak memaksakan kehendak terhadap kepentingan perusahaan. pegawai. (Skor 1) B. Saya memberikan pemakluman kepada karyawan saya tersebut untuk tidak bergabung karena sedang sakit. (Skor 5) C. Saya mendiskusikan hal tersebut kepada para jajaran direksi sebelum memutuskan. (Skor 4) D. Memberikan pertimbangan kepada karyawan tersebut sebelum memutuskan. (Skor 2) E. Memberikan pekerjaan yang relevan kepada pegawai tersebut. (Skor 3)",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 8 CPNS TKP 2023.pdf"
- },
- {
-  "id": 7857,
-  "kat": "TKP",
-  "sub": "Umum",
-  "teks": "Saya merupakan staf rumah sakit yang baru, suatu ketika saya diamanahkan oleh atasan untuk",
-  "pilihan": [
-   "Meminta kepada atasan agar ada rekan kerja yang menemani saya.",
-   "Saya akan tetap berusaha mengambil shift tersebut .",
-   "Melakukan negosiasi agar saya mendapat shift siang atau shift pagi saja.",
-   "Saya meminta waktu untuk berpikir sebelum memutuskan.",
-   "Saya bertekad untuk memberanikan diri mengambil shift malam untuk melatih diri saya bisa",
-   "Meminta kepada atasan agar ada rekan kerja yang menemani saya. (Skor 2)"
-  ],
-  "kunci": 4,
-  "skor_pilihan": [
-   1,
-   1,
-   1,
-   1,
-   5,
-   1
-  ],
-  "pembahasan": "Aspek yang dinilai pada soal di atas adalah profesionalisme. Sebagai seorang tenaga kesehatan yang baru bekerja, maka sangat penting untuk menunjukkan profesionalitas diri kepada atasan dengan berusaha untuk berani mengambi l shift malam agar ke depannya Anda sudah terbiasa. Opsi E adalah yang paling tepat. B. Saya akan tetap berusaha mengambil shift tersebut meskipun takut. (Skor 4) C. Melakukan negosiasi agar saya mendapat shift siang atau shift pagi saja. (Skor 1) D. Saya meminta waktu untuk berpikir sebelum memutuskan. (Skor 3) E. Saya bertekad untuk memberanikan diri mengambil shift malam",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 8 CPNS TKP 2023.pdf"
  },
  {
@@ -40845,23 +37085,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 8 CPNS TWK 2023.pdf"
  },
  {
-  "id": 7872,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Mengembangkan perilaku hormat kepada anggota keluarga yang lebih tua dan",
-  "pilihan": [
-   "1",
-   "2",
-   "3",
-   "4",
-   "5"
-  ],
-  "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": "mengembangkan perilaku hormat kepada anggota keluarga yang lebih tua dan menghargai anggota keluarga yang lebih muda merupakan bentuk pengamalan dari sila ke-3 yaitu persatuan Indonesia dilingkungan keluarga.",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 8 CPNS TWK 2023.pdf"
- },
- {
   "id": 7873,
   "kat": "TWK",
   "sub": "Umum",
@@ -40913,40 +37136,6 @@
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 8 CPNS TWK 2023.pdf"
  },
  {
-  "id": 7876,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Sebagai umat beragama, terdapat tri kerukunan umat beragama di antaranya adalah",
-  "pilihan": [
-   "1",
-   "2",
-   "3",
-   "4",
-   "5"
-  ],
-  "kunci": 0,
-  "skor_pilihan": null,
-  "pembahasan": "sila ke-1 Pancasila yaitu ketuhanan yang maha esa mengajarkan kita untuk memiliki keyakinan dan memiliki toleransi terhadap semua keyakinan.",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 8 CPNS TWK 2023.pdf"
- },
- {
-  "id": 7877,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Gerakan Aceh Merdeka (GAM) merupakan sebuah upaya Provinsi Aceh untuk",
-  "pilihan": [
-   "1",
-   "2",
-   "3",
-   "4",
-   "5"
-  ],
-  "kunci": 2,
-  "skor_pilihan": null,
-  "pembahasan": "upaya memisahkan diri dari NKRI merupakan gerakan separatisme yang dapat menimbu lkan perpecahan negara. Gerakan ini merupakan bentuk pelanggaran dari sila persatuan, yaitu pada sila ke-3.",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 8 CPNS TWK 2023.pdf"
- },
- {
   "id": 7878,
   "kat": "TWK",
   "sub": "Umum",
@@ -40961,23 +37150,6 @@
   "kunci": 1,
   "skor_pilihan": null,
   "pembahasan": "disintegrasi merupakan perpecahan hidup di dalam masyarakat yang disebabkan oleh pengaruh luar maupun dari dalam. Bentuk nyata disintegrasi dilingkungan sekolah adalah adanya tawuran yang menyebabkan perpecahan antar sekolah.",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 8 CPNS TWK 2023.pdf"
- },
- {
-  "id": 7879,
-  "kat": "TWK",
-  "sub": "Umum",
-  "teks": "Pembakaran hutan merupakan tindakan yang merugikan rakyat. Selain kerugian negara,",
-  "pilihan": [
-   "1",
-   "2",
-   "3",
-   "4",
-   "5"
-  ],
-  "kunci": 4,
-  "skor_pilihan": null,
-  "pembahasan": "pembakaran hutan secara sengaja merupakan tindakan yang dilakukan oleh seseorang yang mengakibatkan banyak orang. Tindakan ini sangat bertentangan dengan Pancasila, khususnya sila ke -5 yaitu keadilan sosial bagi seluruh rakyat Indonesia.",
   "sumber": "E-BOOK CPNS 3/TO 2023/TO 8 CPNS TWK 2023.pdf"
  },
  {

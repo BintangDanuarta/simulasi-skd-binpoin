@@ -14,11 +14,15 @@ import {
   BookOutlined,
 } from '@ant-design/icons';
 
+const RELEASE_DOWNLOAD_BASE =
+  'https://github.com/BintangDanuarta/simulasi-skd-binpoin/releases/download/v0.1.0-beta.2';
+const RELEASES_PAGE =
+  'https://github.com/BintangDanuarta/simulasi-skd-binpoin/releases/tag/v0.1.0-beta.2';
+
 const DOWNLOAD_LINKS = {
-  windows: '/downloads/simulasi-skd-binpoin-0.1.0-beta.1-x86_64-pc-windows-gnu.zip',
-  macArm: '/downloads/simulasi-skd-binpoin-0.1.0-beta.1-aarch64-apple-darwin.tar.gz',
-  macIntel: '/downloads/simulasi-skd-binpoin-0.1.0-beta.1-x86_64-apple-darwin.tar.gz',
-  linux: '/downloads/simulasi-skd-binpoin-0.1.0-beta.1-x86_64-unknown-linux-gnu.tar.gz',
+  windows: `${RELEASE_DOWNLOAD_BASE}/simulasi-skd-binpoin-0.1.0-beta.2-x86_64-pc-windows-msvc.zip`,
+  macArm: `${RELEASE_DOWNLOAD_BASE}/simulasi-skd-binpoin-0.1.0-beta.2-aarch64-apple-darwin.tar.gz`,
+  macIntel: `${RELEASE_DOWNLOAD_BASE}/simulasi-skd-binpoin-0.1.0-beta.2-x86_64-apple-darwin.tar.gz`,
 };
 
 const SCREENSHOT_TABS = [
@@ -125,7 +129,7 @@ export default function Home() {
           <p className="text-base sm:text-lg text-[#625c52] max-w-2xl mx-auto leading-relaxed mb-8 text-pretty">
             TWK, TIU, dan TKP dalam satu aplikasi desktop yang cepat, ringan (2 MB),
             dan berjalan langsung di komputermu tanpa login atau koneksi internet.
-            Tersedia untuk <b>Windows</b>, <b>Mac (Apple Silicon & Intel)</b>, dan <b>Linux</b>.
+            Tersedia untuk <b>Windows</b> dan <b>Mac (Apple Silicon & Intel)</b>.
           </p>
 
           {/* DUAL CTA: WINDOWS & MAC SIDE-BY-SIDE */}
@@ -156,8 +160,8 @@ export default function Home() {
               Mac Intel (.tar.gz)
             </a>
             <span>·</span>
-            <a href={DOWNLOAD_LINKS.linux} download className="hover:text-[#0154d0] underline underline-offset-2">
-              Linux x86_64 (.tar.gz)
+            <a href={RELEASES_PAGE} className="hover:text-[#0154d0] underline underline-offset-2">
+              Lihat semua rilis
             </a>
             <span>·</span>
             <a href="#preview" className="font-semibold text-[#0154d0] hover:underline underline-offset-2">
@@ -376,7 +380,7 @@ export default function Home() {
               Pilih Paket Sesuai Perangkatmu
             </h2>
             <p className="text-sm sm:text-base text-[#625c52]">
-              Unduh paket rilis resmi v0.1.0-beta.1. Langsung ekstrak dan gunakan tanpa proses instalasi rumit.
+                  Unduh paket rilis resmi v0.1.0-beta.2. Langsung ekstrak dan gunakan tanpa proses instalasi rumit.
             </p>
           </div>
 
@@ -452,30 +456,29 @@ export default function Home() {
               </div>
             </div>
 
-            {/* LINUX CARD */}
+            {/* LINUX AVAILABILITY */}
             <div className="p-6 rounded-2xl bg-white border border-[#e6e0d4] flex flex-col justify-between hover:border-[#0154d0]/40 transition-all shadow-sm">
               <div>
                 <div className="flex items-center justify-between mb-4 mt-2">
                   <div className="flex items-center gap-2.5">
                     <span className="text-xl">🐧</span>
-                    <span className="font-extrabold text-base text-[#181512]">Linux x86_64</span>
+                    <span className="font-extrabold text-base text-[#181512]">Linux</span>
                   </div>
                   <span className="text-xs font-semibold px-2 py-0.5 rounded bg-[#fbf9f5] border border-[#e6e0d4] text-[#625c52]">
-                    ~1.5 MB
+                    Belum tersedia
                   </span>
                 </div>
                 <p className="text-xs text-[#625c52] leading-relaxed mb-6">
-                  Binary portabel ELF x86_64 untuk Ubuntu, Debian, Fedora, Arch, dan distro Linux modern lainnya.
+                  Paket Linux belum tersedia di rilis ini. Cek halaman rilis untuk pembaruan.
                 </p>
               </div>
 
               <a
-                href={DOWNLOAD_LINKS.linux}
-                download
+                href={RELEASES_PAGE}
                 className="w-full inline-flex items-center justify-center gap-2 px-4 py-3 rounded-xl bg-white border border-[#e6e0d4] hover:border-[#0154d0] hover:text-[#0154d0] text-[#181512] text-xs font-bold transition-all active:translate-y-0.5 min-h-[44px]"
               >
                 <ArrowDownOutlined />
-                <span>Unduh Linux (.TAR.GZ)</span>
+                <span>Lihat halaman rilis</span>
               </a>
             </div>
           </div>

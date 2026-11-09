@@ -2,11 +2,11 @@
 //! Bank soal: data/questions.json | Materi: data/materi.json | Riwayat: data/riwayat.json
 
 use axum::{
+    Json, Router,
     extract::{Path, State},
     http::StatusCode,
     response::{Html, IntoResponse, Response},
     routing::{get, post},
-    Json, Router,
 };
 use serde::{Deserialize, Serialize};
 use std::collections::{HashMap, HashSet};
@@ -109,7 +109,7 @@ pub struct Materi {
 pub struct UjianInfo {
     pub id: String,
     pub mode: String,
-    pub mulai: u64,   // epoch detik
+    pub mulai: u64,    // epoch detik
     pub deadline: u64, // epoch detik
     pub selesai: bool,
     pub soal: Vec<SoalUjian>,
@@ -233,20 +233,21 @@ const PASS_TIU: u32 = 80;
 const PASS_TKP: u32 = 166;
 
 fn skor_soal(s: &Soal, jawaban: Option<u8>) -> u32 {
-    match (s.kat, jawaban) {
-        (_, None) => 0,
-        (Kat::Tkp, Some(j)) => {
-            if let Some(sk) = &s.skor_pilihan {
-                *sk.get(j as usize).unwrap_or(&1) as u32
-            } else if j == s.kunci {
-                5
-            } else {
-                1
+    match jawaban {
+        None => 0,
+        Some(j) => {
+            if let Some(score) = s
+                .skor_pilihan
+                .as_ref()
+                .and_then(|scores| scores.get(j as usize))
+            {
+                return u32::from(*score);
             }
-        }
-        (_, Some(j)) => {
+
             if j == s.kunci {
                 5
+            } else if s.kat == Kat::Tkp {
+                1
             } else {
                 0
             }
@@ -302,7 +303,8 @@ fn nilai_ujian(sesi: &UjianSession) -> HasilUjian {
             })
         })
         .collect();
-    let bagian_berambang: Vec<&HasilBagian> = bagian.iter().filter(|b| b.kat != Kat::Campur).collect();
+    let bagian_berambang: Vec<&HasilBagian> =
+        bagian.iter().filter(|b| b.kat != Kat::Campur).collect();
     let lulus = !bagian_berambang.is_empty() && bagian_berambang.iter().all(|b| b.lulus);
     let skor_total = bagian.iter().map(|b| b.skor).sum();
     HasilUjian {
@@ -400,6 +402,103 @@ async fn api_bank(
         })
         .collect();
     Json(serde_json::json!({"total": total, "offset": offset, "soal": page}))
+}
+
+fn pilih_soal_latihan(
+    bank: &[Soal],
+    kat: Kat,
+    sub: &[String],
+    jumlah: usize,
+    seed: u64,
+) -> Vec<Soal> {
+    let subs: HashSet<&str> = sub.iter().map(String::as_str).collect();
+    let mut questions: Vec<Soal> = bank
+        .iter()
+        .filter(|question| question.kat == kat && subs.contains(question.sub.as_str()))
+        .cloned()
+        .collect();
+    questions = shuffle(questions, seed);
+    questions.truncate(jumlah);
+    questions
+}
+
+#[derive(Deserialize)]
+struct LatihanStartBody {
+    kat: String,
+    sub: Vec<String>,
+    jumlah: usize,
+}
+
+async fn api_latihan_start(
+    State(st): State<AppState>,
+    Json(body): Json<LatihanStartBody>,
+) -> Result<Json<serde_json::Value>, (StatusCode, Json<serde_json::Value>)> {
+    let Some(kat) = Kat::from_str(&body.kat) else {
+        return Err((
+            StatusCode::BAD_REQUEST,
+            Json(serde_json::json!({"error": "Pilih kategori TWK, TIU, atau TKP."})),
+        ));
+    };
+    if kat == Kat::Campur {
+        return Err((
+            StatusCode::BAD_REQUEST,
+            Json(serde_json::json!({"error": "Latihan mandiri tersedia untuk TWK, TIU, dan TKP."})),
+        ));
+    }
+    if body.jumlah == 0 || body.jumlah > 100 {
+        return Err((
+            StatusCode::BAD_REQUEST,
+            Json(serde_json::json!({"error": "Jumlah soal harus antara 1 dan 100."})),
+        ));
+    }
+    let selected_subs: HashSet<&str> = body.sub.iter().map(String::as_str).collect();
+    if selected_subs.is_empty() {
+        return Err((
+            StatusCode::BAD_REQUEST,
+            Json(serde_json::json!({"error": "Pilih setidaknya satu materi."})),
+        ));
+    }
+
+    let available_count = st
+        .soal
+        .iter()
+        .filter(|question| question.kat == kat && selected_subs.contains(question.sub.as_str()))
+        .count();
+    if available_count == 0 {
+        return Err((
+            StatusCode::UNPROCESSABLE_ENTITY,
+            Json(serde_json::json!({"error": "Tidak ada soal untuk pilihan materi tersebut."})),
+        ));
+    }
+
+    let question_count = body.jumlah.min(available_count);
+    let seed = now()
+        .wrapping_mul(0x9E37_79B9_7F4A_7C15)
+        .wrapping_add(available_count as u64);
+    let questions: Vec<serde_json::Value> =
+        pilih_soal_latihan(&st.soal, kat, &body.sub, question_count, seed)
+            .into_iter()
+            .map(|question| {
+                serde_json::json!({
+                    "id": question.id,
+                    "kat": question.kat.as_str(),
+                    "sub": question.sub,
+                    "teks": question.teks,
+                    "pilihan": question.pilihan,
+                    "kunci": question.kunci,
+                    "pembahasan": question.pembahasan,
+                    "skor_pilihan": question.skor_pilihan,
+                })
+            })
+            .collect();
+
+    Ok(Json(serde_json::json!({
+        "kat": kat.as_str(),
+        "diminta": body.jumlah,
+        "jumlah": question_count,
+        "total_tersedia": available_count,
+        "soal": questions,
+    })))
 }
 
 #[derive(Deserialize)]
@@ -586,11 +685,7 @@ async fn api_ujian_kumpul(
         let mut map = st.ujian.lock().unwrap();
         let s = map.get_mut(&id).ok_or(StatusCode::NOT_FOUND)?;
         if s.selesai {
-            return s
-                .hasil
-                .clone()
-                .map(Json)
-                .ok_or(StatusCode::NOT_FOUND);
+            return s.hasil.clone().map(Json).ok_or(StatusCode::NOT_FOUND);
         }
         let mut h = nilai_ujian(s);
         h.durasi_pakai = now().saturating_sub(s.mulai);
@@ -636,15 +731,23 @@ fn data_dir() -> PathBuf {
     #[cfg(target_os = "windows")]
     let base = std::env::var_os("APPDATA").map(PathBuf::from);
     #[cfg(target_os = "macos")]
-    let base = std::env::var_os("HOME").map(|h| PathBuf::from(h).join("Library/Application Support"));
+    let base =
+        std::env::var_os("HOME").map(|h| PathBuf::from(h).join("Library/Application Support"));
     #[cfg(not(any(target_os = "windows", target_os = "macos")))]
-    let base = std::env::var_os("XDG_DATA_HOME").map(PathBuf::from).or_else(|| std::env::var_os("HOME").map(|h| PathBuf::from(h).join(".local/share")));
-    base.map(|p| p.join("Binpoin/Simulasi SKD/data")).unwrap_or_else(|| PathBuf::from("data"))
+    let base = std::env::var_os("XDG_DATA_HOME")
+        .map(PathBuf::from)
+        .or_else(|| std::env::var_os("HOME").map(|h| PathBuf::from(h).join(".local/share")));
+    base.map(|p| p.join("Binpoin/Simulasi SKD/data"))
+        .unwrap_or_else(|| PathBuf::from("data"))
 }
 
 fn data_file(name: &str) -> PathBuf {
     let user = data_dir().join(name);
-    if user.exists() { user } else { PathBuf::from("data").join(name) }
+    if user.exists() {
+        user
+    } else {
+        PathBuf::from("data").join(name)
+    }
 }
 
 fn muat_soal() -> Vec<Soal> {
@@ -689,7 +792,10 @@ async fn main() {
     let riwayat_path = data_dir().join("riwayat.json");
     if let Some(parent) = riwayat_path.parent() {
         if let Err(e) = fs::create_dir_all(parent) {
-            eprintln!("[error] tidak bisa membuat folder data {}: {e}", parent.display());
+            eprintln!(
+                "[error] tidak bisa membuat folder data {}: {e}",
+                parent.display()
+            );
             std::process::exit(1);
         }
     }
@@ -717,6 +823,7 @@ async fn main() {
         .route("/api/materi/{id}", get(api_materi_satu))
         .route("/api/video", get(api_video))
         .route("/api/bank", get(api_bank))
+        .route("/api/latihan/start", post(api_latihan_start))
         .route("/api/ujian/start", post(api_ujian_start))
         .route("/api/ujian/aktif", get(api_ujian_aktif))
         .route("/api/ujian/{id}/jawab", post(api_ujian_jawab))
@@ -730,23 +837,192 @@ async fn main() {
     let addr = std::env::var("BIND").unwrap_or_else(|_| "127.0.0.1:0".to_string());
     let listener = if addr.ends_with(":0") {
         let std_listener = StdTcpListener::bind(&addr).expect("port lokal tidak tersedia");
-        std_listener.set_nonblocking(true).expect("gagal set nonblocking");
+        std_listener
+            .set_nonblocking(true)
+            .expect("gagal set nonblocking");
         tokio::net::TcpListener::from_std(std_listener).expect("gagal membuat listener")
     } else {
-        tokio::net::TcpListener::bind(&addr).await.expect("gagal bind alamat")
+        tokio::net::TcpListener::bind(&addr)
+            .await
+            .expect("gagal bind alamat")
     };
     let actual_addr = listener.local_addr().expect("alamat listener");
     println!("[cpns-simulasi] mendengarkan di http://{actual_addr}");
     #[cfg(target_os = "windows")]
-    let opener = std::process::Command::new("cmd").args(["/C", "start", "", &format!("http://{actual_addr}")]).spawn();
+    let opener = std::process::Command::new("cmd")
+        .args(["/C", "start", "", &format!("http://{actual_addr}")])
+        .spawn();
     #[cfg(target_os = "macos")]
-    let opener = std::process::Command::new("open").arg(format!("http://{actual_addr}")).spawn();
+    let opener = std::process::Command::new("open")
+        .arg(format!("http://{actual_addr}"))
+        .spawn();
     #[cfg(target_os = "linux")]
-    let opener = std::process::Command::new("xdg-open").arg(format!("http://{actual_addr}")).spawn();
-    if opener.is_err() { eprintln!("Buka http://{actual_addr} di browser Anda"); }
+    let opener = std::process::Command::new("xdg-open")
+        .arg(format!("http://{actual_addr}"))
+        .spawn();
+    if opener.is_err() {
+        eprintln!("Buka http://{actual_addr} di browser Anda");
+    }
     axum::serve(listener, app).await.expect("server berhenti");
 }
 
 async fn hal_utama() -> Html<&'static str> {
     Html(include_str!("../static/index.html"))
+}
+
+#[cfg(test)]
+mod tests {
+    use super::{Kat, Soal, pilih_soal_latihan, skor_soal};
+    use std::collections::HashSet;
+
+    fn soal(kat: Kat, kunci: u8, skor_pilihan: Option<Vec<u8>>) -> Soal {
+        Soal {
+            id: 1,
+            kat,
+            sub: String::new(),
+            teks: String::from("Soal tes"),
+            pilihan: vec![String::from("A"), String::from("B"), String::from("C")],
+            kunci,
+            skor_pilihan,
+            pembahasan: None,
+            sumber: String::new(),
+        }
+    }
+
+    #[test]
+    fn skor_pilihan_dipakai_untuk_tkp_dan_kategori_lain() {
+        let scores = vec![1, 3, 5];
+        for kat in [Kat::Tkp, Kat::Twk, Kat::Tiu, Kat::Campur] {
+            assert_eq!(skor_soal(&soal(kat, 2, Some(scores.clone())), Some(1)), 3);
+        }
+    }
+
+    #[test]
+    fn skor_biner_tetap_jika_tidak_ada_skor_pilihan() {
+        assert_eq!(skor_soal(&soal(Kat::Twk, 1, None), Some(1)), 5);
+        assert_eq!(skor_soal(&soal(Kat::Twk, 1, None), Some(0)), 0);
+        assert_eq!(skor_soal(&soal(Kat::Tkp, 1, None), Some(0)), 1);
+        assert_eq!(skor_soal(&soal(Kat::Tkp, 1, None), None), 0);
+    }
+
+    #[test]
+    fn bank_soal_memiliki_teks_pilihan_dan_kunci_yang_valid() {
+        let bank: Vec<Soal> = serde_json::from_str(include_str!("../data/questions.json"))
+            .expect("bank soal harus JSON valid");
+        let app_ids: Vec<String> =
+            serde_json::from_str(include_str!("../reports/app_question_ids.json"))
+                .expect("manifest ID bank aplikasi harus JSON valid");
+        let curated_ids: Vec<String> =
+            serde_json::from_str(include_str!("../reports/valid_question_ids.json"))
+                .expect("manifest ID kandidat valid harus JSON valid");
+        let mut ids = HashSet::new();
+
+        for item in &bank {
+            assert!(ids.insert(item.id), "ID soal duplikat: {}", item.id);
+            assert!(
+                !item.teks.trim().is_empty(),
+                "teks kosong di soal {}",
+                item.id
+            );
+            assert!(
+                !item.pilihan.is_empty(),
+                "pilihan kosong di soal {}",
+                item.id
+            );
+            assert!(
+                item.pilihan.iter().all(|choice| !choice.trim().is_empty()),
+                "ada pilihan kosong di soal {}",
+                item.id
+            );
+            assert!(
+                usize::from(item.kunci) < item.pilihan.len(),
+                "indeks kunci di luar pilihan di soal {}",
+                item.id
+            );
+            if let Some(scores) = &item.skor_pilihan {
+                assert_eq!(
+                    scores.len(),
+                    item.pilihan.len(),
+                    "jumlah skor pilihan tidak cocok di soal {}",
+                    item.id
+                );
+                assert!(
+                    usize::from(item.kunci) < scores.len(),
+                    "indeks kunci tanpa skor di soal {}",
+                    item.id
+                );
+            }
+        }
+
+        let app_manifest: HashSet<u32> = app_ids
+            .iter()
+            .map(|id| id.parse::<u32>().expect("ID kurasi harus numerik"))
+            .collect();
+        assert_eq!(
+            app_manifest.len(),
+            app_ids.len(),
+            "manifest ID aplikasi duplikat"
+        );
+        assert_eq!(
+            app_manifest, ids,
+            "bank aplikasi harus sama persis dengan manifest bank aplikasi"
+        );
+
+        let curated: HashSet<u32> = curated_ids
+            .iter()
+            .map(|id| id.parse::<u32>().expect("ID kandidat harus numerik"))
+            .collect();
+        assert!(
+            curated.is_subset(&ids),
+            "semua soal yang disetujui pengguna harus dipertahankan di bank aplikasi"
+        );
+    }
+
+    #[test]
+    fn kunci_soal_hitung_yang_dapat_dibuktikan() {
+        let bank: Vec<Soal> = serde_json::from_str(include_str!("../data/questions.json"))
+            .expect("bank soal harus JSON valid");
+        let key_for = |id| {
+            bank.iter()
+                .find(|item| item.id == id)
+                .map(|item| item.kunci)
+        };
+
+        // For x < z with y strictly between x and z, x < y.
+        assert_eq!(key_for(1763), Some(1));
+    }
+
+    #[test]
+    fn latihan_memilih_hanya_kategori_dan_submateri_terpilih() {
+        let bank: Vec<Soal> = serde_json::from_str(include_str!("../data/questions.json"))
+            .expect("bank soal harus JSON valid");
+        let selected = pilih_soal_latihan(&bank, Kat::Tiu, &[String::from("Numerik")], 5, 12345);
+        assert!(!selected.is_empty());
+        assert!(
+            selected
+                .iter()
+                .all(|question| { question.kat == Kat::Tiu && question.sub == "Numerik" })
+        );
+        assert!(selected.len() <= 5);
+    }
+
+    #[test]
+    fn latihan_mengambil_hingga_jumlah_tersedia() {
+        let bank: Vec<Soal> = serde_json::from_str(include_str!("../data/questions.json"))
+            .expect("bank soal harus JSON valid");
+        let one_question = vec![
+            bank.iter()
+                .find(|question| question.kat == Kat::Tiu && question.sub == "Numerik")
+                .expect("bank terkurasi harus berisi soal numerik TIU")
+                .clone(),
+        ];
+        let selected = pilih_soal_latihan(
+            &one_question,
+            Kat::Tiu,
+            &[String::from("Numerik")],
+            10,
+            67890,
+        );
+        assert_eq!(selected.len(), 1);
+    }
 }

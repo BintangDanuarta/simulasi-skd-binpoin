@@ -741,12 +741,20 @@ fn data_dir() -> PathBuf {
         .unwrap_or_else(|| PathBuf::from("data"))
 }
 
+fn app_dir() -> PathBuf {
+    std::env::current_exe()
+        .ok()
+        .and_then(|path| path.parent().map(PathBuf::from))
+        .or_else(|| std::env::current_dir().ok())
+        .unwrap_or_else(|| PathBuf::from("."))
+}
+
 fn data_file(name: &str) -> PathBuf {
     let user = data_dir().join(name);
     if user.exists() {
         user
     } else {
-        PathBuf::from("data").join(name)
+        app_dir().join("data").join(name)
     }
 }
 
@@ -831,7 +839,7 @@ async fn main() {
         .route("/api/ujian/{id}/kumpul", post(api_ujian_kumpul))
         .route("/api/ujian/{id}/batalkan", post(api_ujian_batalkan))
         .route("/api/riwayat", get(api_riwayat))
-        .fallback_service(ServeDir::new("static"))
+        .fallback_service(ServeDir::new(app_dir().join("static")))
         .with_state(state);
 
     let addr = std::env::var("BIND").unwrap_or_else(|_| "127.0.0.1:0".to_string());
@@ -872,7 +880,7 @@ async fn hal_utama() -> Html<&'static str> {
 
 #[cfg(test)]
 mod tests {
-    use super::{Kat, Soal, pilih_soal_latihan, skor_soal};
+    use super::{Kat, Soal, app_dir, data_file, pilih_soal_latihan, skor_soal};
     use std::collections::HashSet;
 
     fn soal(kat: Kat, kunci: u8, skor_pilihan: Option<Vec<u8>>) -> Soal {
@@ -903,6 +911,16 @@ mod tests {
         assert_eq!(skor_soal(&soal(Kat::Twk, 1, None), Some(0)), 0);
         assert_eq!(skor_soal(&soal(Kat::Tkp, 1, None), Some(0)), 1);
         assert_eq!(skor_soal(&soal(Kat::Tkp, 1, None), None), 0);
+    }
+
+    #[test]
+    fn aset_runtime_diambil_dari_direktori_executable() {
+        let executable_dir = app_dir();
+        assert!(executable_dir.is_absolute());
+        assert_eq!(
+            data_file("questions.json"),
+            executable_dir.join("data/questions.json")
+        );
     }
 
     #[test]

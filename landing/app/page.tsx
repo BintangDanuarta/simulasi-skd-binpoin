@@ -15,14 +15,14 @@ import {
 } from '@ant-design/icons';
 
 const RELEASE_DOWNLOAD_BASE =
-  'https://github.com/BintangDanuarta/simulasi-skd-binpoin/releases/download/v0.1.0-beta.2';
+  'https://github.com/BintangDanuarta/simulasi-skd-binpoin/releases/download/v0.1.0-beta.3';
 const RELEASES_PAGE =
-  'https://github.com/BintangDanuarta/simulasi-skd-binpoin/releases/tag/v0.1.0-beta.2';
+  'https://github.com/BintangDanuarta/simulasi-skd-binpoin/releases/tag/v0.1.0-beta.3';
 
 const DOWNLOAD_LINKS = {
-  windows: `${RELEASE_DOWNLOAD_BASE}/simulasi-skd-binpoin-0.1.0-beta.2-x86_64-pc-windows-msvc.zip`,
-  macArm: `${RELEASE_DOWNLOAD_BASE}/simulasi-skd-binpoin-0.1.0-beta.2-aarch64-apple-darwin.tar.gz`,
-  macIntel: `${RELEASE_DOWNLOAD_BASE}/simulasi-skd-binpoin-0.1.0-beta.2-x86_64-apple-darwin.tar.gz`,
+  windows: `${RELEASE_DOWNLOAD_BASE}/simulasi-skd-binpoin-0.1.0-beta.3-x86_64-pc-windows-msvc.zip`,
+  macArm: `${RELEASE_DOWNLOAD_BASE}/simulasi-skd-binpoin-0.1.0-beta.3-aarch64-apple-darwin.tar.gz`,
+  macIntel: `${RELEASE_DOWNLOAD_BASE}/simulasi-skd-binpoin-0.1.0-beta.3-x86_64-apple-darwin.tar.gz`,
 };
 
 const SCREENSHOT_TABS = [
@@ -380,7 +380,7 @@ export default function Home() {
               Pilih Paket Sesuai Perangkatmu
             </h2>
             <p className="text-sm sm:text-base text-[#625c52]">
-                  Unduh paket rilis resmi v0.1.0-beta.2. Langsung ekstrak dan gunakan tanpa proses instalasi rumit.
+              Unduh paket rilis resmi v0.1.0-beta.3. Langsung ekstrak dan gunakan tanpa proses instalasi rumit.
             </p>
           </div>
 

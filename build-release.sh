@@ -18,9 +18,18 @@ install -m 644 data/questions.json data/materi.json "$STAGE/data/"
 install -m 644 static/app.js static/index.html static/style.css static/binpoin-logo.png static/favicon.ico "$STAGE/static/"
 printf 'Simulasi SKD by Binpoin — Beta %s\n\n' "$VERSION" > "$STAGE/README.txt"
 cat >> "$STAGE/README.txt" <<'TXT'
-Jalankan file aplikasi di folder ini. Browser akan terbuka otomatis.
-Data dan riwayat latihan tersimpan lokal di profil pengguna dan tidak dikirim.
-Keluar dengan menutup jendela terminal aplikasi.
+MACOS: IMPORTANT — this beta is not signed/notarized by Apple. Gatekeeper may show
+“Apple could not verify ... is free of malware”. Only continue if you downloaded
+this archive from the official Binpoin GitHub release and verified its SHA-256.
+
+To open on macOS: Control-click the executable, choose Open, then confirm Open.
+If blocked, open System Settings > Privacy & Security and choose Open Anyway for
+simulasi-skd-binpoin. This exception is for this binary only.
+
+The app serves its local web interface from the static/ folder beside the
+executable. Keep the extracted folder together; do not move the executable alone.
+The app opens the interface in your browser. Data and history stay on this Mac.
+Close the terminal process to exit the app.
 TXT
 case "$TARGET" in
   *windows*)

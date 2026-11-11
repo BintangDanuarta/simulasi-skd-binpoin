@@ -37,7 +37,7 @@ if [[ "$TARGET" == *darwin* ]]; then
   UPDATE_ARCHIVE="target/$TARGET/release/bundle/macos/Simulasi SKD by Binpoin.app.tar.gz"
   cp "$UPDATE_ARCHIVE" "$OUT/simulasi-skd-binpoin-${VERSION}-${UPDATE_ARCH}.app.tar.gz"
   cp "$UPDATE_ARCHIVE.sig" "$OUT/simulasi-skd-binpoin-${VERSION}-${UPDATE_ARCH}.app.tar.gz.sig"
-  ./scripts/create-updater-manifest.sh "$VERSION" "darwin-${UPDATE_ARCH}" "simulasi-skd-binpoin-${VERSION}-${UPDATE_ARCH}.app.tar.gz"
+  bash ./scripts/create-updater-manifest.sh "$VERSION" "darwin-${UPDATE_ARCH}" "simulasi-skd-binpoin-${VERSION}-${UPDATE_ARCH}.app.tar.gz"
   shasum -a 256 "$OUT/simulasi-skd-binpoin-${VERSION}-${TARGET}.dmg"
   du -h "$OUT/simulasi-skd-binpoin-${VERSION}-${TARGET}.dmg"
   rm -f bundle/backend/simulasi-skd-binpoin bundle/data/questions.json bundle/data/materi.json bundle/data/video.json

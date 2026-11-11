@@ -1,7 +1,16 @@
 {
   "dependencies": {
+    "@tauri-apps/api": "^2.12.4",
+    "@tauri-apps/plugin-process": "^2.4.0",
+    "@tauri-apps/plugin-updater": "^2.14.1",
     "clsx": "^2.1.1",
     "motion": "^14.10.1",
     "tailwind-merge": "^3.7.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.28.2"
+  },
+  "scripts": {
+    "build:desktop-frontend": "node scripts/build-desktop-frontend.mjs"
   }
 }

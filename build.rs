@@ -4,6 +4,9 @@ use std::path::PathBuf;
 use std::process::Command;
 
 fn main() {
+    #[cfg(feature = "desktop")]
+    tauri_build::build();
+
     println!("cargo:rerun-if-changed=app.ico");
     println!("cargo:rerun-if-changed=build.rs");
 

@@ -17,10 +17,10 @@ jobs:
         include:
           - os: macos-latest
             target: aarch64-apple-darwin
-          - os: macos-15-intel
-            target: x86_64-apple-darwin
+            platform: darwin-aarch64
           - os: windows-latest
             target: x86_64-pc-windows-msvc
+            platform: windows-x86_64
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
@@ -36,40 +36,86 @@ jobs:
       - uses: dtolnay/rust-toolchain@stable
         with:
           targets: ${{ matrix.target }}
-      - name: Package (Unix)
-        if: runner.os != 'Windows'
-        shell: bash
-        run: VERSION="${{ steps.version.outputs.version }}" ./build-release.sh "${{ matrix.target }}"
-      - name: Package Windows
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - name: Install desktop tooling
+        run: npm ci
+      - name: Stage Windows app data and desktop frontend
         if: runner.os == 'Windows'
         shell: pwsh
         run: |
           cargo build --release --locked --target "${{ matrix.target }}"
+          New-Item -ItemType Directory -Force bundle/backend, bundle/data, bundle/static, release | Out-Null
+          Copy-Item "target/${{ matrix.target }}/release/simulasi-skd-binpoin.exe" "bundle/backend/simulasi-skd-binpoin.exe" -Force
+          Copy-Item data/questions.json, data/materi.json, data/video.json bundle/data/ -Force
+          Copy-Item static/app.js, static/index.html, static/style.css, static/binpoin-logo.png, static/favicon.ico bundle/static/ -Force
+          npm run build:desktop-frontend
+          Copy-Item static/desktop-update.bundle.js bundle/static/ -Force
+      - name: Package macOS
+        if: runner.os == 'macOS'
+        shell: bash
+        run: VERSION="${{ steps.version.outputs.version }}" ./build-release.sh "${{ matrix.target }}"
+        env:
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+      - name: Verify updater signing secrets
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          if ([string]::IsNullOrWhiteSpace($env:TAURI_SIGNING_PRIVATE_KEY)) { throw 'TAURI_SIGNING_PRIVATE_KEY is not configured.' }
+          if ($null -eq $env:TAURI_SIGNING_PRIVATE_KEY_PASSWORD) { throw 'TAURI_SIGNING_PRIVATE_KEY_PASSWORD is not configured.' }
+        env:
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
+      - name: Prepare Windows release output
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: New-Item -ItemType Directory -Force release | Out-Null
+      - name: Package Windows
+        if: runner.os == 'Windows'
+        shell: pwsh
+        run: |
+          $env:TAURI_SIGNING_PRIVATE_KEY = '${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}'
+          $env:TAURI_SIGNING_PRIVATE_KEY_PASSWORD = '${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}'
           $version = '${{ steps.version.outputs.version }}'
-          $app = "simulasi-skd-binpoin-$version-${{ matrix.target }}"
-          $stage = "release/$app"
-          New-Item -ItemType Directory -Force "$stage/data", "$stage/static" | Out-Null
-          Copy-Item "target/${{ matrix.target }}/release/simulasi-skd-binpoin.exe" "$stage/"
-          Copy-Item data/questions.json, data/materi.json, data/video.json "$stage/data/"
-          Copy-Item static/app.js, static/index.html, static/style.css, static/binpoin-logo.png "$stage/static/"
-          Copy-Item README.md "$stage/README.txt"
-          "Simulasi SKD by Binpoin — Beta $version`n`nJalankan executable di folder ini. Riwayat disimpan lokal di profil pengguna." | Set-Content "$stage/README.txt"
-          "@echo off`ncd /d `"%~dp0`"`nstart `"`" `"%~dp0simulasi-skd-binpoin.exe`"" | Set-Content "$stage/Simulasi SKD by Binpoin.bat"
-          Compress-Archive -Path "$stage" -DestinationPath "release/simulasi-skd-binpoin-$version-${{ matrix.target }}.zip" -Force
+          $env:VERSION = $version
+          npx --yes @tauri-apps/cli build --features desktop,custom-protocol --target "${{ matrix.target }}" --bundles nsis --config "{`"version`":`"$version`"}"
+          $setup = Get-ChildItem "target/${{ matrix.target }}/release/bundle/nsis" -Filter "*.exe" | Select-Object -First 1
+          Copy-Item $setup.FullName "release/simulasi-skd-binpoin-$version-${{ matrix.target }}-setup.exe"
+          $signed = Get-ChildItem "target/${{ matrix.target }}/release/bundle" -Recurse -Filter "*.nsis.zip" | Select-Object -First 1
+          if (-not $signed) { throw 'Tauri updater archive was not generated.' }
+          $asset = "simulasi-skd-binpoin-$version-${{ matrix.platform }}.nsis.zip"
+          Copy-Item $signed.FullName "release/$asset"
+          if (-not (Test-Path "$($signed.FullName).sig")) { throw 'Signed NSIS updater signature was not generated.' }
+          Copy-Item "$($signed.FullName).sig" "release/$asset.sig"
+          $signature = Get-Content "release/$asset.sig" -Raw
+          $manifest = @{
+            version = $version
+            notes = "Simulasi SKD by Binpoin $version"
+            pub_date = (Get-Date).ToUniversalTime().ToString('o')
+            platforms = @{
+              '${{ matrix.platform }}' = @{
+                url = "https://github.com/BintangDanuarta/simulasi-skd-binpoin/releases/download/v$version/$asset"
+                signature = $signature.Trim()
+              }
+            }
+          } | ConvertTo-Json -Depth 6
+          Set-Content -Path "release/latest-${{ matrix.platform }}.json" -Value $manifest -Encoding utf8
+        env:
+          TAURI_SIGNING_PRIVATE_KEY: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY }}
+          TAURI_SIGNING_PRIVATE_KEY_PASSWORD: ${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}
       - uses: actions/upload-artifact@v4
         with:
           name: Simulasi-SKD-Binpoin-${{ matrix.target }}
           path: |
-            release/simulasi-skd-binpoin-${{ steps.version.outputs.version }}-${{ matrix.target }}.*
-            release/Simulasi-SKD-Binpoin-${{ steps.version.outputs.version }}-${{ matrix.target }}/
+            release/**
       - name: Publish tagged beta
         if: startsWith(github.ref, 'refs/tags/')
         uses: softprops/action-gh-release@v2
         with:
-          prerelease: true
+          prerelease: false
           files: |
-            release/simulasi-skd-binpoin-${{ steps.version.outputs.version }}-${{ matrix.target }}.*
-            release/Simulasi-SKD-Binpoin-${{ steps.version.outputs.version }}-${{ matrix.target }}/*
-            release/simulasi-skd-binpoin-${{ steps.version.outputs.version }}-x86_64-pc-windows-msvc.zip
+            release/**
           fail_on_unmatched_files: false
           generate_release_notes: true

@@ -1,0 +1,48 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "Simulasi SKD by Binpoin",
+  "version": "0.1.0-beta.1",
+  "identifier": "id.binpoin.simulasi-skd",
+  "mainBinaryName": "simulasi-skd-binpoin-desktop",
+  "build": {
+    "frontendDist": "static"
+  },
+  "bundle": {
+    "icon": ["icons/icon.png"],
+    "active": true,
+    "targets": ["app", "dmg", "nsis"],
+    "category": "Education",
+    "shortDescription": "Simulasi latihan SKD CPNS",
+    "resources": {
+      "bundle/static": "static",
+      "bundle/data/questions.json": "data/questions.json",
+      "bundle/data/materi.json": "data/materi.json",
+      "bundle/data/video.json": "data/video.json",
+      "bundle/backend/": "backend/"
+    },
+    "macOS": {
+      "minimumSystemVersion": "11.0",
+      "signingIdentity": null,
+      "dmg": { "windowSize": { "width": 660, "height": 420 } }
+    },
+    "windows": {
+      "nsis": { "installMode": "currentUser" }
+    },
+    "createUpdaterArtifacts": true
+  },
+  "app": {
+    "windows": [],
+    "security": {
+      "csp": "default-src 'self' http://127.0.0.1:*; connect-src 'self' http://127.0.0.1:*; img-src 'self' data: http://127.0.0.1:*; style-src 'self' 'unsafe-inline' http://127.0.0.1:*; script-src 'self' 'unsafe-inline' http://127.0.0.1:*"
+    }
+  },
+  "plugins": {
+    "updater": {
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IEI3RTJEQjExMUE2OUJFNUIKUldSYnZta2FFZHZpdDYwQy9RTHA4SW9aRTgyS0dSM3o1L1FqTlJJYllJbzBFQkUxTzBnc2ptdUMK",
+      "endpoints": [
+        "https://github.com/BintangDanuarta/simulasi-skd-binpoin/releases/latest/download/latest-{{target}}.json"
+      ],
+      "windows": { "installMode": "passive" }
+    }
+  }
+}

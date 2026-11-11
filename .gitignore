@@ -1,4 +1,11 @@
 /target
+/bundle/backend/*
+!/bundle/backend/.keep
+/bundle/data/*
+!/bundle/data/.keep
+/bundle/static/*
+!/bundle/static/.keep
+/gen/
 /.agents/
 /skills-lock.json
 /data/riwayat.json

@@ -742,6 +742,9 @@ fn data_dir() -> PathBuf {
 }
 
 fn app_dir() -> PathBuf {
+    if let Some(dir) = std::env::var_os("CPNS_APP_DIR") {
+        return PathBuf::from(dir);
+    }
     std::env::current_exe()
         .ok()
         .and_then(|path| path.parent().map(PathBuf::from))
@@ -856,20 +859,22 @@ async fn main() {
     };
     let actual_addr = listener.local_addr().expect("alamat listener");
     println!("[cpns-simulasi] mendengarkan di http://{actual_addr}");
-    #[cfg(target_os = "windows")]
-    let opener = std::process::Command::new("cmd")
-        .args(["/C", "start", "", &format!("http://{actual_addr}")])
-        .spawn();
-    #[cfg(target_os = "macos")]
-    let opener = std::process::Command::new("open")
-        .arg(format!("http://{actual_addr}"))
-        .spawn();
-    #[cfg(target_os = "linux")]
-    let opener = std::process::Command::new("xdg-open")
-        .arg(format!("http://{actual_addr}"))
-        .spawn();
-    if opener.is_err() {
-        eprintln!("Buka http://{actual_addr} di browser Anda");
+    if std::env::var_os("CPNS_DESKTOP_SHELL").is_none() {
+        #[cfg(target_os = "windows")]
+        let opener = std::process::Command::new("cmd")
+            .args(["/C", "start", "", &format!("http://{actual_addr}")])
+            .spawn();
+        #[cfg(target_os = "macos")]
+        let opener = std::process::Command::new("open")
+            .arg(format!("http://{actual_addr}"))
+            .spawn();
+        #[cfg(target_os = "linux")]
+        let opener = std::process::Command::new("xdg-open")
+            .arg(format!("http://{actual_addr}"))
+            .spawn();
+        if opener.is_err() {
+            eprintln!("Buka http://{actual_addr} di browser Anda");
+        }
     }
     axum::serve(listener, app).await.expect("server berhenti");
 }

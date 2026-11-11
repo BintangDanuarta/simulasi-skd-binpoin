@@ -80,8 +80,12 @@ jobs:
           $env:TAURI_SIGNING_PRIVATE_KEY_PASSWORD = '${{ secrets.TAURI_SIGNING_PRIVATE_KEY_PASSWORD }}'
           $version = '${{ steps.version.outputs.version }}'
           $env:VERSION = $version
-          npx --yes @tauri-apps/cli build --features desktop,custom-protocol --target "${{ matrix.target }}" --bundles nsis --config "{`"version`":`"$version`"}"
+          $configPath = Join-Path $env:RUNNER_TEMP 'tauri-test-config.json'
+          @{ version = $version } | ConvertTo-Json -Compress | Set-Content -Path $configPath -Encoding utf8
+          npx --yes @tauri-apps/cli build --features desktop,custom-protocol --target "${{ matrix.target }}" --bundles nsis --config $configPath
+          if ($LASTEXITCODE -ne 0) { throw "Tauri build failed with exit code $LASTEXITCODE" }
           $setup = Get-ChildItem "target/${{ matrix.target }}/release/bundle/nsis" -Filter "*.exe" | Select-Object -First 1
+          if (-not $setup) { throw 'Tauri NSIS installer was not generated.' }
           Copy-Item $setup.FullName "release/simulasi-skd-binpoin-$version-${{ matrix.target }}-setup.exe"
           $signed = Get-ChildItem "target/${{ matrix.target }}/release/bundle" -Recurse -Filter "*.nsis.zip" | Select-Object -First 1
           if (-not $signed) { throw 'Tauri updater archive was not generated.' }

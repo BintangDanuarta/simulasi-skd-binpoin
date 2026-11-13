@@ -836,3 +836,75 @@ main > section:not(.hidden) { animation: page-enter 220ms var(--ease-out) both; 
   .lesson-state { grid-column: 2; margin-top: -7px; }
   .resource-shortcuts > span { flex-basis: 100%; }
 }
+
+/* Keep the account identity and primary navigation in one compact, centered bar. */
+#topbar {
+  width: min(calc(100% - 48px), 1440px);
+  margin-inline: auto;
+  padding-inline: 0;
+  gap: 24px;
+}
+#topbar > .brand { flex: 0 0 auto; }
+#mainnav {
+  min-width: 0;
+  flex: 0 1 auto;
+  margin-left: auto;
+  gap: clamp(2px, .55vw, 10px);
+  align-items: center;
+  justify-content: flex-end;
+}
+#mainnav .account-email {
+  display: block;
+  flex: 0 1 clamp(150px, 18vw, 280px);
+  min-width: 0;
+  margin-left: 8px;
+  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+#mainnav #auth-logout { flex: 0 0 auto; }
+#mainnav button[data-nav] { flex: 0 0 auto; white-space: nowrap; }
+
+@media (max-width: 1080px) {
+  #topbar { width: calc(100% - 32px); gap: 12px; }
+  #mainnav { gap: 2px; }
+  #mainnav button[data-nav] { padding-inline: 9px; }
+  #mainnav .account-email { flex-basis: 120px; }
+}
+
+@media (max-width: 760px) {
+  #topbar {
+    width: 100%;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 4px 12px;
+    padding: 8px 16px 0;
+  }
+  #mainnav {
+    grid-column: 1 / -1;
+    width: 100%;
+    min-width: 0;
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 2px 4px;
+    border-top: 1px solid var(--line);
+  }
+  #mainnav .account-email {
+    flex: 1 0 100%;
+    max-width: none;
+    margin: 0;
+    padding: 0 4px 8px;
+    text-align: right;
+  }
+  #mainnav #auth-logout { margin-right: auto; }
+  #mainnav button[data-nav] { padding-inline: 9px; }
+}
+
+@media (max-width: 420px) {
+  #topbar { padding-inline: 12px; }
+  #mainnav #auth-logout { margin-right: auto; }
+  #mainnav button[data-nav] { padding-inline: 7px; font-size: 12px; }
+}

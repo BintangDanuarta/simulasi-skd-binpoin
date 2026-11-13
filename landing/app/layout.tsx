@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  title: 'Simulasi SKD by Binpoin — Aplikasi Latihan CAT CPNS Mandiri',
-  description: 'Persiapan SKD CPNS mandiri: 2.056+ bank soal, 55 modul materi, simulasi CAT ber-timer standar BKN. Cepat, ringan (2 MB), dan 100% offline.',
+  title: 'Simulasi SKD by Binpoin | Latihan SKD di Browser',
+  description: 'Belajar materi, latihan TWK, TIU, dan TKP, lalu ikuti simulasi SKD melalui browser. Masuk atau buat akun untuk menyimpan progres dan riwayat latihan.',
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon.ico',

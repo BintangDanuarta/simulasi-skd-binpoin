@@ -22,6 +22,16 @@ cargo run --release
 
 Aplikasi akan menampilkan alamat lokal pada terminal. Untuk build paket portabel platform saat ini, lihat `build-release.sh`.
 
+## Deploy web ke `skd.binpoin.my.id/app`
+
+Deployment produksi menggunakan Docker Compose dan PostgreSQL di server Linux, di belakang Nginx/HTTPS yang sudah melayani domain `skd.binpoin.my.id`.
+
+1. Salin `.env.web.example` menjadi `.env` di server. Isi password PostgreSQL panjang dengan karakter alfanumerik dan gunakan nilai yang sama untuk `POSTGRES_PASSWORD` serta `POSTGRES_PASSWORD_URLENCODED`. Jangan commit `.env`.
+2. Tambahkan konfigurasi dari [`deploy/nginx-app.conf`](deploy/nginx-app.conf) ke server block HTTPS Nginx untuk domain tersebut. Uji dengan `nginx -t` lalu reload Nginx.
+3. Jalankan `./scripts/web-up.sh` dari root repository di server.
+
+Aplikasi akan tersedia di `https://skd.binpoin.my.id/app/` dan pendaftaran akun di `/app/register`. Backend hanya diekspos ke loopback `127.0.0.1:8787`; database tetap privat. Backup Docker volume `postgres_data` secara berkala.
+
 ## Landing page
 
 Diperlukan Node.js 20 atau lebih baru. Dari folder `landing/`:
@@ -49,12 +59,6 @@ Build lokal memerlukan Rust stable, Node.js 20+, Xcode Command Line Tools, serta
 Hasil DMG ada di `release/`; buka DMG lalu seret aplikasi ke Applications. Jendela aplikasi memakai WebView macOS, sedangkan Axum tetap melayani API dan menyimpan riwayat lokal.
 
 Paket yang dibuat tanpa sertifikat Developer ID dan notarization Apple masih dapat memunculkan peringatan Gatekeeper. Untuk rilis publik tanpa peringatan, konfigurasi Developer ID signing dan notarization beserta kredensial Apple di CI tetap diperlukan.
-
-### Update aplikasi
-
-Versi desktop macOS dan Windows memeriksa update saat dibuka dan menampilkan pilihan **Update sekarang** atau **Nanti**. Unduhan hanya dipasang setelah pengguna memilih Update sekarang, lalu aplikasi dimulai ulang. Update ditandatangani dengan Tauri updater signing key (terpisah dari Apple Developer ID). Fungsi ini berlaku untuk aplikasi desktop Tauri; build lama berbasis arsip bukan target updater. Windows didistribusikan sebagai installer NSIS per-user.
-
-Untuk build rilis, set `TAURI_SIGNING_PRIVATE_KEY` dan `TAURI_SIGNING_PRIVATE_KEY_PASSWORD`. Private key updater dibuat di `$HOME/.tauri/simulasi-skd-updater.key`; jangan commit atau membagikannya. Tambahkan nilainya sebagai GitHub Actions secrets dengan nama yang sama. Public key verifikasi sudah tertanam di `tauri.conf.json`. Release macOS perlu menyertakan file `.app.tar.gz` beserta `.sig` yang dihasilkan Tauri; feed `latest-darwin-*.json` diunduh dari GitHub Releases. Feed untuk auto-update diambil dari latest non-prerelease.
 
 ## Distribusi beta
 

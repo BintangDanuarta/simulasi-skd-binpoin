@@ -370,8 +370,8 @@
  {
   "id": "TIU-30",
   "kat": "TIU",
-  "modul": "TIU Umum",
-  "sub": "Umum",
+  "modul": "Numerik",
+  "sub": "Numerik",
   "judul": "Kecepatan, Jarak, dan Waktu",
   "ringkas": "Hubungan v, s, t dan kasus susul-menyusul.",
   "html": "<h2>Rumus Dasar</h2>\n<p>v = s/t; s = v × t; t = s/v.</p>\n<h2>Susul-Menyusul</h2>\n<p>Waktu susul = jarak yang sudah ditempuh / selisih kecepatan.</p>\n<h2>Tips</h2>\n<ul><li>Samakan satuan (km/jam, meter/detik).</li><li>Gunakan tabel untuk soal berpapasan.</li></ul>",

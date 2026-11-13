@@ -1,0 +1,50 @@
+services:
+  db:
+    image: postgres:16-alpine
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: ${POSTGRES_DB:-binpoin}
+      POSTGRES_USER: ${POSTGRES_USER:-binpoin}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in .env}
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U ${POSTGRES_USER:-binpoin} -d ${POSTGRES_DB:-binpoin}"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+    networks:
+      private:
+        ipv4_address: 172.30.0.30
+
+  app:
+    build: .
+    restart: unless-stopped
+    environment:
+      BIND: 0.0.0.0:8787
+      APP_BASE_PATH: /app
+      DATABASE_URL: postgres://${POSTGRES_USER:-binpoin}:${POSTGRES_PASSWORD_URLENCODED:?set URL-encoded POSTGRES_PASSWORD_URLENCODED}@db:5432/${POSTGRES_DB:-binpoin}
+      MIGRATIONS_DIR: /app/migrations
+      PUBLIC_ORIGIN: ${PUBLIC_ORIGIN:?set PUBLIC_ORIGIN, e.g. https://skd.example.com}
+      CORS_ORIGINS: ${PUBLIC_ORIGIN}
+      ALLOWED_HOSTS: ${ALLOWED_HOSTS:?set ALLOWED_HOSTS, e.g. skd.example.com}
+      TRUSTED_PROXY_IPS: 127.0.0.1,::1
+      COOKIE_SECURE: "true"
+    depends_on:
+      db:
+        condition: service_healthy
+    ports:
+      - "127.0.0.1:8787:8787"
+    networks:
+      private:
+        ipv4_address: 172.30.0.20
+
+volumes:
+  postgres_data:
+
+networks:
+  private:
+    internal: true
+    ipam:
+      config:
+        - subnet: 172.30.0.0/24

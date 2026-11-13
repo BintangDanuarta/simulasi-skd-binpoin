@@ -44,6 +44,10 @@ fn start_backend(root: PathBuf) -> Result<(Child, String), String> {
 }
 
 fn main() {
+    if std::env::var_os("DATABASE_URL").is_some() {
+        eprintln!("Desktop executable is disabled for web deployment; run simulasi-skd-binpoin server instead.");
+        std::process::exit(2);
+    }
     let app = tauri::Builder::default()
         .setup(move |app| {
             let root = app.path().resource_dir()?;

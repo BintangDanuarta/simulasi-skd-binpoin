@@ -6,19 +6,39 @@
 <meta name="theme-color" content="#f7f4ee">
 <meta name="description" content="Belajar materi, berlatih soal, dan mengukur kesiapan SKD CPNS dalam satu tempat.">
 <title>Simulasi SKD by binpoin</title>
-<link rel="stylesheet" href="/style.css">
-<link rel="icon" type="image/png" href="/binpoin-logo.png">
-<link rel="shortcut icon" href="/favicon.ico">
-<link rel="apple-touch-icon" href="/binpoin-logo.png">
+<link rel="stylesheet" href="style.css">
+<link rel="icon" type="image/png" href="binpoin-logo.png">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="binpoin-logo.png">
 </head>
 <body>
 <a class="skip-link" href="#main">Lewati ke konten</a>
+<div id="auth-gate" class="auth-gate hidden">
+  <div class="auth-card card">
+    <img src="binpoin-logo.png" alt="Binpoin" class="auth-logo">
+    <p class="eyebrow">BINPOIN · SIMULASI SKD</p>
+    <h1 id="auth-title">Masuk ke akun</h1>
+    <p id="auth-copy" class="subtitle">Simpan progres dan riwayat ujian di akunmu.</p>
+    <form id="auth-form">
+      <label class="field-label" for="auth-email">Email</label>
+      <input class="form-control" id="auth-email" type="email" autocomplete="email" required maxlength="254">
+      <label class="field-label" for="auth-password">Password</label>
+      <input class="form-control" id="auth-password" type="password" autocomplete="current-password" required minlength="12" maxlength="256">
+      <p id="auth-error" class="auth-error hidden" role="alert"></p>
+      <button id="auth-submit" class="btn btn-primary btn-block" type="submit">Masuk</button>
+    </form>
+    <button id="auth-toggle" class="btn btn-outline btn-block" type="button">Belum punya akun? Daftar</button>
+    <small class="auth-note">Minimal 12 karakter. Jangan gunakan kata sandi yang sama dengan akun penting lainnya.</small>
+  </div>
+</div>
 <header id="topbar" class="hidden">
   <button class="brand" onclick="nav('home')" aria-label="Ke beranda">
-    <img class="brand-logo" src="/binpoin-logo.png" alt="">
+    <img class="brand-logo" src="binpoin-logo.png" alt="">
     <span class="brand-text"><b>Simulasi SKD</b><small>by binpoin</small></span>
   </button>
   <nav id="mainnav" aria-label="Navigasi utama">
+    <span id="account-email" class="account-email"></span>
+    <button id="auth-logout" class="btn btn-outline btn-sm" type="button">Keluar</button>
     <button data-nav="home" class="active">Beranda</button>
     <button data-nav="latihan">Latihan Soal</button>
     <button data-nav="materi">Materi</button>
@@ -243,7 +263,7 @@
   </div>
 </div>
 
-<script src="/app.js"></script>
-<script src="/desktop-update.bundle.js"></script>
+<script src="app.js"></script>
+<script src="desktop-update.bundle.js"></script>
 </body>
 </html>

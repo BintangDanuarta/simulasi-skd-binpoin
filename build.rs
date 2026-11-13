@@ -7,6 +7,10 @@ fn main() {
     #[cfg(feature = "desktop")]
     tauri_build::build();
 
+    if env::var_os("CARGO_FEATURE_DESKTOP").is_none() {
+        return;
+    }
+
     println!("cargo:rerun-if-changed=app.ico");
     println!("cargo:rerun-if-changed=build.rs");
 

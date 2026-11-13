@@ -2,8 +2,12 @@
 'use strict';
 
 const $ = (s) => document.querySelector(s);
+const APP_BASE = location.pathname === '/app' || location.pathname.startsWith('/app/') ? '/app' : '';
+const appUrl = (path) => `${APP_BASE}${path}`;
 
 let META = null;
+let CURRENT_USER = null;
+let ACCOUNT_PROGRESS = null;
 let curView = 'home';
 let ujian = null;      // {id, mode, mulai, deadline, soal[], jawaban{}, ragu[]}
 let curIdx = 0;
@@ -14,8 +18,9 @@ let warningTab = false;
 
 // ---------- helpers ----------
 async function api(url, opt = {}) {
-  const r = await fetch(url, {
+  const r = await fetch(appUrl(url), {
     headers: { 'Content-Type': 'application/json' },
+    credentials: 'same-origin',
     ...opt,
   });
   if (!r.ok) {
@@ -24,12 +29,145 @@ async function api(url, opt = {}) {
       const j = await r.json();
       if (j.error) msg = j.error;
     } catch (_) {}
-    throw new Error(msg);
+    if (r.status === 401 && !url.startsWith('/api/auth/')) {
+      CURRENT_USER = null;
+      renderAuthGate();
+    }
+    const error = new Error(msg);
+    error.status = r.status;
+    throw error;
   }
   return r.json();
 }
 function post(url, body) {
   return api(url, { method: 'POST', body: JSON.stringify(body || {}) });
+}
+
+let authMode = 'login';
+let appBooted = false;
+let authChecking = true;
+let authElementsReady = false;
+
+function renderAuthGate(message = '') {
+  const gate = $('#auth-gate');
+  if (!gate) return;
+  gate.classList.toggle('hidden', Boolean(CURRENT_USER));
+  $('#topbar').classList.toggle('hidden', !CURRENT_USER);
+  if (CURRENT_USER) return;
+  if (!authElementsReady) return;
+  $('#auth-title').textContent = authMode === 'login' ? 'Masuk ke akun' : 'Buat akun';
+  $('#auth-copy').textContent = authMode === 'login'
+    ? 'Simpan progres dan riwayat ujian di akunmu.'
+    : 'Daftar untuk menyimpan sesi dan riwayat di semua perangkat.';
+  $('#auth-password').autocomplete = authMode === 'login' ? 'current-password' : 'new-password';
+  $('#auth-submit').textContent = authMode === 'login' ? 'Masuk' : 'Buat akun';
+  $('#auth-toggle').textContent = authMode === 'login' ? 'Belum punya akun? Daftar' : 'Sudah punya akun? Masuk';
+  const error = $('#auth-error');
+  error.textContent = message;
+  error.classList.toggle('hidden', !message);
+}
+
+async function initializeAccountApp() {
+  try {
+    const response = await api('/api/auth/me');
+    CURRENT_USER = response.user;
+    if (!appBooted) {
+      renderAuthGate();
+      await syncProgressFromServer();
+    }
+    $('#account-email').textContent = CURRENT_USER.email;
+    if (!appBooted) {
+      appBooted = true;
+      nav('home');
+    }
+  } catch (error) {
+    CURRENT_USER = null;
+    appBooted = false;
+    renderAuthGate();
+    if (error.status !== 401) {
+      $('#auth-error').textContent = error.message || 'Layanan akun belum tersedia. Coba muat ulang.';
+      $('#auth-error').classList.remove('hidden');
+    }
+  } finally {
+    authChecking = false;
+    document.body.classList.remove('auth-checking');
+  }
+}
+
+async function submitAuth(event) {
+  event.preventDefault();
+  const email = $('#auth-email').value.trim();
+  const password = $('#auth-password').value;
+  $('#auth-submit').disabled = true;
+  try {
+    const endpoint = authMode === 'login' ? '/api/auth/login' : '/api/auth/register';
+    await post(endpoint, { email, password });
+    $('#auth-password').value = '';
+    authChecking = true;
+    document.body.classList.add('auth-checking');
+    await initializeAccountApp();
+  } catch (error) {
+    renderAuthGate(error.message || 'Tidak dapat memproses akun.');
+  } finally {
+    $('#auth-submit').disabled = false;
+  }
+}
+
+async function logoutAccount() {
+  try { await api('/api/auth/logout', { method: 'POST' }); } catch (_) {}
+  materiCache = [];
+  latihanState = { kat: 'TWK', subs: [], jumlah: 10, soal: [], jawaban: {}, idx: 0, finished: false };
+  ujian = null;
+  CURRENT_USER = null;
+  META = null;
+  ACCOUNT_PROGRESS = null;
+  appBooted = false;
+  renderAuthGate();
+}
+async function syncProgressFromServer() {
+  try { ACCOUNT_PROGRESS = await api('/api/progress'); }
+  catch (_) { ACCOUNT_PROGRESS = null; }
+}
+function progressMap(kind) {
+  if (ACCOUNT_PROGRESS) return ACCOUNT_PROGRESS[kind] || {};
+  try { return JSON.parse(localStorage.getItem(kind === 'kuis' ? 'kuisDone' : 'materiDone') || '{}'); }
+  catch (_) { return {}; }
+}
+async function markProgress(kind, id) {
+  const map = { ...progressMap(kind), [id]: 1 };
+  if (ACCOUNT_PROGRESS) {
+    ACCOUNT_PROGRESS[kind] = map;
+    try {
+      const response = await api('/api/progress', { method: 'PUT', body: JSON.stringify({ material_id: id, kind, completed: true }) });
+      ACCOUNT_PROGRESS = response;
+    } catch (error) { console.warn('Progres gagal tersimpan ke akun:', error); }
+  } else {
+    localStorage.setItem(kind === 'kuis' ? 'kuisDone' : 'materiDone', JSON.stringify(map));
+  }
+}
+async function setMateriCompleted(id, completed) {
+  if (!ACCOUNT_PROGRESS) {
+    const map = { ...progressMap('materi') };
+    if (completed) map[id] = 1; else delete map[id];
+    localStorage.setItem('materiDone', JSON.stringify(map));
+    return;
+  }
+  try {
+    ACCOUNT_PROGRESS.materi = { ...ACCOUNT_PROGRESS.materi };
+    if (completed) ACCOUNT_PROGRESS.materi[id] = 1; else delete ACCOUNT_PROGRESS.materi[id];
+    ACCOUNT_PROGRESS = await api('/api/progress', { method: 'PUT', body: JSON.stringify({ material_id: id, kind: 'materi', completed }) });
+  } catch (error) {
+    console.warn('Perubahan progres gagal disimpan:', error);
+  }
+}
+async function saveAccountProgress(kind, id) {
+  if (!ACCOUNT_PROGRESS) return;
+  try {
+    ACCOUNT_PROGRESS[kind] = { ...ACCOUNT_PROGRESS[kind], [id]: 1 };
+    ACCOUNT_PROGRESS = await api('/api/progress', { method: 'PUT', body: JSON.stringify({ material_id: id, kind, completed: true }) });
+  } catch (error) {
+    console.warn('Progres kuis gagal disimpan:', error);
+  }
 }
 function esc(s) {
   return String(s ?? '').replace(/[&<>"']/g, (c) => ({
@@ -372,7 +510,7 @@ async function loadHome() {
     <span><b>${pk.CAMPUR || 0}</b> Campuran</span>
     <span><b>${(META.materi || []).length}</b> materi</span>`;
 
-  // progres belajar lokal
+  // progres belajar per akun (dimuat dari API saat autentikasi)
   const done = getMateriDone();
   const totalMateri = (META.materi || []).length;
   const nDone = (META.materi || []).filter((m) => done[m.id]).length;
@@ -741,6 +879,11 @@ function updateKuisState(m) {
   const jawaban = kuisJawab[m.id] || {};
   const terkunci = getKuisDone()[m.id];
   const terjawab = soal.filter((_, i) => jawaban[i] != null).length;
+  if (ACCOUNT_PROGRESS && soal.length > 0 && terjawab === soal.length && !terkunci) {
+    setKuisDone(m.id, true);
+    kuisTerkunci[m.id] = true;
+    void saveAccountProgress('kuis', m.id);
+  }
   const status = document.getElementById('kuis-status');
   if (status) {
     const percent = soal.length ? Math.round((terjawab / soal.length) * 100) : 0;
@@ -778,24 +921,19 @@ let materiCache = [];
 let materiTab = 'ALL';
 
 function getMateriDone() {
-  try { return JSON.parse(localStorage.getItem('materiDone') || '{}'); }
-  catch (_) { return {}; }
+  return progressMap('materi');
 }
 function setMateriDone(id, val) {
-  const d = getMateriDone();
-  if (val) d[id] = 1; else delete d[id];
-  localStorage.setItem('materiDone', JSON.stringify(d));
+  if (!val) return;
+  void markProgress('materi', id);
 }
 function getKuisDone() {
-  try { return JSON.parse(localStorage.getItem('kuisDone') || '{}'); }
-  catch (_) { return {}; }
+  return progressMap('kuis');
 }
 function setKuisDone(id, val) {
-  const d = getKuisDone();
-  if (val) d[id] = 1; else delete d[id];
-  localStorage.setItem('kuisDone', JSON.stringify(d));
+  if (!val) return;
+  void markProgress('kuis', id);
 }
-
 async function loadMateri() {
   if (!materiCache.length) materiCache = await api('/api/materi');
   materiTab = 'ALL';
@@ -977,6 +1115,7 @@ function toggleMateriDone(id) {
   }
 
   setMateriDone(id, !done[id]);
+  void setMateriCompleted(id, !done[id]);
   if (!done[id]) {
     setKuisDone(id, true);
   } else {
@@ -1135,8 +1274,16 @@ document.addEventListener('keydown', (e) => {
 
 // ---------- init ----------
 document.addEventListener('DOMContentLoaded', () => {
+  authElementsReady = true;
+  document.body.classList.add('auth-checking');
+  $('#auth-form').addEventListener('submit', submitAuth);
+  $('#auth-toggle').addEventListener('click', () => {
+    authMode = authMode === 'login' ? 'register' : 'login';
+    renderAuthGate();
+  });
+  $('#auth-logout').addEventListener('click', logoutAccount);
   document.querySelectorAll('#mainnav button').forEach((b) => {
     b.addEventListener('click', () => nav(b.dataset.nav));
   });
-  nav('home');
+  initializeAccountApp();
 });

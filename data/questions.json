@@ -293,7 +293,7 @@
  {
   "id": 484,
   "kat": "TIU",
-  "sub": "Analogi",
+  "sub": "Numerik",
   "teks": "5% dari 200 kwintal = ...kg",
   "pilihan": [
    "10",
@@ -310,7 +310,7 @@
  {
   "id": 521,
   "kat": "TIU",
-  "sub": "Analogi",
+  "sub": "Deret Angka",
   "teks": "4, 0, 8, 4, 12, 8, …",
   "pilihan": [
    "8",
@@ -362,7 +362,7 @@
  },
  {
   "id": 597,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Pada hakikatnya setiap warga negara berhak",
   "pilihan": [
@@ -402,8 +402,8 @@
  },
  {
   "id": 639,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Umum",
   "teks": "Jika Maya memasak mie rebus pada urutan",
   "pilihan": [
    "sate dan sup",
@@ -423,8 +423,8 @@
  },
  {
   "id": 642,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Profesionalisme",
   "teks": "Ketika sedang mengerjakan tugas",
   "pilihan": [
    "Memaksanya untuk tetap tinggal",
@@ -446,8 +446,8 @@
  },
  {
   "id": 643,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Jejaring Kerja",
   "teks": "Ada seorang teman yang tidak mampu",
   "pilihan": [
    "Membantu membayar sebagian",
@@ -469,8 +469,8 @@
  },
  {
   "id": 644,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Integritas",
   "teks": "Ketika anda mengetik tugas dari atasan",
   "pilihan": [
    "Memarahi rekan yang melakukan hal",
@@ -492,8 +492,8 @@
  },
  {
   "id": 645,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Pelayanan Publik",
   "teks": "Sebagai ketua dalam pentas seni anda",
   "pilihan": [
    "Memberikan bayaran lebih kepada",
@@ -515,8 +515,8 @@
  },
  {
   "id": 646,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Pelayanan Publik",
   "teks": "Bila di kantor anda terjadi kebakaran",
   "pilihan": [
    "Segera memanggil pemdam",
@@ -538,8 +538,8 @@
  },
  {
   "id": 647,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Profesionalisme",
   "teks": "Anda menerima perintah tugas ke luar",
   "pilihan": [
    "Meminta atasan untuk memberikan",
@@ -561,8 +561,8 @@
  },
  {
   "id": 648,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Profesionalisme",
   "teks": "Atasan bagi saya adalah…",
   "pilihan": [
    "Seseorang yang berhak mengatur",
@@ -584,8 +584,8 @@
  },
  {
   "id": 649,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Profesionalisme",
   "teks": "Jika diberikan tugas kantor yang berat",
   "pilihan": [
    "Jujur mengatakan pada atasan",
@@ -607,8 +607,8 @@
  },
  {
   "id": 652,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Sosial Budaya",
   "teks": "Suatu hari hujan mengguyur dengan",
   "pilihan": [
    "Menggerutu",
@@ -630,8 +630,8 @@
  },
  {
   "id": 654,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Integritas",
   "teks": "Nonton film pada saat jam kantor",
   "pilihan": [
    "Boleh saja",
@@ -653,8 +653,8 @@
  },
  {
   "id": 655,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Integritas",
   "teks": "Menyediakan jajanan di meja kerja",
   "pilihan": [
    "Boleh saja asal tidak terlalu banyak",
@@ -676,8 +676,8 @@
  },
  {
   "id": 659,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Jejaring Kerja",
   "teks": "Suatu hari Anda sedang rapat bersama",
   "pilihan": [
    "Langsung mengeluarkan pendapat",
@@ -699,8 +699,8 @@
  },
  {
   "id": 660,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Profesionalisme",
   "teks": "Menurut rekan -rekan saya, saya ini",
   "pilihan": [
    "Tidak memiliki ketekunan dalam",
@@ -722,8 +722,8 @@
  },
  {
   "id": 661,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Profesionalisme",
   "teks": "Setelah menyelesaikan pekerjaan",
   "pilihan": [
    "Langsung melakukan aktifitas lain",
@@ -745,8 +745,8 @@
  },
  {
   "id": 663,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Profesionalisme",
   "teks": "Ketika saya diminta melakukan",
   "pilihan": [
    "Menolak diberikan pekerjaan seperti",
@@ -768,8 +768,8 @@
  },
  {
   "id": 664,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Profesionalisme",
   "teks": "Saya berhasil mengatasi tantangan",
   "pilihan": [
    "Nasib baik ada di tangan saya",
@@ -791,8 +791,8 @@
  },
  {
   "id": 665,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Profesionalisme",
   "teks": "Jika ada kesempatan untuk berkompetisi",
   "pilihan": [
    "Mengalahkan pesaing dengan",
@@ -814,8 +814,8 @@
  },
  {
   "id": 667,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Sosial Budaya",
   "teks": "Anda senang tinggal dalam lingkungan",
   "pilihan": [
    "Rumahnya berdekatan",
@@ -837,8 +837,8 @@
  },
  {
   "id": 668,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Profesionalisme",
   "teks": "Ada tawaran beasiswa belajar keluar",
   "pilihan": [
    "Melihat syarat dan pra -syarat untuk",
@@ -860,8 +860,8 @@
  },
  {
   "id": 669,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Profesionalisme",
   "teks": "Menurut saya, orang yang kehilangan",
   "pilihan": [
    "Bertahan pada cara yang telah",
@@ -883,8 +883,8 @@
  },
  {
   "id": 670,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Integritas",
   "teks": "Jika aturan pada tempat anda bekerja",
   "pilihan": [
    "Tetap melanjutkan pendidikan",
@@ -906,8 +906,8 @@
  },
  {
   "id": 672,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Jejaring Kerja",
   "teks": "Saya senang jika rekan saya bisa",
   "pilihan": [
    "Mandiri",
@@ -929,7 +929,7 @@
  },
  {
   "id": 733,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Draft laporan yang dibuat tim kerja saya",
   "pilihan": [
@@ -952,7 +952,7 @@
  },
  {
   "id": 734,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya menggunakan kendaraan dinas tanpa",
   "pilihan": [
@@ -975,7 +975,7 @@
  },
  {
   "id": 735,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika saya memutuskan sesuatu tindakan",
   "pilihan": [
@@ -998,7 +998,7 @@
  },
  {
   "id": 736,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Pada saat saya mengingkari janji, maka",
   "pilihan": [
@@ -1021,7 +1021,7 @@
  },
  {
   "id": 737,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda adalah seorang anggota unit biasa.",
   "pilihan": [
@@ -1044,7 +1044,7 @@
  },
  {
   "id": 738,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ada tawaran beasiswa belajar keluar negeri",
   "pilihan": [
@@ -1067,7 +1067,7 @@
  },
  {
   "id": 739,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Menurut saya, orang yang kehilangan",
   "pilihan": [
@@ -1090,7 +1090,7 @@
  },
  {
   "id": 740,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Jika aturan pada tempat anda bekerja",
   "pilihan": [
@@ -1113,7 +1113,7 @@
  },
  {
   "id": 742,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya senang jika rekan saya bisa menjadi",
   "pilihan": [
@@ -1136,7 +1136,7 @@
  },
  {
   "id": 743,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Dalam hubungan pertemanan saya senang",
   "pilihan": [
@@ -1159,7 +1159,7 @@
  },
  {
   "id": 744,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Kalau saya membeli hadiah untuk teman,",
   "pilihan": [
@@ -1182,7 +1182,7 @@
  },
  {
   "id": 745,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika Ketua RT Anda membutuhkan",
   "pilihan": [
@@ -1205,7 +1205,7 @@
  },
  {
   "id": 747,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Sikap saya terhadap perubahan ide dan cara",
   "pilihan": [
@@ -1228,7 +1228,7 @@
  },
  {
   "id": 748,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika atasan saya tidak berada di kantor",
   "pilihan": [
@@ -1251,7 +1251,7 @@
  },
  {
   "id": 750,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Agar suatu kegiatan berhasil saya",
   "pilihan": [
@@ -1274,7 +1274,7 @@
  },
  {
   "id": 751,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya memiliki keinginan untuk bersekolah,",
   "pilihan": [
@@ -1297,7 +1297,7 @@
  },
  {
   "id": 753,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika harus menyusun suatu makalah saya",
   "pilihan": [
@@ -1320,7 +1320,7 @@
  },
  {
   "id": 754,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Tim kerja anda baru dipindahkan ke lokas i",
   "pilihan": [
@@ -1343,7 +1343,7 @@
  },
  {
   "id": 755,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ada yang mengatakan bahwa tidak semua",
   "pilihan": [
@@ -1366,7 +1366,7 @@
  },
  {
   "id": 756,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Menurut Anda, perbedaan antara orang yang",
   "pilihan": [
@@ -1389,7 +1389,7 @@
  },
  {
   "id": 757,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Tim kerja anda baru dipindahkan ke lokasi",
   "pilihan": [
@@ -1412,7 +1412,7 @@
  },
  {
   "id": 758,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Tim anda mengalami kelelahan yang luar",
   "pilihan": [
@@ -1435,7 +1435,7 @@
  },
  {
   "id": 759,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Tim kerja anda mengalami penurunan",
   "pilihan": [
@@ -1458,7 +1458,7 @@
  },
  {
   "id": 760,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Setelah bersusah payah pada akhirnya tim",
   "pilihan": [
@@ -1481,7 +1481,7 @@
  },
  {
   "id": 761,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Sebagai ketua dalam pentas seni anda",
   "pilihan": [
@@ -1504,7 +1504,7 @@
  },
  {
   "id": 762,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Bila di kantor anda terjadi kebakaran",
   "pilihan": [
@@ -1527,7 +1527,7 @@
  },
  {
   "id": 763,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda menerima perintah tugas ke luar kota.",
   "pilihan": [
@@ -1550,7 +1550,7 @@
  },
  {
   "id": 764,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika didalam bus umum ada seorang",
   "pilihan": [
@@ -1573,7 +1573,7 @@
  },
  {
   "id": 765,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda baru selesai melakukan sebuah",
   "pilihan": [
@@ -1596,7 +1596,7 @@
  },
  {
   "id": 766,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Jika ada waktu luang, selama akhir",
   "pilihan": [
@@ -1619,7 +1619,7 @@
  },
  {
   "id": 825,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Suatu pemerintahan yang dilakukan oleh seluruh rakyat guna",
   "pilihan": [
@@ -1642,7 +1642,7 @@
  },
  {
   "id": 826,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Menurut pasal 1 ayat (1) UUD 1945, negara Indonesia ialah",
   "pilihan": [
@@ -1665,7 +1665,7 @@
  },
  {
   "id": 827,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Norma atau aturan utama yang menetapkan kaidah tentang",
   "pilihan": [
@@ -1688,7 +1688,7 @@
  },
  {
   "id": 828,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Aturan yang dapat menjamin ketertiban negara dan rakyat,",
   "pilihan": [
@@ -1711,7 +1711,7 @@
  },
  {
   "id": 829,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Menurut aturan yang tercantum dalam UUD 1945, kedaulatan",
   "pilihan": [
@@ -1734,7 +1734,7 @@
  },
  {
   "id": 830,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Pada hakikatnya setiap warga negara berhak atas pekerjaan",
   "pilihan": [
@@ -1757,7 +1757,7 @@
  },
  {
   "id": 831,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Hukum yang mengatur hubungan antara negara dengan alat-",
   "pilihan": [
@@ -1780,7 +1780,7 @@
  },
  {
   "id": 832,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Dalam penjelasan UUD 1945 dinyatakan bahwa “negara",
   "pilihan": [
@@ -1803,7 +1803,7 @@
  },
  {
   "id": 833,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Peraturan perundang-undangan tertinggi yang sekarang",
   "pilihan": [
@@ -1826,7 +1826,7 @@
  },
  {
   "id": 834,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Peraturan-peraturan di negara Republik Indonesia mempunyai",
   "pilihan": [
@@ -1849,7 +1849,7 @@
  },
  {
   "id": 835,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Salah satu akibat yang dapat dirasakan oleh seluruh bangsa",
   "pilihan": [
@@ -1872,7 +1872,7 @@
  },
  {
   "id": 837,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Pertumbuhan bahasa Melayu sebagai lingua franca di nusantara",
   "pilihan": [
@@ -1895,7 +1895,7 @@
  },
  {
   "id": 838,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Sebagai akibat diterapkannya politik ekonomi liberal pada akhir",
   "pilihan": [
@@ -1918,7 +1918,7 @@
  },
  {
   "id": 839,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Organisasi yang keanggotannya terbuka bagi nonpribumi ialah",
   "pilihan": [
@@ -1941,7 +1941,7 @@
  },
  {
   "id": 840,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Salah seorang yang tidak termasuk tokoh Perhimpunan",
   "pilihan": [
@@ -1964,7 +1964,7 @@
  },
  {
   "id": 842,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Partai Nasional Indonesia memiliki strategi perjuangan yang",
   "pilihan": [
@@ -1987,7 +1987,7 @@
  },
  {
   "id": 843,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Seorang tokoh pergerakan nasional yang semula merupakan",
   "pilihan": [
@@ -2010,7 +2010,7 @@
  },
  {
   "id": 844,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Rapat di Ikada pada bulan September 1945 akhrinya",
   "pilihan": [
@@ -2033,7 +2033,7 @@
  },
  {
   "id": 845,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Selama MPR dan DPR belum terbentuk, pada tanggal 16",
   "pilihan": [
@@ -2056,7 +2056,7 @@
  },
  {
   "id": 846,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Pencipta lagu Indonesia Raya adalah ….",
   "pilihan": [
@@ -2079,7 +2079,7 @@
  },
  {
   "id": 847,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Dalam menyelesaikan persengketaan antara Indonesia –",
   "pilihan": [
@@ -2102,7 +2102,7 @@
  },
  {
   "id": 849,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Pada tanggal 4 Agustus 1949 telah disusun delegasi Republik",
   "pilihan": [
@@ -2125,7 +2125,7 @@
  },
  {
   "id": 850,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Tooh yang menolak kedatangan TNI ke Sulawesi Selatan",
   "pilihan": [
@@ -2148,7 +2148,7 @@
  },
  {
   "id": 851,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Sebelum berlangsung Konferensi Asia Afrika I pada tahun 1954",
   "pilihan": [
@@ -2171,7 +2171,7 @@
  },
  {
   "id": 852,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Dekrit Presiden 5 Juli 1959 lahir karena ….",
   "pilihan": [
@@ -2194,7 +2194,7 @@
  },
  {
   "id": 853,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Pada tanggal 19 Desember 1961 Presiden Soekarno",
   "pilihan": [
@@ -2217,7 +2217,7 @@
  },
  {
   "id": 854,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Uni Soviet berusaha menanamkan pengaruhnya di negara-",
   "pilihan": [
@@ -2240,7 +2240,7 @@
  },
  {
   "id": 857,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Revolusi hijau di Indonesia dimulai sejak adanya ….",
   "pilihan": [
@@ -3543,18 +3543,19 @@
  {
   "id": 1750,
   "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Jika x=px1x1 dan y=p+1+1 , maka",
+  "sub": "Logika",
+  "teks": "Premis 1: Jika sebuah bilangan habis dibagi 4, maka bilangan itu genap. Premis 2: Bilangan n habis dibagi 4. Kesimpulan yang pasti benar adalah …",
   "pilihan": [
-   "x>y",
-   "x<y",
-   "x=y",
-   "Hubungan anta x dan y tak dapat ditentukan"
+   "n genap",
+   "n ganjil",
+   "n bilangan prima",
+   "n lebih besar dari 4",
+   "Tidak dapat ditentukan apakah n genap"
   ],
-  "kunci": 1,
+  "kunci": 0,
   "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 2/Salinan 6.3 Tes Intelegensi Umum - TIU 03.pdf"
+  "pembahasan": "Dari premis jika habis dibagi 4 maka genap, serta fakta bahwa n habis dibagi 4, dengan modus ponens dapat disimpulkan bahwa n genap.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 1751,
@@ -3575,23 +3576,24 @@
  {
   "id": 1753,
   "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Jika p= 3, q=1 dan x=pV64 , serta y=pq +q3 , maka",
+  "sub": "Numerik",
+  "teks": "Diketahui p = 3 dan q = 1. Jika x = p × 64 dan y = p × q + q³, berapakah nilai x − y?",
   "pilihan": [
-   "X=y",
-   "X>y",
-   "X<y",
-   "Hubungan anta x dan y tak dapat ditentukan"
+   "188",
+   "190",
+   "192",
+   "194",
+   "196"
   ],
   "kunci": 0,
   "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "LATIHAN SOAL CPNS 2/Salinan 6.3 Tes Intelegensi Umum - TIU 03.pdf"
+  "pembahasan": "x = 3 × 64 = 192. y = 3 × 1 + 1³ = 4. Maka x − y = 192 − 4 = 188, yaitu opsi A.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 1754,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Jika Sumantri berjalan menempuh jarak 2/5 km dalam 6 menit, berapakah",
   "pilihan": [
    "4 km/jam",
@@ -3642,7 +3644,7 @@
  {
   "id": 1760,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Jika x = berat total k kotak yang masing-masing beratnya 1 kg. Y berat total 1",
   "pilihan": [
    "x>y",
@@ -3658,7 +3660,7 @@
  {
   "id": 1762,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Analitis",
   "teks": "Jika x=selisih umur Tuti dan umur ayahnya sekarang, dan y=selisih umur kedua",
   "pilihan": [
    "x>y",
@@ -3674,7 +3676,7 @@
  {
   "id": 1763,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Logika",
   "teks": "Jika harga y terletak di antara harga x dan z, dan x<z, maka",
   "pilihan": [
    "x>y",
@@ -4003,7 +4005,7 @@
  },
  {
   "id": 1988,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "(1) Mardilah : Engkau anakku Suhita ........",
   "pilihan": [
@@ -4980,7 +4982,7 @@
  {
   "id": 2087,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Analitis",
   "teks": "Premis Umum : Siswa yang akan masuk fakultas kedokteran harus bebas narkoba",
   "pilihan": [
    "Hendra harus bebas narkoba karena akan masuk kedokteran",
@@ -4997,7 +4999,7 @@
  {
   "id": 2088,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Analitis",
   "teks": "PU : ...",
   "pilihan": [
    "Harus taat membayar pajak warga Indonesia.",
@@ -5014,7 +5016,7 @@
  {
   "id": 2089,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Analitis",
   "teks": "PU : Semua karya sastra mengandung nilai -nilai kemanusiaan yang dapat dijadikan pelajaran",
   "pilihan": [
    "Harimau!Harimau! karya Muchtar Lubis mengandung nilai -nilai kemanusiaan yang dapat",
@@ -5031,7 +5033,7 @@
  {
   "id": 2090,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Analitis",
   "teks": "PU: ..........",
   "pilihan": [
    "Zaki harus belajar dan bekerja keras agar sukses hidupnya.",
@@ -5048,7 +5050,7 @@
  {
   "id": 2091,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Analitis",
   "teks": "Tanah pekarangan Ayu sangat subur. Ayu menanam banyak jenis tanaman, sebagian besar",
   "pilihan": [
    "Ayu sangat suka buah-buahan",
@@ -5065,7 +5067,7 @@
  {
   "id": 2092,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Analitis",
   "teks": "Jika ikan mengaum maka gajah mengembik. Jika gajah mengembik maka viktor dan ina",
   "pilihan": [
    "Gajah mengembik",
@@ -5082,7 +5084,7 @@
  {
   "id": 2093,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Analitis",
   "teks": "Semua mobil di perusahaan diikuti program asuransi kecelakaan.",
   "pilihan": [
    "Sebagian mobil di perusahaan yang tidak diikutk an program asuransi kecelakaan diikuti",
@@ -5099,7 +5101,7 @@
  {
   "id": 2094,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Analitis",
   "teks": "PU : Setiap karya ilmiah harus ditulis menggunakan bahasa Indonesia yang baik dan benar.",
   "pilihan": [
    "Makalah seminar harus menggunakan bahasa Indonesia.",
@@ -5116,24 +5118,24 @@
  {
   "id": 2095,
   "kat": "TIU",
-  "sub": "Numerik",
-  "teks": "Jika Pernyatan \"Semua Dokter adalah laki - laki\" salah maka:",
+  "sub": "Logika",
+  "teks": "Ingkaran dari pernyataan “Semua dokter memakai tanda pengenal” adalah …",
   "pilihan": [
-   "Sementara Dokter adalah laki – laki",
-   "Sementara laki - laki adalah dokter.",
-   "Sementara Dokter adalah bukan laki - laki.",
-   "Tidak ada dokter yang bukan laki - laki.",
-   "Tidak ada kesimpulan yang benar."
+   "Tidak ada dokter yang memakai tanda pengenal.",
+   "Semua orang yang memakai tanda pengenal adalah dokter.",
+   "Ada dokter yang tidak memakai tanda pengenal.",
+   "Ada orang yang bukan dokter dan memakai tanda pengenal.",
+   "Semua dokter tidak memakai tanda pengenal."
   ],
-  "kunci": 3,
+  "kunci": 2,
   "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (1) Tes Intelegensia Umum.pdf"
+  "pembahasan": "Negasi dari “semua A adalah B” adalah “ada A yang bukan B”. Jadi ingkarannya: ada dokter yang tidak memakai tanda pengenal.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 2096,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Logika",
   "teks": "Jika kita berada di Solo, maka kita berada di Pulau Jawa.",
   "pilihan": [
    "Jika kita berada di Pulau Jawa, maka kita berada di Solo",
@@ -5150,7 +5152,7 @@
  {
   "id": 2097,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Logika",
   "teks": "Semua A adalah B.",
   "pilihan": [
    "Ada B yang C",
@@ -5167,7 +5169,7 @@
  {
   "id": 2103,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Logika",
   "teks": "Jika ada sebuah pernyataan majemuk : Jika hari hujan maka jalan -jalan di jakarta akan banjir",
   "pilihan": [
    "Hari hujan dan jalan-jalan di Jakarta Banjir",
@@ -5184,7 +5186,7 @@
  {
   "id": 2104,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Logika",
   "teks": "Ingkaran dari pernyataan “Semua peserta tes bedoa sebelum mengerjakan soal”",
   "pilihan": [
    "Semua peserta tes tidak berdoa sebelum mengerjakan tugas",
@@ -5201,7 +5203,7 @@
  {
   "id": 2105,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Logika",
   "teks": "Pernyataan “ Jika semua siswa menyukai matematika maka guru senang mengajar “. Kont ra",
   "pilihan": [
    "Jika guru senang mengajar pasti ada siswa yang tidak suka matematika",
@@ -5218,41 +5220,41 @@
  {
   "id": 2106,
   "kat": "TIU",
-  "sub": "Numerik",
-  "teks": "Pernyataan : “Jika laba tinggi maka karyawan sejahtera” mempunyai invers yaitu",
+  "sub": "Logika",
+  "teks": "Pernyataan bersyaratnya adalah: “Jika hujan turun, maka lapangan basah.” Manakah invers dari pernyataan tersebut?",
   "pilihan": [
-   "Jika laba tinggi maka karyawan tidak sejahtera",
-   "Jika laba rendah maka karyawan tidak sejahtera",
-   "Jika laba rendah maka karyawan sejahtera",
-   "Jika laba tinggi maka karyawan sejahtera",
-   "Jika laba tinggi maka karyawan tidak sejahtera"
+   "Jika hujan turun, maka lapangan tidak basah.",
+   "Jika hujan tidak turun, maka lapangan tidak basah.",
+   "Jika lapangan tidak basah, maka hujan tidak turun.",
+   "Jika lapangan basah, maka hujan turun.",
+   "Hujan turun jika dan hanya jika lapangan basah."
   ],
   "kunci": 1,
   "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (1) Tes Intelegensia Umum.pdf"
+  "pembahasan": "Untuk implikasi P → Q, inversnya adalah ¬P → ¬Q. Dengan P = hujan turun dan Q = lapangan basah, inversnya: jika hujan tidak turun, maka lapangan tidak basah.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 2107,
   "kat": "TIU",
-  "sub": "Numerik",
-  "teks": "Ingkaran dari pernyataan “Beberapa bilangan prima adalah bilangan genap” adalah....",
+  "sub": "Logika",
+  "teks": "Ingkaran dari pernyataan “Ada bilangan prima yang genap” adalah …",
   "pilihan": [
-   "Beberapa bilangan prima adalah bukan bilangan genap",
-   "Beberapa bilangan genap adalah bilangan prima",
-   "Beberapa bilangan genap bukan bilangan prima",
-   "Semua bilangan prima adalah bilangan genap",
-   "Semua bilangan prima bukan bilangan genap"
+   "Ada bilangan prima yang tidak genap.",
+   "Semua bilangan prima genap.",
+   "Tidak ada bilangan prima yang genap.",
+   "Semua bilangan genap adalah bilangan prima.",
+   "Ada bilangan genap yang bukan bilangan prima."
   ],
-  "kunci": 4,
+  "kunci": 2,
   "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "PAKET BONGKAR CPNS/Salinan [AKSESCPNS] BONGKAR Soal CPNS (1) Tes Intelegensia Umum.pdf"
+  "pembahasan": "Negasi dari pernyataan eksistensial “ada A yang B” adalah “tidak ada A yang B”. Jadi tidak ada bilangan prima yang genap.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 2108,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Analitis",
   "teks": "Manakah dari urutan berikut ini yang dapat menjadi urutan kunjungan cagub ke kota-kota",
   "pilihan": [
    "Z, X, O, W, N, M",
@@ -5269,7 +5271,7 @@
  {
   "id": 2109,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Analitis",
   "teks": "Manakah dari berikut ini yang pasti benar berkenaan dengan jadwal perjalanan kampanye",
   "pilihan": [
    "Ia mengunjungi Z sebelum W",
@@ -5286,7 +5288,7 @@
  {
   "id": 2110,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Analitis",
   "teks": "Jika cagub tersebut mengunjungi N pada kesempatan pertama, manakah dari kota di baw ah ini",
   "pilihan": [
    "Z",
@@ -5303,7 +5305,7 @@
  {
   "id": 2111,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Analitis",
   "teks": "Jika cagub tersebut mengunjungi Z segera setelah N dan segera sebelum O, maka ia harus",
   "pilihan": [
    "Pertama",
@@ -5320,7 +5322,7 @@
  {
   "id": 2112,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Analitis",
   "teks": "Manakah dari berikut ini yang benar untuk perjalanan cagub tersebut?",
   "pilihan": [
    "Ia mengunjungi Z pada kesempatan pertama",
@@ -5337,7 +5339,7 @@
  {
   "id": 2113,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Analitis",
   "teks": "Cagub tersebut dapat mengunjungi kota-kota berikut segera setelah mengunjungi X, kecuali….",
   "pilihan": [
    "Z",
@@ -5354,7 +5356,7 @@
  {
   "id": 2114,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Analitis",
   "teks": "Jika cagub tersebut mengunjungi N pada kesempatan terakhir, manakah dari kota -kota berikut",
   "pilihan": [
    "Z dan W",
@@ -5371,7 +5373,7 @@
  {
   "id": 2115,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Analitis",
   "teks": "Negara-negara Asia Tenggara men jadi anggota ASEAN. Semua menteri Luar Negeri ASEAN",
   "pilihan": [
    "Filipina adalah anggota ASEAN.",
@@ -5388,7 +5390,7 @@
  {
   "id": 2116,
   "kat": "TIU",
-  "sub": "Numerik",
+  "sub": "Analitis",
   "teks": "Mahasiswa baru Sekolah Tinggi akuntansi Negara harus lulus uji kesehatan fisik. Sebagian b esar",
   "pilihan": [
    "Mahasiswa baru yang lulus uji kesehatan fisik adalah mahasiswa baru yang menderita",
@@ -7749,7 +7751,7 @@
  },
  {
   "id": 2373,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Tahap-tahap pelaksanaan donor darah.",
   "pilihan": [
@@ -7772,7 +7774,7 @@
  },
  {
   "id": 2546,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika saya mengalami kegagalan, saya",
   "pilihan": [
@@ -7795,7 +7797,7 @@
  },
  {
   "id": 2547,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Teman-teman senang menceritakan",
   "pilihan": [
@@ -7818,7 +7820,7 @@
  },
  {
   "id": 2548,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Di kantor saya ditugaskan di bagian",
   "pilihan": [
@@ -7841,7 +7843,7 @@
  },
  {
   "id": 2549,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya sudah bekerja lama di sebuah",
   "pilihan": [
@@ -7864,7 +7866,7 @@
  },
  {
   "id": 2550,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya sangat senang dengan atasan",
   "pilihan": [
@@ -7887,7 +7889,7 @@
  },
  {
   "id": 2551,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya senang melakukan pekerjaan",
   "pilihan": [
@@ -7910,7 +7912,7 @@
  },
  {
   "id": 2601,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Pada hakikatnya setiap warga negara berhak atas pekerjaan dan penghidupan yang layak",
   "pilihan": [
@@ -7933,7 +7935,7 @@
  },
  {
   "id": 2643,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Kadangkala saya merasa lapar ketika jam kerja, maka yang saya lakukan adalah ...",
   "pilihan": [
@@ -7956,7 +7958,7 @@
  },
  {
   "id": 2644,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika sedang diminta pimpinan untuk bekerja lembur, tiba -tiba ada telepon dari rumah",
   "pilihan": [
@@ -7979,7 +7981,7 @@
  },
  {
   "id": 2645,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Karena lembur kerja kemarin, siang ini saya merasa sangat mengantuk, kerjaan tidak ada",
   "pilihan": [
@@ -8002,7 +8004,7 @@
  },
  {
   "id": 2646,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saat ulang tahun pimpinan kantor, teman -teman seruangan berencana memberikan pesta",
   "pilihan": [
@@ -8025,7 +8027,7 @@
  },
  {
   "id": 2647,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Jika saya sedang mengerjakan sesuatu, kondisi yang dapat mendukung saya bekerja",
   "pilihan": [
@@ -8048,7 +8050,7 @@
  },
  {
   "id": 2648,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Target kerja dan beban kerja yang tinggi menurut saya adalah ...",
   "pilihan": [
@@ -8071,7 +8073,7 @@
  },
  {
   "id": 2649,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ditengah proyek besar dan membutuhkan tanggung jawab besar saya mengalami",
   "pilihan": [
@@ -8094,7 +8096,7 @@
  },
  {
   "id": 2650,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ada tawaran beasiswa melanjutkan pendidikan di luar negeri, tapi anda telat mengumpulkan",
   "pilihan": [
@@ -8117,7 +8119,7 @@
  },
  {
   "id": 2651,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saat sedang rapat be rsama seluruh pegawai divisi tempat saya bekerja, saya biasanya",
   "pilihan": [
@@ -8140,7 +8142,7 @@
  },
  {
   "id": 2652,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Jika ada waktu luang, selama akhir pekan saya biasanya ...",
   "pilihan": [
@@ -8163,7 +8165,7 @@
  },
  {
   "id": 2653,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Pimpinan menginginkan agar berita -berita yang sedang hangat dibicarakan dibuat sebuah",
   "pilihan": [
@@ -8186,7 +8188,7 @@
  },
  {
   "id": 2654,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda memiliki beberapa rumah yang disewakan. Salah satu orang yang menyewa rumah",
   "pilihan": [
@@ -8209,7 +8211,7 @@
  },
  {
   "id": 2655,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda akan kedatangan rekan kerja anda dari luar kota. Dia berencana menginap di rumah",
   "pilihan": [
@@ -8232,7 +8234,7 @@
  },
  {
   "id": 2656,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Seringkali terjadi kelalaian ketika kita memesan makanan, pelayan tidak langsung",
   "pilihan": [
@@ -8255,7 +8257,7 @@
  },
  {
   "id": 2657,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda berencana untuk mengambil sisa cuti tahunan. Namun, tiba -tiba rekan anda meminta",
   "pilihan": [
@@ -8278,7 +8280,7 @@
  },
  {
   "id": 2658,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Tetangga anda sakit dan tidak bisa mengantar anaknya berangkat ke sekolah. Maka yang",
   "pilihan": [
@@ -8301,7 +8303,7 @@
  },
  {
   "id": 2659,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Rekan kerja anda dimarahi oleh atasan karena ada dokumen yang hilang. Maka yang anda",
   "pilihan": [
@@ -8324,7 +8326,7 @@
  },
  {
   "id": 2660,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Sebagai pegawai baru yang akan anda lakukan ...",
   "pilihan": [
@@ -8347,7 +8349,7 @@
  },
  {
   "id": 2661,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Peraturan baru mengubah sistem 3 shift menjadi 2 shift, terjadi perubahan waktu kerja.",
   "pilihan": [
@@ -8370,7 +8372,7 @@
  },
  {
   "id": 2663,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda baru sadar dompet anda tertinggal padahal anda sudah berada di dalam angkutan",
   "pilihan": [
@@ -8393,7 +8395,7 @@
  },
  {
   "id": 2664,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika di dalam lift, anda hanya berdua dengan pejabat, maka anda akan ...",
   "pilihan": [
@@ -8416,7 +8418,7 @@
  },
  {
   "id": 2665,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda sedang ada janji dengan teman -teman anda, tapi teman-teman anda datang terlambat,",
   "pilihan": [
@@ -8439,7 +8441,7 @@
  },
  {
   "id": 2666,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Suatu ketika rekan kerja anda banyak yang lembur, sementara anda sudah menyelesaikan",
   "pilihan": [
@@ -8462,7 +8464,7 @@
  },
  {
   "id": 2667,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda adalah seorang Puteri Indonesia sekaligus, suatu ketika anda akan mengikuti",
   "pilihan": [
@@ -8485,7 +8487,7 @@
  },
  {
   "id": 2669,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Hari ini anda kehujanan ketika pulang kantor, maka anda akan ...",
   "pilihan": [
@@ -8508,7 +8510,7 @@
  },
  {
   "id": 2670,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Suatu ketia anda ditugaskan di front office untuk melayani pelanggan, padahal sebelumnya",
   "pilihan": [
@@ -8531,7 +8533,7 @@
  },
  {
   "id": 2671,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Bagaimana cara anda bekerja ...",
   "pilihan": [
@@ -8554,7 +8556,7 @@
  },
  {
   "id": 2672,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika banyak anggota tim kerja anda yang berbeda suku dengan anda, maka anda akan ...",
   "pilihan": [
@@ -8577,7 +8579,7 @@
  },
  {
   "id": 2673,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "ketika banyak anggota tim kerja anda yang berbeda agama dengan anda, maka anda",
   "pilihan": [
@@ -8600,7 +8602,7 @@
  },
  {
   "id": 2674,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Salah seorang rekan kerja dalam tim kerja anda merupakan seorang pegawai baru, mak a",
   "pilihan": [
@@ -8623,7 +8625,7 @@
  },
  {
   "id": 2675,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Di kantor saya akan diadakan acara buka puasa bersama, maka saya akan ...",
   "pilihan": [
@@ -8646,7 +8648,7 @@
  },
  {
   "id": 2676,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Di kantor saya akan diadakan acara sarapan bersama, maka saya akan ...",
   "pilihan": [
@@ -8669,7 +8671,7 @@
  },
  {
   "id": 2677,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Jika anak anda marah karena tidak belikan sebuah mainan yang dia inginkan, maka",
   "pilihan": [
@@ -8692,7 +8694,7 @@
  },
  {
   "id": 2819,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Pada waktu bangun tidur saya sering merasa…",
   "pilihan": [
@@ -8715,7 +8717,7 @@
  },
  {
   "id": 2820,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika ada salah seorang tetangga Anda meniggal dunia, maka Anda akan...",
   "pilihan": [
@@ -8738,7 +8740,7 @@
  },
  {
   "id": 2821,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika Anda berkunjung ke sebuah pusat perbelanjaan, Anda senang jika...",
   "pilihan": [
@@ -8761,7 +8763,7 @@
  },
  {
   "id": 2822,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Jika ada seorang rekan yang memberikan secara langsung berkas -berkas temannya untuk",
   "pilihan": [
@@ -8784,7 +8786,7 @@
  },
  {
   "id": 2823,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya berhasil mengatasi tantangan terutama karena ...",
   "pilihan": [
@@ -8807,7 +8809,7 @@
  },
  {
   "id": 2824,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Jika ada kesempatan untuk berkompetisi dalam bidang yang saya senangi, maka saya…",
   "pilihan": [
@@ -8830,7 +8832,7 @@
  },
  {
   "id": 2825,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika Anda membawa anak Anda ke pasar, anak Anda tiba -tiba meminta untuk dibelikan",
   "pilihan": [
@@ -8853,7 +8855,7 @@
  },
  {
   "id": 2826,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika Ketua RT Anda membutuhkan warganya untuk me lakukan kerja bakti di lingkungan",
   "pilihan": [
@@ -8876,7 +8878,7 @@
  },
  {
   "id": 2827,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Jika Anda sedang dalam keadaan yang lelah, biasanya Anda akan...",
   "pilihan": [
@@ -8899,7 +8901,7 @@
  },
  {
   "id": 2828,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Harga-harga saat ini berubah dengan cepat dan kecenderungannya meningkat terus.",
   "pilihan": [
@@ -8922,7 +8924,7 @@
  },
  {
   "id": 2830,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Jika Anda sudah tidak memiliki pekerjaan apa pun di kantor, maka Anda akan...",
   "pilihan": [
@@ -8945,7 +8947,7 @@
  },
  {
   "id": 2831,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saat saya menghadiri pernikahan seorang kerabat dari luar kota bersamaan dengan itu ada",
   "pilihan": [
@@ -8968,7 +8970,7 @@
  },
  {
   "id": 2832,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda memiliki keinginan untuk mendirikan sebuah lembaga pendidikan yang...",
   "pilihan": [
@@ -8991,7 +8993,7 @@
  },
  {
   "id": 2833,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika muncul suatu masalah dalam pekerjaan yang kebetulan ada katitannya dengan hal -",
   "pilihan": [
@@ -9014,7 +9016,7 @@
  },
  {
   "id": 2834,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika berkunjung ke kantor klien yang akan Anda audit, Anda mendapatkan uang dari klien",
   "pilihan": [
@@ -9037,7 +9039,7 @@
  },
  {
   "id": 2835,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Setelah menyelesaikan pekerjaan tertentu, saya …",
   "pilihan": [
@@ -9216,7 +9218,7 @@
  {
   "id": 2859,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Hukum 0/1: 20 . 5 = 10 . x = 10 hari",
   "pilihan": [
    "Di Amerika Serikat:",
@@ -11360,7 +11362,7 @@
  },
  {
   "id": 5205,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Pada hakikatnya setiap warga negara berhak",
   "pilihan": [
@@ -11400,7 +11402,7 @@
  },
  {
   "id": 5300,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Draft laporan yang dibuat tim kerja saya",
   "pilihan": [
@@ -11423,7 +11425,7 @@
  },
  {
   "id": 5301,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya menggunakan kendaraan dinas tanpa",
   "pilihan": [
@@ -11446,7 +11448,7 @@
  },
  {
   "id": 5302,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika saya memutuskan sesuatu tindakan",
   "pilihan": [
@@ -11469,7 +11471,7 @@
  },
  {
   "id": 5304,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda adalah seorang anggota unit biasa.",
   "pilihan": [
@@ -11492,7 +11494,7 @@
  },
  {
   "id": 5305,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ada tawaran beasiswa belajar keluar negeri",
   "pilihan": [
@@ -11515,7 +11517,7 @@
  },
  {
   "id": 5306,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Menurut saya, orang yang kehilangan",
   "pilihan": [
@@ -11538,7 +11540,7 @@
  },
  {
   "id": 5307,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Jika aturan pada tempat anda bekerja",
   "pilihan": [
@@ -11561,7 +11563,7 @@
  },
  {
   "id": 5308,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Menurut Anda, PNS yang baik itu adalah",
   "pilihan": [
@@ -11584,7 +11586,7 @@
  },
  {
   "id": 5309,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya senang jika rekan saya bisa menjadi",
   "pilihan": [
@@ -11607,7 +11609,7 @@
  },
  {
   "id": 5310,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Dalam hubungan pertemanan saya senang",
   "pilihan": [
@@ -11630,7 +11632,7 @@
  },
  {
   "id": 5311,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Kalau saya membeli hadiah untuk teman,",
   "pilihan": [
@@ -11653,7 +11655,7 @@
  },
  {
   "id": 5312,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika Ketua RT Anda membutuhkan",
   "pilihan": [
@@ -11676,7 +11678,7 @@
  },
  {
   "id": 5314,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Sikap saya terhadap perubahan ide dan cara",
   "pilihan": [
@@ -11699,7 +11701,7 @@
  },
  {
   "id": 5315,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika atasan saya tidak berada di kantor",
   "pilihan": [
@@ -11722,7 +11724,7 @@
  },
  {
   "id": 5317,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Agar suatu kegiatan berhasil saya",
   "pilihan": [
@@ -11745,7 +11747,7 @@
  },
  {
   "id": 5318,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya memiliki keinginan untuk bersekolah,",
   "pilihan": [
@@ -11768,7 +11770,7 @@
  },
  {
   "id": 5320,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika harus menyusun suatu makalah saya",
   "pilihan": [
@@ -11791,7 +11793,7 @@
  },
  {
   "id": 5321,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Tim kerja anda baru dipindahkan ke lokas i",
   "pilihan": [
@@ -11814,7 +11816,7 @@
  },
  {
   "id": 5322,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ada yang mengatakan bahwa tidak semua",
   "pilihan": [
@@ -11837,7 +11839,7 @@
  },
  {
   "id": 5323,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Menurut Anda, perbedaan antara orang yang",
   "pilihan": [
@@ -11860,7 +11862,7 @@
  },
  {
   "id": 5324,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Tim kerja anda baru dipindahkan ke lokasi",
   "pilihan": [
@@ -11883,7 +11885,7 @@
  },
  {
   "id": 5325,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Tim anda mengalami kelelahan yang luar",
   "pilihan": [
@@ -11906,7 +11908,7 @@
  },
  {
   "id": 5326,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Tim kerja anda mengalami penurunan",
   "pilihan": [
@@ -11929,7 +11931,7 @@
  },
  {
   "id": 5327,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Setelah bersusah payah pada akhirnya tim",
   "pilihan": [
@@ -11952,7 +11954,7 @@
  },
  {
   "id": 5328,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Sebagai ketua dalam pentas seni anda",
   "pilihan": [
@@ -11975,7 +11977,7 @@
  },
  {
   "id": 5329,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Bila di kantor anda terjadi kebakaran",
   "pilihan": [
@@ -11998,7 +12000,7 @@
  },
  {
   "id": 5330,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda menerima perintah tugas ke luar kota.",
   "pilihan": [
@@ -12021,7 +12023,7 @@
  },
  {
   "id": 5331,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika didalam bus umum ada seorang",
   "pilihan": [
@@ -12044,7 +12046,7 @@
  },
  {
   "id": 5332,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda baru selesai melakukan sebuah",
   "pilihan": [
@@ -12067,7 +12069,7 @@
  },
  {
   "id": 5333,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Jika ada waktu luang, selama akhir",
   "pilihan": [
@@ -12090,7 +12092,7 @@
  },
  {
   "id": 5390,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Seorang teman tiba tiba sangat perhatian",
   "pilihan": [
@@ -12113,7 +12115,7 @@
  },
  {
   "id": 5391,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Jika Anda bertemu dengan seseorang yang",
   "pilihan": [
@@ -12136,7 +12138,7 @@
  },
  {
   "id": 5392,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda percaya bahwa seorang PNS adalah ia",
   "pilihan": [
@@ -12159,7 +12161,7 @@
  },
  {
   "id": 5393,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda senang jika atasan Anda merupakan",
   "pilihan": [
@@ -12182,7 +12184,7 @@
  },
  {
   "id": 5394,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika berhadapan dengan seseorang yang",
   "pilihan": [
@@ -12205,7 +12207,7 @@
  },
  {
   "id": 5395,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya diminta untuk lembur ke rja sedangkan",
   "pilihan": [
@@ -12228,7 +12230,7 @@
  },
  {
   "id": 5398,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda senang jika datang ke sebuah restoran",
   "pilihan": [
@@ -12251,7 +12253,7 @@
  },
  {
   "id": 5399,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika berbelanja di minimarket, kasir",
   "pilihan": [
@@ -12274,7 +12276,7 @@
  },
  {
   "id": 5400,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Atasan anda berhalangan masuk kantor",
   "pilihan": [
@@ -12297,7 +12299,7 @@
  },
  {
   "id": 5401,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda mempunyai pimpinan baru di kantor.",
   "pilihan": [
@@ -12320,7 +12322,7 @@
  },
  {
   "id": 5402,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Sepulang dari kantor, Anda akan...",
   "pilihan": [
@@ -12343,7 +12345,7 @@
  },
  {
   "id": 5403,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Suatu hari hujan mengguyur dengan deras",
   "pilihan": [
@@ -12366,7 +12368,7 @@
  },
  {
   "id": 5404,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya sering memergoki orang -orang yang",
   "pilihan": [
@@ -12389,7 +12391,7 @@
  },
  {
   "id": 5405,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika ada seseorang yang memotong",
   "pilihan": [
@@ -12412,7 +12414,7 @@
  },
  {
   "id": 5406,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya tidak senang jika melihat orang yang",
   "pilihan": [
@@ -12435,7 +12437,7 @@
  },
  {
   "id": 5407,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika berhadapan dengan pilihan -pilihan",
   "pilihan": [
@@ -12458,7 +12460,7 @@
  },
  {
   "id": 5408,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda sedang sibuk dengan pekerjaan Anda",
   "pilihan": [
@@ -12481,7 +12483,7 @@
  },
  {
   "id": 5409,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda senang tinggal dalam lingkungan",
   "pilihan": [
@@ -12504,7 +12506,7 @@
  },
  {
   "id": 5411,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Harga-harga saat ini berubah dengan cepat",
   "pilihan": [
@@ -12527,7 +12529,7 @@
  },
  {
   "id": 5412,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Jika Anda sedang memiliki banyak pekerjaan",
   "pilihan": [
@@ -12550,7 +12552,7 @@
  },
  {
   "id": 5413,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Jika Anda sudah tidak memiliki pekerjaan",
   "pilihan": [
@@ -12573,7 +12575,7 @@
  },
  {
   "id": 5414,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saat saya menghadiri pernikahan seorang",
   "pilihan": [
@@ -12596,7 +12598,7 @@
  },
  {
   "id": 5415,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda memiliki keinginan untuk mendirikan",
   "pilihan": [
@@ -12619,7 +12621,7 @@
  },
  {
   "id": 5416,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Kreativitas yang tidak boleh Anda lakukan",
   "pilihan": [
@@ -12642,7 +12644,7 @@
  },
  {
   "id": 5417,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Upaya pemasungan kreativitas akan",
   "pilihan": [
@@ -12665,7 +12667,7 @@
  },
  {
   "id": 5418,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda bertugas menjadi seksi konsumsi",
   "pilihan": [
@@ -12688,7 +12690,7 @@
  },
  {
   "id": 5419,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda diminta untuk melaksanakan",
   "pilihan": [
@@ -12711,7 +12713,7 @@
  },
  {
   "id": 5420,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Kepala kantor memberikan sebuah",
   "pilihan": [
@@ -12735,7 +12737,7 @@
  {
   "id": 5670,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Analogi",
   "teks": "Kulit : Sisik",
   "pilihan": [
    "Atap : jantung",
@@ -12752,7 +12754,7 @@
  {
   "id": 5671,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Analogi",
   "teks": "Marah : Cemburu",
   "pilihan": [
    "Pemerintah : persamaan",
@@ -12769,7 +12771,7 @@
  {
   "id": 5672,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Analogi",
   "teks": "Mata : Telinga",
   "pilihan": [
    "Perut : dada",
@@ -12786,7 +12788,7 @@
  {
   "id": 5673,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Analogi",
   "teks": "Pedas : Cabai",
   "pilihan": [
    "Kecap",
@@ -12803,7 +12805,7 @@
  {
   "id": 5674,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Analogi",
   "teks": "Suara : Desibel",
   "pilihan": [
    "Temperatur : suhu",
@@ -12820,7 +12822,7 @@
  {
   "id": 5675,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Analogi",
   "teks": "Lampu : Gelap",
   "pilihan": [
    "Lapar",
@@ -12837,7 +12839,7 @@
  {
   "id": 5676,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Analogi",
   "teks": "Bunga : Buket",
   "pilihan": [
    "Pigmen : mata",
@@ -12854,7 +12856,7 @@
  {
   "id": 5677,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Analogi",
   "teks": "Rumput : Lapangan",
   "pilihan": [
    "Langit",
@@ -12871,7 +12873,7 @@
  {
   "id": 5679,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Analogi",
   "teks": "Tukang : Gergaji : Palu",
   "pilihan": [
    "Guru : kapur : topi",
@@ -12888,7 +12890,7 @@
  {
   "id": 5680,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Analogi",
   "teks": "Burung : Terbang : Udara",
   "pilihan": [
    "Makanan : nasi : meja",
@@ -12905,7 +12907,7 @@
  {
   "id": 5681,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Analogi",
   "teks": "Macan : Belang",
   "pilihan": [
    "Bangun : tidur",
@@ -12922,7 +12924,7 @@
  {
   "id": 5682,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Analogi",
   "teks": "Susu : Gelas",
   "pilihan": [
    "Makan : orang",
@@ -12939,7 +12941,7 @@
  {
   "id": 5683,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Analogi",
   "teks": "Bunga : Taman",
   "pilihan": [
    "Tanam : pohon",
@@ -12956,7 +12958,7 @@
  {
   "id": 5684,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Analogi",
   "teks": "Padi : Petani",
   "pilihan": [
    "Penyair : puisi",
@@ -12973,7 +12975,7 @@
  {
   "id": 5685,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Analogi",
   "teks": "Presiden : Negara",
   "pilihan": [
    "Ayah : keluarga",
@@ -13007,7 +13009,7 @@
  },
  {
   "id": 5969,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Seorang teman tiba tiba sangat perhatian terhadap saya, maka saya akan …",
   "pilihan": [
@@ -13030,7 +13032,7 @@
  },
  {
   "id": 5970,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Jika Anda bertemu dengan seseorang yang tidak Anda kenal, maka Anda akan...",
   "pilihan": [
@@ -13053,7 +13055,7 @@
  },
  {
   "id": 5971,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda percaya bahwa seorang PNS adalah ia yang...",
   "pilihan": [
@@ -13076,7 +13078,7 @@
  },
  {
   "id": 5972,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda senang jika atasan Anda merupakan orang yang...",
   "pilihan": [
@@ -13099,7 +13101,7 @@
  },
  {
   "id": 5973,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika berhadapan dengan seseorang yang banyak omongnya, maka Anda akan...",
   "pilihan": [
@@ -13122,7 +13124,7 @@
  },
  {
   "id": 5974,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Pada saat menghadapi tugas yang berat dan menuntut kemampuan tinggi, saya..",
   "pilihan": [
@@ -13145,7 +13147,7 @@
  },
  {
   "id": 5975,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda senang jika datang ke sebuah restoran yang...",
   "pilihan": [
@@ -13168,7 +13170,7 @@
  },
  {
   "id": 5976,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika berbelanja di minimarket, kasir melakukan kesalahan penghitungan, maka sikap",
   "pilihan": [
@@ -13191,7 +13193,7 @@
  },
  {
   "id": 5977,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika saya memutuskan sesuatu tindakan yan g ternyata berakibat buruk pada diri saya,",
   "pilihan": [
@@ -13214,7 +13216,7 @@
  },
  {
   "id": 5978,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Menurut saya, orang yang kehilangan kesempatan mengembangkan usahanya lebih",
   "pilihan": [
@@ -13237,7 +13239,7 @@
  },
  {
   "id": 5990,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Bentuk negara Indonesia sebagai NKRI diatur pada Pasal .... UUD 1945",
   "pilihan": [
@@ -13260,7 +13262,7 @@
  },
  {
   "id": 6041,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Pimpinan kantor biasaya datangnya siang, memang sebagai pimpinan memiliki hak",
   "pilihan": [
@@ -13283,7 +13285,7 @@
  },
  {
   "id": 6042,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Hasil rapat kepegawaian yang saya ikuti menghasilkan beberapa keputusan penting",
   "pilihan": [
@@ -13306,7 +13308,7 @@
  },
  {
   "id": 6043,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ibu saya menyuruh untuk membeli gula di toko, beliau bilang apabila ada kembalian",
   "pilihan": [
@@ -13329,7 +13331,7 @@
  },
  {
   "id": 6044,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya biasanya makan siang bersama teman kantor ketika jam makan siang, sambil",
   "pilihan": [
@@ -13352,7 +13354,7 @@
  },
  {
   "id": 6045,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda merupakan direktur pemasaran dari suatu produk, sikap yang anda ambil ketika",
   "pilihan": [
@@ -13375,7 +13377,7 @@
  },
  {
   "id": 6046,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Setiap perlombaan yang saya ikuti, saya selalu ...",
   "pilihan": [
@@ -13398,7 +13400,7 @@
  },
  {
   "id": 6048,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya diberi kesempatan untuk pergi short course ke Belanda selama sebulan, tetapi",
   "pilihan": [
@@ -13421,7 +13423,7 @@
  },
  {
   "id": 6049,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya selalu suka dengan pertunjukkan ...",
   "pilihan": [
@@ -13444,7 +13446,7 @@
  },
  {
   "id": 6050,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya sebagai kepala divisi pemasaran sebuah pr oduk, dalam menghadapi persaingan",
   "pilihan": [
@@ -13467,7 +13469,7 @@
  },
  {
   "id": 6051,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Setiap pekerjaan berat yang saya terima, saya selalu coba kerjakan untuk melatih ..",
   "pilihan": [
@@ -13490,7 +13492,7 @@
  },
  {
   "id": 6052,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Memperingati hari pelanggan, tempat anda pekerja berencana memberikan reward",
   "pilihan": [
@@ -13513,7 +13515,7 @@
  },
  {
   "id": 6053,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Karena kesalahan anda, banyak pelanggan anda yang beralih ke kompetitor anda.",
   "pilihan": [
@@ -13536,7 +13538,7 @@
  },
  {
   "id": 6054,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Resolusi anda untuk tahun depan ingin meningkatkan tingkat kepuasan pelanggan.",
   "pilihan": [
@@ -13559,7 +13561,7 @@
  },
  {
   "id": 6055,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saat anda berada di bus, ada penumpang yang terlihat kebingungan. Maka reaksi",
   "pilihan": [
@@ -13582,7 +13584,7 @@
  },
  {
   "id": 6056,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Sahabat anda ingin meminjam uang dengan jumlah yang besar, sedangkan saat itu",
   "pilihan": [
@@ -13605,7 +13607,7 @@
  },
  {
   "id": 6057,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Karena jalanan macet, anda memutuskan untuk naik ojek. Pada saat perjalanan, tiba -",
   "pilihan": [
@@ -13628,7 +13630,7 @@
  },
  {
   "id": 6058,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda baru saja dipindahkan ke unit kerja yang beban kerjanya sangat sulit. Maka",
   "pilihan": [
@@ -13651,7 +13653,7 @@
  },
  {
   "id": 6059,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda dinilai lambat bekerja oleh atasan anda. Maka reaksi yang akan anda lakukan",
   "pilihan": [
@@ -13674,7 +13676,7 @@
  },
  {
   "id": 6060,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Harga kebutuhan pangan melonj ak naik, tetapi pendapatan yang anda terima tetap.",
   "pilihan": [
@@ -13697,7 +13699,7 @@
  },
  {
   "id": 6061,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Suatu waktu anda diminta atasan secara mendadak untuk melaporkan hasil",
   "pilihan": [
@@ -13720,7 +13722,7 @@
  },
  {
   "id": 6062,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda secara tidak sengaja melakukan kesalahan dalam suatu pekerjaan, lalu junior",
   "pilihan": [
@@ -13743,7 +13745,7 @@
  },
  {
   "id": 6063,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika berada di lift, tiba-tiba liftnya mati, maka anda akan ...",
   "pilihan": [
@@ -13766,7 +13768,7 @@
  },
  {
   "id": 6064,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda adalah seorang penyanyi, suatu ketika anda sedang konser kemudian anda",
   "pilihan": [
@@ -13789,7 +13791,7 @@
  },
  {
   "id": 6066,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Orang yang lembur menurut anda ...",
   "pilihan": [
@@ -13812,7 +13814,7 @@
  },
  {
   "id": 6067,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda dipindahkan di bidang lain di kantor anda, maka anda akan ...",
   "pilihan": [
@@ -13835,7 +13837,7 @@
  },
  {
   "id": 6068,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika ada penawaran beasiswa, maka anda akan ...",
   "pilihan": [
@@ -13858,7 +13860,7 @@
  },
  {
   "id": 6069,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saat bearada dalam kondisi yang rumit dan penuh tekanan, biasanya anda ...",
   "pilihan": [
@@ -13881,7 +13883,7 @@
  },
  {
   "id": 6070,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Anda berada dala satu tim kerja yang sebagian besar rekan setim anda merupak",
   "pilihan": [
@@ -13904,7 +13906,7 @@
  },
  {
   "id": 6071,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika anda dan tim anda sedang menyusun jadwal kerja, maka yang anda lakukan",
   "pilihan": [
@@ -13927,7 +13929,7 @@
  },
  {
   "id": 6072,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Dalam menyusun program kerja tima anda, biasanya anda sering ...",
   "pilihan": [
@@ -13950,7 +13952,7 @@
  },
  {
   "id": 6073,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya ditempatkan di bagian kepegawaian. Salah satu tugas kami adalah memberikan",
   "pilihan": [
@@ -13973,7 +13975,7 @@
  },
  {
   "id": 6074,
-  "kat": "CAMPUR",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "HUT republik Indonesia merupakan hari yang tepat dalam rangka mengenang jasa",
   "pilihan": [
@@ -14051,8 +14053,8 @@
  },
  {
   "id": 6337,
-  "kat": "TIU",
-  "sub": "Deret Angka",
+  "kat": "TKP",
+  "sub": "Profesionalisme",
   "teks": "Menurut rekan-rekan saya, saya ini",
   "pilihan": [
    "Tidak memiliki ketekunan dalam",
@@ -14074,7 +14076,7 @@
  },
  {
   "id": 6351,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya diminta untuk lembur kerja sedangkan",
   "pilihan": [
@@ -14097,7 +14099,7 @@
  },
  {
   "id": 6352,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Saya sering memergoki orang-orang yang",
   "pilihan": [
@@ -14120,7 +14122,7 @@
  },
  {
   "id": 6353,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Ketika berhadapan dengan pilihan-pilihan",
   "pilihan": [
@@ -15066,7 +15068,7 @@
  },
  {
   "id": 6420,
-  "kat": "TWK",
+  "kat": "TKP",
   "sub": "Umum",
   "teks": "Suatu hari penduduk desa Saribulan mengadakan pertemuan untuk membahan h al-hal apa saja",
   "pilihan": [
@@ -22285,7 +22287,7 @@
  {
   "id": 6890,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Berapa nilai x dari 5x + 1/3 = 12",
   "pilihan": [
    "8/3",
@@ -22302,7 +22304,7 @@
  {
   "id": 6891,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "(1/2 x 3) : 0,25 = …..",
   "pilihan": [
    "2,7",
@@ -22387,7 +22389,7 @@
  {
   "id": 6898,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Sepeda motor menempuh jarak 45 km per jam. Sementara becak menempuh jarak 9000 meter",
   "pilihan": [
    "7 : 1",
@@ -22404,41 +22406,41 @@
  {
   "id": 6899,
   "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Sebuah sepeda motor menghabiskan 8 liter bensin untuk menempuh jarak 56 km. Apabila",
+  "sub": "Numerik",
+  "teks": "Sebuah sepeda motor menempuh 56 km dengan 8 liter bensin. Jika konsumsi bensinnya tetap, berapa jarak yang dapat ditempuh dengan 14 liter?",
   "pilihan": [
-   "14 liter",
-   "12 liter",
-   "10,5 liter",
-   "7 liter",
-   "5,5 liter"
+   "84 km",
+   "91 km",
+   "98 km",
+   "105 km",
+   "112 km"
   ],
-  "kunci": 1,
+  "kunci": 2,
   "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TIU/KHUSUS SOAL TIU/SOAL DAN PEMBAHASAN TIU.pdf"
+  "pembahasan": "Kendaraan menempuh 56 ÷ 8 = 7 km per liter. Dengan 14 liter, jaraknya 14 × 7 = 98 km.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 6900,
   "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Seorang pedagang buah membeli 50 kg mangga dengan harga Rp400.000,00. Kemudian",
+  "sub": "Numerik",
+  "teks": "Seorang pedagang membeli 50 kg mangga seharga total Rp400.000,00. Semua mangga terjual dengan harga Rp9.000,00 per kg. Berapa keuntungan kotor pedagang itu?",
   "pilihan": [
-   "Untung sebesar Rp 50.000,00",
-   "Untung sebesar Rp45.000,00",
-   "Untung sebesar Rp41.000,00",
-   "Rugi sebesar Rp45.000,00",
-   "Rugi sebesar Rp41.000,00"
+   "Rp30.000,00",
+   "Rp40.000,00",
+   "Rp50.000,00",
+   "Rp60.000,00",
+   "Rp70.000,00"
   ],
   "kunci": 2,
   "skor_pilihan": null,
-  "pembahasan": null,
-  "sumber": "E-BOOK CPNS 3/MATERI TIU/KHUSUS SOAL TIU/SOAL DAN PEMBAHASAN TIU.pdf"
+  "pembahasan": "Hasil penjualan = 50 × Rp9.000,00 = Rp450.000,00. Keuntungan kotor = Rp450.000,00 − Rp400.000,00 = Rp50.000,00.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 6901,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Ahmad membeli sebuah sepeda de¬ngan harga Rp2.250.000,00. Sebulan kemudian Ahmad",
   "pilihan": [
    "Rp 2.300.000,00",
@@ -22489,7 +22491,7 @@
  {
   "id": 6981,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Diketahui 𝑥 adalah suatu bilangan pecahan. Jika pembilang dari 𝑥 ditambah dengan 2",
   "pilihan": [
    "10",
@@ -22506,19 +22508,19 @@
  {
   "id": 6984,
   "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Jika 𝑥 = 1/16 dan 𝑦 = 16% maka….",
+  "sub": "Numerik",
+  "teks": "Diketahui x = 1/16 dan y = 16%. Manakah hubungan antara x dan y yang benar?",
   "pilihan": [
-   "𝑥 = 𝑦",
-   "𝑥 < 𝑦",
-   "𝑥 > 𝑦",
-   "√𝑥 < 𝑦",
-   "Hubungan 𝑥 dan 𝑦 tidak dapat ditentukan"
+   "x = y",
+   "x < y",
+   "x > y",
+   "x = 2y",
+   "Tidak dapat ditentukan"
   ],
   "kunci": 1,
   "skor_pilihan": null,
-  "pembahasan": "1 𝑥 = 16 𝑦 = 16% → 16 → 4 100 25 Cara untuk menentukan hasil dari perseoalan diatas adalah dengan cara membandingkan bilangan dengan menyamakan penyebut dari nilai x dan y : 𝑥 = 1 × 25 = 25 dikalikan dengan nilai 25 dari penyebut y 16 25 16×25 𝑦 = 4 × 16 = 64 dikalikan dengan nilai 16 dari penyebut x 25 16 25×16 Bisa dilihat dari hasil perbandingannya adalah penyebut nilai y lebih besar dari penyebut dari nilai x, jadi jawaban yang benar adalah B. 𝑥 < 𝑦",
-  "sumber": "E-BOOK CPNS 3/MATERI TIU/KHUSUS SOAL TIU/SOAL TIU 5.pdf"
+  "pembahasan": "x = 1/16 = 0,0625 atau 6,25%. Sementara y = 16% = 0,16. Jadi x < y.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 6986,
@@ -22591,7 +22593,7 @@
  {
   "id": 6994,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Bu Hana dapat menyelesaikan 12 jahitan dalam 2 hari. Bu Reni dapat menyelesaikan 20",
   "pilihan": [
    "5 hari",
@@ -22642,19 +22644,19 @@
  {
   "id": 7028,
   "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Jika penggunaan gas CFC di bumi meningkat, maka lapis an ozon semakin rusak. Jika",
+  "sub": "Logika",
+  "teks": "Premis 1: Jika sistem arsip aktif, maka setiap berkas baru dicadangkan. Premis 2: Sistem arsip aktif. Kesimpulan yang sah adalah …",
   "pilihan": [
-   "Lapisan ozon semakin rusak dan konsentrasi karbon tidak tinggi.",
-   "Lapisan ozon semakin rusak tetapi konsentrasi karbon tinggi.",
-   "Lapisan ozon semakin rusak atau konsentrasi karbon tidak tinggi.",
-   "Lapisan ozon tidak semakin rusak tetapi konsentrasi karbon tidak tinggi.",
-   "Lapisan ozon semakin rusak atau konsentrasi karbon tinggi."
+   "Tidak ada berkas baru yang dicadangkan.",
+   "Setiap berkas baru dicadangkan.",
+   "Sistem arsip tidak aktif.",
+   "Pencadangan hanya berlaku untuk berkas lama.",
+   "Tidak dapat disimpulkan apakah sistem arsip aktif."
   ],
-  "kunci": 2,
+  "kunci": 1,
   "skor_pilihan": null,
-  "pembahasan": "Pada soal diatas terdapat 2 buah pernyataan : ● Jika penggunaan gas CFC di bumi meningkat, maka lapisan ozon semakin rusak ● Jika konsentrasi karbon di atmosfer tinggi, maka suhu permukaan bumi bertambah. Pada masing masing parameter terdapat 2 buah kondisi, sekarang kita lihat pada parameter pertama : ● Kondisi : penggunaan gas CFC di bumi meningkat, kita sebut sebagai p ● Kondisi : lapisan ozon semakin rusak, kita sebut sebagai q ● Dari kedua kondisi tersebut maka kita dapat sebuah kesimpulan untuk pernyataan pertama yaitu p → q Sekarang kita lihat pada parameter kedua : ● Kondisi : konsentr",
-  "sumber": "E-BOOK CPNS 3/MATERI TIU/KHUSUS SOAL TIU/SOAL TIU 7.pdf"
+  "pembahasan": "Misalkan P = sistem arsip aktif dan Q = setiap berkas baru dicadangkan. Dari P → Q serta P, dengan modus ponens diperoleh Q.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 7030,
@@ -22676,7 +22678,7 @@
  {
   "id": 7031,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Analitis",
   "teks": "Diketahui jarak kota A dan kota B adalah setengah dari jarak kota D ke kota E. Kota",
   "pilihan": [
    "Kota A.",
@@ -22710,7 +22712,7 @@
  {
   "id": 7033,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Nilai dari : √1 − 0,36 + √2 − 0,56 + √3 − 0,75",
   "pilihan": [
    "2,5",
@@ -22727,7 +22729,7 @@
  {
   "id": 7034,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "1 + 2 + 3 + 4 + 5 + …….. + 29 = ……",
   "pilihan": [
    "435",
@@ -22743,7 +22745,7 @@
  {
   "id": 7035,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "12 + 22 + 32 + 42 + 52 +….+ 92 =….",
   "pilihan": [
    "275",
@@ -22776,7 +22778,7 @@
  {
   "id": 7045,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Andi melakukan olahraga lempar cakram sebanyak lima kali lemparan dengan jarak",
   "pilihan": [
    "10 meter",
@@ -23014,7 +23016,7 @@
  {
   "id": 7111,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Jika x = 75% dari 35 dan y = 35% dari 75, maka ....",
   "pilihan": [
    "x<y",
@@ -23032,7 +23034,7 @@
  {
   "id": 7113,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "√32 + 52 + 72 + 23 = ....",
   "pilihan": [
    "12√5",
@@ -23066,7 +23068,7 @@
  {
   "id": 7115,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Sebuah pabrik dapat memproduksi 72 ban motor dengan 10 orang karyawan selama 15",
   "pilihan": [
    "23 hari",
@@ -23083,7 +23085,7 @@
  {
   "id": 7119,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Lima tahun yang lalu, umur Kesya 4 kali dari umur Odi. Empat tahun ke depan, 2 kali umur",
   "pilihan": [
    "2 tahun",
@@ -23100,7 +23102,7 @@
  {
   "id": 7120,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Tika pergi ke rumah paman menggunakan mobil. Jarak antara rumah Tika dengan rumah",
   "pilihan": [
    "10:45",
@@ -24594,7 +24596,7 @@
  {
   "id": 7209,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Deret Angka",
   "teks": "Pilihlah salah satu dari lima angka yang ada di dalam kurung yang tidak sesuai dengan pola",
   "pilihan": [
    "210",
@@ -24611,7 +24613,7 @@
  {
   "id": 7211,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "−52+ 30 × 120 : 0,5 = ....",
   "pilihan": [
    "13.200",
@@ -24628,7 +24630,7 @@
  {
   "id": 7212,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "3,20 × 75% +",
   "pilihan": [
    "8,98",
@@ -24645,7 +24647,7 @@
  {
   "id": 7213,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "27% ×",
   "pilihan": [
    "-179,6",
@@ -24662,24 +24664,24 @@
  {
   "id": 7214,
   "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Nilai dari 2372 – 2362 adalah ....",
+  "sub": "Numerik",
+  "teks": "Hitung nilai 237² − 236².",
   "pilihan": [
-   "450",
-   "1",
-   "473",
    "471",
-   "201"
+   "472",
+   "473",
+   "474",
+   "475"
   ],
   "kunci": 2,
   "skor_pilihan": null,
-  "pembahasan": "Trik cepat! Ingat rumus a2 – b2 = (a+b) (a-b) = (237+236) (237-236) = (473) (1) = 473",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 2 CPNS TIU 2023.pdf"
+  "pembahasan": "Gunakan selisih kuadrat: 237² − 236² = (237 − 236)(237 + 236) = 1 × 473 = 473.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 7219,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Sebuah kontainer membawa gandum seberat 10 ton atau 55% kapasitas maksimal.",
   "pilihan": [
    "7 ton",
@@ -24696,7 +24698,7 @@
  {
   "id": 7220,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Riri mengendarai sepeda motor dari rumahnya menuju rumah Cici dengan jarak 20 km.",
   "pilihan": [
    "08:35 WIB",
@@ -24713,7 +24715,7 @@
  {
   "id": 7221,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Harga 3 baju kemeja di sebuah toko A sama dengan harga 2 celana panjang di toko B.",
   "pilihan": [
    "Rp. 50.000,00",
@@ -26342,70 +26344,70 @@
  {
   "id": 7305,
   "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Jika besok produk D diproduksi, maka produk yang tidak diproduksi adalah ....",
+  "sub": "Logika",
+  "teks": "Sebuah pabrik akan memilih produk untuk satu hari. Produk A dan B tidak boleh diproduksi pada hari yang sama. Produk C hanya boleh diproduksi jika produk B juga diproduksi. Jika produk A diproduksi, pasangan produk lain manakah yang mustahil diproduksi bersamaan dengannya?",
   "pilihan": [
-   "A, E dan F",
-   "C, E dan F",
-   "D,F dan B",
-   "A, B dan F",
-   "F dan B"
+   "B dan C",
+   "C dan D",
+   "D dan E",
+   "C dan E",
+   "D dan F"
   ],
   "kunci": 0,
   "skor_pilihan": null,
-  "pembahasan": "Berdasarkan soal di atas dijelaskan bahwa produk D tidak boleh diproduksi bersamaan dengan B, sehingga opsi C, D dan E salah. Produk B hanya boleh diproduksi bersama dengan produk C, jadi opsi B juga salah. Sehingga jawaban yang benar adalah opsi A.",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TIU 2023.pdf"
+  "pembahasan": "A dan B tidak boleh diproduksi bersama, sehingga pasangan yang memuat B mustahil jika A diproduksi. C mensyaratkan B, sehingga B dan C juga tidak dapat dipilih. Pilihan A adalah pasangan yang pasti tidak mungkin.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 7306,
   "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Pada suatu pertemuan, Mira, Nunung, Ola, Kiki, Luna dan Ranti duduk bersamaan pada",
+  "sub": "Analitis",
+  "teks": "Lima peserta, Nia, Oki, Putra, Raka, dan Sari, berbaris dari depan ke belakang. Oki tepat di depan Putra, Raka tepat di belakang Putra, Sari berada paling belakang, dan Nia berada di depan Oki. Siapa yang menempati posisi ketiga?",
   "pilihan": [
-   "Sebelah kanan Ola",
-   "Sebelah kiri Mira",
-   "Berhadapan dengan Mira",
-   "Sebelah kiri Kiki",
-   "Sebelah kanan Nunung"
+   "Nia",
+   "Oki",
+   "Putra",
+   "Raka",
+   "Sari"
   ],
-  "kunci": 1,
+  "kunci": 2,
   "skor_pilihan": null,
-  "pembahasan": "- Langkah pertama adalah buatlah lingkaran dan bagi menjadi 6 bagian. - Opsi A salah, karena sebelah kanan Ola adalah Luna - Opsi B benar - Opsi C salah, karena Ranti berhadapan dengan Nunung - Opsi D salah, karena sebelah kiri Kiki adalah Mira - Opsi E salah, karena sebelah kanan Nunung adalah Ola",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TIU 2023.pdf"
+  "pembahasan": "Oki–Putra–Raka harus berurutan. Sari berada di posisi kelima. Karena Nia berada di depan Oki dan hanya ada lima peserta, urutannya Nia, Oki, Putra, Raka, Sari. Posisi ketiga ditempati Putra.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 7307,
   "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Jika Luna ingin berbicara dengan Mira sehingga ia ingin berada di samping Mira,",
+  "sub": "Analitis",
+  "teks": "Empat peserta, A, B, C, dan D, mendapat urutan presentasi yang berbeda. B tampil tepat setelah A. D tampil sebelum C. A tampil sebelum D. Siapa yang tampil pada urutan kedua?",
   "pilihan": [
-   "Kiki",
-   "Ola",
-   "Nunung",
-   "Ranti",
-   "Tetap di kursi yang diduduki"
+   "A",
+   "B",
+   "C",
+   "D",
+   "Tidak dapat ditentukan"
   ],
-  "kunci": 3,
+  "kunci": 1,
   "skor_pilihan": null,
-  "pembahasan": "dapat dilihat pada pembahasan nomor 10.",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TIU 2023.pdf"
+  "pembahasan": "A harus sebelum D, D sebelum C, dan B tepat setelah A. Urutan A–B–D–C memenuhi seluruh syarat. Urutan lain tidak dapat menempatkan B tepat setelah A sambil mempertahankan D sebelum C. Jadi urutan kedua adalah B.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 7308,
   "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Pilihlah salah satu dari lima angka yang ada di dalam kurung yang tidak sesuai dengan",
+  "sub": "Numerik",
+  "teks": "Perhatikan deret 4, 7, 10, 13, 17, 19. Satu angka tidak mengikuti pola yang sama dengan angka lainnya. Angka manakah yang menyimpang?",
   "pilihan": [
-   "23",
-   "18",
-   "20",
-   "22",
-   "17"
+   "7",
+   "10",
+   "13",
+   "17",
+   "19"
   ],
-  "kunci": 2,
+  "kunci": 3,
   "skor_pilihan": null,
-  "pembahasan": "21 25 20 24 19 23 18 22 17 21 16 +4 -5 +4 -5 +4 -5 +4 -5 +4 -5",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 3 CPNS TIU 2023.pdf"
+  "pembahasan": "Deret bertambah 3 setiap langkah: 4, 7, 10, 13, 16, 19. Angka 17 seharusnya 16, sehingga 17 adalah angka yang menyimpang.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 7309,
@@ -26444,7 +26446,7 @@
  {
   "id": 7311,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Jika a = 0,875 ×",
   "pilihan": [
    "a>b",
@@ -26462,7 +26464,7 @@
  {
   "id": 7313,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "0,444... : 0,375 + 100 : 4 =",
   "pilihan": [
    "25,12",
@@ -26479,7 +26481,7 @@
  {
   "id": 7314,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Hari ini Maxi mengendarai mobil ke tempat kerjanya selama 1 jam dengan jarak 30 km",
   "pilihan": [
    "35 km/jam",
@@ -26496,7 +26498,7 @@
  {
   "id": 7317,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Jika perbandingan usia Giska dan Kia enam tahun yang lalu adalah 9 : 11 dan empat",
   "pilihan": [
    "2 tahun",
@@ -26513,7 +26515,7 @@
  {
   "id": 7319,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Desta mengendarai sepeda motor dari rumahnya menuju rumah Vincent dengan jarak",
   "pilihan": [
    "12:10",
@@ -26530,7 +26532,7 @@
  {
   "id": 7320,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Selisih uang Ari dan Bastian adalah Rp7.500. Jika 10% uang Ari diberikan kepada",
   "pilihan": [
    "Rp30.850,00",
@@ -28294,7 +28296,7 @@
  {
   "id": 7410,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "83 – 12 + 3 × 0,25 - 573 = ...",
   "pilihan": [
    "490, 25",
@@ -28312,7 +28314,7 @@
  {
   "id": 7411,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "√82 + 92 + 102 + 2 = ...",
   "pilihan": [
    "14 √22",
@@ -28329,7 +28331,7 @@
  {
   "id": 7412,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Dua bilangan berjumlah 36. Hasil perkalian dari kedua bilangan tersebut adalah 315.",
   "pilihan": [
    "12 dan 24",
@@ -28363,7 +28365,7 @@
  {
   "id": 7414,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Sebuah pabrik tahu dapat memproduksi 72kg tahu dengan 3 orang pekerja selama 3",
   "pilihan": [
    "11 hari",
@@ -28380,7 +28382,7 @@
  {
   "id": 7415,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Riga membeli mainan dengan harga Rp.50.000, sebulan kemudian ia kembali membeli",
   "pilihan": [
    "28 %",
@@ -28397,7 +28399,7 @@
  {
   "id": 7416,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Tinggi rata-rata wanita karyawan PT. Bersama Maju adalah 160 cm dan tinggi rata-rata",
   "pilihan": [
    "10",
@@ -28414,7 +28416,7 @@
  {
   "id": 7417,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Ghea mengendarai sepeda motor dari rumahnya menuju rumah Tika dengan jarak 39",
   "pilihan": [
    "09:00",
@@ -30085,7 +30087,7 @@
  {
   "id": 7503,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Logika",
   "teks": "Semua bunga di taman harum baunya",
   "pilihan": [
    "Sebagian bunga di taman harum baunya",
@@ -30153,24 +30155,24 @@
  {
   "id": 7507,
   "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Pilihlah salah satu dari lima huruf yang ada di dalam kurung yang tidak sesuai dengan",
+  "sub": "Deret Angka",
+  "teks": "Perhatikan urutan huruf B, E, H, K, N, Q, U, W. Jika jarak setiap huruf seharusnya tetap, huruf manakah yang menyimpang?",
   "pilihan": [
-   "I",
+   "E",
+   "H",
    "K",
-   "N",
-   "Q",
-   "T"
+   "U",
+   "W"
   ],
-  "kunci": 0,
+  "kunci": 3,
   "skor_pilihan": null,
-  "pembahasan": "Ganti huruf menjadi angka = 1=A 2=B 3=C 4=D 5=E 6=F 7=G 8=H 9=I 10=J 11=K 12=L 13=M 14=N 15=O 16=P 17=Q 18=R 19=S 20=T 21=U 22=V 23=W 24=X 25=Y 26=Z B E H K N Q T W 2 5 8 11 14 17 20 23 +3 +3 +3 +3 +3 +3 +3",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 5 CPNS TIU 2023.pdf"
+  "pembahasan": "Nomor huruf bertambah 3: B(2), E(5), H(8), K(11), N(14), Q(17), T(20), W(23). Pada urutan tersebut U(21) seharusnya T(20), sehingga U menyimpang.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 7508,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "701 × 699 − 700 × 700 + 2 = ...",
   "pilihan": [
    "-2",
@@ -30187,7 +30189,7 @@
  {
   "id": 7509,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Jika 3𝑚+2 + 3𝑚+1 = 120, maka 9𝑚 = ….",
   "pilihan": [
    "3",
@@ -30204,24 +30206,24 @@
  {
   "id": 7510,
   "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Jika a = (20232 + 20222) dan b = (2023 + 2022)2, maka ...",
+  "sub": "Numerik",
+  "teks": "Diketahui a = 2023² + 2022² dan b = (2023 + 2022)². Manakah hubungan yang benar?",
   "pilihan": [
-   "a<b",
-   "b<a",
-   "a=b",
-   "a=2b",
-   "tidak dapat ditentukan"
+   "a < b",
+   "a > b",
+   "a = b",
+   "a = 2b",
+   "Tidak dapat ditentukan"
   ],
   "kunci": 0,
   "skor_pilihan": null,
-  "pembahasan": "Ingat: (𝒂 + 𝒃)𝟐 = 𝒂𝟐 + 𝒃𝟐 + 𝟐𝒂𝒃 b = (2023 + 2022)2 = 20232 + 20222 + 2(2023)(2022) karena 𝑎 = 20232 + 20222, maka jelas 𝑎 < 𝑏",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 5 CPNS TIU 2023.pdf"
+  "pembahasan": "b = 2023² + 2(2023)(2022) + 2022². Karena suku tambahan 2(2023)(2022) positif, b > a. Jadi a < b.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 7511,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Shaka dan Kia adalah pekerja freelance. Waktu yang dibutuhkan Shaka u ntuk",
   "pilihan": [
    "9",
@@ -30238,7 +30240,7 @@
  {
   "id": 7512,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Untuk menggali sumur diperlukan 6 orang pekerja selama 3 hari untuk galian sepanjang",
   "pilihan": [
    "12",
@@ -30255,7 +30257,7 @@
  {
   "id": 7513,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Dinding seluas 45cm2 akan selesai di cat selama 3 jam oleh 5 pekerja. Berapakah waktu",
   "pilihan": [
    "3 jam 20 menit",
@@ -30272,7 +30274,7 @@
  {
   "id": 7514,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Sebuah sepeda motor dikendarai dengan kelajuan 60% lebih cepat dibandingkan",
   "pilihan": [
    "80 km/jam",
@@ -30289,7 +30291,7 @@
  {
   "id": 7515,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Jarak kota P dan Q adalah 250 km. Mobil Dini bergerak dari kota P menuju kota Q",
   "pilihan": [
    "12:00",
@@ -30306,7 +30308,7 @@
  {
   "id": 7516,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Vania mengendarai sepeda motor dari rumahnya menuju rumah Kiki dengan jarak 45",
   "pilihan": [
    "09:00",
@@ -30323,7 +30325,7 @@
  {
   "id": 7517,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Sebuah pabrik mempunyai 460 pekerja dan akan menerima kembali pekerja sebanyak",
   "pilihan": [
    "6 minggu",
@@ -30340,7 +30342,7 @@
  {
   "id": 7518,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Irhami membeli sebuah tas dengan harga Rp. 95.000,00 dan mendapat diskon 25%.",
   "pilihan": [
    "65.550",
@@ -31934,19 +31936,19 @@
  {
   "id": 7601,
   "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Pak Andi memiliki beberapa orang anak diantaranya adalah Bimo, Kia, Shaka,",
+  "sub": "Analitis",
+  "teks": "Enam peserta, Bimo, Kia, Shaka, Dhuha, Adifa, dan Nata, diurutkan dari usia tertua ke termuda. Bimo lebih tua daripada Shaka. Nata lebih muda daripada Adifa. Kia paling muda, tepat di bawah Dhuha. Jika Adifa berada di urutan ketiga, siapa yang berada di urutan pertama dan kedua?",
   "pilihan": [
    "Bimo dan Shaka",
    "Shaka dan Bimo",
-   "Nata dan Shaka",
-   "Shaka dan Nata",
-   "Bimo dan Nata"
+   "Bimo dan Nata",
+   "Dhuha dan Kia",
+   "Nata dan Shaka"
   ],
-  "kunci": 1,
+  "kunci": 0,
   "skor_pilihan": null,
-  "pembahasan": "B > S N< A Diatas Kia adalah Dhuha K anak terakhir Maka urutannya adalah 1 2 3 4 5 6 Bimo Shaka Adifa Nata Dhuha Kia Jadi anak kedua dan anak pertama adalah Shaka dan Bimo. Soal untuk nomor 8-10 Sekelompok mahasiswa Universitas B melakukan pengabdian disebuah desa. Mereka menginap disebuah rumah yang memiliki 6 kamar berderet. Dini berada satu kamar dengan Ana. Kamar Kiki bersebelahan dengan Una dan Lisa yang berada pada urutan ke tiga. Mira berada dikamar paling ujung dan tidak ingin satu kamar dengan Zia dan Nina. Lisa berada satu kamar dengan Zia. Nina bersebelahan dengan Onny dan Ana. Nina",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 6 CPNS TIU 2023.pdf"
+  "pembahasan": "Dhuha berada tepat di atas Kia, sehingga keduanya menempati urutan 5 dan 6. Adifa di urutan 3 dan Nata lebih muda daripada Adifa, maka Nata di urutan 4. Tersisa Bimo dan Shaka untuk urutan 1 dan 2. Karena Bimo lebih tua daripada Shaka, urutannya Bimo lalu Shaka.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 7602,
@@ -32020,7 +32022,7 @@
  {
   "id": 7606,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "(0,35 × 23) + 12 : 3 +5 = ...",
   "pilihan": [
    "17,05",
@@ -32037,24 +32039,24 @@
  {
   "id": 7607,
   "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Jika a = 4 dan b = 3 maka nilai dari a3+3a2b +3ab2+b3 adalah ...",
+  "sub": "Numerik",
+  "teks": "Jika a = 4 dan b = 3, berapakah nilai a³ + 3a²b + 3ab² + b³?",
   "pilihan": [
-   "450",
+   "240",
+   "300",
    "343",
-   "453",
-   "493",
-   "347"
+   "350",
+   "400"
   ],
-  "kunci": 1,
+  "kunci": 2,
   "skor_pilihan": null,
-  "pembahasan": "a3+3a2b +3ab2+b3 = (a+b)3 (4+3)3 = (7)3 = 343",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 6 CPNS TIU 2023.pdf"
+  "pembahasan": "Bentuk a³ + 3a²b + 3ab² + b³ sama dengan (a+b)³. Jadi (4+3)³ = 7³ = 343.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 7608,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Pak Tio mampu menanam padi dalam sepetak sawah selama 30 hari. Pak Qatar",
   "pilihan": [
    "5 hari",
@@ -32071,7 +32073,7 @@
  {
   "id": 7609,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Penjahit X dapat memproduksi 40 baju kaos dalam waktu 20 hari . Penjahit Y",
   "pilihan": [
    "a = b",
@@ -32088,7 +32090,7 @@
  {
   "id": 7610,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Untuk menyelesaikan sebuah pekerjaan, diperlukan 12 orang karyawan selama 5",
   "pilihan": [
    "12 orang",
@@ -32105,7 +32107,7 @@
  {
   "id": 7611,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Farhan berjalan kearah timur sejauh 700 cm, kemudian ia berbelok kearah selatan",
   "pilihan": [
    "23 cm",
@@ -32122,19 +32124,19 @@
  {
   "id": 7612,
   "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Adik pergi kesekolah menggunakan sepeda motor . Jarak antara sekolah dengan",
+  "sub": "Numerik",
+  "teks": "Dina berangkat dengan sepeda motor pukul 06.25. Jarak ke sekolah 18 km dan ia melaju dengan kecepatan tetap 36 km/jam. Pukul berapa Dina tiba?",
   "pilihan": [
-   "06:10",
-   "06:20",
-   "06:30",
-   "06:50",
-   "06:15"
+   "06.45",
+   "06.50",
+   "06.55",
+   "07.00",
+   "07.05"
   ],
   "kunci": 2,
   "skor_pilihan": null,
-  "pembahasan": "v= 30 km/jam s= 20 km waktu (t) = waktu (t) = = jam = × 60 = 40 menit Adik sampai pada pukul 07:10, sehingga adik berangkat pada pukul = 07:10 – 00:40 = 06:30",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 6 CPNS TIU 2023.pdf"
+  "pembahasan": "Waktu tempuh = 18 ÷ 36 jam = 0,5 jam = 30 menit. Pukul 06.25 + 30 menit = 06.55.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 7613,
@@ -32156,7 +32158,7 @@
  {
   "id": 7614,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Wiwik menabung uang di bank sebesar Rp. 3.500.000 dengan bunga 13 % per",
   "pilihan": [
    "4.800.250",
@@ -33760,19 +33762,19 @@
  {
   "id": 7698,
   "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Semua dokter yang memakai jas putih membawa stetoskop. Tidak ada orang yang",
+  "sub": "Logika",
+  "teks": "Semua dokter yang memakai jas putih membawa stetoskop. Tidak ada orang yang membawa stetoskop yang bekerja di Puskesmas Sehat. Kesimpulan manakah yang pasti benar?",
   "pilihan": [
-   "Ada dokter yang memakai jas putih dan bekerja di puskesmas.",
-   "Tidak ada orang yang bekerja di puskesmas yang merupakan dokter memakai jas",
-   "Ada dokter yang tidak memakai jas putih dan bekerja di puskesmas.",
-   "Ada dokter yang tidak bekerja di puskesmas dan memakai jas putih.",
-   "Beberapa dokter bekerja di puskesmas dan memakai jas putih"
+   "Semua pegawai Puskesmas Sehat adalah dokter.",
+   "Tidak ada dokter berjas putih yang bekerja di Puskesmas Sehat.",
+   "Semua dokter yang tidak memakai jas putih bekerja di Puskesmas Sehat.",
+   "Ada pegawai Puskesmas Sehat yang membawa stetoskop.",
+   "Tidak ada dokter yang bekerja di Puskesmas Sehat."
   ],
   "kunci": 1,
   "skor_pilihan": null,
-  "pembahasan": "Semua dokter yang memakai jas putih membawa stetoskop. Tidak ada orang yang membawa stetoskop be kerja di puskesmas ≅ semua yang bekerja di puskesmas tidak membawa stetoskop 𝑀𝑖𝑑𝑑𝑙𝑒 (𝑀) = membawa stetoskop 𝑃𝑟𝑒𝑑𝑖𝑐𝑎𝑡𝑒 (𝑃) = dokter yang memakai jas putih 𝑆𝑢𝑏𝑗𝑒𝑐𝑡 (𝑆) = yang bekerja di puskesmas Gunakan penarikan kesimpulan silogisme kategoris dengan susunan berikut: 𝑃 𝑀 𝑆 𝑀 Pembahasan TO 7 TIU 2023 Halaman 3 | 17 ∴ 𝑆 𝑃 Karena salah satu premis bersifat negatif (murah bisa di artikan tidak mahal), maka kesimpulan harus negatif. Kesimpulan : semua yang bekerja di puskesmas bukan dokter yang memakai j",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 7 CPNS TIU 2023.pdf"
+  "pembahasan": "Dokter berjas putih selalu membawa stetoskop. Orang yang membawa stetoskop tidak bekerja di Puskesmas Sehat. Karena itu, dokter berjas putih tidak bekerja di Puskesmas Sehat. Premis tidak cukup untuk menyimpulkan tentang dokter tanpa jas putih.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 7699,
@@ -33845,7 +33847,7 @@
  {
   "id": 7703,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "√13 + 12 - 3",
   "pilihan": [
    "11,12",
@@ -33862,7 +33864,7 @@
  {
   "id": 7704,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Nilai dari √3√3√3√3 … adalah ...",
   "pilihan": [
    "1,2",
@@ -33879,7 +33881,7 @@
  {
   "id": 7705,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Jika 𝑝 = √16,75, maka nilai √167,5 = ....",
   "pilihan": [
    "10𝑝",
@@ -33896,24 +33898,24 @@
  {
   "id": 7706,
   "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Manakah yang benar dari hubungan a dan b berikut ini:",
+  "sub": "Numerik",
+  "teks": "Diketahui a = 697² + 97² dan b = (697 + 97)². Manakah hubungan yang benar antara a dan b?",
   "pilihan": [
-   "a=b",
-   "a>b",
-   "b<a",
+   "a < b",
+   "a > b",
+   "a = b",
    "a = 2b",
-   "a+b = 0"
+   "Tidak dapat ditentukan"
   ],
   "kunci": 0,
   "skor_pilihan": null,
-  "pembahasan": "ingat: (𝑎 − 𝑏)2 = 𝑎2 + 𝑏2 − 2𝑎𝑏 (697 − 97)2 = 697 × 697 + 97 × 97 − 2 × 697 × 97 Jadi a=b",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 7 CPNS TIU 2023.pdf"
+  "pembahasan": "b = 697² + 2(697)(97) + 97². Suku tambahan 2(697)(97) positif, sehingga b > a dan a < b.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 7707,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Perusahaan X dapat memproduksi 270 mesin dengan 18 orang pekerja selama 5 hari.",
   "pilihan": [
    "1.250",
@@ -33930,7 +33932,7 @@
  {
   "id": 7708,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Dibutuhkan 60 hari untuk menyelesaikan sebuah proyek pembangunan dengan 20",
   "pilihan": [
    "x = y",
@@ -33964,7 +33966,7 @@
  {
   "id": 7710,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Pada suatu pertemuan dihadiri oleh 80 orang peserta. Sebanyak 35 orang bekerja",
   "pilihan": [
    "38",
@@ -33981,24 +33983,24 @@
  {
   "id": 7711,
   "kat": "TIU",
-  "sub": "Umum",
-  "teks": "Setelah 8 bulan tabungan Nara di bank berjumlah Rp.10.200.000,00. Bank tersebut",
+  "sub": "Numerik",
+  "teks": "Nara menabung Rp8.400.000,00 dengan bunga tunggal 6% per tahun. Jika uang disimpan selama 10 bulan tanpa setoran atau penarikan, berapa saldo akhir Nara?",
   "pilihan": [
-   "9.744.444",
-   "9.544.444",
-   "9.444.444",
-   "8.944.444",
-   "8.744.444"
+   "Rp8.750.000,00",
+   "Rp8.800.000,00",
+   "Rp8.820.000,00",
+   "Rp8.840.000,00",
+   "Rp8.900.000,00"
   ],
   "kunci": 2,
   "skor_pilihan": null,
-  "pembahasan": "Tabungan akhir = tabungan awal + bunga 10.200.000 = x + 8 12 × 12 100 × x 10.200.000 = x + 2 25 x 10.200.000 = 27 25 x x = (10.200.000 . 25) : 27 x = 9.444.444 Petani 35-15 = 20 Wirausaha 18-15 = 3 15 Pembahasan TO 7 TIU 2023 Halaman 10 | 17",
-  "sumber": "E-BOOK CPNS 3/TO 2023/TO 7 CPNS TIU 2023.pdf"
+  "pembahasan": "Bunga = Rp8.400.000,00 × 6% × 10/12 = Rp420.000,00. Saldo akhir = Rp8.400.000,00 + Rp420.000,00 = Rp8.820.000,00.",
+  "sumber": "Soal pengganti orisinal; angka/kunci dihitung dari informasi dalam soal, atau kesimpulan diturunkan langsung dari premis yang dicantumkan."
  },
  {
   "id": 7712,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Enzo berjalan ke arah barat sejauh 800cm kemudian ia berbelok ke arah selatan",
   "pilihan": [
    "25√3",
@@ -34015,7 +34017,7 @@
  {
   "id": 7713,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Harga 2 kg jeruk dan 3 kg rambutan adalah Rp. 38.500. Sedangkan harga 4 kg jeruk",
   "pilihan": [
    "Rp.16.500",
@@ -34032,7 +34034,7 @@
  {
   "id": 7714,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Delapan tahun yang lalu umur Riga 4 kali umur Haris. Lima tahun yang akan datang 2",
   "pilihan": [
    "35 tahun",
@@ -34049,7 +34051,7 @@
  {
   "id": 7715,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Ana mendapatkan hadiah motor dalam suatu acara festival. Di pasaran umum harga",
   "pilihan": [
    "Rp. 2.500.000,00",
@@ -35637,7 +35639,7 @@
  {
   "id": 7800,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Deret Angka",
   "teks": "Pilihlah salah satu dari huruf yang ada di dalam kurung yang tidak sesuai dengan pola",
   "pilihan": [
    "F",
@@ -35654,7 +35656,7 @@
  {
   "id": 7801,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Deret Angka",
   "teks": "Pilihlah salah satu huruf yang adal di dalam kurung yang tidak sesuai dengan pola",
   "pilihan": [
    "C",
@@ -35671,7 +35673,7 @@
  {
   "id": 7802,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "40 + 23 : 2,3 - 1,75 = ...",
   "pilihan": [
    "49,75",
@@ -35722,7 +35724,7 @@
  {
   "id": 7806,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Dalam memproduksi baju, Omas membutuhkan 250 cm kain untuk m embuat 12",
   "pilihan": [
    "10 hari",
@@ -35739,7 +35741,7 @@
  {
   "id": 7807,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Farhan mengendarai mobilnya dengan kecepatan 60km/jam dengan jarak 120km.",
   "pilihan": [
    "x = y",
@@ -35756,7 +35758,7 @@
  {
   "id": 7808,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Ani mengendarai sepeda motor menuju rumah pamannya dengan kecepatan",
   "pilihan": [
    "09:05",
@@ -35773,7 +35775,7 @@
  {
   "id": 7809,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Ayah mengendarai mobil menuju rumah nenek dengan kecepatan 60km/jam, diarah",
   "pilihan": [
    "x = y",
@@ -35790,7 +35792,7 @@
  {
   "id": 7811,
   "kat": "TIU",
-  "sub": "Umum",
+  "sub": "Numerik",
   "teks": "Gisel membeli sebuah barang dengan harga Rp. 255.500, 00 untuk dijual kembali",
   "pilihan": [
    "5%",

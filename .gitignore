@@ -38,6 +38,10 @@ __pycache__/
 
 # Build artifacts are distributed via GitHub Releases
 /release/
+/.env.web
+/.env.web.*
+.env.web
+.env.web.*
 /landing/public/downloads/*.zip
 /landing/public/downloads/*.tar.gz
 *.log

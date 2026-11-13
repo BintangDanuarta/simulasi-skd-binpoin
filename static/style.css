@@ -837,10 +837,10 @@ main > section:not(.hidden) { animation: page-enter 220ms var(--ease-out) both; 
   .resource-shortcuts > span { flex-basis: 100%; }
 }
 
-/* Mirror the landing page navbar: full-bleed bar with content centered on the same 1152px column. */
+/* Full-bleed bar like the landing page, with its content aligned to the same column as main. */
 #topbar {
   width: 100%; max-width: none; margin: 0;
-  padding-inline: max(clamp(16px, 4vw, 32px), calc((100% - 1088px) / 2));
+  padding-inline: max(clamp(16px, 4vw, 48px), calc((100% - 1184px) / 2));
   gap: 16px;
 }
 #topbar > .brand { flex: 0 0 auto; }

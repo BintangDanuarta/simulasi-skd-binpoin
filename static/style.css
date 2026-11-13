@@ -837,12 +837,11 @@ main > section:not(.hidden) { animation: page-enter 220ms var(--ease-out) both; 
   .resource-shortcuts > span { flex-basis: 100%; }
 }
 
-/* Keep the account identity and primary navigation in one compact, centered bar. */
+/* Mirror the landing page navbar: full-bleed bar with content centered on the same 1152px column. */
 #topbar {
-  width: min(calc(100% - 48px), 1440px);
-  margin-inline: auto;
-  padding-inline: 0;
-  gap: 24px;
+  width: 100%; max-width: none; margin: 0;
+  padding-inline: max(clamp(16px, 4vw, 32px), calc((100% - 1088px) / 2));
+  gap: 16px;
 }
 #topbar > .brand { flex: 0 0 auto; }
 #mainnav {
@@ -879,7 +878,7 @@ main > section:not(.hidden) { animation: page-enter 220ms var(--ease-out) both; 
 #mainnav button[data-nav] { flex: 0 0 auto; white-space: nowrap; }
 
 @media (max-width: 1080px) {
-  #topbar { width: calc(100% - 32px); gap: 12px; }
+  #topbar { gap: 12px; }
   #mainnav { gap: 2px; }
   #mainnav button[data-nav] { padding-inline: 9px; }
   #mainnav .account-email { flex-basis: 120px; }

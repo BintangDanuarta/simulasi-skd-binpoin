@@ -36,9 +36,9 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-[#FAF6EF] text-[#29241C]">
       <header className="sticky top-0 z-20 border-b border-[#E7DFD1] bg-[#FAF6EF]">
-        <div className="mx-auto flex min-h-16 max-w-6xl items-center justify-between gap-4 px-5 sm:px-8">
-          <a href="#top" className="flex items-center gap-3" aria-label="Simulasi SKD by Binpoin, beranda">
-            <Image src="/binpoin-logo.png" alt="" width={36} height={36} className="h-9 w-9 object-contain" unoptimized />
+        <div className="mx-auto flex min-h-16 max-w-6xl items-center justify-between gap-2 px-3 sm:gap-4 sm:px-8">
+          <a href="#top" className="flex shrink-0 items-center gap-2 sm:gap-3" aria-label="Simulasi SKD by Binpoin, beranda">
+            <Image src="/binpoin-logo.png" alt="" width={36} height={36} className="h-8 w-8 object-contain sm:h-9 sm:w-9" unoptimized />
             <span className="leading-tight">
               <strong className="block text-sm">Simulasi SKD</strong>
               <span className="text-xs text-[#6F675A]">by Binpoin</span>
@@ -50,8 +50,8 @@ export default function Home() {
           </nav>
           <div className="flex items-center gap-3">
             <a className="hidden min-h-11 items-center px-2 text-sm font-semibold text-[#0154d0] hover:underline sm:inline-flex" href={APP_URL}>Masuk</a>
-            <a className="inline-flex min-h-11 items-center justify-center gap-2 rounded-xl bg-[#0154d0] px-4 text-sm font-semibold text-white hover:bg-[#013b94]" href={REGISTER_URL}>
-              Buat akun <ArrowRightOutlined aria-hidden="true" />
+            <a className="inline-flex min-h-11 shrink-0 items-center justify-center gap-1.5 rounded-xl bg-[#0154d0] px-3 text-xs font-semibold text-white hover:bg-[#013b94] sm:gap-2 sm:px-4 sm:text-sm" href={REGISTER_URL}>
+              <span className="sm:hidden">Daftar</span><span className="hidden sm:inline">Buat akun</span><ArrowRightOutlined aria-hidden="true" />
             </a>
           </div>
         </div>
